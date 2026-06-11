@@ -59,9 +59,9 @@ export default function Header() {
 
   return (
     <header style={{ backgroundColor: "#000", position: "fixed", top: 0, left: 0, right: 0, zIndex: 250 }}>
-      {/* Desktop header */}
+      {/* Desktop header — md breakpoint = 768px, matching original */}
       <div
-        className="hidden lg:flex"
+        className="hidden md:flex"
         style={{
           width: "100%",
           padding: "1.38889vw 1.85185vw",
@@ -181,7 +181,6 @@ export default function Header() {
 
         {/* Right buttons */}
         <div style={{ display: "flex", alignItems: "center", gap: "0.694444vw", flexShrink: 0, marginLeft: "auto" }}>
-          {/* Log in — blue border */}
           <button
             style={{
               boxSizing: "border-box",
@@ -205,8 +204,6 @@ export default function Header() {
           >
             Log in
           </button>
-
-          {/* Register — solid #0C8DF8 */}
           <button
             style={{
               boxSizing: "border-box",
@@ -238,8 +235,6 @@ export default function Header() {
             />
             Register
           </button>
-
-          {/* Flag — just UK flag, no EN text */}
           <div style={{ cursor: "pointer", display: "flex", alignItems: "center" }}>
             <img
               src="https://flagcdn.com/w40/gb.png"
@@ -250,9 +245,9 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile header */}
+      {/* Mobile header bar — shown below 768px */}
       <div
-        className="flex lg:hidden"
+        className="flex md:hidden"
         style={{
           width: "100%",
           padding: "4.44444vw 2.22222vw",
@@ -261,8 +256,8 @@ export default function Header() {
           boxSizing: "border-box",
         }}
       >
-        <a href="#" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
-          <svg viewBox="0 0 123 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: 32, width: "auto" }}>
+        <a href="#" style={{ display: "flex", alignItems: "center", gap: "2.22222vw", textDecoration: "none" }}>
+          <svg viewBox="0 0 123 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "7.77778vw", minHeight: 28, width: "auto" }}>
             <g>
               <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#mha)"/>
               <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#mhb)"/>
@@ -282,58 +277,63 @@ export default function Header() {
         <button
           style={{ padding: 8, color: "#fff", background: "none", border: "none", cursor: "pointer" }}
           onClick={() => setMobileOpen(!mobileOpen)}
+          aria-label="Toggle menu"
         >
           {mobileOpen ? (
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
               <path d="M6 6l12 12M6 18L18 6" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           ) : (
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
               <path d="M4 6h16M4 12h16M4 18h16" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           )}
         </button>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile slide-down menu */}
       {mobileOpen && (
         <div
-          className="lg:hidden"
-          style={{ background: "#0d0d0d", borderTop: "1px solid rgba(255,255,255,0.08)", padding: "16px" }}
+          className="md:hidden"
+          style={{
+            background: "#0d0d0d",
+            borderTop: "1px solid rgba(255,255,255,0.08)",
+            padding: "4.44444vw",
+          }}
         >
           {navItems.map((item) =>
             item.children ? (
-              <div key={item.label} style={{ marginBottom: 4 }}>
+              <div key={item.label} style={{ marginBottom: "1.11111vw" }}>
                 <button
                   style={{
                     width: "100%",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "space-between",
-                    padding: "10px 12px",
-                    fontSize: 15,
+                    padding: "3.33333vw 3.33333vw",
+                    fontSize: "4.44444vw",
                     fontWeight: 700,
-                    color: "rgba(255,255,255,0.8)",
+                    color: "rgba(255,255,255,0.85)",
                     background: "none",
                     border: "none",
                     cursor: "pointer",
-                    borderRadius: 8,
+                    borderRadius: "2.22222vw",
                     textAlign: "left",
                     fontFamily: "inherit",
                   }}
                   onClick={() => setMobileOpenDropdown(mobileOpenDropdown === item.label ? null : item.label)}
                 >
                   {item.label}
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                    style={{ transform: mobileOpenDropdown === item.label ? "rotate(180deg)" : "none", transition: "transform 0.2s" }}>
+                  <svg width="16" height="16" viewBox="0 0 12 12" fill="none"
+                    style={{ transform: mobileOpenDropdown === item.label ? "rotate(180deg)" : "none", transition: "transform 0.2s", flexShrink: 0 }}>
                     <path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
                 {mobileOpenDropdown === item.label && (
-                  <div style={{ paddingLeft: 16, paddingBottom: 4 }}>
+                  <div style={{ paddingLeft: "4.44444vw", paddingBottom: "2.22222vw" }}>
                     {item.children!.map((child) => (
                       <a key={child.label} href={child.href}
-                        style={{ display: "block", padding: "8px 12px", fontSize: 14, color: "rgba(255,255,255,0.7)", textDecoration: "none", borderRadius: 6 }}>
+                        style={{ display: "block", padding: "2.77778vw 3.33333vw", fontSize: "4.16667vw", color: "rgba(255,255,255,0.6)", textDecoration: "none", borderRadius: "1.66667vw" }}>
                         {child.label}
                       </a>
                     ))}
@@ -342,16 +342,40 @@ export default function Header() {
               </div>
             ) : (
               <a key={item.label} href={item.href}
-                style={{ display: "block", padding: "10px 12px", fontSize: 15, fontWeight: 700, color: "rgba(255,255,255,0.8)", textDecoration: "none", borderRadius: 8, marginBottom: 4 }}>
+                style={{ display: "block", padding: "3.33333vw 3.33333vw", fontSize: "4.44444vw", fontWeight: 700, color: "rgba(255,255,255,0.85)", textDecoration: "none", borderRadius: "2.22222vw", marginBottom: "1.11111vw" }}>
                 {item.label}
               </a>
             )
           )}
-          <div style={{ paddingTop: 12, display: "flex", gap: 8 }}>
-            <button style={{ flex: 1, textAlign: "center", padding: "10px", fontSize: 15, fontWeight: 700, color: "#fff", border: "2px solid #51576c", borderRadius: 8, background: "none", fontFamily: "inherit", cursor: "pointer" }}>
+
+          {/* Log in / Register buttons */}
+          <div style={{ paddingTop: "4.44444vw", display: "flex", gap: "2.22222vw" }}>
+            <button style={{
+              flex: 1,
+              padding: "3.33333vw",
+              fontSize: "4.44444vw",
+              fontWeight: 700,
+              color: "#fff",
+              border: "2px solid #0c8df8",
+              borderRadius: "2.22222vw",
+              background: "none",
+              fontFamily: "inherit",
+              cursor: "pointer",
+            }}>
               Log in
             </button>
-            <button style={{ flex: 1, textAlign: "center", padding: "10px", fontSize: 15, fontWeight: 700, color: "#fff", background: "#0c8df8", borderRadius: 8, border: "none", fontFamily: "inherit", cursor: "pointer" }}>
+            <button style={{
+              flex: 1,
+              padding: "3.33333vw",
+              fontSize: "4.44444vw",
+              fontWeight: 700,
+              color: "#fff",
+              background: "#0c8df8",
+              borderRadius: "2.22222vw",
+              border: "none",
+              fontFamily: "inherit",
+              cursor: "pointer",
+            }}>
               Register
             </button>
           </div>

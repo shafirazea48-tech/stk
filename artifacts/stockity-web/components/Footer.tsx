@@ -86,68 +86,171 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer style={{ background: "#0d0d0d", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
-      <div style={{ boxSizing: "border-box", width: "100%", padding: "3.24074vw 1.85185vw" }}>
+      {/* ===== MOBILE footer (< 768px) ===== */}
+      <div
+        className="block md:hidden"
+        style={{ boxSizing: "border-box", width: "100%", padding: "11.1111vw 6.66667vw" }}
+      >
+        {/* column-reverse: right section first, then links, then logo last */}
+
+        {/* Registration + Socials */}
+        <div style={{ marginBottom: "11.1111vw" }}>
+          <div style={{ marginBottom: "6.66667vw" }}>
+            <p style={{ fontSize: "3.33333vw", color: "#82889B", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "2.22222vw" }}>
+              Registration
+            </p>
+            <p style={{ fontSize: "4.44444vw", fontWeight: 600, color: "#F4F4F6" }}>Reg.No. 700726</p>
+          </div>
+          <div>
+            <p style={{ fontSize: "3.33333vw", color: "#82889B", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: "4.44444vw" }}>
+              Follow us
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "4.44444vw" }}>
+              {socialLinks.map((social) => (
+                <a
+                  key={social.name}
+                  href={social.href}
+                  aria-label={social.name}
+                  style={{
+                    width: "10.2222vw",
+                    height: "10.2222vw",
+                    borderRadius: "2.22222vw",
+                    background: "#222",
+                    border: "1px solid rgba(255,255,255,0.07)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#82889B",
+                    textDecoration: "none",
+                  }}
+                >
+                  {social.icon}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Links — single column, each group stacked */}
+        <div style={{ display: "flex", flexDirection: "column", gap: "4.44444vw", marginBottom: "11.1111vw" }}>
+          {footerLinks.map((section) => (
+            <div key={section.title}>
+              <h4
+                style={{
+                  fontSize: "3.33333vw",
+                  fontWeight: 700,
+                  color: "#F4F4F6",
+                  textTransform: "uppercase",
+                  letterSpacing: "0.1em",
+                  marginBottom: "3.33333vw",
+                }}
+              >
+                {section.title}
+              </h4>
+              <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: "2.77778vw" }}>
+                {section.links.map((link) => (
+                  <li key={link.label}>
+                    <a href={link.href} style={{ fontSize: "4.16667vw", color: "#82889B", textDecoration: "none" }}>
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
+        {/* Logo + description */}
+        <div style={{ marginBottom: "6.66667vw" }}>
+          <a href="#" style={{ display: "flex", alignItems: "center", gap: "1.11111vw", textDecoration: "none", marginBottom: "4.44444vw" }}>
+            <StockityIcon />
+            <span style={{ fontSize: "5.55556vw", fontWeight: 900, color: "#F4F4F6" }}>Stockity</span>
+          </a>
+          <p style={{ fontSize: "3.88889vw", color: "#82889B", lineHeight: 1.65 }}>
+            A modern trading platform for beginners and professionals.
+          </p>
+        </div>
+
+        {/* Bottom disclaimer */}
+        <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "6.66667vw" }}>
+          <p style={{ fontSize: "3.05556vw", color: "rgba(130,136,155,0.6)", lineHeight: 1.8, marginBottom: "4.44444vw" }}>
+            Online trading may involve significant financial risks including the risk of losing
+            all funds on your trading account. Please, estimate all the risks and get advice from
+            an independent financial advisor before using Stockity services. We also recommend
+            not to invest funds you can&apos;t afford. Stockity isn&apos;t responsible for any
+            losses (direct, indirect, or consequential) resulting from the actions of a client
+            on the platform.
+          </p>
+          <p style={{ fontSize: "3.33333vw", color: "rgba(130,136,155,0.6)" }}>
+            © 2022-2026 Stockity. All rights reserved
+          </p>
+        </div>
+      </div>
+
+      {/* ===== DESKTOP footer (>= 768px) ===== */}
+      <div
+        className="hidden md:block"
+        style={{ boxSizing: "border-box", width: "100%", padding: "3.24074vw 1.85185vw" }}
+      >
         <div
           style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 2fr 1fr",
-            gap: 40,
-            marginBottom: 48,
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "space-between",
+            gap: 0,
+            marginTop: "2.77778vw",
+            marginBottom: "3.24074vw",
           }}
-          className="footer-grid"
         >
-          {/* Logo + desc */}
-          <div>
-            <a href="#" style={{ display: "flex", alignItems: "center", gap: 8, textDecoration: "none", marginBottom: 16 }}>
+          {/* Left: Logo + Links */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "6.01852vw", maxWidth: "56.1343vw" }}>
+            <a href="#" style={{ display: "flex", alignItems: "center", gap: "0.925926vw", textDecoration: "none" }}>
               <StockityIcon />
               <span style={{ fontSize: 18, fontWeight: 900, color: "#F4F4F6" }}>Stockity</span>
             </a>
             <p style={{ fontSize: 13, color: "#82889B", lineHeight: 1.65, maxWidth: 220 }}>
               A modern trading platform for beginners and professionals.
             </p>
+            {/* Links: 3 columns */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(3, 1fr)",
+                columnGap: "0.578704vw",
+                rowGap: "0.925926vw",
+              }}
+            >
+              {footerLinks.map((section) => (
+                <div key={section.title}>
+                  <h4
+                    style={{
+                      fontSize: 11,
+                      fontWeight: 700,
+                      color: "#F4F4F6",
+                      textTransform: "uppercase",
+                      letterSpacing: "0.1em",
+                      marginBottom: 16,
+                    }}
+                  >
+                    {section.title}
+                  </h4>
+                  <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 10 }}>
+                    {section.links.map((link) => (
+                      <li key={link.label}>
+                        <a href={link.href} style={{ fontSize: 13, color: "#82889B", textDecoration: "none" }}>
+                          {link.label}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
           </div>
 
-          {/* Links */}
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(3,1fr)",
-              gap: 32,
-            }}
-          >
-            {footerLinks.map((section) => (
-              <div key={section.title}>
-                <h4
-                  style={{
-                    fontSize: 11,
-                    fontWeight: 700,
-                    color: "#F4F4F6",
-                    textTransform: "uppercase",
-                    letterSpacing: "0.1em",
-                    marginBottom: 16,
-                  }}
-                >
-                  {section.title}
-                </h4>
-                <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 10 }}>
-                  {section.links.map((link) => (
-                    <li key={link.label}>
-                      <a
-                        href={link.href}
-                        style={{ fontSize: 13, color: "#82889B", textDecoration: "none" }}
-                      >
-                        {link.label}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-
-          {/* Reg + socials */}
-          <div>
-            <div style={{ marginBottom: 24 }}>
+          {/* Right: Registration + Socials */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.38889vw", maxWidth: "18.0556vw" }}>
+            <div style={{ marginBottom: "1.38889vw" }}>
               <p style={{ fontSize: 11, color: "#82889B", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 6 }}>
                 Registration
               </p>
@@ -157,7 +260,7 @@ export default function Footer() {
               <p style={{ fontSize: 11, color: "#82889B", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 12 }}>
                 Follow us
               </p>
-              <div style={{ display: "flex", gap: 8 }}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "0.925926vw" }}>
                 {socialLinks.map((social) => (
                   <a
                     key={social.name}
