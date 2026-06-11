@@ -66,6 +66,7 @@ export default function TradersNeedsSection() {
             alt="Rating stars"
             width={193}
             height={34}
+            style={{ width: "auto", height: "auto" }}
             unoptimized
           />
           <div>
