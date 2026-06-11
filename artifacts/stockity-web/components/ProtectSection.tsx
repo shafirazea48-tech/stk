@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useId } from "react";
 
 const CARD_WIDTH_VW = 90.5556;
 const CARD_GAP_VW = 4.44444;
@@ -84,43 +84,48 @@ const cards = [
   },
 ];
 
-const ChartSVG = ({ height }: { height: string }) => (
-  <svg viewBox="0 0 480 270" fill="none" preserveAspectRatio="xMidYMid meet"
-    style={{ width: "100%", height, display: "block" }}>
-    {[0, 54, 108, 162, 216, 270].map((y) => (
-      <line key={y} x1="0" y1={y} x2="480" y2={y} stroke="rgba(255,255,255,0.07)" strokeWidth="1" />
-    ))}
-    {[0, 80, 160, 240, 320, 400, 480].map((x) => (
-      <line key={x} x1={x} y1="0" x2={x} y2="270" stroke="rgba(255,255,255,0.03)" strokeWidth="1" />
-    ))}
-    <defs>
-      <linearGradient id="pg1" x1="0" y1="0" x2="0" y2="1">
-        <stop stopColor="#0990ff" stopOpacity="0.35" />
-        <stop offset="1" stopColor="#0990ff" stopOpacity="0" />
-      </linearGradient>
-      <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
-        <stop stopColor="#0990ff" />
-        <stop offset="1" stopColor="#00eaff" />
-      </linearGradient>
-    </defs>
-    <path
-      d="M0 240 L60 200 L120 215 L195 140 L255 160 L315 85 L390 105 L450 45 L480 60 L480 270 L0 270Z"
-      fill="url(#pg1)"
-    />
-    <path
-      d="M0 240 L60 200 L120 215 L195 140 L255 160 L315 85 L390 105 L450 45 L480 60"
-      stroke="url(#lineGrad)"
-      strokeWidth="3"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-    <text x="340" y="75" fill="#fff" fontSize="16" fontFamily="sans-serif" opacity="0.6">$0</text>
-    <text x="460" y="40" fill="#00eaff" fontSize="14" fontFamily="sans-serif" opacity="0.8">▲</text>
-    {[[315, 85], [450, 45]].map(([cx, cy]) => (
-      <circle key={`${cx}-${cy}`} cx={cx} cy={cy} r="6" fill="#0990ff" stroke="#fff" strokeWidth="2" />
-    ))}
-  </svg>
-);
+const ChartSVG = ({ height }: { height: string }) => {
+  const uid = useId();
+  const fillId = `pg-${uid}`;
+  const lineId = `lg-${uid}`;
+  return (
+    <svg viewBox="0 0 480 270" fill="none" preserveAspectRatio="xMidYMid meet"
+      style={{ width: "100%", height, display: "block" }}>
+      <defs>
+        <linearGradient id={fillId} x1="0" y1="0" x2="0" y2="1">
+          <stop stopColor="#0990ff" stopOpacity="0.35" />
+          <stop offset="1" stopColor="#0990ff" stopOpacity="0" />
+        </linearGradient>
+        <linearGradient id={lineId} x1="0" y1="0" x2="1" y2="0">
+          <stop stopColor="#0990ff" />
+          <stop offset="1" stopColor="#00eaff" />
+        </linearGradient>
+      </defs>
+      {[0, 54, 108, 162, 216, 270].map((y) => (
+        <line key={y} x1="0" y1={y} x2="480" y2={y} stroke="rgba(255,255,255,0.07)" strokeWidth="1" />
+      ))}
+      {[0, 80, 160, 240, 320, 400, 480].map((x) => (
+        <line key={x} x1={x} y1="0" x2={x} y2="270" stroke="rgba(255,255,255,0.03)" strokeWidth="1" />
+      ))}
+      <path
+        d="M0 240 L60 200 L120 215 L195 140 L255 160 L315 85 L390 105 L450 45 L480 60 L480 270 L0 270Z"
+        fill={`url(#${fillId})`}
+      />
+      <path
+        d="M0 240 L60 200 L120 215 L195 140 L255 160 L315 85 L390 105 L450 45 L480 60"
+        stroke={`url(#${lineId})`}
+        strokeWidth="3"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <text x="310" y="75" fill="#fff" fontSize="16" fontFamily="sans-serif" opacity="0.6">$0</text>
+      <text x="458" y="40" fill="#00eaff" fontSize="14" fontFamily="sans-serif" opacity="0.8">▲</text>
+      {[[315, 85], [450, 45]].map(([cx, cy]) => (
+        <circle key={`${cx}-${cy}`} cx={cx} cy={cy} r="6" fill="#0990ff" stroke="#fff" strokeWidth="2" />
+      ))}
+    </svg>
+  );
+};
 
 export default function ProtectSection() {
   const [activeIndex, setActiveIndex] = useState(0);
