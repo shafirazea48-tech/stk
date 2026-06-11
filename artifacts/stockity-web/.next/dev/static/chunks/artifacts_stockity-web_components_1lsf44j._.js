@@ -1217,6 +1217,7 @@ function HeroSection() {
                             },
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "hero-form-title",
                                     style: {
                                         textAlign: "center",
                                         color: "#f4f4f6",
@@ -1233,6 +1234,7 @@ function HeroSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "hero-form-field",
                                     style: {
                                         boxSizing: "border-box",
                                         display: "flex",
@@ -1246,16 +1248,18 @@ function HeroSection() {
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "hero-form-flag",
                                             style: {
                                                 fontSize: "1.2vw"
                                             },
                                             children: "🇮🇩"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 257,
+                                            lineNumber: 259,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "hero-form-input",
                                             style: {
                                                 color: "#f4f4f6",
                                                 fontFamily: "'Nunito Sans', sans-serif",
@@ -1265,7 +1269,7 @@ function HeroSection() {
                                             children: "Indonesia"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 258,
+                                            lineNumber: 260,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1281,21 +1285,22 @@ function HeroSection() {
                                                 strokeLinejoin: "round"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                lineNumber: 260,
+                                                lineNumber: 262,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 259,
+                                            lineNumber: 261,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 244,
+                                    lineNumber: 245,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "hero-form-field",
                                     style: {
                                         boxSizing: "border-box",
                                         display: "flex",
@@ -1308,6 +1313,7 @@ function HeroSection() {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                         type: "email",
                                         placeholder: "Email",
+                                        className: "hero-form-input",
                                         style: {
                                             flex: 1,
                                             background: "transparent",
@@ -1320,15 +1326,16 @@ function HeroSection() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                        lineNumber: 276,
+                                        lineNumber: 279,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 265,
+                                    lineNumber: 267,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "hero-form-field",
                                     style: {
                                         boxSizing: "border-box",
                                         display: "flex",
@@ -1342,6 +1349,7 @@ function HeroSection() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                             type: "password",
                                             placeholder: "Password",
+                                            className: "hero-form-input",
                                             style: {
                                                 flex: 1,
                                                 background: "transparent",
@@ -1354,18 +1362,18 @@ function HeroSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 304,
+                                            lineNumber: 309,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(EyeIcon, {}, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 318,
+                                            lineNumber: 324,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 293,
+                                    lineNumber: 297,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1378,6 +1386,7 @@ function HeroSection() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                             type: "checkbox",
+                                            className: "hero-form-checkbox",
                                             style: {
                                                 marginTop: "0.185185vw",
                                                 width: "0.972222vw",
@@ -1388,10 +1397,11 @@ function HeroSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 330,
+                                            lineNumber: 336,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "hero-form-checkbox-text",
                                             style: {
                                                 color: "rgba(255,255,255,0.55)",
                                                 fontFamily: "'Nunito Sans', sans-serif",
@@ -1410,7 +1420,7 @@ function HeroSection() {
                                                     children: "Terms of Service"
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                    lineNumber: 343,
+                                                    lineNumber: 350,
                                                     columnNumber: 17
                                                 }, this),
                                                 " ",
@@ -1425,22 +1435,23 @@ function HeroSection() {
                                                     children: "Privacy Policy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                    lineNumber: 345,
+                                                    lineNumber: 352,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 341,
+                                            lineNumber: 348,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 322,
+                                    lineNumber: 328,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    className: "hero-form-register-btn",
                                     style: {
                                         display: "flex",
                                         alignItems: "center",
@@ -1471,17 +1482,18 @@ function HeroSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 371,
+                                            lineNumber: 379,
                                             columnNumber: 15
                                         }, this),
                                         "Register"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 350,
+                                    lineNumber: 357,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "hero-form-signin",
                                     style: {
                                         textAlign: "center",
                                         color: "rgba(255,255,255,0.5)",
@@ -1501,13 +1513,13 @@ function HeroSection() {
                                             children: "Sign in"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 384,
+                                            lineNumber: 392,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 382,
+                                    lineNumber: 390,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -1529,32 +1541,107 @@ function HeroSection() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
                 children: `
-        /* Mobile: hide right column (form), bg on content_left */
+        /* ===== MOBILE (max-width: 767px) ===== */
         @media (max-width: 767px) {
+          /* Hide desktop bg, use mobile bg on left column */
           .hero-bg { display: none !important; }
+
+          /* Content becomes a column; wrapper grows to fit both sections */
           .hero-content {
             flex-direction: column !important;
             gap: 0 !important;
             padding-top: 0 !important;
-            min-height: 167.778vw !important;
+            min-height: 0 !important;
           }
+
+          /* Left column: mobile bg image, 167.778vw tall */
           .hero-content-left {
             background-image: url('/images/stockity/src/core/images/trade-smart/main_section_mobile-707d361f38e2d6c3.webp') !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
             max-width: 100% !important;
+            width: 100% !important;
             min-height: 167.778vw !important;
             padding-top: 55.5556vw !important;
             padding-left: 4.44444vw !important;
             padding-right: 4.44444vw !important;
           }
-          .hero-content-right { display: none !important; }
-          .hero-form { display: none !important; }
+
+          /* Right column: full width, no padding */
+          .hero-content-right {
+            width: 100% !important;
+            padding-right: 0 !important;
+            padding-top: 0 !important;
+            flex-shrink: unset !important;
+          }
+
+          /* Form: full width, #000 bg, no border-radius on mobile */
+          .hero-form {
+            background: #000 !important;
+            width: 100% !important;
+            border-radius: 0 !important;
+            padding: 6.66667vw 8.88889vw !important;
+            gap: 4.44444vw !important;
+          }
+
+          /* Form title */
+          .hero-form-title {
+            font-size: 6.11111vw !important;
+            line-height: 8.33333vw !important;
+            margin-bottom: 2.22222vw !important;
+          }
+
+          /* Field containers */
+          .hero-form-field {
+            border-radius: 3.33333vw !important;
+            padding: 3.33333vw 4.44444vw !important;
+            gap: 2.22222vw !important;
+          }
+
+          /* Input text */
+          .hero-form-input {
+            font-size: 4.44444vw !important;
+            line-height: 6.11111vw !important;
+          }
+
+          /* Flag emoji */
+          .hero-form-flag { font-size: 5.55556vw !important; }
+
+          /* Checkbox */
+          .hero-form-checkbox {
+            width: 4.44444vw !important;
+            height: 4.44444vw !important;
+            margin-top: 0.8vw !important;
+          }
+          .hero-form-checkbox-text {
+            font-size: 3.33333vw !important;
+            line-height: 4.72222vw !important;
+          }
+
+          /* Register button */
+          .hero-form-register-btn {
+            font-size: 5.55556vw !important;
+            line-height: 7.77778vw !important;
+            border-radius: 3.33333vw !important;
+            padding: 3.88889vw !important;
+            margin-top: 0 !important;
+            gap: 2.22222vw !important;
+          }
+
+          /* Sign-in link */
+          .hero-form-signin {
+            font-size: 3.33333vw !important;
+            line-height: 4.44444vw !important;
+          }
+
+          /* Title */
           .hero-title {
             font-size: 11.6667vw !important;
             line-height: 11.6667vw !important;
           }
+
+          /* CTA button */
           .hero-btn {
             width: 100% !important;
             font-size: 5.55556vw !important;
@@ -1563,6 +1650,8 @@ function HeroSection() {
             min-width: unset !important;
           }
           .hero-btn-wrap { width: 100%; }
+
+          /* Chips: 2-column grid */
           .hero-chips {
             display: grid !important;
             grid-template-columns: repeat(2, 1fr) !important;
@@ -1595,7 +1684,7 @@ function HeroSection() {
           .hero-chip { flex: unset !important; }
         }
 
-        /* Desktop ≥1325px: chips as flex row, flex:1 per chip */
+        /* Desktop ≥1325px: chips as flex row */
         @media (min-width: 1325px) {
           .hero-chips { display: flex !important; flex-wrap: nowrap !important; }
           .hero-chip { flex: 1 1 0 !important; width: auto !important; min-width: 0 !important; justify-content: center !important; }
@@ -1603,7 +1692,7 @@ function HeroSection() {
       `
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 390,
+                lineNumber: 398,
                 columnNumber: 7
             }, this)
         ]

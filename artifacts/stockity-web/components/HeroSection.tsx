@@ -58,7 +58,7 @@ export default function HeroSection() {
         }}
       />
 
-      {/* Content row — trade-smart__content: flex row, justify-content: center, gap: 3.7037vw */}
+      {/* Content row — trade-smart__content: flex row on desktop, column on mobile */}
       <div
         className="hero-content"
         style={{
@@ -88,7 +88,7 @@ export default function HeroSection() {
             paddingRight: "0",
           }}
         >
-          {/* Title — trade-smart__title: text-align: center, 5.09259vw, line-height: 5.09259vw */}
+          {/* Title */}
           <h1
             className="hero-title"
             style={{
@@ -106,7 +106,7 @@ export default function HeroSection() {
             Making investing clear
           </h1>
 
-          {/* CTA button — trade-smart__btn: margin-top: 2.77778vw */}
+          {/* CTA button */}
           <div className="hero-btn-wrap" style={{ marginTop: "2.77778vw" }}>
             <a
               href="#"
@@ -135,7 +135,7 @@ export default function HeroSection() {
             </a>
           </div>
 
-          {/* Feature chips — trade-smart__cards */}
+          {/* Feature chips */}
           <div
             className="hero-chips"
             style={{
@@ -201,7 +201,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Right column — trade-smart__content_right: contains form card + padding-right: 6.94444vw */}
+        {/* Right column — trade-smart__content_right */}
         <div
           className="hero-content-right"
           style={{
@@ -211,7 +211,7 @@ export default function HeroSection() {
             paddingTop: "5.6713vw",
           }}
         >
-          {/* trade-smart__form: bg #151723, width: 392px, border-radius: 1.38889vw, padding: 2.77778vw 1.38889vw */}
+          {/* trade-smart__form */}
           <div
             className="hero-form"
             style={{
@@ -225,8 +225,9 @@ export default function HeroSection() {
               gap: "1.11111vw",
             }}
           >
-            {/* Form title — trade-smart__form_title: text-align center, margin-bottom 2.31481vw */}
+            {/* Form title */}
             <p
+              className="hero-form-title"
               style={{
                 textAlign: "center",
                 color: "#f4f4f6",
@@ -242,6 +243,7 @@ export default function HeroSection() {
 
             {/* Country selector */}
             <div
+              className="hero-form-field"
               style={{
                 boxSizing: "border-box",
                 display: "flex",
@@ -254,8 +256,8 @@ export default function HeroSection() {
                 cursor: "pointer",
               }}
             >
-              <span style={{ fontSize: "1.2vw" }}>🇮🇩</span>
-              <span style={{ color: "#f4f4f6", fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.972222vw", flex: 1 }}>Indonesia</span>
+              <span className="hero-form-flag" style={{ fontSize: "1.2vw" }}>🇮🇩</span>
+              <span className="hero-form-input" style={{ color: "#f4f4f6", fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.972222vw", flex: 1 }}>Indonesia</span>
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
                 <path d="M2.5 4.5L6 8l3.5-3.5" stroke="rgba(255,255,255,0.4)" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
@@ -263,6 +265,7 @@ export default function HeroSection() {
 
             {/* Email input */}
             <div
+              className="hero-form-field"
               style={{
                 boxSizing: "border-box",
                 display: "flex",
@@ -276,6 +279,7 @@ export default function HeroSection() {
               <input
                 type="email"
                 placeholder="Email"
+                className="hero-form-input"
                 style={{
                   flex: 1,
                   background: "transparent",
@@ -291,6 +295,7 @@ export default function HeroSection() {
 
             {/* Password input */}
             <div
+              className="hero-form-field"
               style={{
                 boxSizing: "border-box",
                 display: "flex",
@@ -304,6 +309,7 @@ export default function HeroSection() {
               <input
                 type="password"
                 placeholder="Password"
+                className="hero-form-input"
                 style={{
                   flex: 1,
                   background: "transparent",
@@ -329,6 +335,7 @@ export default function HeroSection() {
             >
               <input
                 type="checkbox"
+                className="hero-form-checkbox"
                 style={{
                   marginTop: "0.185185vw",
                   width: "0.972222vw",
@@ -338,7 +345,7 @@ export default function HeroSection() {
                   cursor: "pointer",
                 }}
               />
-              <span style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.833333vw", lineHeight: "1.11111vw" }}>
+              <span className="hero-form-checkbox-text" style={{ color: "rgba(255,255,255,0.55)", fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.833333vw", lineHeight: "1.11111vw" }}>
                 I agree to the{" "}
                 <a href="#" style={{ color: "#0c8df8", textDecoration: "none" }}>Terms of Service</a>
                 {" "}and{" "}
@@ -348,6 +355,7 @@ export default function HeroSection() {
 
             {/* Register button */}
             <button
+              className="hero-form-register-btn"
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -379,7 +387,7 @@ export default function HeroSection() {
             </button>
 
             {/* Login link */}
-            <p style={{ textAlign: "center", color: "rgba(255,255,255,0.5)", fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.833333vw", lineHeight: "1.11111vw" }}>
+            <p className="hero-form-signin" style={{ textAlign: "center", color: "rgba(255,255,255,0.5)", fontFamily: "'Nunito Sans', sans-serif", fontSize: "0.833333vw", lineHeight: "1.11111vw" }}>
               Already have an account?{" "}
               <a href="#" style={{ color: "#0c8df8", textDecoration: "none" }}>Sign in</a>
             </p>
@@ -388,32 +396,107 @@ export default function HeroSection() {
       </div>
 
       <style>{`
-        /* Mobile: hide right column (form), bg on content_left */
+        /* ===== MOBILE (max-width: 767px) ===== */
         @media (max-width: 767px) {
+          /* Hide desktop bg, use mobile bg on left column */
           .hero-bg { display: none !important; }
+
+          /* Content becomes a column; wrapper grows to fit both sections */
           .hero-content {
             flex-direction: column !important;
             gap: 0 !important;
             padding-top: 0 !important;
-            min-height: 167.778vw !important;
+            min-height: 0 !important;
           }
+
+          /* Left column: mobile bg image, 167.778vw tall */
           .hero-content-left {
             background-image: url('/images/stockity/src/core/images/trade-smart/main_section_mobile-707d361f38e2d6c3.webp') !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
             max-width: 100% !important;
+            width: 100% !important;
             min-height: 167.778vw !important;
             padding-top: 55.5556vw !important;
             padding-left: 4.44444vw !important;
             padding-right: 4.44444vw !important;
           }
-          .hero-content-right { display: none !important; }
-          .hero-form { display: none !important; }
+
+          /* Right column: full width, no padding */
+          .hero-content-right {
+            width: 100% !important;
+            padding-right: 0 !important;
+            padding-top: 0 !important;
+            flex-shrink: unset !important;
+          }
+
+          /* Form: full width, #000 bg, no border-radius on mobile */
+          .hero-form {
+            background: #000 !important;
+            width: 100% !important;
+            border-radius: 0 !important;
+            padding: 6.66667vw 8.88889vw !important;
+            gap: 4.44444vw !important;
+          }
+
+          /* Form title */
+          .hero-form-title {
+            font-size: 6.11111vw !important;
+            line-height: 8.33333vw !important;
+            margin-bottom: 2.22222vw !important;
+          }
+
+          /* Field containers */
+          .hero-form-field {
+            border-radius: 3.33333vw !important;
+            padding: 3.33333vw 4.44444vw !important;
+            gap: 2.22222vw !important;
+          }
+
+          /* Input text */
+          .hero-form-input {
+            font-size: 4.44444vw !important;
+            line-height: 6.11111vw !important;
+          }
+
+          /* Flag emoji */
+          .hero-form-flag { font-size: 5.55556vw !important; }
+
+          /* Checkbox */
+          .hero-form-checkbox {
+            width: 4.44444vw !important;
+            height: 4.44444vw !important;
+            margin-top: 0.8vw !important;
+          }
+          .hero-form-checkbox-text {
+            font-size: 3.33333vw !important;
+            line-height: 4.72222vw !important;
+          }
+
+          /* Register button */
+          .hero-form-register-btn {
+            font-size: 5.55556vw !important;
+            line-height: 7.77778vw !important;
+            border-radius: 3.33333vw !important;
+            padding: 3.88889vw !important;
+            margin-top: 0 !important;
+            gap: 2.22222vw !important;
+          }
+
+          /* Sign-in link */
+          .hero-form-signin {
+            font-size: 3.33333vw !important;
+            line-height: 4.44444vw !important;
+          }
+
+          /* Title */
           .hero-title {
             font-size: 11.6667vw !important;
             line-height: 11.6667vw !important;
           }
+
+          /* CTA button */
           .hero-btn {
             width: 100% !important;
             font-size: 5.55556vw !important;
@@ -422,6 +505,8 @@ export default function HeroSection() {
             min-width: unset !important;
           }
           .hero-btn-wrap { width: 100%; }
+
+          /* Chips: 2-column grid */
           .hero-chips {
             display: grid !important;
             grid-template-columns: repeat(2, 1fr) !important;
@@ -454,7 +539,7 @@ export default function HeroSection() {
           .hero-chip { flex: unset !important; }
         }
 
-        /* Desktop ≥1325px: chips as flex row, flex:1 per chip */
+        /* Desktop ≥1325px: chips as flex row */
         @media (min-width: 1325px) {
           .hero-chips { display: flex !important; flex-wrap: nowrap !important; }
           .hero-chip { flex: 1 1 0 !important; width: auto !important; min-width: 0 !important; justify-content: center !important; }

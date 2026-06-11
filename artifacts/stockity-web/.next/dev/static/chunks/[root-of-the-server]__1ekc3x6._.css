@@ -618,6 +618,10 @@
     display: inline-flex;
   }
 
+  .flex-shrink {
+    flex-shrink: 1;
+  }
+
   .grow {
     flex-grow: 1;
   }
@@ -713,7 +717,7 @@ body {
   color: #fff;
   cursor: pointer;
   white-space: nowrap;
-  background: linear-gradient(90deg, #0990ff 0%, #00d7eb 100%);
+  background: linear-gradient(90deg, #0990ff 0%, #00eaff 100%);
   border: none;
   border-radius: .925926vw;
   justify-content: center;
