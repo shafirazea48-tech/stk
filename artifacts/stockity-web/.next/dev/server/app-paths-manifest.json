@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
+  "/test-assets/page": "app/test-assets/page.js",
   "/test-charity/page": "app/test-charity/page.js",
   "/test-protect/page": "app/test-protect/page.js",
   "/test-withdraw/page": "app/test-withdraw/page.js"

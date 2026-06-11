@@ -1521,7 +1521,7 @@ function AssetsSection() {
                     backgroundRepeat: "no-repeat",
                     backgroundSize: "cover",
                     flexDirection: "column",
-                    justifyContent: "center",
+                    justifyContent: "flex-start",
                     alignItems: "center",
                     width: "100%",
                     minHeight: "74.8843vw",
@@ -1536,7 +1536,8 @@ function AssetsSection() {
                             fontSize: "6.94444vw",
                             lineHeight: "6.94444vw",
                             textAlign: "center",
-                            color: "#fff"
+                            color: "#fff",
+                            paddingTop: "6.01852vw"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1546,7 +1547,7 @@ function AssetsSection() {
                                 children: "140+ assets"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                                lineNumber: 32,
+                                lineNumber: 33,
                                 columnNumber: 11
                             }, this),
                             " to explore"
@@ -1566,12 +1567,12 @@ function AssetsSection() {
                             children: "Start now"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                            lineNumber: 35,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                        lineNumber: 34,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1609,14 +1610,14 @@ function AssetsSection() {
                                 children: "140+ assets"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                                lineNumber: 65,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this),
                             " to explore"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1630,7 +1631,7 @@ function AssetsSection() {
                         }
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                        lineNumber: 69,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1648,18 +1649,18 @@ function AssetsSection() {
                             children: "Start now"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                            lineNumber: 82,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                        lineNumber: 81,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/AssetsSection.tsx",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 7
             }, this)
         ]

@@ -11,7 +11,7 @@ export default function AssetsSection() {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           flexDirection: "column",
-          justifyContent: "center",
+          justifyContent: "flex-start",
           alignItems: "center",
           width: "100%",
           minHeight: "74.8843vw",
@@ -27,6 +27,7 @@ export default function AssetsSection() {
             lineHeight: "6.94444vw",
             textAlign: "center",
             color: "#fff",
+            paddingTop: "6.01852vw",
           }}
         >
           <span style={{ color: "#0C8DF8" }}>140+ assets</span> to explore
