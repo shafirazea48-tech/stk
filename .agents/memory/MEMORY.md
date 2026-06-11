@@ -1,0 +1,1 @@
+- [Stockity Next.js setup](stockity-nextjs.md) — Next.js 16 artifact in stockity-web; Tailwind v4 via @tailwindcss/postcss; next@15.3.3 blocked by Replit firewall, use next@latest
