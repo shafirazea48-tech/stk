@@ -46,7 +46,7 @@ const faqs = [
     ),
   },
   {
-    question: "Is there a demo account?",
+    question: "Can I practice first?",
     answer: (
       <p style={{ color: "#82889B", fontSize: 14, lineHeight: 1.65 }}>
         Yes! You get a{" "}
@@ -68,6 +68,22 @@ const faqs = [
   },
 ];
 
+const ChevronIcon = ({ open }: { open: boolean }) => (
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    style={{
+      transition: "transform 0.25s",
+      transform: open ? "rotate(180deg)" : "none",
+      flexShrink: 0,
+    }}
+  >
+    <path d="M6 9l6 6 6-6" stroke="#82889B" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
+
 export default function FaqSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
@@ -83,8 +99,8 @@ export default function FaqSection() {
           style={{
             fontFamily: "'Nunito Sans', sans-serif",
             fontWeight: 900,
-            fontSize: "8.88889vw",
-            lineHeight: "10vw",
+            fontSize: "13.3333vw",
+            lineHeight: "14.4444vw",
             color: "#fff",
             textAlign: "center",
             padding: "11.1111vw 0 6.66667vw",
@@ -99,10 +115,9 @@ export default function FaqSection() {
               key={faq.question}
               style={{
                 background: "#161616",
-                border: `1px solid ${openIndex === index ? "rgba(12,141,248,0.35)" : "rgba(255,255,255,0.07)"}`,
+                border: "1px solid rgba(255,255,255,0.07)",
                 borderRadius: "3.33333vw",
                 overflow: "hidden",
-                transition: "border-color 0.2s",
               }}
               itemScope
               itemType="https://schema.org/Question"
@@ -114,7 +129,7 @@ export default function FaqSection() {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
-                  padding: "4.44444vw",
+                  padding: "5.55556vw 4.44444vw",
                   background: "none",
                   border: "none",
                   cursor: "pointer",
@@ -129,24 +144,7 @@ export default function FaqSection() {
                 >
                   {faq.question}
                 </span>
-                <span
-                  style={{
-                    width: "7.22222vw",
-                    height: "7.22222vw",
-                    borderRadius: "50%",
-                    background: openIndex === index ? "#0C8DF8" : "rgba(255,255,255,0.08)",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    flexShrink: 0,
-                    transform: openIndex === index ? "rotate(180deg)" : "none",
-                    transition: "transform 0.25s, background 0.2s",
-                  }}
-                >
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M3 5l4 4 4-4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </span>
+                <ChevronIcon open={openIndex === index} />
               </button>
 
               {openIndex === index && (
@@ -170,26 +168,25 @@ export default function FaqSection() {
           style={{
             fontFamily: "'Nunito Sans', sans-serif",
             fontWeight: 900,
-            fontSize: "3.7037vw",
-            lineHeight: "4.16667vw",
+            fontSize: "5.09259vw",
+            lineHeight: "5.55556vw",
             color: "#fff",
             textAlign: "center",
-            padding: "11.5741vw 0 2.77778vw",
+            padding: "9.25926vw 0 3.7037vw",
           }}
         >
           FAQ
         </p>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: "0.925926vw", maxWidth: "74.0741vw", margin: "0 auto" }}>
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.925926vw" }}>
           {faqs.map((faq, index) => (
             <div
               key={faq.question}
               style={{
                 background: "#161616",
-                border: `1px solid ${openIndex === index ? "rgba(12,141,248,0.35)" : "rgba(255,255,255,0.07)"}`,
-                borderRadius: 14,
+                border: "1px solid rgba(255,255,255,0.07)",
+                borderRadius: "0.925926vw",
                 overflow: "hidden",
-                transition: "border-color 0.2s",
               }}
               itemScope
               itemType="https://schema.org/Question"
@@ -201,39 +198,30 @@ export default function FaqSection() {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
-                  padding: "1.38889vw 1.85185vw",
+                  padding: "1.85185vw 1.85185vw",
                   background: "none",
                   border: "none",
                   cursor: "pointer",
                   textAlign: "left",
                   gap: "0.925926vw",
+                  boxSizing: "border-box",
                 }}
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 <span
-                  style={{ fontSize: "1.85185vw", lineHeight: "2.31481vw", fontWeight: 700, color: "#F4F4F6", flex: 1 }}
+                  style={{
+                    fontSize: "1.85185vw",
+                    lineHeight: "2.31481vw",
+                    fontWeight: 700,
+                    color: "#F4F4F6",
+                    flex: 1,
+                    fontFamily: "'Nunito Sans', sans-serif",
+                  }}
                   itemProp="name"
                 >
                   {faq.question}
                 </span>
-                <span
-                  style={{
-                    width: "2.31481vw",
-                    height: "2.31481vw",
-                    borderRadius: "50%",
-                    background: openIndex === index ? "#0C8DF8" : "rgba(255,255,255,0.08)",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    flexShrink: 0,
-                    transform: openIndex === index ? "rotate(180deg)" : "none",
-                    transition: "transform 0.25s, background 0.2s",
-                  }}
-                >
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                    <path d="M3 5l4 4 4-4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </span>
+                <ChevronIcon open={openIndex === index} />
               </button>
 
               {openIndex === index && (

@@ -3764,7 +3764,7 @@ const faqs = [
         }, ("TURBOPACK compile-time value", void 0))
     },
     {
-        question: "Is there a demo account?",
+        question: "Can I practice first?",
         answer: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             style: {
                 color: "#82889B",
@@ -3810,6 +3810,33 @@ const faqs = [
         }, ("TURBOPACK compile-time value", void 0))
     }
 ];
+const ChevronIcon = ({ open })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+        width: "24",
+        height: "24",
+        viewBox: "0 0 24 24",
+        fill: "none",
+        style: {
+            transition: "transform 0.25s",
+            transform: open ? "rotate(180deg)" : "none",
+            flexShrink: 0
+        },
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+            d: "M6 9l6 6 6-6",
+            stroke: "#82889B",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round"
+        }, void 0, false, {
+            fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
+            lineNumber: 83,
+            columnNumber: 5
+        }, ("TURBOPACK compile-time value", void 0))
+    }, void 0, false, {
+        fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
+        lineNumber: 72,
+        columnNumber: 3
+    }, ("TURBOPACK compile-time value", void 0));
+_c = ChevronIcon;
 function FaqSection() {
     _s();
     const [openIndex, setOpenIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
@@ -3830,8 +3857,8 @@ function FaqSection() {
                         style: {
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontWeight: 900,
-                            fontSize: "8.88889vw",
-                            lineHeight: "10vw",
+                            fontSize: "13.3333vw",
+                            lineHeight: "14.4444vw",
                             color: "#fff",
                             textAlign: "center",
                             padding: "11.1111vw 0 6.66667vw"
@@ -3839,7 +3866,7 @@ function FaqSection() {
                         children: "FAQ"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 82,
+                        lineNumber: 98,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3851,10 +3878,9 @@ function FaqSection() {
                         children: faqs.map((faq, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     background: "#161616",
-                                    border: `1px solid ${openIndex === index ? "rgba(12,141,248,0.35)" : "rgba(255,255,255,0.07)"}`,
+                                    border: "1px solid rgba(255,255,255,0.07)",
                                     borderRadius: "3.33333vw",
-                                    overflow: "hidden",
-                                    transition: "border-color 0.2s"
+                                    overflow: "hidden"
                                 },
                                 itemScope: true,
                                 itemType: "https://schema.org/Question",
@@ -3866,7 +3892,7 @@ function FaqSection() {
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "space-between",
-                                            padding: "4.44444vw",
+                                            padding: "5.55556vw 4.44444vw",
                                             background: "none",
                                             border: "none",
                                             cursor: "pointer",
@@ -3888,52 +3914,20 @@ function FaqSection() {
                                                 children: faq.question
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 141,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    width: "7.22222vw",
-                                                    height: "7.22222vw",
-                                                    borderRadius: "50%",
-                                                    background: openIndex === index ? "#0C8DF8" : "rgba(255,255,255,0.08)",
-                                                    display: "flex",
-                                                    alignItems: "center",
-                                                    justifyContent: "center",
-                                                    flexShrink: 0,
-                                                    transform: openIndex === index ? "rotate(180deg)" : "none",
-                                                    transition: "transform 0.25s, background 0.2s"
-                                                },
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    width: "14",
-                                                    height: "14",
-                                                    viewBox: "0 0 14 14",
-                                                    fill: "none",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M3 5l4 4 4-4",
-                                                        stroke: "white",
-                                                        strokeWidth: "1.8",
-                                                        strokeLinecap: "round",
-                                                        strokeLinejoin: "round"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                        lineNumber: 147,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                    lineNumber: 146,
-                                                    columnNumber: 19
-                                                }, this)
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronIcon, {
+                                                open: openIndex === index
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 132,
+                                                lineNumber: 147,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 111,
+                                        lineNumber: 126,
                                         columnNumber: 15
                                     }, this),
                                     openIndex === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3954,29 +3948,29 @@ function FaqSection() {
                                             children: faq.answer
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 157,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 151,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, faq.question, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                lineNumber: 98,
+                                lineNumber: 114,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 96,
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                lineNumber: 81,
+                lineNumber: 97,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3989,33 +3983,30 @@ function FaqSection() {
                         style: {
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontWeight: 900,
-                            fontSize: "3.7037vw",
-                            lineHeight: "4.16667vw",
+                            fontSize: "5.09259vw",
+                            lineHeight: "5.55556vw",
                             color: "#fff",
                             textAlign: "center",
-                            padding: "11.5741vw 0 2.77778vw"
+                            padding: "9.25926vw 0 3.7037vw"
                         },
                         children: "FAQ"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 169,
+                        lineNumber: 167,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             display: "flex",
                             flexDirection: "column",
-                            gap: "0.925926vw",
-                            maxWidth: "74.0741vw",
-                            margin: "0 auto"
+                            gap: "0.925926vw"
                         },
                         children: faqs.map((faq, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     background: "#161616",
-                                    border: `1px solid ${openIndex === index ? "rgba(12,141,248,0.35)" : "rgba(255,255,255,0.07)"}`,
-                                    borderRadius: 14,
-                                    overflow: "hidden",
-                                    transition: "border-color 0.2s"
+                                    border: "1px solid rgba(255,255,255,0.07)",
+                                    borderRadius: "0.925926vw",
+                                    overflow: "hidden"
                                 },
                                 itemScope: true,
                                 itemType: "https://schema.org/Question",
@@ -4027,12 +4018,13 @@ function FaqSection() {
                                             display: "flex",
                                             alignItems: "center",
                                             justifyContent: "space-between",
-                                            padding: "1.38889vw 1.85185vw",
+                                            padding: "1.85185vw 1.85185vw",
                                             background: "none",
                                             border: "none",
                                             cursor: "pointer",
                                             textAlign: "left",
-                                            gap: "0.925926vw"
+                                            gap: "0.925926vw",
+                                            boxSizing: "border-box"
                                         },
                                         onClick: ()=>setOpenIndex(openIndex === index ? null : index),
                                         children: [
@@ -4042,58 +4034,27 @@ function FaqSection() {
                                                     lineHeight: "2.31481vw",
                                                     fontWeight: 700,
                                                     color: "#F4F4F6",
-                                                    flex: 1
+                                                    flex: 1,
+                                                    fontFamily: "'Nunito Sans', sans-serif"
                                                 },
                                                 itemProp: "name",
                                                 children: faq.question
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 213,
+                                                lineNumber: 211,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    width: "2.31481vw",
-                                                    height: "2.31481vw",
-                                                    borderRadius: "50%",
-                                                    background: openIndex === index ? "#0C8DF8" : "rgba(255,255,255,0.08)",
-                                                    display: "flex",
-                                                    alignItems: "center",
-                                                    justifyContent: "center",
-                                                    flexShrink: 0,
-                                                    transform: openIndex === index ? "rotate(180deg)" : "none",
-                                                    transition: "transform 0.25s, background 0.2s"
-                                                },
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                    width: "14",
-                                                    height: "14",
-                                                    viewBox: "0 0 14 14",
-                                                    fill: "none",
-                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M3 5l4 4 4-4",
-                                                        stroke: "white",
-                                                        strokeWidth: "1.8",
-                                                        strokeLinecap: "round",
-                                                        strokeLinejoin: "round"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                        lineNumber: 234,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                    lineNumber: 233,
-                                                    columnNumber: 19
-                                                }, this)
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronIcon, {
+                                                open: openIndex === index
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 219,
+                                                lineNumber: 224,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 198,
+                                        lineNumber: 195,
                                         columnNumber: 15
                                     }, this),
                                     openIndex === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4113,42 +4074,43 @@ function FaqSection() {
                                             children: faq.answer
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                            lineNumber: 246,
+                                            lineNumber: 234,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 240,
+                                        lineNumber: 228,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, faq.question, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                lineNumber: 185,
+                                lineNumber: 183,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 183,
+                        lineNumber: 181,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                lineNumber: 168,
+                lineNumber: 166,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-        lineNumber: 75,
+        lineNumber: 91,
         columnNumber: 5
     }, this);
 }
 _s(FaqSection, "7z1SfW1ag/kVV/D8SOtFgmPOJ8o=");
-_c = FaqSection;
-var _c;
-__turbopack_context__.k.register(_c, "FaqSection");
+_c1 = FaqSection;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "ChevronIcon");
+__turbopack_context__.k.register(_c1, "FaqSection");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
