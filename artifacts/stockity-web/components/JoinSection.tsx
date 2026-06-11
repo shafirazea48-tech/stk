@@ -34,8 +34,9 @@ export default function JoinSection() {
               marginBottom: 0,
             }}
           >
-            Join the <span style={{ color: "#0C8DF8" }}>3,5+ million investors</span>
-            {" "}using{"\n"}Stockity
+            Join the <span style={{ color: "#0C8DF8" }}>3,5+ million</span>
+            <br />
+            investors using Stockity
           </p>
 
           {/* Button — full width, 6.94444vw tall, border-radius: 32px, gradient #0990ff→#00eaff */}
@@ -84,7 +85,9 @@ export default function JoinSection() {
             marginBottom: 0,
           }}
         >
-          Join the <span style={{ color: "#0C8DF8" }}>3,5+ million investors</span> using Stockity
+          Join the <span style={{ color: "#0C8DF8" }}>3,5+ million</span>
+          <br />
+          investors using Stockity
         </p>
         <button
           style={{
