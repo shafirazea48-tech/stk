@@ -154,7 +154,7 @@ export default function FaqSection() {
                   itemType="https://schema.org/Answer"
                   itemProp="acceptedAnswer"
                 >
-                  <div itemProp="text" style={{ fontSize: "3.88889vw", lineHeight: "5.55556vw", color: "#82889B", fontFamily: "'Nunito Sans', sans-serif" }}>{faq.answer}</div>
+                  <div itemProp="text" className="faq-mobile-answer" style={{ fontSize: "3.88889vw", lineHeight: "5.55556vw", color: "#82889B", fontFamily: "'Nunito Sans', sans-serif" }}>{faq.answer}</div>
                 </div>
               )}
             </div>
@@ -238,6 +238,14 @@ export default function FaqSection() {
           ))}
         </div>
       </div>
+      <style>{`
+        .faq-mobile-answer p,
+        .faq-mobile-answer li,
+        .faq-mobile-answer span {
+          font-size: 3.88889vw !important;
+          line-height: 5.55556vw !important;
+        }
+      `}</style>
     </section>
   );
 }
