@@ -255,6 +255,8 @@ export default function Header() {
           justifyContent: "space-between",
           boxSizing: "border-box",
           gap: "2.22222vw",
+          position: "relative",
+          zIndex: 300,
         }}
       >
         {/* Left: hamburger + S icon */}
