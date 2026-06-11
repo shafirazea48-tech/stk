@@ -32,7 +32,7 @@ export default function AssetsSection() {
         >
           <span style={{ color: "#0C8DF8" }}>140+ assets</span> to explore
         </p>
-        <div style={{ marginTop: "4.62963vw" }}>
+        <div style={{ marginTop: "auto", marginBottom: "6.94444vw" }}>
           <a href="#" className="btn-primary">
             Start now
           </a>
