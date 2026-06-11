@@ -1058,7 +1058,7 @@ function HeroSection() {
                     justifyContent: "center",
                     boxSizing: "border-box",
                     width: "100%",
-                    minHeight: "80.3819vw",
+                    minHeight: "62vw",
                     padding: "0 4.62963vw",
                     paddingTop: "6.94444vw",
                     paddingBottom: "7.40741vw"
@@ -1270,9 +1270,9 @@ function HeroSection() {
             background-image: url('/images/stockity/src/core/images/trade-smart/main_section_mobile-707d361f38e2d6c3.webp') !important;
           }
           .hero-content {
-            min-height: 167.778vw !important;
+            min-height: 145vw !important;
             padding: 0 8.88889vw !important;
-            padding-top: 44.4444vw !important;
+            padding-top: 28vw !important;
             padding-bottom: 13.3333vw !important;
             justify-content: flex-start !important;
           }
