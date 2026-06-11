@@ -188,19 +188,6 @@ export default function DeviceSection() {
                   alt="QR Code"
                   style={{ width: "6.94444vw", height: "6.94444vw" }}
                 />
-                <a
-                  href="#"
-                  style={{
-                    fontFamily: "'Nunito Sans', sans-serif",
-                    fontWeight: 700,
-                    fontSize: "1.38889vw",
-                    lineHeight: "1.85185vw",
-                    color: "#f4f4f6",
-                    textDecoration: "none",
-                  }}
-                >
-                  Download Android APK &gt;
-                </a>
               </div>
             </div>
           </div>
@@ -365,7 +352,7 @@ export default function DeviceSection() {
                       marginBottom: "3.33333vw",
                     }}
                   >
-                    <GooglePlayIcon />
+                    <GooglePlayIcon size="7.22222vw" />
                     <span style={{ fontSize: "4.44444vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>Google Play</span>
                   </a>
 
@@ -384,28 +371,11 @@ export default function DeviceSection() {
                       textDecoration: "none",
                       width: "100%",
                       boxSizing: "border-box",
-                      marginBottom: "4.44444vw",
                     }}
                   >
-                    <AppleIcon />
+                    <AppleIcon size="7.22222vw" />
                     <span style={{ fontSize: "4.44444vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>App Store</span>
                   </a>
-
-                  {/* Download APK link */}
-                  <p style={{ textAlign: "center" }}>
-                    <a
-                      href="#"
-                      style={{
-                        color: "#f4f4f6",
-                        fontFamily: "'Nunito Sans', sans-serif",
-                        fontSize: "3.88889vw",
-                        fontWeight: 400,
-                        textDecoration: "none",
-                      }}
-                    >
-                      Download Android APK &gt;
-                    </a>
-                  </p>
                 </div>
               </div>
             </div>
