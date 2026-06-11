@@ -47,7 +47,7 @@ export default function TradersNeedsSection() {
         <div
           style={{
             display: "flex",
-            flexDirection: "row-reverse",
+            flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
             gap: "1.38889vw",
@@ -69,30 +69,17 @@ export default function TradersNeedsSection() {
             style={{ width: "auto", height: "auto" }}
             unoptimized
           />
-          <div>
-            <p
-              style={{
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontWeight: 700,
-                fontSize: "1.85185vw",
-                lineHeight: "2.31481vw",
-                color: "#f4f4f6",
-              }}
-            >
-              4.8
-            </p>
-            <p
-              style={{
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontWeight: 400,
-                fontSize: "1.85185vw",
-                lineHeight: "2.31481vw",
-                color: "#f4f4f6",
-              }}
-            >
-              Rating
-            </p>
-          </div>
+          <p
+            style={{
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: "1.85185vw",
+              lineHeight: "2.31481vw",
+              color: "#f4f4f6",
+            }}
+          >
+            4.8 Rating
+          </p>
         </div>
       </div>
 
