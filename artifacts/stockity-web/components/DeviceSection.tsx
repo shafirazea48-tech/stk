@@ -57,7 +57,7 @@ export default function DeviceSection() {
             fontWeight: 900,
             fontSize: "3.7037vw",
             lineHeight: "4.16667vw",
-            padding: "11.5741vw 1.85185vw 3.24074vw",
+            padding: "8.33333vw 1.85185vw 3.24074vw",
             textAlign: "center",
             width: "100%",
           }}

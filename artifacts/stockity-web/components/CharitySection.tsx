@@ -10,7 +10,7 @@ export default function CharitySection() {
           backgroundPosition: "bottom",
           backgroundRepeat: "no-repeat",
           backgroundSize: "contain",
-          paddingTop: "13.8889vw",
+          paddingTop: "9.25926vw",
           paddingBottom: "41.4352vw",
           boxSizing: "border-box",
         }}

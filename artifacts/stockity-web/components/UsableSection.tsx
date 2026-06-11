@@ -13,7 +13,7 @@ export default function UsableSection() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          padding: "14.8148vw 1.85185vw",
+          padding: "9.25926vw 1.85185vw",
           boxSizing: "border-box",
           textAlign: "center",
         }}
@@ -61,7 +61,7 @@ export default function UsableSection() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20vw 4.44444vw",
+          padding: "13.3333vw 4.44444vw",
           boxSizing: "border-box",
           textAlign: "center",
         }}
