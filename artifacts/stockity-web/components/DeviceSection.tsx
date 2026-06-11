@@ -215,15 +215,17 @@ export default function DeviceSection() {
             <div style={{ minWidth: "100%", boxSizing: "border-box" }}>
               <div
                 style={{
-                  background: "#161616",
+                  backgroundImage: "url('/images/stockity/src/core/images/device/mob_desktop-873a8cb8ab00908e.webp')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center bottom",
+                  backgroundRepeat: "no-repeat",
                   borderRadius: "4.44444vw",
                   overflow: "hidden",
-                  position: "relative",
-                  minHeight: "155.556vw",
+                  minHeight: "160vw",
                 }}
               >
-                {/* Card content */}
-                <div style={{ padding: "8.88889vw 6.66667vw 6.66667vw", position: "relative", zIndex: 2 }}>
+                {/* Card content overlaid at top */}
+                <div style={{ padding: "8.88889vw 6.66667vw 6.66667vw" }}>
                   <p
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
@@ -245,7 +247,7 @@ export default function DeviceSection() {
                       display: "flex",
                       alignItems: "center",
                       gap: "3.33333vw",
-                      background: "#111",
+                      background: "rgba(20,20,20,0.92)",
                       border: "1px solid rgba(255,255,255,0.15)",
                       borderRadius: "3.33333vw",
                       padding: "4.44444vw 5.55556vw",
@@ -269,7 +271,7 @@ export default function DeviceSection() {
                       display: "flex",
                       alignItems: "center",
                       gap: "3.33333vw",
-                      background: "#111",
+                      background: "rgba(20,20,20,0.92)",
                       border: "1px solid rgba(255,255,255,0.15)",
                       borderRadius: "3.33333vw",
                       padding: "4.44444vw 5.55556vw",
@@ -302,26 +304,6 @@ export default function DeviceSection() {
                     </a>
                   </p>
                 </div>
-
-                {/* Phone image — fills bottom of card, large */}
-                <div
-                  style={{
-                    position: "absolute",
-                    bottom: 0,
-                    left: 0,
-                    right: 0,
-                    height: "90vw",
-                    overflow: "hidden",
-                  }}
-                >
-                  <Image
-                    src="/images/stockity/src/core/images/device/mob_desktop-873a8cb8ab00908e.webp"
-                    alt="Stockity mobile app"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "center top" }}
-                    unoptimized
-                  />
-                </div>
               </div>
             </div>
 
@@ -329,15 +311,17 @@ export default function DeviceSection() {
             <div style={{ minWidth: "100%", boxSizing: "border-box" }}>
               <div
                 style={{
-                  background: "#161616",
+                  backgroundImage: "url('/images/stockity/src/core/images/device/web_desktop-358cd5506175c9cf.webp')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center bottom",
+                  backgroundRepeat: "no-repeat",
                   borderRadius: "4.44444vw",
                   overflow: "hidden",
-                  position: "relative",
-                  minHeight: "155.556vw",
+                  minHeight: "160vw",
                 }}
               >
-                {/* Card content */}
-                <div style={{ padding: "8.88889vw 6.66667vw 6.66667vw", position: "relative", zIndex: 2 }}>
+                {/* Card content overlaid at top */}
+                <div style={{ padding: "8.88889vw 6.66667vw 6.66667vw" }}>
                   <p
                     style={{
                       fontFamily: "'Nunito Sans', sans-serif",
@@ -360,7 +344,7 @@ export default function DeviceSection() {
                       alignItems: "center",
                       justifyContent: "center",
                       gap: "2.22222vw",
-                      background: "#111",
+                      background: "rgba(20,20,20,0.92)",
                       border: "1px solid rgba(255,255,255,0.15)",
                       borderRadius: "3.33333vw",
                       padding: "4.44444vw 5.55556vw",
@@ -376,26 +360,6 @@ export default function DeviceSection() {
                     <WebIcon />
                     Open Web Platform
                   </a>
-                </div>
-
-                {/* Web platform image — large */}
-                <div
-                  style={{
-                    position: "absolute",
-                    bottom: 0,
-                    left: 0,
-                    right: 0,
-                    height: "90vw",
-                    overflow: "hidden",
-                  }}
-                >
-                  <Image
-                    src="/images/stockity/src/core/images/device/web_desktop-358cd5506175c9cf.webp"
-                    alt="Stockity web platform"
-                    fill
-                    style={{ objectFit: "cover", objectPosition: "center top" }}
-                    unoptimized
-                  />
                 </div>
               </div>
             </div>
