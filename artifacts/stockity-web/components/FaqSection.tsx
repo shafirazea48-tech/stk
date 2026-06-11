@@ -9,7 +9,7 @@ const faqs = [
       <ol style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column" as const, gap: 10 }}>
         {["Register in seconds", "Deposit easily", "Learn for free", "Predict assets moves", "Withdraw anytime"].map(
           (step, i) => (
-            <li key={step} style={{ display: "flex", alignItems: "flex-start", gap: 10, color: "#82889B", fontSize: 14 }}>
+            <li key={step} style={{ display: "flex", alignItems: "flex-start", gap: 10, color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
               <span
                 style={{
                   flexShrink: 0,
@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "How fast will I get my withdrawals?",
     answer: (
-      <p style={{ color: "#82889B", fontSize: 14, lineHeight: 1.65 }}>
+      <p style={{ color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
         All requests are processed within{" "}
         <span style={{ color: "#0C8DF8", fontWeight: 600 }}>1-2 hours</span>. Our
         financial team works around the clock to ensure fast and secure transactions.
@@ -48,7 +48,7 @@ const faqs = [
   {
     question: "Can I practice first?",
     answer: (
-      <p style={{ color: "#82889B", fontSize: 14, lineHeight: 1.65 }}>
+      <p style={{ color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
         Yes! You get a{" "}
         <span style={{ color: "#0C8DF8", fontWeight: 600 }}>$10,000 demo account</span>{" "}
         completely free. Use it to practice trading strategies, explore assets, and test
@@ -59,7 +59,7 @@ const faqs = [
   {
     question: "Are there any special events?",
     answer: (
-      <p style={{ color: "#82889B", fontSize: 14, lineHeight: 1.65 }}>
+      <p style={{ color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
         Of course! Subscribe to our e-mails to get notified about new activities you can
         participate in. We regularly host tournaments, contests, and exclusive promotions
         for our users.
@@ -231,7 +231,7 @@ export default function FaqSection() {
                   itemType="https://schema.org/Answer"
                   itemProp="acceptedAnswer"
                 >
-                  <div itemProp="text" style={{ fontSize: "1.38889vw", lineHeight: "1.85185vw", color: "#82889B" }}>{faq.answer}</div>
+                  <div itemProp="text" style={{ fontSize: "1.62037vw", lineHeight: "2.31481vw", color: "#82889B" }}>{faq.answer}</div>
                 </div>
               )}
             </div>

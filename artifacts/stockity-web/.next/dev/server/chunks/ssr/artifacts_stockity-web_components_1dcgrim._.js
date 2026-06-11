@@ -3625,7 +3625,8 @@ const faqs = [
                         alignItems: "flex-start",
                         gap: 10,
                         color: "#82889B",
-                        fontSize: 14
+                        fontSize: "1.62037vw",
+                        lineHeight: "2.31481vw"
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3667,8 +3668,8 @@ const faqs = [
         answer: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             style: {
                 color: "#82889B",
-                fontSize: 14,
-                lineHeight: 1.65
+                fontSize: "1.62037vw",
+                lineHeight: "2.31481vw"
             },
             children: [
                 "All requests are processed within",
@@ -3697,8 +3698,8 @@ const faqs = [
         answer: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             style: {
                 color: "#82889B",
-                fontSize: 14,
-                lineHeight: 1.65
+                fontSize: "1.62037vw",
+                lineHeight: "2.31481vw"
             },
             children: [
                 "Yes! You get a",
@@ -3728,8 +3729,8 @@ const faqs = [
         answer: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
             style: {
                 color: "#82889B",
-                fontSize: 14,
-                lineHeight: 1.65
+                fontSize: "1.62037vw",
+                lineHeight: "2.31481vw"
             },
             children: "Of course! Subscribe to our e-mails to get notified about new activities you can participate in. We regularly host tournaments, contests, and exclusive promotions for our users."
         }, void 0, false, {
@@ -3994,8 +3995,8 @@ function FaqSection() {
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             itemProp: "text",
                                             style: {
-                                                fontSize: "1.38889vw",
-                                                lineHeight: "1.85185vw",
+                                                fontSize: "1.62037vw",
+                                                lineHeight: "2.31481vw",
                                                 color: "#82889B"
                                             },
                                             children: faq.answer
