@@ -1,3 +1,5 @@
+"use client";
+
 export default function WithdrawSection() {
   const logos = [
     { num: 1, file: "/images/stockity/src/core/images/withdraw/logo_1.svg" },
@@ -8,20 +10,78 @@ export default function WithdrawSection() {
     { num: 6, file: "/images/stockity/src/core/images/withdraw/logo_6.svg" },
   ];
 
+  const LogoCard = ({ num, file }: { num: number; file: string }) => (
+    <div
+      style={{
+        boxSizing: "border-box",
+        background: "#161616",
+        borderRadius: "32px",
+        flexShrink: 0,
+        width: "264px",
+        height: "120px",
+        padding: "32px 40px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <img
+        src={file}
+        alt={`Payment method ${num}`}
+        style={{ width: "168px", height: "56px", objectFit: "contain" }}
+      />
+    </div>
+  );
+
+  const LogoCardDesktop = ({ num, file }: { num: number; file: string }) => (
+    <div
+      style={{
+        boxSizing: "border-box",
+        background: "#161616",
+        borderRadius: "1.85185vw",
+        flexShrink: 0,
+        width: "15.2778vw",
+        height: "6.94444vw",
+        padding: "1.85185vw 2.31481vw",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <img
+        src={file}
+        alt={`Payment method ${num}`}
+        style={{ width: "9.72222vw", height: "3.24074vw", objectFit: "contain" }}
+      />
+    </div>
+  );
+
   return (
     <section id="withdraw" style={{ background: "#000", overflow: "hidden" }}>
-      {/* Desktop */}
-      <div
-        className="hidden md:flex"
-        style={{
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "100%",
-        }}
-      >
-        {/* Title: lp-font-black-title = 3.7037vw/4.16667vw, padding: 14.8148vw 1.85185vw 3.24074vw */}
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%" }}>
+
+        {/* Title — mobile */}
         <p
+          className="block md:hidden"
+          style={{
+            boxSizing: "border-box",
+            textAlign: "center",
+            color: "#f4f4f6",
+            fontFamily: "'Nunito Sans', sans-serif",
+            fontWeight: 900,
+            fontSize: "8.33333vw",
+            lineHeight: "10.5556vw",
+            padding: "20vw 4.44444vw 6.66667vw",
+            width: "100%",
+          }}
+        >
+          Deposit &amp; withdraw using{" "}
+          <span style={{ color: "#0C8DF8" }}>local payment methods</span>
+        </p>
+
+        {/* Title — desktop */}
+        <p
+          className="hidden md:block"
           style={{
             boxSizing: "border-box",
             textAlign: "center",
@@ -38,102 +98,97 @@ export default function WithdrawSection() {
           <span style={{ color: "#0C8DF8" }}>local payment methods</span>
         </p>
 
-        {/* Payment logo cards */}
+        {/* ── Mobile: infinite auto-scroll slider ── */}
+        <div
+          className="flex md:hidden"
+          style={{
+            width: "100%",
+            overflow: "hidden",
+            gap: "16px",
+          }}
+        >
+          {/* First copy */}
+          <div
+            style={{
+              display: "flex",
+              gap: "16px",
+              animation: "scroll-left 30s linear infinite",
+              willChange: "transform",
+            }}
+          >
+            {logos.map((l) => (
+              <LogoCard key={l.num} {...l} />
+            ))}
+          </div>
+          {/* Second copy — creates seamless loop */}
+          <div
+            style={{
+              display: "flex",
+              gap: "16px",
+              animation: "scroll-left 30s linear infinite",
+              willChange: "transform",
+            }}
+          >
+            {logos.map((l) => (
+              <LogoCard key={l.num} {...l} />
+            ))}
+          </div>
+        </div>
+
+        {/* ── Desktop: static flex row ── */}
+        <div
+          className="hidden md:flex"
+          style={{
+            boxSizing: "border-box",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "0.925926vw",
+            width: "100%",
+            padding: "0 1.85185vw",
+          }}
+        >
+          {logos.map((l) => (
+            <LogoCardDesktop key={l.num} {...l} />
+          ))}
+        </div>
+
+        {/* Show more button */}
         <div
           style={{
-            display: "flex",
-            gap: "4.44444vw",
-            padding: "0 1.85185vw",
-            flexWrap: "wrap",
-            justifyContent: "center",
             boxSizing: "border-box",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
             width: "100%",
+            marginTop: "6.66667vw",
+            padding: "0 2.22222vw",
             paddingBottom: "9.25926vw",
           }}
         >
-          {logos.map((logo) => (
-            <div
-              key={logo.num}
-              style={{
-                boxSizing: "border-box",
-                background: "#161616",
-                borderRadius: "1.85185vw",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexShrink: 0,
-                width: "15.2778vw",
-                height: "6.94444vw",
-                padding: "1.85185vw 2.31481vw",
-              }}
-            >
-              <img
-                src={logo.file}
-                alt={`Payment method ${logo.num}`}
-                style={{
-                  width: "9.72222vw",
-                  height: "3.24074vw",
-                  objectFit: "contain",
-                }}
-              />
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Mobile */}
-      <div
-        className="flex md:hidden"
-        style={{
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "100%",
-        }}
-      >
-        <p
-          style={{
-            boxSizing: "border-box",
-            textAlign: "center",
-            color: "#f4f4f6",
-            fontFamily: "'Nunito Sans', sans-serif",
-            fontWeight: 900,
-            fontSize: "8.33333vw",
-            lineHeight: "10.5556vw",
-            padding: "20vw 4.44444vw 6.66667vw",
-            width: "100%",
-          }}
-        >
-          Deposit &amp; withdraw using{" "}
-          <span style={{ color: "#0C8DF8" }}>local payment methods</span>
-        </p>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(2, 1fr)",
-            gap: "4.44444vw",
-            padding: "0 4.44444vw",
-            width: "100%",
-            boxSizing: "border-box",
-            paddingBottom: "11.1111vw",
-          }}
-        >
-          {logos.map((logo) => (
-            <div
-              key={logo.num}
-              style={{
-                background: "#161616",
-                borderRadius: "8.88889vw",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                height: "33.3333vw",
-                padding: "8.88889vw 11.1111vw",
-              }}
-            >
-              <img src={logo.file} alt="" style={{ width: "100%", height: "100%", objectFit: "contain" }} />
-            </div>
-          ))}
+          <a
+            href="#"
+            style={{
+              boxSizing: "border-box",
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              textAlign: "center",
+              background: "rgba(255,255,255,0.15)",
+              color: "#fff",
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: "clamp(14px, 1.38889vw, 20px)",
+              textDecoration: "none",
+              cursor: "pointer",
+              borderRadius: "clamp(8px, 0.925926vw, 16px)",
+              padding: "clamp(10px, 1.38889vw, 20px) clamp(24px, 4.62963vw, 64px)",
+              transition: "background 0.2s",
+            }}
+            onMouseEnter={(e) => ((e.target as HTMLElement).style.background = "#3b3b3b")}
+            onMouseLeave={(e) => ((e.target as HTMLElement).style.background = "rgba(255,255,255,0.15)")}
+          >
+            Show more
+          </a>
         </div>
       </div>
     </section>
