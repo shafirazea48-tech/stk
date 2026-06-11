@@ -1,80 +1,111 @@
+"use client";
+
 export default function JoinSection() {
   return (
-    <section style={{ background: "#0d0d0d", padding: "80px 0" }}>
-      <div style={{ maxWidth: 1440, margin: "0 auto", padding: "0 26px" }}>
+    <>
+      {/* Desktop */}
+      <section
+        className="hidden md:block"
+        style={{
+          background: "transparent",
+          boxSizing: "border-box",
+        }}
+      >
         <div
           style={{
-            position: "relative",
-            borderRadius: 24,
-            overflow: "hidden",
-            background: "#161616",
-            border: "1px solid rgba(255,255,255,0.07)",
-            padding: "80px 32px",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            padding: "14.8148vw 1.85185vw",
+            boxSizing: "border-box",
             textAlign: "center",
           }}
         >
-          {/* Radial glow */}
-          <div
+          {/* Title: "Join the 3,5+ million investors using Stockity"
+              lp-font-bold-title-big-small: desktop 6.94444vw/6.94444vw */}
+          <p
             style={{
-              position: "absolute",
-              inset: 0,
-              background:
-                "radial-gradient(ellipse 60% 70% at 50% 50%, rgba(12,141,248,0.07) 0%, transparent 70%)",
-              pointerEvents: "none",
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: "6.94444vw",
+              lineHeight: "6.94444vw",
+              color: "#fff",
+              marginBottom: 0,
             }}
-          />
+          >
+            Join the <span style={{ color: "#0C8DF8" }}>3,5+ million investors</span>
+            {" "}using{"\n"}Stockity
+          </p>
 
-          <div style={{ position: "relative", zIndex: 1 }}>
-            <h2
-              style={{
-                fontSize: "clamp(28px,4vw,56px)",
-                fontWeight: 900,
-                color: "#F4F4F6",
-                lineHeight: 1.15,
-                marginBottom: 40,
-                maxWidth: 640,
-                margin: "0 auto 40px",
-              }}
-            >
-              Join the{" "}
-              <span style={{ color: "#0C8DF8" }}>3,5+ million investors</span>{" "}
-              using Stockity
-            </h2>
-
-            <a
-              href="#"
-              className="btn-primary"
-              style={{ fontSize: 18, padding: "18px 56px", borderRadius: 14 }}
-            >
-              Start Now
-            </a>
-
-            <div
-              style={{
-                marginTop: 56,
-                display: "flex",
-                flexWrap: "wrap",
-                justifyContent: "center",
-                gap: "24px 56px",
-              }}
-            >
-              {[
-                { value: "3.5M+", label: "Active investors" },
-                { value: "$10", label: "Min. deposit" },
-                { value: "1-2h", label: "Withdrawal time" },
-                { value: "24/7", label: "Support" },
-              ].map((stat) => (
-                <div key={stat.label} style={{ textAlign: "center" }}>
-                  <p style={{ fontSize: "clamp(24px,2.5vw,36px)", fontWeight: 900, color: "#F4F4F6" }}>
-                    {stat.value}
-                  </p>
-                  <p style={{ fontSize: 13, color: "#82889B", marginTop: 4 }}>{stat.label}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          {/* Button — full width, 6.94444vw tall, border-radius: 32px, gradient #0990ff→#00eaff */}
+          <button
+            style={{
+              background: "linear-gradient(90deg, #0990ff 0%, #00eaff 100%)",
+              height: "6.94444vw",
+              width: "100%",
+              marginTop: "5.55556vw",
+              borderRadius: "32px",
+              border: "none",
+              cursor: "pointer",
+              color: "#fff",
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 700,
+              fontSize: "2.31481vw",
+              lineHeight: "2.31481vw",
+              boxShadow: "0 10px 60px 0 rgba(93,139,192,.5)",
+              transition: "opacity 0.2s",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.9")}
+            onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
+          >
+            Start Now
+          </button>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* Mobile */}
+      <section
+        className="block md:hidden"
+        style={{
+          background: "transparent",
+          padding: "20vw 4.44444vw",
+          boxSizing: "border-box",
+          textAlign: "center",
+        }}
+      >
+        <p
+          style={{
+            fontFamily: "'Nunito Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "10.5556vw",
+            lineHeight: "13.3333vw",
+            color: "#f4f4f6",
+            marginBottom: 0,
+          }}
+        >
+          Join the <span style={{ color: "#0C8DF8" }}>3,5+ million investors</span> using Stockity
+        </p>
+        <button
+          style={{
+            background: "linear-gradient(90deg, #0990ff 0%, #00eaff 100%)",
+            height: "20vw",
+            width: "100%",
+            marginTop: "13.3333vw",
+            borderRadius: "2.22222vw",
+            border: "none",
+            cursor: "pointer",
+            color: "#fff",
+            fontFamily: "'Nunito Sans', sans-serif",
+            fontWeight: 700,
+            fontSize: "5.55556vw",
+            lineHeight: "7.77778vw",
+            boxShadow: "0 10px 60px 0 rgba(93,139,192,.5)",
+          }}
+        >
+          Start Now
+        </button>
+      </section>
+    </>
   );
 }

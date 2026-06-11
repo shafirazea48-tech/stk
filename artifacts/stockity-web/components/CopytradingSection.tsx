@@ -1,88 +1,122 @@
-import Image from "next/image";
-
 export default function CopytradingSection() {
   return (
-    <section style={{ position: "relative", overflow: "hidden", background: "#000" }}>
+    <section id="copytrading" style={{ background: "#000", overflow: "hidden" }}>
+      {/* Desktop: copytrading__wrapper_desktop — background image, min-height: 84.7222vw */}
       <div
+        className="hidden md:flex"
         style={{
-          position: "relative",
-          minHeight: "clamp(420px, 55vw, 720px)",
-          display: "flex",
-          alignItems: "center",
+          backgroundImage: "url('/images/stockity/src/core/images/copytrading/section_copytrading_desktop-7481b3aa75b4535e.webp')",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          justifyContent: "center",
+          alignItems: "flex-start",
+          width: "100%",
+          minHeight: "84.7222vw",
         }}
       >
-        {/* Background image */}
-        <div style={{ position: "absolute", inset: 0 }}>
-          <Image
-            src="/images/stockity/src/core/images/copytrading/section_copytrading_desktop-7481b3aa75b4535e.webp"
-            alt="Copy trading"
-            fill
-            style={{ objectFit: "cover", objectPosition: "center" }}
-          />
-          <div
-            style={{
-              position: "absolute",
-              inset: 0,
-              background:
-                "linear-gradient(to right, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.2) 100%)",
-            }}
-          />
-        </div>
-
+        {/* copytrading__content: padding-top: 11.5741vw, padding: 0 1.85185vw */}
         <div
           style={{
-            position: "relative",
-            zIndex: 10,
-            maxWidth: 1440,
-            margin: "0 auto",
-            padding: "80px 26px",
+            boxSizing: "border-box",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+            paddingTop: "11.5741vw",
+            paddingLeft: "1.85185vw",
+            paddingRight: "1.85185vw",
+            textAlign: "center",
+          }}
+        >
+          {/* Title: 3.7037vw/4.16667vw */}
+          <p
+            style={{
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 900,
+              fontSize: "3.7037vw",
+              lineHeight: "4.16667vw",
+              color: "#fff",
+              maxWidth: "100%",
+            }}
+          >
+            Learn from the <span style={{ color: "#0C8DF8" }}>experts</span>
+          </p>
+
+          {/* Subtitle: lp-font-regular-subtitle = 1.85185vw/2.31481vw */}
+          <p
+            style={{
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 400,
+              fontSize: "1.85185vw",
+              lineHeight: "2.31481vw",
+              color: "#f4f4f6",
+              marginTop: "0.925926vw",
+              marginBottom: "2.77778vw",
+            }}
+          >
+            Study successful investment strategies and apply them to your routine
+          </p>
+
+          <a href="#" className="btn-primary">
+            Start now
+          </a>
+        </div>
+      </div>
+
+      {/* Mobile: copytrading__wrapper_mobile */}
+      <div className="flex md:hidden" style={{ flexDirection: "column" }}>
+        {/* Background image */}
+        <div
+          style={{
+            backgroundImage: "url('/images/stockity/src/core/images/copytrading/section_copytrading_mobile-2ec72b466737d77d.webp')",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            width: "100%",
+            height: "88.8889vw",
+          }}
+        />
+        {/* Content */}
+        <div
+          style={{
+            boxSizing: "border-box",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "11.1111vw 4.44444vw",
+            textAlign: "center",
             width: "100%",
           }}
         >
-          <div style={{ maxWidth: 560 }}>
-            <div
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: 8,
-                background: "rgba(12,141,248,0.12)",
-                border: "1px solid rgba(12,141,248,0.25)",
-                borderRadius: 999,
-                padding: "6px 16px",
-                marginBottom: 24,
-              }}
-            >
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-                <path d="M7 1l1.5 3 3.5.5-2.5 2.5.6 3.5L7 9l-3.1 1.5.6-3.5L2 4.5 5.5 4 7 1z" fill="#0C8DF8"/>
-              </svg>
-              <span style={{ fontSize: 13, fontWeight: 700, color: "#0C8DF8" }}>Copy Trading</span>
-            </div>
-
-            <h2
-              style={{
-                fontSize: "clamp(28px,3.5vw,52px)",
-                fontWeight: 900,
-                color: "#F4F4F6",
-                lineHeight: 1.15,
-                marginBottom: 16,
-              }}
-            >
-              Learn from the{" "}
-              <span style={{ color: "#0C8DF8" }}>experts</span>
-            </h2>
-            <p
-              style={{
-                color: "#82889B",
-                fontSize: "clamp(14px,1.2vw,18px)",
-                lineHeight: 1.65,
-                marginBottom: 36,
-                maxWidth: 440,
-              }}
-            >
-              Study successful investment strategies and apply them to your routine
-            </p>
-
-            <a href="#" className="btn-primary" style={{ fontSize: 16, padding: "14px 36px" }}>
+          <p
+            style={{
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 900,
+              fontSize: "8.33333vw",
+              lineHeight: "10.5556vw",
+              color: "#f4f4f6",
+              maxWidth: "83.3333vw",
+            }}
+          >
+            Learn from the <span style={{ color: "#0C8DF8" }}>experts</span>
+          </p>
+          <p
+            style={{
+              fontFamily: "'Nunito Sans', sans-serif",
+              fontSize: "5vw",
+              lineHeight: "6.66667vw",
+              color: "#f4f4f6",
+              marginTop: "2.22222vw",
+              marginBottom: "8.88889vw",
+            }}
+          >
+            Study successful investment strategies and apply them to your routine
+          </p>
+          <div style={{ width: "100%" }}>
+            <a href="#" className="btn-primary" style={{ width: "100%" }}>
               Start now
             </a>
           </div>

@@ -1,151 +1,220 @@
-import Image from "next/image";
-
 export default function ProtectSection() {
   return (
-    <section style={{ background: "#000", padding: "80px 0" }}>
-      <div style={{ maxWidth: 1440, margin: "0 auto", padding: "0 26px" }}>
-        <h2
+    <section id="protect" style={{ background: "#000", overflow: "hidden" }}>
+      {/* Desktop */}
+      <div className="hidden md:block">
+        {/* Title: lp-font-black-title = 3.7037vw, padding: 14.8148vw 1.85185vw 7.40741vw */}
+        <p
           style={{
-            fontSize: "clamp(28px,3vw,44px)",
-            fontWeight: 900,
-            color: "#F4F4F6",
+            boxSizing: "border-box",
             textAlign: "center",
-            marginBottom: 48,
+            color: "#fff",
+            fontFamily: "'Nunito Sans', sans-serif",
+            fontWeight: 900,
+            fontSize: "3.7037vw",
+            lineHeight: "4.16667vw",
+            padding: "14.8148vw 1.85185vw 7.40741vw",
+            width: "100%",
           }}
         >
           Everything you want in a platform
-        </h2>
+        </p>
 
+        {/* protect__grid: grid 2x2, gap: 16px */}
         <div
           style={{
+            boxSizing: "border-box",
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-            gap: 20,
+            gridTemplateColumns: "repeat(2, 1fr)",
+            gap: 16,
+            padding: "0 1.85185vw",
+            paddingBottom: "9.25926vw",
           }}
         >
-          {/* Card 1: Fund protection */}
+          {/* Card 1: image_3 — fund protection */}
           <div
             style={{
-              position: "relative",
-              overflow: "hidden",
-              borderRadius: 20,
-              background: "#161616",
-              border: "1px solid rgba(255,255,255,0.07)",
-              minHeight: 380,
+              boxSizing: "border-box",
+              backgroundImage: "url('/images/stockity/src/core/images/protect/card_3_desktop-467ada6d994d3f16.webp')",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              borderRadius: "2.31481vw",
+              minHeight: "38.1944vw",
               display: "flex",
-              flexDirection: "column",
-              justifyContent: "flex-end",
+              justifyContent: "center",
+              position: "relative",
             }}
           >
-            <div style={{ position: "absolute", inset: 0 }}>
-              <Image
-                src="/images/stockity/src/core/images/protect/card_3_desktop-467ada6d994d3f16.webp"
-                alt="Fund protection"
-                fill
-                style={{ objectFit: "cover", objectPosition: "top" }}
-              />
-              <div
+            <div
+              style={{
+                textAlign: "center",
+                boxSizing: "border-box",
+                zIndex: 10,
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                paddingTop: "2.77778vw",
+                paddingLeft: "2.77778vw",
+                paddingRight: "2.77778vw",
+                width: "100%",
+              }}
+            >
+              {/* lp-font-black-subtitle = 2.77778vw/3.24074vw */}
+              <p
                 style={{
-                  position: "absolute",
-                  inset: 0,
-                  background:
-                    "linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%)",
-                }}
-              />
-            </div>
-            <div style={{ position: "relative", zIndex: 10, padding: "32px 28px" }}>
-              <h3
-                style={{
-                  fontSize: "clamp(20px,2vw,28px)",
+                  textAlign: "center",
+                  color: "#fff",
+                  fontFamily: "'Nunito Sans', sans-serif",
                   fontWeight: 900,
-                  color: "#F4F4F6",
-                  lineHeight: 1.25,
+                  fontSize: "2.77778vw",
+                  lineHeight: "3.24074vw",
                 }}
               >
                 High-level{" "}
                 <span style={{ color: "#0C8DF8" }}>fund protection</span>
                 {" "}and transactions
-              </h3>
+              </p>
             </div>
           </div>
 
-          {/* Card 2: No hidden fees */}
+          {/* Card 2: has-animation — chart / no hidden fees */}
           <div
             style={{
-              position: "relative",
-              overflow: "hidden",
-              borderRadius: 20,
+              boxSizing: "border-box",
               background: "#161616",
-              border: "1px solid rgba(255,255,255,0.07)",
-              minHeight: 380,
+              backgroundImage: "radial-gradient(ellipse 70% 70% at 50% 30%, rgba(12,141,248,0.12) 0%, transparent 70%)",
+              borderRadius: "2.31481vw",
+              minHeight: "38.1944vw",
               display: "flex",
               flexDirection: "column",
-              justifyContent: "space-between",
-              padding: 28,
+              justifyContent: "flex-start",
+              alignItems: "center",
+              position: "relative",
+              overflow: "hidden",
             }}
           >
-            <div
-              style={{
-                position: "absolute",
-                inset: 0,
-                background:
-                  "radial-gradient(circle at 70% 30%, rgba(12,141,248,0.08) 0%, transparent 60%)",
-                pointerEvents: "none",
-              }}
-            />
-            {/* Chart */}
+            {/* Animated chart visual */}
             <div
               style={{
                 flex: 1,
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                paddingBottom: 16,
-                position: "relative",
-                zIndex: 1,
+                padding: "2.77778vw",
               }}
             >
-              <svg viewBox="0 0 320 180" fill="none" style={{ width: "100%", maxWidth: 320 }}>
-                {[0, 45, 90, 135, 180].map((y) => (
-                  <line key={y} x1="0" y1={y} x2="320" y2={y} stroke="rgba(255,255,255,0.06)" strokeWidth="1"/>
+              <svg viewBox="0 0 480 270" fill="none" style={{ width: "100%" }}>
+                {/* Grid lines */}
+                {[0, 54, 108, 162, 216, 270].map((y) => (
+                  <line key={y} x1="0" y1={y} x2="480" y2={y} stroke="rgba(255,255,255,0.05)" strokeWidth="1"/>
                 ))}
+                {/* Chart area */}
+                <defs>
+                  <linearGradient id="pg1" x1="0" y1="0" x2="0" y2="1">
+                    <stop stopColor="#0990ff" stopOpacity="0.3"/>
+                    <stop offset="1" stopColor="#0990ff" stopOpacity="0"/>
+                  </linearGradient>
+                </defs>
                 <path
-                  d="M0 160 L40 125 L80 138 L130 90 L170 105 L210 55 L260 68 L300 22 L320 35 L320 180 L0 180Z"
-                  fill="url(#pg)"
-                  opacity="0.35"
+                  d="M0 240 L60 200 L120 215 L195 140 L255 160 L315 85 L390 105 L450 45 L480 60 L480 270 L0 270Z"
+                  fill="url(#pg1)"
                 />
                 <path
-                  d="M0 160 L40 125 L80 138 L130 90 L170 105 L210 55 L260 68 L300 22 L320 35"
-                  stroke="#0C8DF8"
-                  strokeWidth="2.5"
+                  d="M0 240 L60 200 L120 215 L195 140 L255 160 L315 85 L390 105 L450 45 L480 60"
+                  stroke="url(#lineGrad)"
+                  strokeWidth="3"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />
-                {[[210, 55], [300, 22]].map(([cx, cy]) => (
-                  <circle key={`${cx},${cy}`} cx={cx} cy={cy} r="5" fill="#0C8DF8"/>
-                ))}
                 <defs>
-                  <linearGradient id="pg" x1="0" y1="0" x2="0" y2="1">
-                    <stop stopColor="#0C8DF8"/>
-                    <stop offset="1" stopColor="#0C8DF8" stopOpacity="0"/>
+                  <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+                    <stop stopColor="#0990ff"/>
+                    <stop offset="1" stopColor="#00d7eb"/>
                   </linearGradient>
                 </defs>
+                {[[315, 85], [450, 45]].map(([cx, cy]) => (
+                  <circle key={`${cx},${cy}`} cx={cx} cy={cy} r="6" fill="#0990ff" stroke="#fff" strokeWidth="2"/>
+                ))}
               </svg>
             </div>
-            <div style={{ position: "relative", zIndex: 1 }}>
-              <h3
+
+            {/* Subtitle */}
+            <div
+              style={{
+                textAlign: "center",
+                boxSizing: "border-box",
+                paddingBottom: "2.77778vw",
+                paddingLeft: "2.77778vw",
+                paddingRight: "2.77778vw",
+              }}
+            >
+              <p
                 style={{
-                  fontSize: "clamp(20px,2vw,28px)",
+                  color: "#fff",
+                  fontFamily: "'Nunito Sans', sans-serif",
                   fontWeight: 900,
-                  color: "#F4F4F6",
-                  lineHeight: 1.25,
+                  fontSize: "2.77778vw",
+                  lineHeight: "3.24074vw",
+                  textAlign: "center",
                 }}
               >
                 Transparent investing
                 <br />
                 <span style={{ color: "#0C8DF8" }}>with no hidden fees</span>
-              </h3>
+              </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mobile */}
+      <div className="block md:hidden">
+        <p
+          style={{
+            textAlign: "center",
+            color: "#f4f4f6",
+            fontFamily: "'Nunito Sans', sans-serif",
+            fontWeight: 900,
+            fontSize: "8.33333vw",
+            lineHeight: "10.5556vw",
+            padding: "20vw 4.44444vw 6.66667vw",
+          }}
+        >
+          Everything you want in a platform
+        </p>
+        <div style={{ display: "flex", flexDirection: "column", gap: "4.44444vw", padding: "0 2.22222vw", paddingBottom: "11.1111vw" }}>
+          <div
+            style={{
+              backgroundImage: "url('/images/stockity/src/core/images/protect/card_3_mobile-54a0fa1fcfbf9102.webp')",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+              borderRadius: "3.33333vw",
+              minHeight: "95.5556vw",
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            <p style={{ color: "#fff", fontFamily: "'Nunito Sans', sans-serif", fontWeight: 900, fontSize: "6.66667vw", lineHeight: "8.88889vw", textAlign: "center", padding: "8.88889vw 4.44444vw" }}>
+              High-level <span style={{ color: "#0C8DF8" }}>fund protection</span> and transactions
+            </p>
+          </div>
+          <div
+            style={{
+              background: "#161616",
+              borderRadius: "3.33333vw",
+              minHeight: "95.5556vw",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "flex-end",
+              alignItems: "center",
+              padding: "8.88889vw 4.44444vw",
+            }}
+          >
+            <p style={{ color: "#fff", fontFamily: "'Nunito Sans', sans-serif", fontWeight: 900, fontSize: "6.66667vw", lineHeight: "8.88889vw", textAlign: "center" }}>
+              Transparent investing<br /><span style={{ color: "#0C8DF8" }}>with no hidden fees</span>
+            </p>
           </div>
         </div>
       </div>

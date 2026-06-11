@@ -73,24 +73,29 @@ export default function FaqSection() {
 
   return (
     <section
-      style={{ background: "#000", padding: "80px 0" }}
+      style={{ background: "#000" }}
       itemScope
       itemType="https://schema.org/FAQPage"
     >
-      <div style={{ maxWidth: 800, margin: "0 auto", padding: "0 26px" }}>
-        <h2
+      {/* Desktop */}
+      <div className="hidden md:block" style={{ padding: "0 1.85185vw 9.25926vw" }}>
+        {/* faq__title: margin-bottom: 2.77778vw */}
+        <p
           style={{
-            fontSize: "clamp(28px,3.5vw,48px)",
+            fontFamily: "'Nunito Sans', sans-serif",
             fontWeight: 900,
-            color: "#F4F4F6",
+            fontSize: "3.7037vw",
+            lineHeight: "4.16667vw",
+            color: "#fff",
             textAlign: "center",
-            marginBottom: 48,
+            padding: "11.5741vw 0 2.77778vw",
           }}
         >
           FAQ
-        </h2>
+        </p>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+        {/* faq__list: gap: 0.925926vw */}
+        <div style={{ display: "flex", flexDirection: "column", gap: "0.925926vw", maxWidth: "74.0741vw", margin: "0 auto" }}>
           {faqs.map((faq, index) => (
             <div
               key={faq.question}
@@ -111,25 +116,25 @@ export default function FaqSection() {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "space-between",
-                  padding: "20px 24px",
+                  padding: "1.38889vw 1.85185vw",
                   background: "none",
                   border: "none",
                   cursor: "pointer",
                   textAlign: "left",
-                  gap: 16,
+                  gap: "0.925926vw",
                 }}
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 <span
-                  style={{ fontSize: "clamp(14px,1.1vw,17px)", fontWeight: 700, color: "#F4F4F6", flex: 1 }}
+                  style={{ fontSize: "1.85185vw", lineHeight: "2.31481vw", fontWeight: 700, color: "#F4F4F6", flex: 1 }}
                   itemProp="name"
                 >
                   {faq.question}
                 </span>
                 <span
                   style={{
-                    width: 32,
-                    height: 32,
+                    width: "2.31481vw",
+                    height: "2.31481vw",
                     borderRadius: "50%",
                     background: openIndex === index ? "#0C8DF8" : "rgba(255,255,255,0.08)",
                     display: "flex",
@@ -148,12 +153,12 @@ export default function FaqSection() {
 
               {openIndex === index && (
                 <div
-                  style={{ padding: "0 24px 24px" }}
+                  style={{ padding: "0 1.85185vw 1.85185vw" }}
                   itemScope
                   itemType="https://schema.org/Answer"
                   itemProp="acceptedAnswer"
                 >
-                  <div itemProp="text">{faq.answer}</div>
+                  <div itemProp="text" style={{ fontSize: "1.38889vw", lineHeight: "1.85185vw", color: "#82889B" }}>{faq.answer}</div>
                 </div>
               )}
             </div>

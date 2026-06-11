@@ -1,9 +1,15 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const StockityLogo = () => (
-  <svg width="105" height="36" viewBox="0 0 123 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    viewBox="0 0 123 42"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    style={{ height: "2.77778vw", minHeight: 28, width: "auto" }}
+  >
     <g>
       <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#ha)"/>
       <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#hb)"/>
@@ -22,18 +28,8 @@ const StockityLogo = () => (
 );
 
 const ChevronDown = () => (
-  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style={{display:'inline',marginLeft:4}}>
+  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style={{ display: "inline", marginLeft: 4 }}>
     <path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-  </svg>
-);
-
-const GBFlag = () => (
-  <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="24" height="16" rx="2" fill="#012169"/>
-    <path d="M0 0L24 16M24 0L0 16" stroke="white" strokeWidth="3.2"/>
-    <path d="M0 0L24 16M24 0L0 16" stroke="#C8102E" strokeWidth="2"/>
-    <path d="M12 0V16M0 8H24" stroke="white" strokeWidth="5.3"/>
-    <path d="M12 0V16M0 8H24" stroke="#C8102E" strokeWidth="3.2"/>
   </svg>
 );
 
@@ -62,29 +58,34 @@ export default function Header() {
   const [mobileOpenDropdown, setMobileOpenDropdown] = useState<string | null>(null);
 
   return (
-    <header
-      style={{ backgroundColor: "#000", position: "fixed", top: 0, left: 0, right: 0, zIndex: 50 }}
-    >
+    <header style={{ backgroundColor: "#000", position: "fixed", top: 0, left: 0, right: 0, zIndex: 250 }}>
+      {/* Desktop header */}
       <div
+        className="hidden lg:flex"
         style={{
-          maxWidth: 1440,
-          margin: "0 auto",
-          padding: "0 26px",
-          height: 64,
-          display: "flex",
+          width: "100%",
+          padding: "1.38889vw 1.85185vw",
           alignItems: "center",
-          justifyContent: "space-between",
-          gap: 16,
+          boxSizing: "border-box",
         }}
       >
         {/* Logo */}
-        <a href="#" style={{ display: "flex", alignItems: "center", textDecoration: "none", flexShrink: 0 }}>
+        <a
+          href="#"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+            flexShrink: 0,
+            marginRight: "6.01852vw",
+            gap: "0.462963vw",
+          }}
+        >
           <StockityLogo />
         </a>
 
         {/* Desktop Nav */}
-        <nav style={{ display: "flex", alignItems: "center", gap: 4, flex: 1, justifyContent: "center" }}
-          className="hidden lg:flex">
+        <nav style={{ display: "flex", alignItems: "center", gap: "0.2vw", flex: 1 }}>
           {navItems.map((item) =>
             item.children ? (
               <div
@@ -97,34 +98,26 @@ export default function Header() {
                   style={{
                     display: "flex",
                     alignItems: "center",
-                    padding: "8px 14px",
-                    fontSize: 15,
+                    padding: "0.555556vw 0.925926vw",
+                    fontSize: "0.972222vw",
                     fontWeight: 700,
-                    color: "rgba(255,255,255,0.75)",
+                    color: "rgba(255,255,255,0.85)",
                     background: "none",
                     border: "none",
                     cursor: "pointer",
-                    borderRadius: 8,
+                    borderRadius: "0.555556vw",
                     transition: "color 0.15s",
                     whiteSpace: "nowrap",
+                    fontFamily: "inherit",
                   }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = "#fff")}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.75)")}
+                  onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.85)")}
                 >
                   {item.label}
                   <ChevronDown />
                 </button>
                 {openDropdown === item.label && (
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: "100%",
-                      left: 0,
-                      paddingTop: 4,
-                      minWidth: 220,
-                      zIndex: 100,
-                    }}
-                  >
+                  <div style={{ position: "absolute", top: "100%", left: 0, paddingTop: 4, minWidth: 220, zIndex: 100 }}>
                     <div
                       style={{
                         background: "#1a1a1a",
@@ -168,17 +161,17 @@ export default function Header() {
                 key={item.label}
                 href={item.href}
                 style={{
-                  padding: "8px 14px",
-                  fontSize: 15,
+                  padding: "0.555556vw 0.925926vw",
+                  fontSize: "0.972222vw",
                   fontWeight: 700,
-                  color: "rgba(255,255,255,0.75)",
+                  color: "rgba(255,255,255,0.85)",
                   textDecoration: "none",
-                  borderRadius: 8,
+                  borderRadius: "0.555556vw",
                   whiteSpace: "nowrap",
                   transition: "color 0.15s",
                 }}
                 onMouseEnter={(e) => (e.currentTarget.style.color = "#fff")}
-                onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.75)")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.85)")}
               >
                 {item.label}
               </a>
@@ -186,84 +179,116 @@ export default function Header() {
           )}
         </nav>
 
-        {/* Right side */}
-        <div className="hidden lg:flex" style={{ alignItems: "center", gap: 8, flexShrink: 0 }}>
-          <a
-            href="#"
+        {/* Right buttons */}
+        <div style={{ display: "flex", alignItems: "center", gap: "0.694444vw", flexShrink: 0, marginLeft: "auto" }}>
+          {/* Log in — blue border */}
+          <button
             style={{
-              padding: "9px 20px",
-              fontSize: 15,
-              fontWeight: 700,
-              color: "#fff",
-              textDecoration: "none",
-              border: "1.5px solid rgba(255,255,255,0.25)",
-              borderRadius: 10,
-              transition: "border-color 0.15s, background 0.15s",
-              whiteSpace: "nowrap",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.borderColor = "rgba(255,255,255,0.5)";
-              e.currentTarget.style.background = "rgba(255,255,255,0.06)";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.borderColor = "rgba(255,255,255,0.25)";
-              e.currentTarget.style.background = "transparent";
-            }}
-          >
-            Log in
-          </a>
-          <a
-            href="#"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 6,
-              padding: "9px 20px",
-              fontSize: 15,
-              fontWeight: 800,
-              color: "#fff",
-              background: "linear-gradient(90deg,#0990ff,#0C8DF8)",
-              borderRadius: 10,
-              textDecoration: "none",
-              whiteSpace: "nowrap",
-              border: "none",
-            }}
-          >
-            Register
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M3 7h8M7 3l4 4-4 4" stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </a>
-          <div
-            style={{
+              boxSizing: "border-box",
               display: "flex",
               alignItems: "center",
-              gap: 8,
-              marginLeft: 8,
-              padding: "6px 12px",
-              border: "1px solid rgba(255,255,255,0.15)",
-              borderRadius: 8,
+              padding: "0.462963vw 1.38889vw",
+              fontSize: "0.972222vw",
+              fontWeight: 700,
+              fontFamily: "inherit",
+              color: "#fff",
+              background: "none",
+              border: "2px solid #0c8df8",
+              borderRadius: "0.694444vw",
               cursor: "pointer",
+              whiteSpace: "nowrap",
+              maxHeight: "2.77778vw",
+              transition: "border-color 0.15s",
             }}
+            onMouseEnter={(e) => (e.currentTarget.style.borderColor = "#48a9fa")}
+            onMouseLeave={(e) => (e.currentTarget.style.borderColor = "#0c8df8")}
           >
-            <GBFlag />
-            <span style={{ fontSize: 13, fontWeight: 700, color: "#fff" }}>EN</span>
-            <ChevronDown />
+            Log in
+          </button>
+
+          {/* Register — solid #0C8DF8 */}
+          <button
+            style={{
+              boxSizing: "border-box",
+              display: "flex",
+              alignItems: "center",
+              gap: "0.462963vw",
+              padding: "0.462963vw 1.38889vw",
+              fontSize: "0.972222vw",
+              fontWeight: 700,
+              fontFamily: "inherit",
+              color: "#fff",
+              background: "#0c8df8",
+              border: "none",
+              borderRadius: "0.694444vw",
+              cursor: "pointer",
+              whiteSpace: "nowrap",
+              transition: "background 0.15s",
+            }}
+            onMouseEnter={(e) => (e.currentTarget.style.background = "#48a9fa")}
+            onMouseLeave={(e) => (e.currentTarget.style.background = "#0c8df8")}
+          >
+            Register
+            <Image
+              src="/images/stockity/src/core/images/register-arrow.svg"
+              alt=""
+              width={20}
+              height={20}
+              style={{ flexShrink: 0 }}
+              unoptimized
+            />
+          </button>
+
+          {/* Flag — just UK flag, no EN text */}
+          <div style={{ cursor: "pointer", display: "flex", alignItems: "center" }}>
+            <img
+              src="https://flagcdn.com/w40/gb.png"
+              alt="EN"
+              style={{ height: "1.85185vw", minHeight: 20, width: "auto" }}
+            />
           </div>
         </div>
+      </div>
 
-        {/* Mobile burger */}
+      {/* Mobile header */}
+      <div
+        className="flex lg:hidden"
+        style={{
+          width: "100%",
+          padding: "4.44444vw 2.22222vw",
+          alignItems: "center",
+          justifyContent: "space-between",
+          boxSizing: "border-box",
+        }}
+      >
+        <a href="#" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+          <svg viewBox="0 0 123 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: 32, width: "auto" }}>
+            <g>
+              <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#mha)"/>
+              <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#mhb)"/>
+              <path d="M1.313 15.717a4.695 4.695 0 0 0 1.713 6.405l8.757 5.068.015.009a4.694 4.694 0 0 1 2.27 4.775c-.176 1.135-.916 2.096-1.697 2.938l6.92-6.938a4.695 4.695 0 0 0-.668-7.655l-8.756-5.068-.015-.009a4.694 4.694 0 0 1-2.27-4.775c.176-1.135.916-2.097 1.697-2.939L2.358 14.59a4.677 4.677 0 0 0-1.045 1.127Z" fill="#0C8DF8"/>
+              <defs>
+                <linearGradient id="mha" x1="17.106" y1="7.408" x2="-11.286" y2="33.808" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
+                </linearGradient>
+                <linearGradient id="mhb" x1="7.63" y1="33.255" x2="22.939" y2="17.79" gradientUnits="userSpaceOnUse">
+                  <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
+                </linearGradient>
+              </defs>
+            </g>
+            <text x="30" y="30" fontFamily="'Nunito Sans', sans-serif" fontWeight="800" fontSize="26" fill="white">Stockity</text>
+          </svg>
+        </a>
         <button
-          className="lg:hidden"
           style={{ padding: 8, color: "#fff", background: "none", border: "none", cursor: "pointer" }}
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
               <path d="M6 6l12 12M6 18L18 6" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           ) : (
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
               <path d="M4 6h16M4 12h16M4 18h16" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
           )}
@@ -273,12 +298,8 @@ export default function Header() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div
-          style={{
-            background: "#0d0d0d",
-            borderTop: "1px solid rgba(255,255,255,0.08)",
-            padding: "16px",
-          }}
           className="lg:hidden"
+          style={{ background: "#0d0d0d", borderTop: "1px solid rgba(255,255,255,0.08)", padding: "16px" }}
         >
           {navItems.map((item) =>
             item.children ? (
@@ -298,51 +319,21 @@ export default function Header() {
                     cursor: "pointer",
                     borderRadius: 8,
                     textAlign: "left",
+                    fontFamily: "inherit",
                   }}
-                  onClick={() =>
-                    setMobileOpenDropdown(
-                      mobileOpenDropdown === item.label ? null : item.label
-                    )
-                  }
+                  onClick={() => setMobileOpenDropdown(mobileOpenDropdown === item.label ? null : item.label)}
                 >
                   {item.label}
-                  <svg
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="none"
-                    style={{
-                      transform:
-                        mobileOpenDropdown === item.label
-                          ? "rotate(180deg)"
-                          : "none",
-                      transition: "transform 0.2s",
-                    }}
-                  >
-                    <path
-                      d="M2.5 4.5L6 8l3.5-3.5"
-                      stroke="currentColor"
-                      strokeWidth="1.6"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    style={{ transform: mobileOpenDropdown === item.label ? "rotate(180deg)" : "none", transition: "transform 0.2s" }}>
+                    <path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </button>
                 {mobileOpenDropdown === item.label && (
                   <div style={{ paddingLeft: 16, paddingBottom: 4 }}>
                     {item.children!.map((child) => (
-                      <a
-                        key={child.label}
-                        href={child.href}
-                        style={{
-                          display: "block",
-                          padding: "8px 12px",
-                          fontSize: 14,
-                          color: "rgba(255,255,255,0.7)",
-                          textDecoration: "none",
-                          borderRadius: 6,
-                        }}
-                      >
+                      <a key={child.label} href={child.href}
+                        style={{ display: "block", padding: "8px 12px", fontSize: 14, color: "rgba(255,255,255,0.7)", textDecoration: "none", borderRadius: 6 }}>
                         {child.label}
                       </a>
                     ))}
@@ -350,59 +341,19 @@ export default function Header() {
                 )}
               </div>
             ) : (
-              <a
-                key={item.label}
-                href={item.href}
-                style={{
-                  display: "block",
-                  padding: "10px 12px",
-                  fontSize: 15,
-                  fontWeight: 700,
-                  color: "rgba(255,255,255,0.8)",
-                  textDecoration: "none",
-                  borderRadius: 8,
-                  marginBottom: 4,
-                }}
-              >
+              <a key={item.label} href={item.href}
+                style={{ display: "block", padding: "10px 12px", fontSize: 15, fontWeight: 700, color: "rgba(255,255,255,0.8)", textDecoration: "none", borderRadius: 8, marginBottom: 4 }}>
                 {item.label}
               </a>
             )
           )}
-          <div style={{ paddingTop: 12, display: "flex", flexDirection: "column", gap: 8 }}>
-            <div style={{ display: "flex", gap: 8 }}>
-              <a
-                href="#"
-                style={{
-                  flex: 1,
-                  textAlign: "center",
-                  padding: "10px",
-                  fontSize: 15,
-                  fontWeight: 700,
-                  color: "#fff",
-                  border: "1.5px solid rgba(255,255,255,0.25)",
-                  borderRadius: 10,
-                  textDecoration: "none",
-                }}
-              >
-                Log in
-              </a>
-              <a
-                href="#"
-                style={{
-                  flex: 1,
-                  textAlign: "center",
-                  padding: "10px",
-                  fontSize: 15,
-                  fontWeight: 800,
-                  color: "#fff",
-                  background: "linear-gradient(90deg,#0990ff,#0C8DF8)",
-                  borderRadius: 10,
-                  textDecoration: "none",
-                }}
-              >
-                Register
-              </a>
-            </div>
+          <div style={{ paddingTop: 12, display: "flex", gap: 8 }}>
+            <button style={{ flex: 1, textAlign: "center", padding: "10px", fontSize: 15, fontWeight: 700, color: "#fff", border: "2px solid #51576c", borderRadius: 8, background: "none", fontFamily: "inherit", cursor: "pointer" }}>
+              Log in
+            </button>
+            <button style={{ flex: 1, textAlign: "center", padding: "10px", fontSize: 15, fontWeight: 700, color: "#fff", background: "#0c8df8", borderRadius: 8, border: "none", fontFamily: "inherit", cursor: "pointer" }}>
+              Register
+            </button>
           </div>
         </div>
       )}
