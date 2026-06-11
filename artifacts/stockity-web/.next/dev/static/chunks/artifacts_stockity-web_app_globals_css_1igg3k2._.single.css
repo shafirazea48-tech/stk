@@ -8,7 +8,6 @@
       --tw-skew-x: initial;
       --tw-skew-y: initial;
       --tw-border-style: solid;
-      --tw-outline-style: solid;
     }
   }
 }
@@ -353,10 +352,6 @@
     display: inline-flex;
   }
 
-  .flex-shrink {
-    flex-shrink: 1;
-  }
-
   .grow {
     flex-grow: 1;
   }
@@ -384,11 +379,6 @@
 
   .underline {
     text-decoration-line: underline;
-  }
-
-  .outline {
-    outline-style: var(--tw-outline-style);
-    outline-width: 1px;
   }
 
   .transition {
@@ -502,6 +492,16 @@ body {
   border-color: #ffffff80;
 }
 
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -545,12 +545,6 @@ body {
 }
 
 @property --tw-border-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
-}
-
-@property --tw-outline-style {
   syntax: "*";
   inherits: false;
   initial-value: solid;

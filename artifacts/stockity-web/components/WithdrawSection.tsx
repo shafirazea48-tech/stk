@@ -100,37 +100,21 @@ export default function WithdrawSection() {
 
         {/* ── Mobile: infinite auto-scroll slider ── */}
         <div
-          className="flex md:hidden"
-          style={{
-            width: "100%",
-            overflow: "hidden",
-            gap: "16px",
-          }}
+          className="block md:hidden"
+          style={{ width: "100%", overflow: "hidden" }}
         >
-          {/* First copy */}
+          {/* Single track with logos×2 — keyframe moves -50% for seamless loop */}
           <div
             style={{
               display: "flex",
               gap: "16px",
-              animation: "scroll-left 30s linear infinite",
+              animation: "scroll-left 20s linear infinite",
               willChange: "transform",
+              width: "max-content",
             }}
           >
-            {logos.map((l) => (
-              <LogoCard key={l.num} {...l} />
-            ))}
-          </div>
-          {/* Second copy — creates seamless loop */}
-          <div
-            style={{
-              display: "flex",
-              gap: "16px",
-              animation: "scroll-left 30s linear infinite",
-              willChange: "transform",
-            }}
-          >
-            {logos.map((l) => (
-              <LogoCard key={l.num} {...l} />
+            {[...logos, ...logos].map((l, i) => (
+              <LogoCard key={i} {...l} />
             ))}
           </div>
         </div>
