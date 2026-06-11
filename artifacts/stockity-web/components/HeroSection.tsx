@@ -75,7 +75,7 @@ export default function HeroSection() {
           width: "100%",
           minHeight: "80.3819vw",
           padding: "0 4.62963vw",
-          paddingTop: "12.037vw",
+          paddingTop: "6.94444vw",
           paddingBottom: "7.40741vw",
         }}
       >
