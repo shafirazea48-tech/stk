@@ -219,7 +219,7 @@ export default function DeviceSection() {
                   borderRadius: "4.44444vw",
                   overflow: "hidden",
                   position: "relative",
-                  minHeight: "133.333vw",
+                  minHeight: "155.556vw",
                 }}
               >
                 {/* Card content */}
@@ -246,9 +246,9 @@ export default function DeviceSection() {
                       alignItems: "center",
                       gap: "3.33333vw",
                       background: "#111",
-                      border: "1px solid rgba(255,255,255,0.12)",
+                      border: "1px solid rgba(255,255,255,0.15)",
                       borderRadius: "3.33333vw",
-                      padding: "3.88889vw 5.55556vw",
+                      padding: "4.44444vw 5.55556vw",
                       textDecoration: "none",
                       width: "100%",
                       boxSizing: "border-box",
@@ -258,7 +258,7 @@ export default function DeviceSection() {
                     <GooglePlayIcon />
                     <div>
                       <p style={{ fontSize: "3.05556vw", color: "#82889B", lineHeight: 1.2, fontFamily: "'Nunito Sans', sans-serif" }}>Get it on</p>
-                      <p style={{ fontSize: "4.44444vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>Google Play</p>
+                      <p style={{ fontSize: "5vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>Google Play</p>
                     </div>
                   </a>
 
@@ -270,9 +270,9 @@ export default function DeviceSection() {
                       alignItems: "center",
                       gap: "3.33333vw",
                       background: "#111",
-                      border: "1px solid rgba(255,255,255,0.12)",
+                      border: "1px solid rgba(255,255,255,0.15)",
                       borderRadius: "3.33333vw",
-                      padding: "3.88889vw 5.55556vw",
+                      padding: "4.44444vw 5.55556vw",
                       textDecoration: "none",
                       width: "100%",
                       boxSizing: "border-box",
@@ -282,7 +282,7 @@ export default function DeviceSection() {
                     <AppleIcon />
                     <div>
                       <p style={{ fontSize: "3.05556vw", color: "#82889B", lineHeight: 1.2, fontFamily: "'Nunito Sans', sans-serif" }}>Download on the</p>
-                      <p style={{ fontSize: "4.44444vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>App Store</p>
+                      <p style={{ fontSize: "5vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>App Store</p>
                     </div>
                   </a>
 
@@ -303,14 +303,14 @@ export default function DeviceSection() {
                   </p>
                 </div>
 
-                {/* Phone image — fills bottom of card */}
+                {/* Phone image — fills bottom of card, large */}
                 <div
                   style={{
                     position: "absolute",
                     bottom: 0,
                     left: 0,
                     right: 0,
-                    height: "68vw",
+                    height: "90vw",
                     overflow: "hidden",
                   }}
                 >
@@ -333,7 +333,7 @@ export default function DeviceSection() {
                   borderRadius: "4.44444vw",
                   overflow: "hidden",
                   position: "relative",
-                  minHeight: "133.333vw",
+                  minHeight: "155.556vw",
                 }}
               >
                 {/* Card content */}
@@ -361,13 +361,13 @@ export default function DeviceSection() {
                       justifyContent: "center",
                       gap: "2.22222vw",
                       background: "#111",
-                      border: "1px solid rgba(255,255,255,0.12)",
+                      border: "1px solid rgba(255,255,255,0.15)",
                       borderRadius: "3.33333vw",
-                      padding: "3.88889vw 5.55556vw",
+                      padding: "4.44444vw 5.55556vw",
                       textDecoration: "none",
                       width: "100%",
                       boxSizing: "border-box",
-                      fontSize: "4.44444vw",
+                      fontSize: "5vw",
                       fontWeight: 700,
                       color: "#f4f4f6",
                       fontFamily: "'Nunito Sans', sans-serif",
@@ -378,14 +378,14 @@ export default function DeviceSection() {
                   </a>
                 </div>
 
-                {/* Web platform image */}
+                {/* Web platform image — large */}
                 <div
                   style={{
                     position: "absolute",
                     bottom: 0,
                     left: 0,
                     right: 0,
-                    height: "68vw",
+                    height: "90vw",
                     overflow: "hidden",
                   }}
                 >

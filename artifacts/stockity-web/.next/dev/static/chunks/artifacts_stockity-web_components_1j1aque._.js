@@ -2949,7 +2949,7 @@ function DeviceSection() {
                                             borderRadius: "4.44444vw",
                                             overflow: "hidden",
                                             position: "relative",
-                                            minHeight: "133.333vw"
+                                            minHeight: "155.556vw"
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2982,9 +2982,9 @@ function DeviceSection() {
                                                             alignItems: "center",
                                                             gap: "3.33333vw",
                                                             background: "#111",
-                                                            border: "1px solid rgba(255,255,255,0.12)",
+                                                            border: "1px solid rgba(255,255,255,0.15)",
                                                             borderRadius: "3.33333vw",
-                                                            padding: "3.88889vw 5.55556vw",
+                                                            padding: "4.44444vw 5.55556vw",
                                                             textDecoration: "none",
                                                             width: "100%",
                                                             boxSizing: "border-box",
@@ -3013,7 +3013,7 @@ function DeviceSection() {
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         style: {
-                                                                            fontSize: "4.44444vw",
+                                                                            fontSize: "5vw",
                                                                             fontWeight: 700,
                                                                             color: "#fff",
                                                                             fontFamily: "'Nunito Sans', sans-serif"
@@ -3043,9 +3043,9 @@ function DeviceSection() {
                                                             alignItems: "center",
                                                             gap: "3.33333vw",
                                                             background: "#111",
-                                                            border: "1px solid rgba(255,255,255,0.12)",
+                                                            border: "1px solid rgba(255,255,255,0.15)",
                                                             borderRadius: "3.33333vw",
-                                                            padding: "3.88889vw 5.55556vw",
+                                                            padding: "4.44444vw 5.55556vw",
                                                             textDecoration: "none",
                                                             width: "100%",
                                                             boxSizing: "border-box",
@@ -3074,7 +3074,7 @@ function DeviceSection() {
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         style: {
-                                                                            fontSize: "4.44444vw",
+                                                                            fontSize: "5vw",
                                                                             fontWeight: 700,
                                                                             color: "#fff",
                                                                             fontFamily: "'Nunito Sans', sans-serif"
@@ -3133,7 +3133,7 @@ function DeviceSection() {
                                                     bottom: 0,
                                                     left: 0,
                                                     right: 0,
-                                                    height: "68vw",
+                                                    height: "90vw",
                                                     overflow: "hidden"
                                                 },
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3177,7 +3177,7 @@ function DeviceSection() {
                                             borderRadius: "4.44444vw",
                                             overflow: "hidden",
                                             position: "relative",
-                                            minHeight: "133.333vw"
+                                            minHeight: "155.556vw"
                                         },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3211,13 +3211,13 @@ function DeviceSection() {
                                                             justifyContent: "center",
                                                             gap: "2.22222vw",
                                                             background: "#111",
-                                                            border: "1px solid rgba(255,255,255,0.12)",
+                                                            border: "1px solid rgba(255,255,255,0.15)",
                                                             borderRadius: "3.33333vw",
-                                                            padding: "3.88889vw 5.55556vw",
+                                                            padding: "4.44444vw 5.55556vw",
                                                             textDecoration: "none",
                                                             width: "100%",
                                                             boxSizing: "border-box",
-                                                            fontSize: "4.44444vw",
+                                                            fontSize: "5vw",
                                                             fontWeight: 700,
                                                             color: "#f4f4f6",
                                                             fontFamily: "'Nunito Sans', sans-serif"
@@ -3247,7 +3247,7 @@ function DeviceSection() {
                                                     bottom: 0,
                                                     left: 0,
                                                     right: 0,
-                                                    height: "68vw",
+                                                    height: "90vw",
                                                     overflow: "hidden"
                                                 },
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
