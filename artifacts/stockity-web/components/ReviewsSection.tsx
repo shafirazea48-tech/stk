@@ -82,6 +82,65 @@ const reviews = [
   },
 ];
 
+function ReviewCard({ review }: { review: (typeof reviews)[0] }) {
+  return (
+    <div
+      style={{
+        background: "#161616",
+        border: "1px solid rgba(255,255,255,0.07)",
+        borderRadius: 16,
+        padding: "24px",
+        display: "flex",
+        flexDirection: "column",
+        gap: 14,
+      }}
+    >
+      <div style={{ display: "flex", gap: 3 }}>
+        {[0,1,2,3,4].map((i) => (
+          <svg key={i} width="14" height="14" viewBox="0 0 24 24" fill="#FFC107">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+        ))}
+      </div>
+      <p style={{ fontSize: 15, fontWeight: 800, color: "#F4F4F6" }}>{review.subtitle}</p>
+      <p style={{ fontSize: 13, color: "#82889B", lineHeight: 1.65, flex: 1 }}>{review.comment}</p>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          gap: 10,
+          paddingTop: 12,
+          borderTop: "1px solid rgba(255,255,255,0.06)",
+        }}
+      >
+        <div
+          style={{
+            width: 36,
+            height: 36,
+            borderRadius: "50%",
+            background: review.color,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 13,
+            fontWeight: 900,
+            color: "#fff",
+            flexShrink: 0,
+          }}
+        >
+          {review.initials}
+        </div>
+        <div>
+          <p style={{ fontSize: 13, fontWeight: 700, color: "#F4F4F6" }}>{review.name}</p>
+          <p style={{ fontSize: 12, color: "#82889B" }}>
+            {review.flag} {review.country}
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function ReviewsSection() {
   const [current, setCurrent] = useState(0);
   const VISIBLE = 3;
@@ -94,116 +153,96 @@ export default function ReviewsSection() {
     return result;
   };
 
-  const totalDots = reviews.length;
-
   return (
-    <section className="py-24 bg-[#151723]">
-      <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
-        <h2 className="text-[clamp(28px,3.5vw,44px)] font-black text-[#F4F4F6] text-center mb-14">
-          Millions of <span className="text-[#0C8DF8]">users trust us</span>{" "}
-          already
+    <section style={{ background: "#0d0d0d", padding: "80px 0" }}>
+      <div style={{ maxWidth: 1440, margin: "0 auto", padding: "0 26px" }}>
+        <h2
+          style={{
+            fontSize: "clamp(28px,3.5vw,48px)",
+            fontWeight: 900,
+            color: "#F4F4F6",
+            textAlign: "center",
+            marginBottom: 56,
+          }}
+        >
+          Millions of{" "}
+          <span style={{ color: "#0C8DF8" }}>users trust us</span> already
         </h2>
 
-        {/* Desktop: 3 cards visible */}
-        <div className="hidden md:grid md:grid-cols-3 gap-5 mb-8">
+        {/* Desktop: 3 cards */}
+        <div
+          className="hidden md:grid"
+          style={{ gridTemplateColumns: "repeat(3,1fr)", gap: 20, marginBottom: 32 }}
+        >
           {visibleReviews().map((review) => (
             <ReviewCard key={review.id} review={review} />
           ))}
         </div>
 
         {/* Mobile: single card */}
-        <div className="md:hidden mb-8">
+        <div className="md:hidden" style={{ marginBottom: 32 }}>
           <ReviewCard review={reviews[current]} />
         </div>
 
-        {/* Navigation dots */}
-        <div className="flex justify-center items-center gap-2">
+        {/* Navigation */}
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 8 }}>
           <button
-            onClick={() =>
-              setCurrent((c) => (c - 1 + reviews.length) % reviews.length)
-            }
-            className="w-8 h-8 rounded-full bg-[#232737] border border-[#393F56] flex items-center justify-center text-[#82889B] hover:text-[#F4F4F6] hover:border-[#0C8DF8] transition-colors"
+            onClick={() => setCurrent((c) => (c - 1 + reviews.length) % reviews.length)}
+            style={{
+              width: 36,
+              height: 36,
+              borderRadius: "50%",
+              background: "#161616",
+              border: "1px solid rgba(255,255,255,0.1)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              color: "#82889B",
+              cursor: "pointer",
+            }}
           >
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path
-                d="M10 4l-4 4 4 4"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
+              <path d="M10 4l-4 4 4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
 
-          {Array.from({ length: totalDots }).map((_, i) => (
+          {reviews.map((_, i) => (
             <button
               key={i}
               onClick={() => setCurrent(i)}
-              className={`rounded-full transition-all duration-300 ${
-                i === current
-                  ? "w-6 h-2.5 bg-[#0C8DF8]"
-                  : "w-2.5 h-2.5 bg-[#393F56] hover:bg-[#82889B]"
-              }`}
+              style={{
+                borderRadius: 999,
+                border: "none",
+                cursor: "pointer",
+                transition: "all 0.25s",
+                width: i === current ? 24 : 10,
+                height: 10,
+                background: i === current ? "#0C8DF8" : "rgba(255,255,255,0.2)",
+              }}
             />
           ))}
 
           <button
             onClick={() => setCurrent((c) => (c + 1) % reviews.length)}
-            className="w-8 h-8 rounded-full bg-[#232737] border border-[#393F56] flex items-center justify-center text-[#82889B] hover:text-[#F4F4F6] hover:border-[#0C8DF8] transition-colors"
+            style={{
+              width: 36,
+              height: 36,
+              borderRadius: "50%",
+              background: "#161616",
+              border: "1px solid rgba(255,255,255,0.1)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              color: "#82889B",
+              cursor: "pointer",
+            }}
           >
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-              <path
-                d="M6 4l4 4-4 4"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
+              <path d="M6 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
         </div>
       </div>
     </section>
-  );
-}
-
-function ReviewCard({
-  review,
-}: {
-  review: (typeof reviews)[0];
-}) {
-  return (
-    <div className="bg-[#232737] border border-[#393F56] rounded-2xl p-6 flex flex-col gap-4 hover:border-[#0C8DF8]/40 transition-colors">
-      {/* Stars */}
-      <div className="flex gap-0.5">
-        {Array.from({ length: 5 }).map((_, i) => (
-          <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill="#FFC107">
-            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-          </svg>
-        ))}
-      </div>
-
-      {/* Subtitle */}
-      <p className="font-black text-base text-[#F4F4F6]">{review.subtitle}</p>
-
-      {/* Comment */}
-      <p className="text-sm text-[#82889B] leading-relaxed flex-1">{review.comment}</p>
-
-      {/* Author */}
-      <div className="flex items-center gap-3 pt-2 border-t border-[#393F56]">
-        <div
-          className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-black text-white shrink-0"
-          style={{ backgroundColor: review.color }}
-        >
-          {review.initials}
-        </div>
-        <div>
-          <p className="font-bold text-sm text-[#F4F4F6]">{review.name}</p>
-          <p className="text-xs text-[#82889B]">
-            {review.flag} {review.country}
-          </p>
-        </div>
-      </div>
-    </div>
   );
 }

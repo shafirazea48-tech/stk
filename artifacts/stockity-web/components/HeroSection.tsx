@@ -1,95 +1,184 @@
 import Image from "next/image";
 
-const FeatureCard = ({
-  icon,
-  text,
-}: {
-  icon: React.ReactNode;
-  text: string;
-}) => (
-  <button className="flex items-center gap-2 px-4 py-3 bg-[rgba(35,39,55,0.85)] hover:bg-[#232737] border border-[#393F56] rounded-xl transition-colors text-left">
-    <span className="text-[#0C8DF8] shrink-0">{icon}</span>
-    <span className="text-sm font-semibold text-[#F4F4F6]">{text}</span>
-  </button>
-);
+const features = [
+  {
+    text: "Intuitive interface",
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <rect x="2" y="2" width="7" height="7" rx="1.5" fill="white" opacity="0.9"/>
+        <rect x="11" y="2" width="7" height="7" rx="1.5" fill="white" opacity="0.5"/>
+        <rect x="2" y="11" width="7" height="7" rx="1.5" fill="white" opacity="0.5"/>
+        <rect x="11" y="11" width="7" height="7" rx="1.5" fill="white" opacity="0.9"/>
+      </svg>
+    ),
+  },
+  {
+    text: "140+ assets",
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M2 14l4-5 3 3 4-7 5 4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" opacity="0.9"/>
+      </svg>
+    ),
+  },
+  {
+    text: "Secure transactions",
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 2L3 5.5v5c0 4 3 7 7 7.5 4-.5 7-3.5 7-7.5v-5L10 2z" stroke="white" strokeWidth="1.6" strokeLinejoin="round" fill="white" fillOpacity="0.15" opacity="0.9"/>
+        <path d="M7 10l2 2 4-4" stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    ),
+  },
+  {
+    text: "Licensed and regulated",
+    icon: (
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <circle cx="10" cy="10" r="7" stroke="white" strokeWidth="1.6" opacity="0.9"/>
+        <path d="M10 6.5v3.5l2 2" stroke="white" strokeWidth="1.6" strokeLinecap="round" opacity="0.9"/>
+      </svg>
+    ),
+  },
+];
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden pt-16">
+    <section
+      style={{
+        position: "relative",
+        width: "100%",
+        minHeight: "100vh",
+        background: "#000",
+        overflow: "hidden",
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
       {/* Background image */}
-      <div className="absolute inset-0 z-0">
+      <div style={{ position: "absolute", inset: 0, zIndex: 0 }}>
         <Image
           src="/images/stockity/src/core/images/trade-smart/main_section_desktop-2e3a00c62a20cf21.webp"
-          alt="Trading platform background"
+          alt="Trading platform"
           fill
-          className="object-cover object-right"
           priority
+          style={{ objectFit: "cover", objectPosition: "center" }}
         />
-        {/* Overlay gradient */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#151723] via-[rgba(21,23,35,0.85)] to-[rgba(21,23,35,0.3)]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#151723] via-transparent to-transparent" />
+        {/* Very subtle left darkening for text readability */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(to right, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.25) 60%, rgba(0,0,0,0.1) 100%)",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.5) 100%)",
+          }}
+        />
       </div>
 
-      <div className="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6 py-20 w-full">
-        <div className="max-w-[600px]">
-          {/* Main title */}
-          <h1 className="text-[clamp(36px,5.5vw,68px)] font-black leading-[1.05] text-[#F4F4F6] mb-8">
-            Stockity.
-            <br />
-            Making investing
-            <br />
-            <span className="text-[#0C8DF8]">clear</span>
-          </h1>
+      {/* Main content — centered column */}
+      <div
+        style={{
+          position: "relative",
+          zIndex: 10,
+          flex: 1,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+          textAlign: "center",
+          padding: "120px 24px 40px",
+          maxWidth: 1440,
+          margin: "0 auto",
+          width: "100%",
+        }}
+      >
+        {/* Title */}
+        <h1
+          style={{
+            fontSize: "clamp(40px, 5.5vw, 80px)",
+            fontWeight: 900,
+            color: "#ebebeb",
+            lineHeight: 1.08,
+            letterSpacing: "-0.02em",
+            marginBottom: "clamp(24px, 2.5vw, 36px)",
+          }}
+        >
+          Stockity.
+          <br />
+          Making investing clear
+        </h1>
 
-          {/* CTA Button */}
-          <a
-            href="#"
-            className="btn-primary text-base !py-3.5 !px-8 !rounded-xl mb-10 inline-block"
-          >
-            Register Now
-          </a>
+        {/* CTA Button */}
+        <a
+          href="#"
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "linear-gradient(90deg,#0990ff,#0C8DF8)",
+            color: "#fff",
+            fontWeight: 800,
+            fontSize: "clamp(15px,1.2vw,18px)",
+            borderRadius: 12,
+            padding: "clamp(14px,1.2vw,18px) clamp(40px,5vw,80px)",
+            textDecoration: "none",
+            border: "none",
+            cursor: "pointer",
+            whiteSpace: "nowrap",
+            marginBottom: "clamp(32px,3.5vw,56px)",
+            minWidth: "clamp(220px,20vw,320px)",
+          }}
+        >
+          Register Now
+        </a>
 
-          {/* Feature cards */}
-          <div className="grid grid-cols-2 gap-3 max-w-[500px]">
-            <FeatureCard
-              text="Intuitive interface"
-              icon={
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <rect x="2" y="2" width="7" height="7" rx="2" fill="currentColor" />
-                  <rect x="11" y="2" width="7" height="7" rx="2" fill="currentColor" opacity="0.5" />
-                  <rect x="2" y="11" width="7" height="7" rx="2" fill="currentColor" opacity="0.5" />
-                  <rect x="11" y="11" width="7" height="7" rx="2" fill="currentColor" />
-                </svg>
-              }
-            />
-            <FeatureCard
-              text="140+ assets"
-              icon={
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M3 14l4-4 3 3 4-6 3 3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M3 17h14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-                </svg>
-              }
-            />
-            <FeatureCard
-              text="Secure transactions"
-              icon={
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <path d="M10 2L3 5.5v5c0 4 3 7.5 7 8.5 4-1 7-4.5 7-8.5v-5L10 2z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" fill="currentColor" fillOpacity="0.15"/>
-                  <path d="M7 10l2 2 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              }
-            />
-            <FeatureCard
-              text="Licensed and regulated"
-              icon={
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                  <circle cx="10" cy="10" r="7" stroke="currentColor" strokeWidth="1.5"/>
-                  <path d="M10 6v4l2.5 2.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              }
-            />
-          </div>
+        {/* Feature chips — 4 in a row */}
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            gap: "clamp(6px,0.5vw,8px)",
+            justifyContent: "center",
+            width: "100%",
+            maxWidth: 900,
+          }}
+        >
+          {features.map((f) => (
+            <div
+              key={f.text}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: 8,
+                background: "rgba(255,255,255,0.1)",
+                backdropFilter: "blur(8px)",
+                WebkitBackdropFilter: "blur(8px)",
+                border: "1px solid rgba(255,255,255,0.12)",
+                borderRadius: 10,
+                padding: "10px 16px",
+                whiteSpace: "nowrap",
+              }}
+            >
+              <span style={{ display: "flex", alignItems: "center", flexShrink: 0 }}>
+                {f.icon}
+              </span>
+              <span
+                style={{
+                  fontSize: "clamp(12px,0.95vw,14px)",
+                  fontWeight: 700,
+                  color: "#fff",
+                }}
+              >
+                {f.text}
+              </span>
+            </div>
+          ))}
         </div>
       </div>
     </section>

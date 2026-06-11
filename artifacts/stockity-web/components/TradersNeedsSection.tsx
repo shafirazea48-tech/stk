@@ -1,104 +1,112 @@
 export default function TradersNeedsSection() {
-  const stars = Array.from({ length: 5 }, (_, i) => i);
+  const stats = [
+    { number: "3.5M+", label: "investors worldwide" },
+    { number: "140+", label: "assets to trade" },
+    { number: "$10", label: "minimum deposit" },
+    { number: "170+", label: "countries available" },
+  ];
 
   return (
-    <section id="traders-needs" className="bg-[#151723] py-20 overflow-hidden">
-      <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left content */}
-          <div>
-            <h2 className="text-[clamp(28px,3.5vw,44px)] font-black text-[#F4F4F6] leading-tight mb-4">
-              A platform designed with{" "}
-              <span className="text-[#0C8DF8]">users in mind</span>
-            </h2>
-            <p className="text-[#82889B] text-lg mb-8">
-              Explore the market at your own pace
-            </p>
-            <a href="#" className="btn-primary">
-              Start now
-            </a>
+    <section style={{ background: "#0d0d0d", padding: "80px 0", overflow: "hidden" }}>
+      <div style={{ maxWidth: 1440, margin: "0 auto", padding: "0 26px" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            textAlign: "center",
+          }}
+        >
+          {/* Title */}
+          <h2
+            style={{
+              fontSize: "clamp(28px,3.5vw,52px)",
+              fontWeight: 900,
+              color: "#F4F4F6",
+              lineHeight: 1.15,
+              marginBottom: 16,
+              maxWidth: 640,
+            }}
+          >
+            A platform designed with{" "}
+            <span style={{ color: "#0C8DF8" }}>users in mind</span>
+          </h2>
+          <p style={{ color: "#82889B", fontSize: "clamp(14px,1.2vw,18px)", marginBottom: 40 }}>
+            Explore the market at your own pace
+          </p>
 
-            {/* Rating */}
-            <div className="mt-10 flex items-center gap-6">
-              <div>
-                <p className="text-5xl font-black text-[#F4F4F6]">4.8</p>
-                <p className="text-sm text-[#82889B] mt-1">Rating</p>
-              </div>
-              <div className="flex gap-1">
-                {stars.map((i) => (
-                  <svg
-                    key={i}
-                    width="28"
-                    height="28"
-                    viewBox="0 0 24 24"
-                    fill={i < 5 ? "#FFC107" : "none"}
-                    stroke="#FFC107"
-                    strokeWidth="1"
-                  >
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                  </svg>
-                ))}
-              </div>
+          {/* Rating row */}
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 16,
+              marginBottom: 56,
+            }}
+          >
+            <div>
+              <span
+                style={{
+                  fontSize: "clamp(40px,4vw,60px)",
+                  fontWeight: 900,
+                  color: "#F4F4F6",
+                  lineHeight: 1,
+                }}
+              >
+                4.8
+              </span>
+              <p style={{ color: "#82889B", fontSize: 14, marginTop: 4 }}>Rating</p>
+            </div>
+            <div style={{ display: "flex", gap: 4 }}>
+              {[0, 1, 2, 3, 4].map((i) => (
+                <svg key={i} width="28" height="28" viewBox="0 0 24 24" fill="#FFC107">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                </svg>
+              ))}
             </div>
           </div>
 
-          {/* Right: stats cards */}
-          <div className="grid grid-cols-2 gap-4">
-            {[
-              {
-                number: "3.5M+",
-                label: "investors worldwide",
-                icon: (
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="12" cy="10" r="4" stroke="#0C8DF8" strokeWidth="2"/>
-                    <circle cx="22" cy="10" r="4" stroke="#0C8DF8" strokeWidth="2" opacity="0.6"/>
-                    <path d="M4 26c0-4.418 3.582-8 8-8s8 3.582 8 8" stroke="#0C8DF8" strokeWidth="2" strokeLinecap="round"/>
-                    <path d="M22 18c3.314 0 6 2.686 6 6" stroke="#0C8DF8" strokeWidth="2" strokeLinecap="round" opacity="0.6"/>
-                  </svg>
-                ),
-              },
-              {
-                number: "140+",
-                label: "assets to trade",
-                icon: (
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <path d="M4 24l6-8 5 5 6-10 7 6" stroke="#0C8DF8" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                ),
-              },
-              {
-                number: "$10",
-                label: "minimum deposit",
-                icon: (
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="16" cy="16" r="12" stroke="#0C8DF8" strokeWidth="2"/>
-                    <path d="M16 8v2M16 22v2M12 12h5a3 3 0 0 1 0 6h-2a3 3 0 0 0 0 6h5" stroke="#0C8DF8" strokeWidth="1.8" strokeLinecap="round"/>
-                  </svg>
-                ),
-              },
-              {
-                number: "170+",
-                label: "countries available",
-                icon: (
-                  <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                    <circle cx="16" cy="16" r="12" stroke="#0C8DF8" strokeWidth="2"/>
-                    <ellipse cx="16" cy="16" rx="5" ry="12" stroke="#0C8DF8" strokeWidth="1.5"/>
-                    <path d="M4 16h24" stroke="#0C8DF8" strokeWidth="1.5"/>
-                    <path d="M6 10h20M6 22h20" stroke="#0C8DF8" strokeWidth="1.5"/>
-                  </svg>
-                ),
-              },
-            ].map((stat) => (
+          {/* Stats grid */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+              gap: 16,
+              width: "100%",
+              maxWidth: 900,
+              marginBottom: 48,
+            }}
+          >
+            {stats.map((stat) => (
               <div
                 key={stat.label}
-                className="bg-[#232737] rounded-2xl p-6 border border-[#393F56] hover:border-[#0C8DF8]/40 transition-colors"
+                style={{
+                  background: "#161616",
+                  border: "1px solid rgba(255,255,255,0.08)",
+                  borderRadius: 16,
+                  padding: "28px 24px",
+                  textAlign: "center",
+                }}
               >
-                <div className="mb-3">{stat.icon}</div>
-                <p className="text-3xl font-black text-[#F4F4F6]">{stat.number}</p>
-                <p className="text-sm text-[#82889B] mt-1">{stat.label}</p>
+                <p
+                  style={{
+                    fontSize: "clamp(32px,3vw,44px)",
+                    fontWeight: 900,
+                    color: "#F4F4F6",
+                    lineHeight: 1,
+                    marginBottom: 8,
+                  }}
+                >
+                  {stat.number}
+                </p>
+                <p style={{ fontSize: 14, color: "#82889B" }}>{stat.label}</p>
               </div>
             ))}
           </div>
+
+          <a href="#" className="btn-primary" style={{ fontSize: 16, padding: "14px 40px" }}>
+            Start now
+          </a>
         </div>
       </div>
     </section>

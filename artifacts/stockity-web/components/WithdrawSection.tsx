@@ -2,99 +2,150 @@ const paymentMethods = [
   {
     name: "Visa",
     logo: (
-      <svg viewBox="0 0 80 26" fill="none" className="h-7">
-        <path d="M31.5 0.8L27.2 25.2H33.4L37.7 0.8H31.5ZM53.5 0.8L47.9 17.1L47.2 13.5L47.2 13.5L45.1 3.1C45.1 3.1 44.8 0.8 41.9 0.8H32.5L32.4 1.2C32.4 1.2 35.1 1.8 38.3 3.7L43.5 25.2H50L60.2 0.8H53.5ZM71.8 0.8H65.4C62.9 0.8 62.4 2.6 62.4 2.6L52.8 25.2H59.7L61.1 21.2H69.5L70.3 25.2H76.5L71.8 0.8ZM63 16.2L66.5 6.8L68.5 16.2H63ZM22.6 0.8L13 17.4L12.1 12.5C10.6 7.7 6.2 2.5 1.3 0.1L7.9 25.2H14.8L25.5 0.8H22.6Z" fill="#1A1F71"/>
-        <path d="M5.1 0.8H-0.1L-0.2 1.2C3.5 2.1 6.8 3.8 9.2 6.2C12.1 9 13.1 12.5 13.1 12.5L11.9 3.1C11.7 1.1 10 0.8 5.1 0.8Z" fill="#F9A533"/>
+      <svg viewBox="0 0 750 471" fill="none" style={{ height: 28 }}>
+        <path d="M278.2 334.2L304 138.6H342L316.2 334.2H278.2Z" fill="white"/>
+        <path d="M448.3 142.1C440.5 139.1 428.3 136 413.3 136C375.7 136 349.5 155 349.3 182.3C349.1 202.3 367.5 213.3 381.4 220C395.7 226.9 400.5 231.3 400.5 237.5C400.3 247.1 389.3 251.3 379 251.3C365.1 251.3 357.7 249.3 346.1 244.1L341.5 242L336.5 275.5C346.3 280.1 364.5 284 383.5 284.2C423.5 284.2 449.1 265.5 449.4 236.3C449.6 220.1 439.8 207.7 418.7 197.5C405.9 191 398.1 186.6 398.1 179.8C398.3 173.7 405.1 167.4 420.4 167.4C433.1 167.2 442.5 170.1 449.5 173.1L452.9 174.6L448.3 142.1Z" fill="white"/>
+        <path d="M543.5 138.6H513.5C505.1 138.6 498.7 141 495.1 149.6L438.8 334.2H478.8L487 309H533.5L538.1 334.2H573.5L543.5 138.6ZM497.8 281.5C500.7 273.3 511.5 244.1 511.5 244.1C511.3 244.5 514.5 235.7 516.5 230.3L519.2 243C519.2 243 526.5 276.9 528 281.5H497.8Z" fill="white"/>
+        <path d="M222.7 138.6L185.5 265.3L181.5 244.5C174.5 222.1 154.5 197.9 132 185.3L165.5 334H205.5L267.5 138.6H222.7Z" fill="white"/>
+        <path d="M153.6 138.6H91.3L90.5 141.8C138.3 153.8 169.8 181.8 181.5 244.5L169.5 149.6C167.5 141.2 161.3 138.8 153.6 138.6Z" fill="#EEB609"/>
       </svg>
     ),
   },
   {
     name: "Mastercard",
     logo: (
-      <svg viewBox="0 0 52 32" fill="none" className="h-7">
-        <circle cx="19" cy="16" r="15" fill="#EB001B"/>
-        <circle cx="33" cy="16" r="15" fill="#F79E1B"/>
-        <path d="M26 5.7a15 15 0 0 1 0 20.6A15 15 0 0 1 26 5.7z" fill="#FF5F00"/>
+      <svg viewBox="0 0 152 96" fill="none" style={{ height: 34 }}>
+        <circle cx="57" cy="48" r="45" fill="#EB001B"/>
+        <circle cx="95" cy="48" r="45" fill="#F79E1B"/>
+        <path d="M76 15.7a45 45 0 0 1 0 64.6A45 45 0 0 1 76 15.7z" fill="#FF5F00"/>
       </svg>
     ),
   },
   {
     name: "Bank Transfer",
     logo: (
-      <svg viewBox="0 0 60 32" fill="none" className="h-7 w-auto">
-        <rect x="1" y="8" width="58" height="20" rx="3" fill="#E8F5FF" stroke="#0C8DF8" strokeWidth="2"/>
-        <path d="M30 4L8 12h44L30 4Z" fill="#0C8DF8"/>
-        <rect x="9" y="16" width="8" height="8" fill="#0C8DF8" rx="1"/>
-        <rect x="22" y="16" width="8" height="8" fill="#0C8DF8" rx="1"/>
-        <rect x="35" y="16" width="8" height="8" fill="#0C8DF8" rx="1"/>
-        <rect x="48" y="16" width="5" height="8" fill="#0C8DF8" rx="1"/>
-      </svg>
+      <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+        <svg viewBox="0 0 60 40" fill="none" style={{ height: 28 }}>
+          <rect x="1" y="10" width="58" height="26" rx="4" fill="#1a3a5c" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5"/>
+          <path d="M30 5L6 14h48L30 5Z" fill="#0C8DF8"/>
+          <rect x="8" y="20" width="9" height="10" fill="#0C8DF8" rx="1.5" opacity="0.8"/>
+          <rect x="22" y="20" width="9" height="10" fill="#0C8DF8" rx="1.5" opacity="0.8"/>
+          <rect x="36" y="20" width="9" height="10" fill="#0C8DF8" rx="1.5" opacity="0.8"/>
+        </svg>
+        <span style={{ color: "#fff", fontSize: 13, fontWeight: 700 }}>Bank Transfer</span>
+      </div>
     ),
   },
   {
     name: "Skrill",
     logo: (
-      <div className="px-3 py-1 bg-[#862165] rounded-lg">
-        <span className="text-white font-black text-lg">Skrill</span>
+      <div style={{ background: "#862165", borderRadius: 8, padding: "6px 14px" }}>
+        <span style={{ color: "#fff", fontWeight: 900, fontSize: 18 }}>Skrill</span>
       </div>
     ),
   },
   {
     name: "Neteller",
     logo: (
-      <div className="px-3 py-1 bg-[#1D262C] rounded-lg border border-[#5AAC44]">
-        <span className="text-[#5AAC44] font-black text-base">NETELLER</span>
+      <div
+        style={{
+          background: "#1D262C",
+          borderRadius: 8,
+          border: "1.5px solid #5AAC44",
+          padding: "6px 12px",
+        }}
+      >
+        <span style={{ color: "#5AAC44", fontWeight: 900, fontSize: 15 }}>NETELLER</span>
       </div>
     ),
   },
   {
     name: "Crypto",
     logo: (
-      <svg viewBox="0 0 40 32" fill="none" className="h-7 w-auto">
-        <circle cx="20" cy="16" r="14" fill="#F7931A"/>
-        <path d="M25.5 14.3c.3-2.1-1.3-3.2-3.5-3.9l.7-2.8-1.7-.4-.7 2.8-1.4-.3.7-2.8-1.7-.4-.7 2.8-2.8-.7-.5 1.9s1.3.3 1.2.3c.7.2.8.6.8 1l-2 8c-.1.2-.3.5-.8.4 0 .1-1.2-.3-1.2-.3l-.8 2 2.7.7-.8 3 1.7.4.8-3 1.4.3-.8 3 1.7.4.8-3.1c3.3.6 5.7-.3 6.7-3.1.8-2.2 0-3.5-1.7-4.3 1.2-.3 2.1-1.1 2.4-2.7zm-4.3 6c-.6 2.3-4.4 1.1-5.7.8l1-4c1.3.3 5.3 1 4.7 3.2zm.6-6c-.5 2.1-3.8 1-4.8.8l.9-3.6c1 .2 4.4.7 3.9 2.8z" fill="white"/>
-      </svg>
+      <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+        <svg viewBox="0 0 40 40" fill="none" style={{ height: 34 }}>
+          <circle cx="20" cy="20" r="18" fill="#F7931A"/>
+          <path d="M26.5 17.8c.4-2.6-1.6-4-4.3-4.9l.9-3.5-2.2-.5-.8 3.4c-.6-.1-1.2-.3-1.7-.4l.8-3.5-2.2-.5-.9 3.5-3.5-.9-.6 2.3s1.6.4 1.5.4c.9.2 1 .8 1 1.2l-2.5 10c-.1.3-.4.6-1 .5h-1.5l-1 2.5 3.4.8-1 4 2.2.5 1-4 1.8.4-1 4 2.2.5 1-3.9c4.1.8 7.2-.4 8.4-3.9 1-3-0-4.4-2.1-5.4 1.5-.4 2.6-1.4 2.9-3.4zm-5.4 7.5c-.8 2.9-5.5 1.3-7.1 1l1.3-5c1.6.4 6.7 1.2 5.8 4zm.8-7.5c-.6 2.6-4.7 1.3-6 .9l1.1-4.5c1.3.3 5.6.9 4.9 3.6z" fill="white"/>
+        </svg>
+        <span style={{ color: "#fff", fontSize: 13, fontWeight: 700 }}>Crypto</span>
+      </div>
     ),
   },
 ];
 
 export default function WithdrawSection() {
   return (
-    <section id="withdraw" className="py-24 bg-[#0d0f1a]">
-      <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
-        <div className="text-center mb-14">
-          <h2 className="text-[clamp(28px,3.5vw,44px)] font-black text-[#F4F4F6] leading-tight">
+    <section style={{ background: "#0d0d0d", padding: "80px 0" }}>
+      <div style={{ maxWidth: 1440, margin: "0 auto", padding: "0 26px" }}>
+        <div style={{ textAlign: "center", marginBottom: 56 }}>
+          <h2
+            style={{
+              fontSize: "clamp(28px,3.5vw,48px)",
+              fontWeight: 900,
+              color: "#F4F4F6",
+              lineHeight: 1.15,
+              marginBottom: 16,
+            }}
+          >
             Deposit &amp; withdraw using{" "}
-            <span className="text-[#0C8DF8]">local payment methods</span>
+            <span style={{ color: "#0C8DF8" }}>local payment methods</span>
           </h2>
-          <p className="text-[#82889B] text-lg mt-4">
+          <p style={{ color: "#82889B", fontSize: "clamp(14px,1.2vw,18px)" }}>
             Fast and secure transactions — your funds arrive within 1-2 hours
           </p>
         </div>
 
-        {/* Payment methods grid */}
-        <div className="flex flex-wrap justify-center gap-4">
+        {/* Payment logos */}
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            gap: 16,
+            marginBottom: 56,
+          }}
+        >
           {paymentMethods.map((method) => (
             <div
               key={method.name}
-              className="bg-[#232737] border border-[#393F56] rounded-2xl px-8 py-6 flex items-center justify-center hover:border-[#0C8DF8]/50 hover:bg-[#232737]/80 transition-all min-w-[140px] h-[80px]"
+              style={{
+                background: "#161616",
+                border: "1px solid rgba(255,255,255,0.07)",
+                borderRadius: 16,
+                padding: "24px 32px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                minWidth: 140,
+                height: 84,
+              }}
             >
               {method.logo}
             </div>
           ))}
         </div>
 
-        {/* Withdraw feature bullets */}
-        <div className="grid sm:grid-cols-3 gap-6 mt-14 max-w-3xl mx-auto">
+        {/* Features */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+            gap: 24,
+            maxWidth: 700,
+            margin: "0 auto",
+            textAlign: "center",
+          }}
+        >
           {[
-            { icon: "⚡", title: "1-2 hours", desc: "Withdrawal processing time" },
-            { icon: "🔒", title: "Secure", desc: "SSL encrypted transactions" },
-            { icon: "💳", title: "No extra fees", desc: "on deposits and withdrawals" },
+            { title: "1-2 hours", desc: "Withdrawal processing time" },
+            { title: "Secure", desc: "SSL encrypted transactions" },
+            { title: "No extra fees", desc: "On deposits and withdrawals" },
           ].map((item) => (
-            <div key={item.title} className="text-center">
-              <div className="text-3xl mb-2">{item.icon}</div>
-              <p className="font-black text-lg text-[#F4F4F6]">{item.title}</p>
-              <p className="text-sm text-[#82889B]">{item.desc}</p>
+            <div key={item.title}>
+              <p style={{ fontSize: "clamp(20px,1.8vw,26px)", fontWeight: 900, color: "#F4F4F6", marginBottom: 6 }}>
+                {item.title}
+              </p>
+              <p style={{ fontSize: 14, color: "#82889B" }}>{item.desc}</p>
             </div>
           ))}
         </div>

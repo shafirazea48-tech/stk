@@ -23,32 +23,66 @@ const assetCategories = [
 
 export default function AssetsSection() {
   return (
-    <section id="assets" className="py-24 bg-[#0d0f1a] overflow-hidden">
-      <div className="max-w-[1280px] mx-auto px-4 sm:px-6">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-[clamp(32px,5vw,60px)] font-black text-[#F4F4F6] leading-tight">
-            <span className="text-[#0C8DF8]">140+ assets</span> to explore
+    <section style={{ background: "#0d0d0d", padding: "80px 0", overflow: "hidden" }}>
+      <div style={{ maxWidth: 1440, margin: "0 auto", padding: "0 26px" }}>
+        <div style={{ textAlign: "center", marginBottom: 56 }}>
+          <h2
+            style={{
+              fontSize: "clamp(28px,3.5vw,52px)",
+              fontWeight: 900,
+              color: "#F4F4F6",
+              lineHeight: 1.1,
+              marginBottom: 16,
+            }}
+          >
+            <span style={{ color: "#0C8DF8" }}>140+ assets</span> to explore
           </h2>
-          <p className="text-[#82889B] text-lg mt-4 max-w-xl mx-auto">
+          <p
+            style={{
+              color: "#82889B",
+              fontSize: "clamp(14px,1.2vw,18px)",
+              maxWidth: 520,
+              margin: "0 auto",
+            }}
+          >
             Trade currencies, stocks, crypto, commodities and more — all in one platform
           </p>
         </div>
 
-        {/* Asset category cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+            gap: 16,
+            marginBottom: 48,
+          }}
+        >
           {assetCategories.map((cat) => (
             <div
               key={cat.name}
-              className="bg-[#232737] border border-[#393F56] rounded-2xl p-5 hover:border-[#0C8DF8]/50 transition-all hover:translate-y-[-2px]"
+              style={{
+                background: "#161616",
+                border: "1px solid rgba(255,255,255,0.07)",
+                borderRadius: 16,
+                padding: "24px 20px",
+                transition: "border-color 0.2s, transform 0.2s",
+              }}
             >
               <div
-                className="w-10 h-10 rounded-xl flex items-center justify-center mb-4"
-                style={{ backgroundColor: `${cat.color}20` }}
+                style={{
+                  width: 40,
+                  height: 40,
+                  borderRadius: 10,
+                  background: `${cat.color}22`,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  marginBottom: 16,
+                }}
               >
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path
-                    d="M3 14l4-4 3 3 4-6 3 3"
+                    d="M2 14l4-5 3 3 4-7 5 4"
                     stroke={cat.color}
                     strokeWidth="2"
                     strokeLinecap="round"
@@ -56,16 +90,36 @@ export default function AssetsSection() {
                   />
                 </svg>
               </div>
-              <h3 className="font-bold text-[#F4F4F6] mb-3">{cat.name}</h3>
-              <ul className="space-y-1.5">
+              <h3
+                style={{
+                  fontWeight: 800,
+                  fontSize: 16,
+                  color: "#F4F4F6",
+                  marginBottom: 14,
+                }}
+              >
+                {cat.name}
+              </h3>
+              <ul style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 8 }}>
                 {cat.items.map((item) => (
                   <li
                     key={item}
-                    className="text-sm text-[#82889B] flex items-center gap-2"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: 8,
+                      fontSize: 13,
+                      color: "#82889B",
+                    }}
                   >
                     <span
-                      className="w-1.5 h-1.5 rounded-full shrink-0"
-                      style={{ backgroundColor: cat.color }}
+                      style={{
+                        width: 6,
+                        height: 6,
+                        borderRadius: "50%",
+                        background: cat.color,
+                        flexShrink: 0,
+                      }}
                     />
                     {item}
                   </li>
@@ -75,9 +129,8 @@ export default function AssetsSection() {
           ))}
         </div>
 
-        {/* CTA */}
-        <div className="text-center">
-          <a href="#" className="btn-primary text-base !py-3.5 !px-10">
+        <div style={{ textAlign: "center" }}>
+          <a href="#" className="btn-primary" style={{ fontSize: 16, padding: "14px 40px" }}>
             Start now
           </a>
         </div>
