@@ -79,22 +79,6 @@ export default function HeroSection() {
           paddingBottom: "7.40741vw",
         }}
       >
-        {/* Tag line */}
-        <p
-          className="hero-tagline"
-          style={{
-            fontSize: "0.972222vw",
-            fontWeight: 700,
-            letterSpacing: "0.18em",
-            textTransform: "uppercase",
-            color: "#00eaff",
-            marginBottom: "1.38889vw",
-            fontFamily: "'Nunito Sans', sans-serif",
-          }}
-        >
-          The Smart Trading Platform
-        </p>
-
         {/* Title */}
         <h1
           className="hero-title"
