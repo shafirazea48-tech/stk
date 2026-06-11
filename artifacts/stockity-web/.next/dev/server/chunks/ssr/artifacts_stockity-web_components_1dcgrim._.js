@@ -2849,13 +2849,36 @@ function DeviceSection() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
+                                            position: "absolute",
+                                            inset: 0
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/images/stockity/src/core/images/device/mob_desktop-873a8cb8ab00908e.webp",
+                                            alt: "Stockity mobile app",
+                                            fill: true,
+                                            style: {
+                                                objectFit: "cover",
+                                                objectPosition: "center bottom"
+                                            },
+                                            unoptimized: true
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
+                                            lineNumber: 92,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
+                                        lineNumber: 91,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            position: "absolute",
+                                            inset: 0,
                                             display: "flex",
                                             flexDirection: "column",
                                             alignItems: "center",
-                                            paddingTop: "2.77778vw",
-                                            paddingLeft: "2.77778vw",
-                                            paddingRight: "2.77778vw",
-                                            position: "relative",
+                                            padding: "2.77778vw",
                                             zIndex: 2
                                         },
                                         children: [
@@ -2872,7 +2895,7 @@ function DeviceSection() {
                                                 children: "Mobile Apps"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                lineNumber: 104,
+                                                lineNumber: 114,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2890,7 +2913,7 @@ function DeviceSection() {
                                                             alignItems: "center",
                                                             justifyContent: "center",
                                                             gap: "0.925926vw",
-                                                            background: "rgba(255,255,255,0.06)",
+                                                            background: "rgba(20,20,20,0.7)",
                                                             border: "1px solid rgba(255,255,255,0.12)",
                                                             borderRadius: "0.925926vw",
                                                             height: "4.62963vw",
@@ -2903,7 +2926,7 @@ function DeviceSection() {
                                                                 size: "1.85185vw"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                                lineNumber: 138,
+                                                                lineNumber: 147,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2911,19 +2934,18 @@ function DeviceSection() {
                                                                     fontFamily: "'Nunito Sans', sans-serif",
                                                                     fontWeight: 700,
                                                                     fontSize: "1.15741vw",
-                                                                    lineHeight: "1.38889vw",
                                                                     color: "#f4f4f6"
                                                                 },
                                                                 children: "Google Play"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                                lineNumber: 139,
+                                                                lineNumber: 148,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                        lineNumber: 121,
+                                                        lineNumber: 130,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2934,7 +2956,7 @@ function DeviceSection() {
                                                             alignItems: "center",
                                                             justifyContent: "center",
                                                             gap: "0.925926vw",
-                                                            background: "rgba(255,255,255,0.06)",
+                                                            background: "rgba(20,20,20,0.7)",
                                                             border: "1px solid rgba(255,255,255,0.12)",
                                                             borderRadius: "0.925926vw",
                                                             height: "4.62963vw",
@@ -2947,7 +2969,7 @@ function DeviceSection() {
                                                                 size: "1.85185vw"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                                lineNumber: 170,
+                                                                lineNumber: 169,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2955,34 +2977,33 @@ function DeviceSection() {
                                                                     fontFamily: "'Nunito Sans', sans-serif",
                                                                     fontWeight: 700,
                                                                     fontSize: "1.15741vw",
-                                                                    lineHeight: "1.38889vw",
                                                                     color: "#f4f4f6"
                                                                 },
                                                                 children: "App Store"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                                lineNumber: 171,
+                                                                lineNumber: 170,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                        lineNumber: 153,
+                                                        lineNumber: 152,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                lineNumber: 119,
+                                                lineNumber: 129,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 style: {
+                                                    marginTop: "auto",
                                                     display: "flex",
-                                                    alignItems: "center",
-                                                    gap: "0.925926vw",
-                                                    marginTop: "2.77778vw",
-                                                    marginBottom: "2.77778vw"
+                                                    flexDirection: "column",
+                                                    alignItems: "flex-start",
+                                                    gap: "0.925926vw"
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -2990,12 +3011,11 @@ function DeviceSection() {
                                                         alt: "QR Code",
                                                         style: {
                                                             width: "6.94444vw",
-                                                            height: "6.94444vw",
-                                                            flexShrink: 0
+                                                            height: "6.94444vw"
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                        lineNumber: 195,
+                                                        lineNumber: 186,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3011,47 +3031,19 @@ function DeviceSection() {
                                                         children: "Download Android APK >"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                        lineNumber: 200,
+                                                        lineNumber: 191,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                lineNumber: 186,
+                                                lineNumber: 177,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                        lineNumber: 91,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            position: "absolute",
-                                            bottom: 0,
-                                            left: 0,
-                                            right: 0,
-                                            height: "58%",
-                                            overflow: "hidden"
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/images/stockity/src/core/images/device/mob_desktop-873a8cb8ab00908e.webp",
-                                            alt: "Stockity mobile app",
-                                            fill: true,
-                                            style: {
-                                                objectFit: "cover",
-                                                objectPosition: "center top"
-                                            },
-                                            unoptimized: true
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                            lineNumber: 218,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                        lineNumber: 217,
+                                        lineNumber: 102,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -3073,13 +3065,36 @@ function DeviceSection() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
+                                            position: "absolute",
+                                            inset: 0
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            src: "/images/stockity/src/core/images/device/web_desktop-358cd5506175c9cf.webp",
+                                            alt: "Stockity web platform",
+                                            fill: true,
+                                            style: {
+                                                objectFit: "cover",
+                                                objectPosition: "center bottom"
+                                            },
+                                            unoptimized: true
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
+                                            lineNumber: 222,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
+                                        lineNumber: 221,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            position: "absolute",
+                                            inset: 0,
                                             display: "flex",
                                             flexDirection: "column",
                                             alignItems: "center",
-                                            paddingTop: "2.77778vw",
-                                            paddingLeft: "2.77778vw",
-                                            paddingRight: "2.77778vw",
-                                            position: "relative",
+                                            padding: "2.77778vw",
                                             zIndex: 2
                                         },
                                         children: [
@@ -3096,17 +3111,18 @@ function DeviceSection() {
                                                 children: "Web Version"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                lineNumber: 254,
+                                                lineNumber: 244,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                 href: "#",
                                                 style: {
                                                     width: "100%",
+                                                    maxWidth: "352px",
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    background: "rgba(255,255,255,0.06)",
+                                                    background: "rgba(20,20,20,0.7)",
                                                     border: "1px solid rgba(255,255,255,0.12)",
                                                     borderRadius: "0.925926vw",
                                                     height: "4.62963vw",
@@ -3116,54 +3132,24 @@ function DeviceSection() {
                                                     fontFamily: "'Nunito Sans', sans-serif",
                                                     fontWeight: 700,
                                                     fontSize: "1.15741vw",
-                                                    lineHeight: "1.38889vw",
-                                                    color: "#f4f4f6",
-                                                    maxWidth: "352px"
+                                                    color: "#f4f4f6"
                                                 },
                                                 children: "Open"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                lineNumber: 269,
+                                                lineNumber: 259,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                        lineNumber: 241,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            position: "absolute",
-                                            bottom: 0,
-                                            left: 0,
-                                            right: 0,
-                                            height: "58%",
-                                            overflow: "hidden"
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                            src: "/images/stockity/src/core/images/device/web_desktop-358cd5506175c9cf.webp",
-                                            alt: "Stockity web platform",
-                                            fill: true,
-                                            style: {
-                                                objectFit: "cover",
-                                                objectPosition: "center top"
-                                            },
-                                            unoptimized: true
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                            lineNumber: 297,
-                                            columnNumber: 15
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 232,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                lineNumber: 229,
+                                lineNumber: 209,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -3202,13 +3188,13 @@ function DeviceSection() {
                                 children: "any device"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                lineNumber: 325,
+                                lineNumber: 303,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                        lineNumber: 312,
+                        lineNumber: 290,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3260,7 +3246,7 @@ function DeviceSection() {
                                                     children: "Mobile Apps"
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                    lineNumber: 358,
+                                                    lineNumber: 336,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3282,7 +3268,7 @@ function DeviceSection() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(GooglePlayIcon, {}, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                            lineNumber: 390,
+                                                            lineNumber: 368,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3295,13 +3281,13 @@ function DeviceSection() {
                                                             children: "Google Play"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                            lineNumber: 391,
+                                                            lineNumber: 369,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                    lineNumber: 373,
+                                                    lineNumber: 351,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3323,7 +3309,7 @@ function DeviceSection() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AppleIcon, {}, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                            lineNumber: 412,
+                                                            lineNumber: 390,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3336,13 +3322,13 @@ function DeviceSection() {
                                                             children: "App Store"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                            lineNumber: 413,
+                                                            lineNumber: 391,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                    lineNumber: 395,
+                                                    lineNumber: 373,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3361,28 +3347,28 @@ function DeviceSection() {
                                                         children: "Download Android APK >"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                        lineNumber: 418,
+                                                        lineNumber: 396,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                    lineNumber: 417,
+                                                    lineNumber: 395,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                            lineNumber: 357,
+                                            lineNumber: 335,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                        lineNumber: 345,
+                                        lineNumber: 323,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                    lineNumber: 344,
+                                    lineNumber: 322,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3418,7 +3404,7 @@ function DeviceSection() {
                                                     children: "Web Platform"
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                    lineNumber: 450,
+                                                    lineNumber: 428,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3443,41 +3429,41 @@ function DeviceSection() {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(WebIcon, {}, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                            lineNumber: 485,
+                                                            lineNumber: 463,
                                                             columnNumber: 21
                                                         }, this),
                                                         "Open Web Platform"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                                    lineNumber: 465,
+                                                    lineNumber: 443,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                            lineNumber: 449,
+                                            lineNumber: 427,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                        lineNumber: 437,
+                                        lineNumber: 415,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                    lineNumber: 436,
+                                    lineNumber: 414,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                            lineNumber: 334,
+                            lineNumber: 312,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                        lineNumber: 329,
+                        lineNumber: 307,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3504,18 +3490,18 @@ function DeviceSection() {
                                 }
                             }, i, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                                lineNumber: 505,
+                                lineNumber: 483,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                        lineNumber: 495,
+                        lineNumber: 473,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/DeviceSection.tsx",
-                lineNumber: 310,
+                lineNumber: 288,
                 columnNumber: 7
             }, this)
         ]

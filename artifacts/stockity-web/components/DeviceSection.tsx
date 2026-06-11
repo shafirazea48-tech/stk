@@ -87,16 +87,26 @@ export default function DeviceSection() {
               boxSizing: "border-box",
             }}
           >
-            {/* Content */}
+            {/* Phone image — covers full card as background */}
+            <div style={{ position: "absolute", inset: 0 }}>
+              <Image
+                src="/images/stockity/src/core/images/device/mob_desktop-873a8cb8ab00908e.webp"
+                alt="Stockity mobile app"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center bottom" }}
+                unoptimized
+              />
+            </div>
+
+            {/* Content overlay — full card height, flex column */}
             <div
               style={{
+                position: "absolute",
+                inset: 0,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                paddingTop: "2.77778vw",
-                paddingLeft: "2.77778vw",
-                paddingRight: "2.77778vw",
-                position: "relative",
+                padding: "2.77778vw",
                 zIndex: 2,
               }}
             >
@@ -117,7 +127,6 @@ export default function DeviceSection() {
 
               {/* Store buttons row */}
               <div style={{ display: "flex", gap: "1.38889vw", width: "100%" }}>
-                {/* Google Play */}
                 <a
                   href="#"
                   style={{
@@ -126,7 +135,7 @@ export default function DeviceSection() {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: "0.925926vw",
-                    background: "rgba(255,255,255,0.06)",
+                    background: "rgba(20,20,20,0.7)",
                     border: "1px solid rgba(255,255,255,0.12)",
                     borderRadius: "0.925926vw",
                     height: "4.62963vw",
@@ -136,20 +145,10 @@ export default function DeviceSection() {
                   }}
                 >
                   <GooglePlayIcon size="1.85185vw" />
-                  <span
-                    style={{
-                      fontFamily: "'Nunito Sans', sans-serif",
-                      fontWeight: 700,
-                      fontSize: "1.15741vw",
-                      lineHeight: "1.38889vw",
-                      color: "#f4f4f6",
-                    }}
-                  >
+                  <span style={{ fontFamily: "'Nunito Sans', sans-serif", fontWeight: 700, fontSize: "1.15741vw", color: "#f4f4f6" }}>
                     Google Play
                   </span>
                 </a>
-
-                {/* App Store */}
                 <a
                   href="#"
                   style={{
@@ -158,7 +157,7 @@ export default function DeviceSection() {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: "0.925926vw",
-                    background: "rgba(255,255,255,0.06)",
+                    background: "rgba(20,20,20,0.7)",
                     border: "1px solid rgba(255,255,255,0.12)",
                     borderRadius: "0.925926vw",
                     height: "4.62963vw",
@@ -168,34 +167,26 @@ export default function DeviceSection() {
                   }}
                 >
                   <AppleIcon size="1.85185vw" />
-                  <span
-                    style={{
-                      fontFamily: "'Nunito Sans', sans-serif",
-                      fontWeight: 700,
-                      fontSize: "1.15741vw",
-                      lineHeight: "1.38889vw",
-                      color: "#f4f4f6",
-                    }}
-                  >
+                  <span style={{ fontFamily: "'Nunito Sans', sans-serif", fontWeight: 700, fontSize: "1.15741vw", color: "#f4f4f6" }}>
                     App Store
                   </span>
                 </a>
               </div>
 
-              {/* QR code + download link */}
+              {/* QR code + download link — pushed to bottom */}
               <div
                 style={{
+                  marginTop: "auto",
                   display: "flex",
-                  alignItems: "center",
+                  flexDirection: "column",
+                  alignItems: "flex-start",
                   gap: "0.925926vw",
-                  marginTop: "2.77778vw",
-                  marginBottom: "2.77778vw",
                 }}
               >
                 <img
                   src="/images/stockity/src/core/images/device/qr-code_en-12d10e19e65f695a.svg"
                   alt="QR Code"
-                  style={{ width: "6.94444vw", height: "6.94444vw", flexShrink: 0 }}
+                  style={{ width: "6.94444vw", height: "6.94444vw" }}
                 />
                 <a
                   href="#"
@@ -212,17 +203,6 @@ export default function DeviceSection() {
                 </a>
               </div>
             </div>
-
-            {/* Phone image at bottom */}
-            <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "58%", overflow: "hidden" }}>
-              <Image
-                src="/images/stockity/src/core/images/device/mob_desktop-873a8cb8ab00908e.webp"
-                alt="Stockity mobile app"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center top" }}
-                unoptimized
-              />
-            </div>
           </div>
 
           {/* Card 2: Web Version */}
@@ -237,16 +217,26 @@ export default function DeviceSection() {
               boxSizing: "border-box",
             }}
           >
-            {/* Content */}
+            {/* Laptop image — covers full card as background */}
+            <div style={{ position: "absolute", inset: 0 }}>
+              <Image
+                src="/images/stockity/src/core/images/device/web_desktop-358cd5506175c9cf.webp"
+                alt="Stockity web platform"
+                fill
+                style={{ objectFit: "cover", objectPosition: "center bottom" }}
+                unoptimized
+              />
+            </div>
+
+            {/* Content overlay — full card height, flex column */}
             <div
               style={{
+                position: "absolute",
+                inset: 0,
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                paddingTop: "2.77778vw",
-                paddingLeft: "2.77778vw",
-                paddingRight: "2.77778vw",
-                position: "relative",
+                padding: "2.77778vw",
                 zIndex: 2,
               }}
             >
@@ -265,15 +255,16 @@ export default function DeviceSection() {
                 Web Version
               </p>
 
-              {/* Open button — full width */}
+              {/* Open button */}
               <a
                 href="#"
                 style={{
                   width: "100%",
+                  maxWidth: "352px",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  background: "rgba(255,255,255,0.06)",
+                  background: "rgba(20,20,20,0.7)",
                   border: "1px solid rgba(255,255,255,0.12)",
                   borderRadius: "0.925926vw",
                   height: "4.62963vw",
@@ -283,24 +274,11 @@ export default function DeviceSection() {
                   fontFamily: "'Nunito Sans', sans-serif",
                   fontWeight: 700,
                   fontSize: "1.15741vw",
-                  lineHeight: "1.38889vw",
                   color: "#f4f4f6",
-                  maxWidth: "352px",
                 }}
               >
                 Open
               </a>
-            </div>
-
-            {/* Laptop image at bottom */}
-            <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "58%", overflow: "hidden" }}>
-              <Image
-                src="/images/stockity/src/core/images/device/web_desktop-358cd5506175c9cf.webp"
-                alt="Stockity web platform"
-                fill
-                style={{ objectFit: "cover", objectPosition: "center top" }}
-                unoptimized
-              />
             </div>
           </div>
         </div>
