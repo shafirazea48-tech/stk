@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 
 const GooglePlayIcon = () => (
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
     <path d="M3.6 1.7L13.8 12 3.6 22.3c-.5-.3-.9-1-.9-2.2V3.9c0-1.1.4-1.9.9-2.2z" fill="#00C853"/>
     <path d="M14.8 13l2.2 2.2-10.9 6.2 8.7-8.4z" fill="#FFCA28"/>
     <path d="M20 10.7c.7.4 1.1 1 1.1 1.6s-.4 1.2-1.1 1.6l-1.9 1.1-2.3-2.3 2.3-2.3 1.9 1.1z" fill="#FF5722"/>
@@ -13,7 +13,7 @@ const GooglePlayIcon = () => (
 );
 
 const AppleIcon = () => (
-  <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
     <path d="M17.5 12.5c0-2.8 2.2-3.3 2.3-3.4-1.3-1.9-3.3-2.1-4-2.1-1.7-.2-3.3 1-4.2 1s-2.2-1-3.6-.9C6.2 7.2 4.2 8.2 3.2 10c-2.1 3.7-.5 9.1 1.5 12.1 1 1.4 2.1 3 3.6 3 1.5-.1 2-.9 3.7-.9 1.7 0 2.2.9 3.7.9s2.6-1.5 3.5-2.9c1.1-1.6 1.5-3.2 1.6-3.3-.1 0-3.3-1.3-3.3-4.4z"/>
     <path d="M15.3 5.4C16 4.5 16.5 3.2 16.3 2c-1.1.1-2.5.8-3.3 1.7-.7.8-1.3 2.1-1.1 3.2 1.2.1 2.5-.6 3.4-1.5z"/>
   </svg>
@@ -247,11 +247,11 @@ export default function DeviceSection() {
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      gap: "3.33333vw",
-                      background: "#1a1a1a",
-                      border: "1px solid rgba(255,255,255,0.12)",
+                      gap: "2.77778vw",
+                      background: "#252525",
+                      border: "1px solid rgba(255,255,255,0.1)",
                       borderRadius: "3.33333vw",
-                      padding: "4.44444vw 5.55556vw",
+                      padding: "3.33333vw 5.55556vw",
                       textDecoration: "none",
                       width: "100%",
                       boxSizing: "border-box",
@@ -259,7 +259,7 @@ export default function DeviceSection() {
                     }}
                   >
                     <GooglePlayIcon />
-                    <span style={{ fontSize: "5.55556vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>Google Play</span>
+                    <span style={{ fontSize: "4.44444vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>Google Play</span>
                   </a>
 
                   {/* App Store — centered icon + label */}
@@ -269,11 +269,11 @@ export default function DeviceSection() {
                       display: "flex",
                       alignItems: "center",
                       justifyContent: "center",
-                      gap: "3.33333vw",
-                      background: "#1a1a1a",
-                      border: "1px solid rgba(255,255,255,0.12)",
+                      gap: "2.77778vw",
+                      background: "#252525",
+                      border: "1px solid rgba(255,255,255,0.1)",
                       borderRadius: "3.33333vw",
-                      padding: "4.44444vw 5.55556vw",
+                      padding: "3.33333vw 5.55556vw",
                       textDecoration: "none",
                       width: "100%",
                       boxSizing: "border-box",
@@ -281,7 +281,7 @@ export default function DeviceSection() {
                     }}
                   >
                     <AppleIcon />
-                    <span style={{ fontSize: "5.55556vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>App Store</span>
+                    <span style={{ fontSize: "4.44444vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>App Store</span>
                   </a>
 
                   {/* Download APK link */}

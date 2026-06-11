@@ -2386,8 +2386,8 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 const GooglePlayIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-        width: "28",
-        height: "28",
+        width: "22",
+        height: "22",
         viewBox: "0 0 24 24",
         fill: "none",
         children: [
@@ -2431,8 +2431,8 @@ const GooglePlayIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$
     }, ("TURBOPACK compile-time value", void 0));
 _c = GooglePlayIcon;
 const AppleIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-        width: "28",
-        height: "28",
+        width: "22",
+        height: "22",
         viewBox: "0 0 24 24",
         fill: "white",
         children: [
@@ -2980,11 +2980,11 @@ function DeviceSection() {
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
-                                                        gap: "3.33333vw",
-                                                        background: "#1a1a1a",
-                                                        border: "1px solid rgba(255,255,255,0.12)",
+                                                        gap: "2.77778vw",
+                                                        background: "#252525",
+                                                        border: "1px solid rgba(255,255,255,0.1)",
                                                         borderRadius: "3.33333vw",
-                                                        padding: "4.44444vw 5.55556vw",
+                                                        padding: "3.33333vw 5.55556vw",
                                                         textDecoration: "none",
                                                         width: "100%",
                                                         boxSizing: "border-box",
@@ -2998,7 +2998,7 @@ function DeviceSection() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                fontSize: "5.55556vw",
+                                                                fontSize: "4.44444vw",
                                                                 fontWeight: 700,
                                                                 color: "#fff",
                                                                 fontFamily: "'Nunito Sans', sans-serif"
@@ -3021,11 +3021,11 @@ function DeviceSection() {
                                                         display: "flex",
                                                         alignItems: "center",
                                                         justifyContent: "center",
-                                                        gap: "3.33333vw",
-                                                        background: "#1a1a1a",
-                                                        border: "1px solid rgba(255,255,255,0.12)",
+                                                        gap: "2.77778vw",
+                                                        background: "#252525",
+                                                        border: "1px solid rgba(255,255,255,0.1)",
                                                         borderRadius: "3.33333vw",
-                                                        padding: "4.44444vw 5.55556vw",
+                                                        padding: "3.33333vw 5.55556vw",
                                                         textDecoration: "none",
                                                         width: "100%",
                                                         boxSizing: "border-box",
@@ -3039,7 +3039,7 @@ function DeviceSection() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                fontSize: "5.55556vw",
+                                                                fontSize: "4.44444vw",
                                                                 fontWeight: 700,
                                                                 color: "#fff",
                                                                 fontFamily: "'Nunito Sans', sans-serif"
