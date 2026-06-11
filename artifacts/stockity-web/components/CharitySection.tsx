@@ -17,13 +17,14 @@ export default function CharitySection() {
       >
         <div
           style={{
-            maxWidth: "50vw",
-            margin: "0 auto",
-            padding: "0 1.85185vw",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
             textAlign: "center",
+            padding: "0 13.8889vw",
           }}
         >
-          {/* Title: "We invest in more than trading.\nStockity is socially active" */}
           <h2
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
@@ -31,7 +32,7 @@ export default function CharitySection() {
               fontSize: "3.7037vw",
               lineHeight: "4.16667vw",
               color: "#fff",
-              marginBottom: "1.38889vw",
+              marginBottom: "0.925926vw",
             }}
           >
             We invest in more than trading.
@@ -39,16 +40,15 @@ export default function CharitySection() {
             Stockity is <span style={{ color: "#0C8DF8" }}>socially active</span>
           </h2>
 
-          {/* Subtitle */}
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
               fontWeight: 400,
               fontSize: "1.85185vw",
               lineHeight: "2.31481vw",
-              color: "#f4f4f6",
+              color: "#ebebeb",
               marginBottom: "2.77778vw",
-              opacity: 0.8,
+              maxWidth: "69.4444vw",
             }}
           >
             We support environmental protection, animal welfare, sports, and many
@@ -94,10 +94,10 @@ export default function CharitySection() {
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
+              fontWeight: 400,
               fontSize: "5vw",
               lineHeight: "6.66667vw",
-              color: "#f4f4f6",
-              opacity: 0.8,
+              color: "#ebebeb",
               marginBottom: "6.66667vw",
             }}
           >

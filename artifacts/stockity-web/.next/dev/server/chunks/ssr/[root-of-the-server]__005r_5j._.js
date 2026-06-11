@@ -2025,10 +2025,12 @@ function CharitySection() {
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     style: {
-                        maxWidth: "50vw",
-                        margin: "0 auto",
-                        padding: "0 1.85185vw",
-                        textAlign: "center"
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        textAlign: "center",
+                        padding: "0 13.8889vw"
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2038,13 +2040,13 @@ function CharitySection() {
                                 fontSize: "3.7037vw",
                                 lineHeight: "4.16667vw",
                                 color: "#fff",
-                                marginBottom: "1.38889vw"
+                                marginBottom: "0.925926vw"
                             },
                             children: [
                                 "We invest in more than trading.",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/CharitySection.tsx",
-                                    lineNumber: 38,
+                                    lineNumber: 39,
                                     columnNumber: 13
                                 }, this),
                                 "Stockity is ",
@@ -2055,13 +2057,13 @@ function CharitySection() {
                                     children: "socially active"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/CharitySection.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 40,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/components/CharitySection.tsx",
-                            lineNumber: 27,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2070,9 +2072,9 @@ function CharitySection() {
                                 fontWeight: 400,
                                 fontSize: "1.85185vw",
                                 lineHeight: "2.31481vw",
-                                color: "#f4f4f6",
+                                color: "#ebebeb",
                                 marginBottom: "2.77778vw",
-                                opacity: 0.8
+                                maxWidth: "69.4444vw"
                             },
                             children: "We support environmental protection, animal welfare, sports, and many other initiatives. Read more to see how we give back to communities"
                         }, void 0, false, {
@@ -2154,10 +2156,10 @@ function CharitySection() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             style: {
                                 fontFamily: "'Nunito Sans', sans-serif",
+                                fontWeight: 400,
                                 fontSize: "5vw",
                                 lineHeight: "6.66667vw",
-                                color: "#f4f4f6",
-                                opacity: 0.8,
+                                color: "#ebebeb",
                                 marginBottom: "6.66667vw"
                             },
                             children: "We support environmental protection, animal welfare, sports, and many other initiatives."
