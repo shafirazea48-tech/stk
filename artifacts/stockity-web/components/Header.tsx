@@ -58,7 +58,7 @@ export default function Header() {
   const [mobileOpenDropdown, setMobileOpenDropdown] = useState<string | null>(null);
 
   return (
-    <header style={{ backgroundColor: "#000", position: "fixed", top: 0, left: 0, right: 0, zIndex: 250 }}>
+    <header style={{ backgroundColor: "#000", position: "fixed", top: 0, left: 0, right: 0, zIndex: 260 }}>
       {/* Desktop header — md breakpoint = 768px, matching original */}
       <div
         className="hidden md:flex"
@@ -334,16 +334,16 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile side drawer */}
+      {/* Mobile side drawer — z-index below header (260) so header stays on top */}
       {mobileOpen && (
         <div className="md:hidden">
-          {/* Backdrop */}
+          {/* Backdrop — covers page but stays below header */}
           <div
             style={{
               position: "fixed",
               inset: 0,
               background: "rgba(0,0,0,0.55)",
-              zIndex: 300,
+              zIndex: 240,
             }}
             onClick={() => setMobileOpen(false)}
           />
@@ -356,91 +356,14 @@ export default function Header() {
               width: "87vw",
               height: "100dvh",
               background: "#0d1020",
-              zIndex: 310,
+              zIndex: 250,
               display: "flex",
               flexDirection: "column",
               overflowY: "auto",
             }}
           >
-            {/* Panel header row */}
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                padding: "3.33333vw 4.44444vw",
-                gap: "3.33333vw",
-                flexShrink: 0,
-              }}
-            >
-              {/* X close button */}
-              <button
-                onClick={() => setMobileOpen(false)}
-                style={{ padding: 0, background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center", color: "#fff", flexShrink: 0 }}
-                aria-label="Close menu"
-              >
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-                  <path d="M6 6l12 12M6 18L18 6" stroke="white" strokeWidth="2.2" strokeLinecap="round"/>
-                </svg>
-              </button>
-
-              {/* S icon logo */}
-              <a href="#" style={{ display: "flex", alignItems: "center", textDecoration: "none", flexShrink: 0 }}>
-                <svg viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "7.22222vw", minHeight: 24, width: "auto" }}>
-                  <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#sdi1)"/>
-                  <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#sdi2)"/>
-                  <path d="M1.313 15.717a4.695 4.695 0 0 0 1.713 6.405l8.757 5.068.015.009a4.694 4.694 0 0 1 2.27 4.775c-.176 1.135-.916 2.096-1.697 2.938l6.92-6.938a4.695 4.695 0 0 0-.668-7.655l-8.756-5.068-.015-.009a4.694 4.694 0 0 1-2.27-4.775c.176-1.135.916-2.097 1.697-2.939L2.358 14.59a4.677 4.677 0 0 0-1.045 1.127Z" fill="#0C8DF8"/>
-                  <defs>
-                    <linearGradient id="sdi1" x1="17.106" y1="7.408" x2="-11.286" y2="33.808" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
-                    </linearGradient>
-                    <linearGradient id="sdi2" x1="7.63" y1="33.255" x2="22.939" y2="17.79" gradientUnits="userSpaceOnUse">
-                      <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </a>
-
-              {/* Right: Login + Register + Flag */}
-              <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: "2.22222vw", flexShrink: 0 }}>
-                <button
-                  style={{
-                    padding: "1.94444vw 3.88889vw",
-                    fontSize: "3.61111vw",
-                    fontWeight: 700,
-                    color: "#fff",
-                    background: "none",
-                    border: "1.5px solid rgba(255,255,255,0.5)",
-                    borderRadius: "1.94444vw",
-                    cursor: "pointer",
-                    fontFamily: "inherit",
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  Log in
-                </button>
-                <button
-                  style={{
-                    padding: "1.94444vw 3.88889vw",
-                    fontSize: "3.61111vw",
-                    fontWeight: 700,
-                    color: "#fff",
-                    background: "#0c8df8",
-                    border: "none",
-                    borderRadius: "1.94444vw",
-                    cursor: "pointer",
-                    fontFamily: "inherit",
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  Register
-                </button>
-                <img
-                  src="https://flagcdn.com/w40/gb.png"
-                  alt="EN"
-                  style={{ height: "5.55556vw", minHeight: 18, width: "auto", borderRadius: 2 }}
-                />
-              </div>
-            </div>
+            {/* Spacer matching mobile header height so nav items start below it */}
+            <div style={{ height: "16vw", flexShrink: 0 }} />
 
             {/* Nav items with dividers */}
             <nav style={{ flex: 1 }}>
