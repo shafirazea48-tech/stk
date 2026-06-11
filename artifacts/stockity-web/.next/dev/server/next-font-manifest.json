@@ -2,30 +2,6 @@
   "app": {
     "[project]/artifacts/stockity-web/app/page": [
       "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-assets/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-charity/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-device/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-faq/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-footer/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-join/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-protect/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-withdraw/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
     ]
   },
   "appUsingSizeAdjust": true,

@@ -492,6 +492,14 @@ body {
   border-color: #ffffff80;
 }
 
+@media (max-width: 767px) {
+  .hero-sub {
+    max-width: 85vw !important;
+    font-size: 4.44444vw !important;
+    line-height: 6.66667vw !important;
+  }
+}
+
 @keyframes scroll-left {
   0% {
     transform: translateX(0%);

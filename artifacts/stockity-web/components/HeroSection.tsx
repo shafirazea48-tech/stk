@@ -99,22 +99,6 @@ export default function HeroSection() {
           <span style={{ color: "#fff" }}>Making investing clear</span>
         </h1>
 
-        {/* Sub-headline */}
-        <p
-          className="hero-sub"
-          style={{
-            textAlign: "center",
-            color: "rgba(235,235,235,0.75)",
-            fontFamily: "'Nunito Sans', sans-serif",
-            fontWeight: 400,
-            fontSize: "1.11111vw",
-            lineHeight: "1.66667vw",
-            marginTop: "1.38889vw",
-            maxWidth: "36.1111vw",
-          }}
-        >
-          Trade currencies, stocks, crypto and commodities with a platform built for clarity, speed and security.
-        </p>
 
         {/* CTA buttons */}
         <div

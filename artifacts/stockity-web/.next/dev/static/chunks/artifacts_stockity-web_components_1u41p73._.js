@@ -1100,24 +1100,6 @@ function HeroSection() {
                         lineNumber: 83,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "hero-sub",
-                        style: {
-                            textAlign: "center",
-                            color: "rgba(235,235,235,0.75)",
-                            fontFamily: "'Nunito Sans', sans-serif",
-                            fontWeight: 400,
-                            fontSize: "1.11111vw",
-                            lineHeight: "1.66667vw",
-                            marginTop: "1.38889vw",
-                            maxWidth: "36.1111vw"
-                        },
-                        children: "Trade currencies, stocks, crypto and commodities with a platform built for clarity, speed and security."
-                    }, void 0, false, {
-                        fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                        lineNumber: 103,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hero-cta-row",
                         style: {
@@ -1133,7 +1115,7 @@ function HeroSection() {
                                 children: "Get Started Free"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 129,
+                                lineNumber: 113,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1165,7 +1147,7 @@ function HeroSection() {
                                                 strokeWidth: "1.5"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                lineNumber: 148,
+                                                lineNumber: 132,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1173,26 +1155,26 @@ function HeroSection() {
                                                 fill: "rgba(255,255,255,0.9)"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 133,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                        lineNumber: 147,
+                                        lineNumber: 131,
                                         columnNumber: 13
                                     }, this),
                                     "Watch demo"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 132,
+                                lineNumber: 116,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                        lineNumber: 120,
+                        lineNumber: 104,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1236,16 +1218,16 @@ function HeroSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 171,
                                             columnNumber: 19
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LicensedIcon, {}, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 189,
+                                            lineNumber: 173,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                        lineNumber: 182,
+                                        lineNumber: 166,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1261,18 +1243,18 @@ function HeroSection() {
                                         children: f.text
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                        lineNumber: 192,
+                                        lineNumber: 176,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, f.text, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 165,
+                                lineNumber: 149,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                        lineNumber: 156,
+                        lineNumber: 140,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1356,7 +1338,7 @@ function HeroSection() {
       `
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 210,
+                lineNumber: 194,
                 columnNumber: 7
             }, this)
         ]
