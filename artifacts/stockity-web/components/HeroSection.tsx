@@ -107,29 +107,11 @@ export default function HeroSection() {
           </h1>
 
           {/* CTA button */}
-          <div className="hero-btn-wrap" style={{ marginTop: "2.77778vw" }}>
+          <div className="hero-btn-wrap" style={{ marginTop: "2.77778vw", width: "100%" }}>
             <a
               href="#"
-              className="hero-btn"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                justifyContent: "center",
-                background: "linear-gradient(90deg, #0990ff 0%, #00eaff 100%)",
-                color: "#fff",
-                fontWeight: 700,
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "1.15741vw",
-                lineHeight: "1.38889vw",
-                borderRadius: "0.925926vw",
-                padding: "1.11111vw 4.62963vw",
-                textDecoration: "none",
-                border: "none",
-                cursor: "pointer",
-                whiteSpace: "nowrap",
-                boxShadow: "0 10px 60px 0 rgba(93,139,192,.5)",
-                minWidth: "20vw",
-              }}
+              className="btn-primary hero-btn"
+              style={{ fontFamily: "'Nunito Sans', sans-serif" }}
             >
               Register Now
             </a>

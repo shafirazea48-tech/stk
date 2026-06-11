@@ -250,45 +250,88 @@ export default function Header() {
         className="flex md:hidden"
         style={{
           width: "100%",
-          padding: "4.44444vw 2.22222vw",
+          padding: "3.33333vw 4.44444vw",
           alignItems: "center",
           justifyContent: "space-between",
           boxSizing: "border-box",
+          gap: "2.22222vw",
         }}
       >
-        <a href="#" style={{ display: "flex", alignItems: "center", gap: "2.22222vw", textDecoration: "none" }}>
-          <svg viewBox="0 0 123 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "7.77778vw", minHeight: 28, width: "auto" }}>
-            <g>
-              <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#mha)"/>
-              <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#mhb)"/>
+        {/* Left: hamburger + S icon */}
+        <div style={{ display: "flex", alignItems: "center", gap: "3.33333vw" }}>
+          <button
+            style={{ padding: 0, color: "#fff", background: "none", border: "none", cursor: "pointer", display: "flex", alignItems: "center" }}
+            onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label="Toggle menu"
+          >
+            {mobileOpen ? (
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M6 6l12 12M6 18L18 6" stroke="white" strokeWidth="2.2" strokeLinecap="round"/>
+              </svg>
+            ) : (
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M3 6h18M3 12h18M3 18h18" stroke="white" strokeWidth="2.2" strokeLinecap="round"/>
+              </svg>
+            )}
+          </button>
+          {/* S icon only — no text on mobile */}
+          <a href="#" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+            <svg viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "7.22222vw", minHeight: 24, width: "auto" }}>
+              <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#mhi1)"/>
+              <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#mhi2)"/>
               <path d="M1.313 15.717a4.695 4.695 0 0 0 1.713 6.405l8.757 5.068.015.009a4.694 4.694 0 0 1 2.27 4.775c-.176 1.135-.916 2.096-1.697 2.938l6.92-6.938a4.695 4.695 0 0 0-.668-7.655l-8.756-5.068-.015-.009a4.694 4.694 0 0 1-2.27-4.775c.176-1.135.916-2.097 1.697-2.939L2.358 14.59a4.677 4.677 0 0 0-1.045 1.127Z" fill="#0C8DF8"/>
               <defs>
-                <linearGradient id="mha" x1="17.106" y1="7.408" x2="-11.286" y2="33.808" gradientUnits="userSpaceOnUse">
+                <linearGradient id="mhi1" x1="17.106" y1="7.408" x2="-11.286" y2="33.808" gradientUnits="userSpaceOnUse">
                   <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
                 </linearGradient>
-                <linearGradient id="mhb" x1="7.63" y1="33.255" x2="22.939" y2="17.79" gradientUnits="userSpaceOnUse">
+                <linearGradient id="mhi2" x1="7.63" y1="33.255" x2="22.939" y2="17.79" gradientUnits="userSpaceOnUse">
                   <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
                 </linearGradient>
               </defs>
-            </g>
-            <text x="30" y="30" fontFamily="'Nunito Sans', sans-serif" fontWeight="800" fontSize="26" fill="white">Stockity</text>
-          </svg>
-        </a>
-        <button
-          style={{ padding: 8, color: "#fff", background: "none", border: "none", cursor: "pointer" }}
-          onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Toggle menu"
-        >
-          {mobileOpen ? (
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-              <path d="M6 6l12 12M6 18L18 6" stroke="white" strokeWidth="2" strokeLinecap="round"/>
             </svg>
-          ) : (
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-              <path d="M4 6h16M4 12h16M4 18h16" stroke="white" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-          )}
-        </button>
+          </a>
+        </div>
+
+        {/* Right: Log in + Register buttons + flag */}
+        <div style={{ display: "flex", alignItems: "center", gap: "2.22222vw" }}>
+          <button
+            style={{
+              padding: "1.94444vw 3.88889vw",
+              fontSize: "3.61111vw",
+              fontWeight: 700,
+              color: "#fff",
+              background: "none",
+              border: "1.5px solid rgba(255,255,255,0.5)",
+              borderRadius: "1.94444vw",
+              cursor: "pointer",
+              fontFamily: "inherit",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Log in
+          </button>
+          <button
+            style={{
+              padding: "1.94444vw 3.88889vw",
+              fontSize: "3.61111vw",
+              fontWeight: 700,
+              color: "#fff",
+              background: "#0c8df8",
+              border: "none",
+              borderRadius: "1.94444vw",
+              cursor: "pointer",
+              fontFamily: "inherit",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Register
+          </button>
+          <img
+            src="https://flagcdn.com/w40/gb.png"
+            alt="EN"
+            style={{ height: "5.55556vw", minHeight: 18, width: "auto", borderRadius: 2 }}
+          />
+        </div>
       </div>
 
       {/* Mobile slide-down menu */}
