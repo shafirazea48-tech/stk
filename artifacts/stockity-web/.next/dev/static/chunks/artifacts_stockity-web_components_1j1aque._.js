@@ -1910,12 +1910,14 @@ const cards = [
         }, ("TURBOPACK compile-time value", void 0))
     }
 ];
-const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+const ChartSVG = ({ height })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         viewBox: "0 0 480 270",
         fill: "none",
+        preserveAspectRatio: "xMidYMid meet",
         style: {
             width: "100%",
-            height: "100%"
+            height,
+            display: "block"
         },
         children: [
             [
@@ -1930,11 +1932,31 @@ const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$projec
                     y1: y,
                     x2: "480",
                     y2: y,
-                    stroke: "rgba(255,255,255,0.05)",
+                    stroke: "rgba(255,255,255,0.07)",
                     strokeWidth: "1"
                 }, y, false, {
                     fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                    lineNumber: 90,
+                    lineNumber: 91,
+                    columnNumber: 7
+                }, ("TURBOPACK compile-time value", void 0))),
+            [
+                0,
+                80,
+                160,
+                240,
+                320,
+                400,
+                480
+            ].map((x)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
+                    x1: x,
+                    y1: "0",
+                    x2: x,
+                    y2: "270",
+                    stroke: "rgba(255,255,255,0.03)",
+                    strokeWidth: "1"
+                }, x, false, {
+                    fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
+                    lineNumber: 94,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0))),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -1948,10 +1970,10 @@ const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$projec
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
                                 stopColor: "#0990ff",
-                                stopOpacity: "0.3"
+                                stopOpacity: "0.35"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 94,
+                                lineNumber: 98,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -1960,13 +1982,13 @@ const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$projec
                                 stopOpacity: "0"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 95,
+                                lineNumber: 99,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 93,
+                        lineNumber: 97,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
@@ -1980,27 +2002,27 @@ const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$projec
                                 stopColor: "#0990ff"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 98,
+                                lineNumber: 102,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
                                 offset: "1",
-                                stopColor: "#00d7eb"
+                                stopColor: "#00eaff"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 99,
+                                lineNumber: 103,
                                 columnNumber: 9
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 97,
+                        lineNumber: 101,
                         columnNumber: 7
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                lineNumber: 92,
+                lineNumber: 96,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -2008,7 +2030,7 @@ const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$projec
                 fill: "url(#pg1)"
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                lineNumber: 102,
+                lineNumber: 106,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -2019,7 +2041,33 @@ const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$projec
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                lineNumber: 106,
+                lineNumber: 110,
+                columnNumber: 5
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
+                x: "340",
+                y: "75",
+                fill: "#fff",
+                fontSize: "16",
+                fontFamily: "sans-serif",
+                opacity: "0.6",
+                children: "$0"
+            }, void 0, false, {
+                fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
+                lineNumber: 117,
+                columnNumber: 5
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
+                x: "460",
+                y: "40",
+                fill: "#00eaff",
+                fontSize: "14",
+                fontFamily: "sans-serif",
+                opacity: "0.8",
+                children: "▲"
+            }, void 0, false, {
+                fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
+                lineNumber: 118,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             [
@@ -2040,7 +2088,7 @@ const ChartSVG = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$projec
                     strokeWidth: "2"
                 }, `${cx}-${cy}`, false, {
                     fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                    lineNumber: 114,
+                    lineNumber: 120,
                     columnNumber: 7
                 }, ("TURBOPACK compile-time value", void 0)))
         ]
@@ -2096,7 +2144,7 @@ function ProtectSection() {
                         children: "Everything you want in a platform"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 148,
+                        lineNumber: 154,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2133,77 +2181,58 @@ function ProtectSection() {
                                     children: cards[0].contentDesktop
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 195,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 175,
+                                lineNumber: 181,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     boxSizing: "border-box",
+                                    background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
                                     borderRadius: "2.31481vw",
                                     minHeight: "38.1944vw",
-                                    position: "relative",
+                                    display: "flex",
+                                    flexDirection: "column",
                                     overflow: "hidden"
                                 },
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            position: "absolute",
-                                            top: 0,
-                                            bottom: 0,
-                                            left: 0,
-                                            right: 0,
-                                            background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
-                                            borderRadius: "2.31481vw",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            justifyContent: "center"
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChartSVG, {}, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                            lineNumber: 216,
-                                            columnNumber: 15
-                                        }, this)
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChartSVG, {
+                                        height: "28vw"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                        lineNumber: 205,
+                                        lineNumber: 212,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
-                                            position: "absolute",
-                                            bottom: 0,
-                                            left: 0,
-                                            right: 0,
-                                            zIndex: 10,
-                                            paddingBottom: "2.77778vw"
+                                            marginTop: "auto"
                                         },
                                         children: cards[1].contentDesktop
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                        lineNumber: 219,
+                                        lineNumber: 213,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 195,
+                                lineNumber: 201,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 164,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                lineNumber: 147,
+                lineNumber: 153,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2222,7 +2251,7 @@ function ProtectSection() {
                         children: "Everything you want in a platform"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 236,
+                        lineNumber: 223,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2258,73 +2287,53 @@ function ProtectSection() {
                                     children: cards[0].content
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                    lineNumber: 268,
+                                    lineNumber: 255,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     style: {
                                         flexShrink: 0,
+                                        background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
                                         borderRadius: "3.33333vw",
                                         width: `${CARD_WIDTH_VW}vw`,
                                         minHeight: "95.5556vw",
-                                        position: "relative",
+                                        display: "flex",
+                                        flexDirection: "column",
                                         overflow: "hidden"
                                     },
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                position: "absolute",
-                                                top: 0,
-                                                bottom: 0,
-                                                left: 0,
-                                                right: 0,
-                                                background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
-                                                borderRadius: "3.33333vw",
-                                                display: "flex",
-                                                alignItems: "center",
-                                                justifyContent: "center",
-                                                padding: "8.88889vw 4.44444vw 20vw",
-                                                boxSizing: "border-box"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChartSVG, {}, void 0, false, {
-                                                fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                                lineNumber: 310,
-                                                columnNumber: 17
-                                            }, this)
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChartSVG, {
+                                            height: "70vw"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 285,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
-                                                position: "absolute",
-                                                bottom: 0,
-                                                left: 0,
-                                                right: 0,
-                                                zIndex: 10
+                                                marginTop: "auto"
                                             },
                                             children: cards[1].content
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                            lineNumber: 313,
+                                            lineNumber: 286,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 273,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                            lineNumber: 257,
+                            lineNumber: 244,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 251,
+                        lineNumber: 238,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2353,24 +2362,24 @@ function ProtectSection() {
                                 }
                             }, i, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 339,
+                                lineNumber: 306,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 327,
+                        lineNumber: 294,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                lineNumber: 234,
+                lineNumber: 221,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-        lineNumber: 144,
+        lineNumber: 150,
         columnNumber: 5
     }, this);
 }

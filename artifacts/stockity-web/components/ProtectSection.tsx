@@ -84,19 +84,23 @@ const cards = [
   },
 ];
 
-const ChartSVG = () => (
-  <svg viewBox="0 0 480 270" fill="none" style={{ width: "100%", height: "100%" }}>
+const ChartSVG = ({ height }: { height: string }) => (
+  <svg viewBox="0 0 480 270" fill="none" preserveAspectRatio="xMidYMid meet"
+    style={{ width: "100%", height, display: "block" }}>
     {[0, 54, 108, 162, 216, 270].map((y) => (
-      <line key={y} x1="0" y1={y} x2="480" y2={y} stroke="rgba(255,255,255,0.05)" strokeWidth="1" />
+      <line key={y} x1="0" y1={y} x2="480" y2={y} stroke="rgba(255,255,255,0.07)" strokeWidth="1" />
+    ))}
+    {[0, 80, 160, 240, 320, 400, 480].map((x) => (
+      <line key={x} x1={x} y1="0" x2={x} y2="270" stroke="rgba(255,255,255,0.03)" strokeWidth="1" />
     ))}
     <defs>
       <linearGradient id="pg1" x1="0" y1="0" x2="0" y2="1">
-        <stop stopColor="#0990ff" stopOpacity="0.3" />
+        <stop stopColor="#0990ff" stopOpacity="0.35" />
         <stop offset="1" stopColor="#0990ff" stopOpacity="0" />
       </linearGradient>
       <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
         <stop stopColor="#0990ff" />
-        <stop offset="1" stopColor="#00d7eb" />
+        <stop offset="1" stopColor="#00eaff" />
       </linearGradient>
     </defs>
     <path
@@ -110,6 +114,8 @@ const ChartSVG = () => (
       strokeLinecap="round"
       strokeLinejoin="round"
     />
+    <text x="340" y="75" fill="#fff" fontSize="16" fontFamily="sans-serif" opacity="0.6">$0</text>
+    <text x="460" y="40" fill="#00eaff" fontSize="14" fontFamily="sans-serif" opacity="0.8">▲</text>
     {[[315, 85], [450, 45]].map(([cx, cy]) => (
       <circle key={`${cx}-${cy}`} cx={cx} cy={cy} r="6" fill="#0990ff" stroke="#fff" strokeWidth="2" />
     ))}
@@ -195,35 +201,16 @@ export default function ProtectSection() {
           <div
             style={{
               boxSizing: "border-box",
+              background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
               borderRadius: "2.31481vw",
               minHeight: "38.1944vw",
-              position: "relative",
+              display: "flex",
+              flexDirection: "column",
               overflow: "hidden",
             }}
           >
-            {/* Animation layer — fills card absolutely, like original .protect__animation */}
-            <div
-              style={{
-                position: "absolute",
-                top: 0, bottom: 0, left: 0, right: 0,
-                background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
-                borderRadius: "2.31481vw",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <ChartSVG />
-            </div>
-            {/* Text on top */}
-            <div
-              style={{
-                position: "absolute",
-                bottom: 0, left: 0, right: 0,
-                zIndex: 10,
-                paddingBottom: "2.77778vw",
-              }}
-            >
+            <ChartSVG height="28vw" />
+            <div style={{ marginTop: "auto" }}>
               {cards[1].contentDesktop}
             </div>
           </div>
@@ -286,37 +273,17 @@ export default function ProtectSection() {
             <div
               style={{
                 flexShrink: 0,
+                background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
                 borderRadius: "3.33333vw",
                 width: `${CARD_WIDTH_VW}vw`,
                 minHeight: "95.5556vw",
-                position: "relative",
+                display: "flex",
+                flexDirection: "column",
                 overflow: "hidden",
               }}
             >
-              {/* Animation layer — fills card absolutely */}
-              <div
-                style={{
-                  position: "absolute",
-                  top: 0, bottom: 0, left: 0, right: 0,
-                  background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
-                  borderRadius: "3.33333vw",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  padding: "8.88889vw 4.44444vw 20vw",
-                  boxSizing: "border-box",
-                }}
-              >
-                <ChartSVG />
-              </div>
-              {/* Text pinned to bottom */}
-              <div
-                style={{
-                  position: "absolute",
-                  bottom: 0, left: 0, right: 0,
-                  zIndex: 10,
-                }}
-              >
+              <ChartSVG height="70vw" />
+              <div style={{ marginTop: "auto" }}>
                 {cards[1].content}
               </div>
             </div>
