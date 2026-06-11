@@ -87,6 +87,15 @@ body {
   background: rgba(255,255,255,0.06);
 }
 
+/* Hero sub-headline — mobile override */
+@media (max-width: 767px) {
+  .hero-sub {
+    font-size: 4.44444vw !important;
+    line-height: 6.66667vw !important;
+    max-width: 85vw !important;
+  }
+}
+
 /* Withdraw section infinite scroll animation */
 @keyframes scroll-left {
   0%   { transform: translateX(0%); }
