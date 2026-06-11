@@ -73,6 +73,9 @@ const LicensedIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pr
         height: "20",
         viewBox: "0 0 24 24",
         fill: "none",
+        style: {
+            flexShrink: 0
+        },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M12 2L3 6v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V6L12 2z",
@@ -104,6 +107,7 @@ const LicensedIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pr
     }, ("TURBOPACK compile-time value", void 0));
 function HeroSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        className: "hero-section",
         style: {
             position: "relative",
             width: "100%",
@@ -112,6 +116,7 @@ function HeroSection() {
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "hero-bg",
                 style: {
                     position: "absolute",
                     inset: 0,
@@ -124,10 +129,11 @@ function HeroSection() {
                 }
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 40,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "hero-content",
                 style: {
                     position: "relative",
                     zIndex: 10,
@@ -139,183 +145,220 @@ function HeroSection() {
                     boxSizing: "border-box",
                     minHeight: "80.3819vw"
                 },
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        boxSizing: "border-box",
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        maxWidth: "62.963vw",
-                        width: "100%",
-                        paddingTop: "5.6713vw",
-                        paddingLeft: "2.02546vw",
-                        paddingRight: "2.02546vw"
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            style: {
-                                textAlign: "center",
-                                color: "#fff",
-                                fontFamily: "'Nunito Sans', sans-serif",
-                                fontWeight: 900,
-                                fontSize: "5.09259vw",
-                                lineHeight: "5.09259vw"
-                            },
-                            children: [
-                                "Stockity.",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 93,
-                                    columnNumber: 13
-                                }, this),
-                                "Making investing clear"
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                            lineNumber: 82,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                marginTop: "2.77778vw"
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "#",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "hero-content-left",
+                        style: {
+                            boxSizing: "border-box",
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                            maxWidth: "62.963vw",
+                            width: "100%",
+                            paddingTop: "5.6713vw",
+                            paddingLeft: "2.02546vw",
+                            paddingRight: "0"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                className: "hero-title",
                                 style: {
-                                    display: "inline-flex",
-                                    alignItems: "center",
-                                    justifyContent: "center",
-                                    background: "linear-gradient(90deg, #0990ff 0%, #00d7eb 100%)",
+                                    textAlign: "center",
                                     color: "#fff",
-                                    fontWeight: 700,
                                     fontFamily: "'Nunito Sans', sans-serif",
-                                    fontSize: "1.15741vw",
-                                    lineHeight: "1.38889vw",
-                                    borderRadius: "0.925926vw",
-                                    padding: "1.11111vw 4.62963vw",
-                                    textDecoration: "none",
-                                    border: "none",
-                                    cursor: "pointer",
-                                    whiteSpace: "nowrap",
-                                    boxShadow: "0 10px 60px 0 rgba(93,139,192,.5)",
-                                    minWidth: "20vw"
+                                    fontWeight: 900,
+                                    fontSize: "5.09259vw",
+                                    lineHeight: "5.09259vw",
+                                    margin: 0
                                 },
-                                children: "Register Now"
+                                children: [
+                                    "Stockity.",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                        lineNumber: 99,
+                                        columnNumber: 13
+                                    }, this),
+                                    "Making investing clear"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                lineNumber: 86,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "hero-btn-wrap",
+                                style: {
+                                    marginTop: "2.77778vw"
+                                },
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "#",
+                                    className: "hero-btn",
+                                    style: {
+                                        display: "inline-flex",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        background: "linear-gradient(90deg, #0990ff 0%, #00eaff 100%)",
+                                        color: "#fff",
+                                        fontWeight: 700,
+                                        fontFamily: "'Nunito Sans', sans-serif",
+                                        fontSize: "1.15741vw",
+                                        lineHeight: "1.38889vw",
+                                        borderRadius: "0.925926vw",
+                                        padding: "1.11111vw 4.62963vw",
+                                        textDecoration: "none",
+                                        border: "none",
+                                        cursor: "pointer",
+                                        whiteSpace: "nowrap",
+                                        boxShadow: "0 10px 60px 0 rgba(93,139,192,.5)",
+                                        minWidth: "20vw"
+                                    },
+                                    children: "Register Now"
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                    lineNumber: 105,
+                                    columnNumber: 13
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 99,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                            lineNumber: 98,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                boxSizing: "border-box",
-                                display: "flex",
-                                flexWrap: "wrap",
-                                gap: "0.462963vw",
-                                width: "100%",
-                                marginTop: "4.62963vw",
-                                padding: "0 0.462963vw",
-                                justifyContent: "center"
-                            },
-                            children: features.map((f)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        boxSizing: "border-box",
-                                        display: "flex",
-                                        alignItems: "center",
-                                        gap: "0.462963vw",
-                                        backdropFilter: "blur(8px)",
-                                        WebkitBackdropFilter: "blur(8px)",
-                                        background: "rgba(255,255,255,0.1)",
-                                        borderRadius: "0.694444vw",
-                                        height: "2.77778vw",
-                                        padding: "0.694444vw 0.925926vw",
-                                        flex: "1 1 0",
-                                        justifyContent: "center",
-                                        minWidth: 0
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                display: "flex",
-                                                alignItems: "center",
-                                                flexShrink: 0,
-                                                width: "1.38889vw",
-                                                height: "1.38889vw"
-                                            },
-                                            children: f.icon ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: f.icon,
-                                                alt: "",
+                                lineNumber: 104,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "hero-chips",
+                                style: {
+                                    boxSizing: "border-box",
+                                    display: "flex",
+                                    flexWrap: "wrap",
+                                    gap: "0.462963vw",
+                                    width: "100%",
+                                    marginTop: "4.62963vw",
+                                    padding: "0 0.462963vw"
+                                },
+                                children: features.map((f)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "hero-chip",
+                                        style: {
+                                            boxSizing: "border-box",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            gap: "0.462963vw",
+                                            backdropFilter: "blur(8px)",
+                                            WebkitBackdropFilter: "blur(8px)",
+                                            background: "rgba(255,255,255,0.1)",
+                                            borderRadius: "0.694444vw",
+                                            height: "2.77778vw",
+                                            padding: "0.694444vw 0.925926vw",
+                                            flex: "1 1 0",
+                                            justifyContent: "center",
+                                            minWidth: 0
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "hero-chip-icon",
                                                 style: {
+                                                    display: "flex",
+                                                    alignItems: "center",
+                                                    flexShrink: 0,
                                                     width: "1.38889vw",
-                                                    height: "1.38889vw",
-                                                    minWidth: 14
-                                                }
+                                                    height: "1.38889vw"
+                                                },
+                                                children: f.icon ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: f.icon,
+                                                    alt: "",
+                                                    style: {
+                                                        width: "1.38889vw",
+                                                        height: "1.38889vw",
+                                                        minWidth: 14
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                                    lineNumber: 170,
+                                                    columnNumber: 21
+                                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(LicensedIcon, {}, void 0, false, {
+                                                    fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                                    lineNumber: 176,
+                                                    columnNumber: 21
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                lineNumber: 159,
-                                                columnNumber: 21
-                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(LicensedIcon, {}, void 0, false, {
-                                                fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
                                                 lineNumber: 165,
-                                                columnNumber: 21
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "hero-chip-text",
+                                                style: {
+                                                    textAlign: "left",
+                                                    whiteSpace: "nowrap",
+                                                    color: "#ebebeb",
+                                                    fontWeight: 700,
+                                                    fontFamily: "'Nunito Sans', sans-serif",
+                                                    fontSize: "0.833333vw",
+                                                    lineHeight: "1.11111vw",
+                                                    maxWidth: "26.6667vw"
+                                                },
+                                                children: f.text
+                                            }, void 0, false, {
+                                                fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                                lineNumber: 179,
+                                                columnNumber: 17
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 157,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                textAlign: "center",
-                                                whiteSpace: "nowrap",
-                                                color: "#f4f4f6",
-                                                fontWeight: 700,
-                                                fontFamily: "'Nunito Sans', sans-serif",
-                                                fontSize: "0.833333vw",
-                                                lineHeight: "1.11111vw"
-                                            },
-                                            children: f.text
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 168,
-                                            columnNumber: 17
-                                        }, this)
-                                    ]
-                                }, f.text, true, {
-                                    fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                    lineNumber: 139,
-                                    columnNumber: 15
-                                }, this))
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                            lineNumber: 126,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                    lineNumber: 68,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
+                                        ]
+                                    }, f.text, true, {
+                                        fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                        lineNumber: 146,
+                                        columnNumber: 15
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                                lineNumber: 133,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                        lineNumber: 71,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "hero-content-right",
+                        style: {
+                            boxSizing: "border-box",
+                            paddingRight: "6.94444vw",
+                            flexShrink: 0
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
+                        lineNumber: 200,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 54,
+                lineNumber: 56,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
                 children: `
+        /* Mobile: background on content_left, column layout */
         @media (max-width: 767px) {
+          .hero-bg { display: none !important; }
+          .hero-content {
+            flex-direction: column !important;
+            gap: 0 !important;
+            padding-top: 0 !important;
+            min-height: 167.778vw !important;
+          }
           .hero-content-left {
+            background-image: url('/images/stockity/src/core/images/trade-smart/main_section_mobile-707d361f38e2d6c3.webp') !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
             max-width: 100% !important;
+            min-height: 167.778vw !important;
             padding-top: 55.5556vw !important;
             padding-left: 4.44444vw !important;
             padding-right: 4.44444vw !important;
           }
+          .hero-content-right { display: none !important; }
           .hero-title {
             font-size: 11.6667vw !important;
             line-height: 11.6667vw !important;
@@ -326,22 +369,27 @@ function HeroSection() {
             padding: 2.77778vw 4vw !important;
             border-radius: 2.22222vw !important;
           }
+          .hero-btn-wrap { width: 100%; }
           .hero-chips {
             display: grid !important;
             grid-template-columns: repeat(2, 1fr) !important;
             gap: 2.22222vw !important;
             margin-top: 8.88889vw !important;
+            padding: 0 !important;
           }
           .hero-chip {
+            flex: unset !important;
             height: 17.7778vw !important;
             border-radius: 3.33333vw !important;
             gap: 2.22222vw !important;
             padding: 3.33333vw 4.44444vw !important;
+            justify-content: flex-start !important;
           }
           .hero-chip-icon {
             width: 6.66667vw !important;
             height: 6.66667vw !important;
           }
+          .hero-chip-icon img { width: 6.66667vw !important; height: 6.66667vw !important; }
           .hero-chip-text {
             font-size: 3.33333vw !important;
             line-height: 4.44444vw !important;
@@ -350,10 +398,22 @@ function HeroSection() {
             max-width: 26.6667vw !important;
           }
         }
+
+        /* Tablet: 768px–1324px */
+        @media (min-width: 768px) and (max-width: 1324px) {
+          .hero-chips { display: grid !important; grid-template-columns: repeat(2,1fr) !important; }
+          .hero-chip { flex: unset !important; height: auto !important; padding: 0.694444vw 0.925926vw !important; }
+        }
+
+        /* Desktop ≥1325px: flex row, flex: 1 1 0 per chip */
+        @media (min-width: 1325px) {
+          .hero-chips { display: flex !important; flex-wrap: nowrap !important; }
+          .hero-chip { flex: 1 1 0 !important; width: auto !important; min-width: 0 !important; justify-content: center !important; }
+        }
       `
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 188,
+                lineNumber: 210,
                 columnNumber: 7
             }, this)
         ]

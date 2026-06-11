@@ -19,7 +19,7 @@ body {
 }
 
 /* btn-base / btn-primary — exact match from original:
-   background: linear-gradient(90deg, #0990ff 0%, #00d7eb 100%);
+   background: linear-gradient(90deg, #0990ff 0%, #00eaff 100%);
    box-shadow: 0 10px 60px 0 rgba(93,139,192,.5);
    border-radius: 0.925926vw;
    width: fit-content;
@@ -29,7 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background: linear-gradient(90deg, #0990ff 0%, #00d7eb 100%);
+  background: linear-gradient(90deg, #0990ff 0%, #00eaff 100%);
   color: #fff;
   font-weight: 700;
   border-radius: 0.925926vw;

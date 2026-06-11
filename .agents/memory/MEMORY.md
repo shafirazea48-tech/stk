@@ -1,1 +1,4 @@
 - [Stockity Next.js setup](stockity-nextjs.md) — Next.js 16 artifact in stockity-web; Tailwind v4 via @tailwindcss/postcss; next@15.3.3 blocked by Replit firewall, use next@latest
+- [Hero form card](hero-form-card.md) — hero layout requires "Create an account" 392px form card on right to shift title/chips left; omitting it centers everything incorrectly
+- [btn-primary gradient](btn-primary-gradient.md) — gradient end color is `#00eaff` NOT `#00d7eb`; affects all CTA buttons sitewide via globals.css
+- [Withdraw card CSS specificity](withdraw-card-specificity.md) — original uses double `@media(min-width:768px) and (min-width:768px)` trick for higher specificity; desktop card: 15.2778vw × 6.94444vw, border-radius 1.85185vw, gap 4.44444vw

@@ -42,7 +42,7 @@ export default function WithdrawSection() {
         <div
           style={{
             display: "flex",
-            gap: "1.38889vw",
+            gap: "4.44444vw",
             padding: "0 1.85185vw",
             flexWrap: "wrap",
             justifyContent: "center",

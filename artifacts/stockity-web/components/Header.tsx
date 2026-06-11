@@ -228,7 +228,6 @@ export default function Header() {
             onMouseEnter={(e) => (e.currentTarget.style.background = "#48a9fa")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "#0c8df8")}
           >
-            Register
             <Image
               src="/images/stockity/src/core/images/register-arrow.svg"
               alt=""
@@ -237,6 +236,7 @@ export default function Header() {
               style={{ flexShrink: 0 }}
               unoptimized
             />
+            Register
           </button>
 
           {/* Flag — just UK flag, no EN text */}
