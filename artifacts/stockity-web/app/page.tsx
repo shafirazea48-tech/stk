@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import FootballBannerSection from "@/components/FootballBannerSection";
+import EarthSection from "@/components/EarthSection";
 import TradersNeedsSection from "@/components/TradersNeedsSection";
 import UsableSection from "@/components/UsableSection";
 import AssetsSection from "@/components/AssetsSection";
@@ -21,6 +22,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <FootballBannerSection />
+      <EarthSection />
       <TradersNeedsSection />
       <UsableSection />
       <AssetsSection />
