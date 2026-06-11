@@ -4145,8 +4145,8 @@ function JoinSection() {
                         style: {
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontWeight: 700,
-                            fontSize: "10.5556vw",
-                            lineHeight: "13.3333vw",
+                            fontSize: "7.77778vw",
+                            lineHeight: "10.5556vw",
                             color: "#f4f4f6",
                             marginBottom: 0
                         },
@@ -4156,7 +4156,7 @@ function JoinSection() {
                                 style: {
                                     color: "#0C8DF8"
                                 },
-                                children: "3,5+ million"
+                                children: "3,5+ million"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/JoinSection.tsx",
                                 lineNumber: 88,
@@ -4167,7 +4167,13 @@ function JoinSection() {
                                 lineNumber: 89,
                                 columnNumber: 11
                             }, this),
-                            "investors using Stockity"
+                            "investors using",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/JoinSection.tsx",
+                                lineNumber: 91,
+                                columnNumber: 11
+                            }, this),
+                            "Stockity"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/JoinSection.tsx",
@@ -4193,7 +4199,7 @@ function JoinSection() {
                         children: "Start Now"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/JoinSection.tsx",
-                        lineNumber: 92,
+                        lineNumber: 94,
                         columnNumber: 9
                     }, this)
                 ]

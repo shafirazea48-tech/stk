@@ -79,15 +79,17 @@ export default function JoinSection() {
           style={{
             fontFamily: "'Nunito Sans', sans-serif",
             fontWeight: 700,
-            fontSize: "10.5556vw",
-            lineHeight: "13.3333vw",
+            fontSize: "7.77778vw",
+            lineHeight: "10.5556vw",
             color: "#f4f4f6",
             marginBottom: 0,
           }}
         >
-          Join the <span style={{ color: "#0C8DF8" }}>3,5+ million</span>
+          Join the <span style={{ color: "#0C8DF8" }}>3,5+&nbsp;million</span>
           <br />
-          investors using Stockity
+          investors using
+          <br />
+          Stockity
         </p>
         <button
           style={{

@@ -4,6 +4,7 @@
   "/test-charity/page": "app/test-charity/page.js",
   "/test-faq/page": "app/test-faq/page.js",
   "/test-footer/page": "app/test-footer/page.js",
+  "/test-join/page": "app/test-join/page.js",
   "/test-protect/page": "app/test-protect/page.js",
   "/test-withdraw/page": "app/test-withdraw/page.js"
 }
