@@ -191,25 +191,39 @@ export default function ProtectSection() {
             </div>
           </div>
 
-          {/* Card 2 — animated */}
+          {/* Card 2 — animated (no hidden fees) */}
           <div
             style={{
               boxSizing: "border-box",
-              background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
               borderRadius: "2.31481vw",
               minHeight: "38.1944vw",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
-              alignItems: "center",
               position: "relative",
               overflow: "hidden",
             }}
           >
-            <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", padding: "2.77778vw", width: "100%" }}>
+            {/* Animation layer — fills card absolutely, like original .protect__animation */}
+            <div
+              style={{
+                position: "absolute",
+                top: 0, bottom: 0, left: 0, right: 0,
+                background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
+                borderRadius: "2.31481vw",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
               <ChartSVG />
             </div>
-            <div style={{ paddingBottom: "2.77778vw", paddingLeft: "2.77778vw", paddingRight: "2.77778vw", width: "100%", textAlign: "center" }}>
+            {/* Text on top */}
+            <div
+              style={{
+                position: "absolute",
+                bottom: 0, left: 0, right: 0,
+                zIndex: 10,
+                paddingBottom: "2.77778vw",
+              }}
+            >
               {cards[1].contentDesktop}
             </div>
           </div>
@@ -272,21 +286,39 @@ export default function ProtectSection() {
             <div
               style={{
                 flexShrink: 0,
-                background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
                 borderRadius: "3.33333vw",
                 width: `${CARD_WIDTH_VW}vw`,
                 minHeight: "95.5556vw",
-                display: "flex",
-                flexDirection: "column",
-                justifyContent: "space-between",
-                alignItems: "center",
+                position: "relative",
                 overflow: "hidden",
               }}
             >
-              <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", padding: "8.88889vw 4.44444vw", width: "100%" }}>
+              {/* Animation layer — fills card absolutely */}
+              <div
+                style={{
+                  position: "absolute",
+                  top: 0, bottom: 0, left: 0, right: 0,
+                  background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
+                  borderRadius: "3.33333vw",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  padding: "8.88889vw 4.44444vw 20vw",
+                  boxSizing: "border-box",
+                }}
+              >
                 <ChartSVG />
               </div>
-              {cards[1].content}
+              {/* Text pinned to bottom */}
+              <div
+                style={{
+                  position: "absolute",
+                  bottom: 0, left: 0, right: 0,
+                  zIndex: 10,
+                }}
+              >
+                {cards[1].content}
+              </div>
             </div>
           </div>
         </div>

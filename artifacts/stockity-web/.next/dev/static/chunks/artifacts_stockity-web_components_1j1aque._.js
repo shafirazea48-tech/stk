@@ -2144,48 +2144,48 @@ function ProtectSection() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
                                     boxSizing: "border-box",
-                                    background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
                                     borderRadius: "2.31481vw",
                                     minHeight: "38.1944vw",
-                                    display: "flex",
-                                    flexDirection: "column",
-                                    justifyContent: "space-between",
-                                    alignItems: "center",
                                     position: "relative",
                                     overflow: "hidden"
                                 },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
-                                            flex: 1,
+                                            position: "absolute",
+                                            top: 0,
+                                            bottom: 0,
+                                            left: 0,
+                                            right: 0,
+                                            background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
+                                            borderRadius: "2.31481vw",
                                             display: "flex",
                                             alignItems: "center",
-                                            justifyContent: "center",
-                                            padding: "2.77778vw",
-                                            width: "100%"
+                                            justifyContent: "center"
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChartSVG, {}, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                            lineNumber: 210,
+                                            lineNumber: 216,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                        lineNumber: 209,
+                                        lineNumber: 205,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
-                                            paddingBottom: "2.77778vw",
-                                            paddingLeft: "2.77778vw",
-                                            paddingRight: "2.77778vw",
-                                            width: "100%",
-                                            textAlign: "center"
+                                            position: "absolute",
+                                            bottom: 0,
+                                            left: 0,
+                                            right: 0,
+                                            zIndex: 10,
+                                            paddingBottom: "2.77778vw"
                                         },
                                         children: cards[1].contentDesktop
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                        lineNumber: 212,
+                                        lineNumber: 219,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -2222,7 +2222,7 @@ function ProtectSection() {
                         children: "Everything you want in a platform"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 222,
+                        lineNumber: 236,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2258,58 +2258,73 @@ function ProtectSection() {
                                     children: cards[0].content
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                    lineNumber: 254,
+                                    lineNumber: 268,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     style: {
                                         flexShrink: 0,
-                                        background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
                                         borderRadius: "3.33333vw",
                                         width: `${CARD_WIDTH_VW}vw`,
                                         minHeight: "95.5556vw",
-                                        display: "flex",
-                                        flexDirection: "column",
-                                        justifyContent: "space-between",
-                                        alignItems: "center",
+                                        position: "relative",
                                         overflow: "hidden"
                                     },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
-                                                flex: 1,
+                                                position: "absolute",
+                                                top: 0,
+                                                bottom: 0,
+                                                left: 0,
+                                                right: 0,
+                                                background: "linear-gradient(165deg, #17324f 7.44%, #010812 66.13%)",
+                                                borderRadius: "3.33333vw",
                                                 display: "flex",
                                                 alignItems: "center",
                                                 justifyContent: "center",
-                                                padding: "8.88889vw 4.44444vw",
-                                                width: "100%"
+                                                padding: "8.88889vw 4.44444vw 20vw",
+                                                boxSizing: "border-box"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChartSVG, {}, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                                lineNumber: 287,
+                                                lineNumber: 310,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                            lineNumber: 286,
+                                            lineNumber: 297,
                                             columnNumber: 15
                                         }, this),
-                                        cards[1].content
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                position: "absolute",
+                                                bottom: 0,
+                                                left: 0,
+                                                right: 0,
+                                                zIndex: 10
+                                            },
+                                            children: cards[1].content
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
+                                            lineNumber: 313,
+                                            columnNumber: 15
+                                        }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                    lineNumber: 272,
+                                    lineNumber: 286,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                            lineNumber: 243,
+                            lineNumber: 257,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 237,
+                        lineNumber: 251,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2338,18 +2353,18 @@ function ProtectSection() {
                                 }
                             }, i, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                                lineNumber: 307,
+                                lineNumber: 339,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                        lineNumber: 295,
+                        lineNumber: 327,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/ProtectSection.tsx",
-                lineNumber: 220,
+                lineNumber: 234,
                 columnNumber: 7
             }, this)
         ]
