@@ -4106,8 +4106,8 @@ function JoinSection() {
                         style: {
                             fontFamily: "'Nunito Sans', sans-serif",
                             fontWeight: 700,
-                            fontSize: "7.77778vw",
-                            lineHeight: "10.5556vw",
+                            fontSize: "9.44444vw",
+                            lineHeight: "12.2222vw",
                             color: "#f4f4f6",
                             marginBottom: 0
                         },
