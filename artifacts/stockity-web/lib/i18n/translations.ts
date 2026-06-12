@@ -273,8 +273,8 @@ const id: typeof en = {
     cta: "Mulai Sekarang",
   },
   football: {
-    heading: "Football Power Battle",
-    text: "Perdagangkan 5 indeks regional dengan profitabilitas lebih tinggi dan bersaing untuk peringkat teratas",
+    heading: "Pertarungan Sepak Bola",
+    text: "Perdagangkan 5 indeks regional dengan profitabilitas lebih tinggi dan bersaing untuk posisi teratas",
     cta: "Coba Sekarang!",
     risk: "Peringatan risiko: modal Anda mungkin berisiko",
   },
