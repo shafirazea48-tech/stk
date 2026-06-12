@@ -280,6 +280,7 @@ export default function PricingPage() {
                 {/* MOST POPULAR */}
                 {tier.mostPopular && (
                   <div
+                    className="most-popular-badge"
                     style={{
                       position: "absolute",
                       top: -14,
@@ -520,6 +521,15 @@ export default function PricingPage() {
             border-left: 1px solid rgba(255,255,255,0.10) !important;
             border-right: 1px solid rgba(255,255,255,0.10) !important;
             scroll-snap-align: center !important;
+          }
+          .most-popular-badge {
+            position: static !important;
+            transform: none !important;
+            top: auto !important;
+            left: auto !important;
+            align-self: flex-start !important;
+            margin-bottom: 8px !important;
+            display: inline-block !important;
           }
         }
       `}</style>
