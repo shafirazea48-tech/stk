@@ -145,7 +145,7 @@ export default function Footer() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "1.11111vw" }}>
             <p style={{ fontSize: "3.88889vw", color: "#f4f4f6", fontWeight: 600 }}>VERTE SECURITIES LIMITED</p>
-            <p style={{ fontSize: "3.33333vw", color: "#82889b", lineHeight: 1.6 }}>
+            <p style={{ fontSize: "3.88889vw", color: "#82889b", lineHeight: 1.6 }}>
               International Business Centre, Suite 8, Pot 820/104, Route Elluk, Port Vila, Vanuatu
             </p>
           </div>
