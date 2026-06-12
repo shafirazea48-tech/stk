@@ -197,8 +197,8 @@ export default function Footer() {
             marginBottom: "3.24074vw",
           }}
         >
-          {/* Left: Links grid */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "6.01852vw", maxWidth: "56.1343vw" }}>
+          {/* Left: Links grid + disclaimer + copyright */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "2.31481vw", maxWidth: "56.1343vw" }}>
             <div
               style={{
                 display: "grid",
@@ -224,6 +224,25 @@ export default function Footer() {
                 </a>
               ))}
             </div>
+            {/* Disclaimer */}
+            <p
+              style={{
+                fontSize: "14px",
+                lineHeight: "24px",
+                color: "#82889b",
+              }}
+            >
+              Stockity provides services only to adult users. Online trading may involve significant
+              financial risks including the risk of losing all funds on your trading account. Please,
+              estimate all the risks and get advice from an independent financial advisor before using
+              Stockity services. We also recommend not to invest funds you can&apos;t afford.
+              Stockity isn&apos;t responsible for any losses (direct, indirect, or consequential)
+              resulting from the actions of a client on the platform.
+            </p>
+            {/* Copyright */}
+            <p style={{ fontSize: "14px", lineHeight: "24px", color: "#82889b" }}>
+              © 2022-2026 Stockity. All rights reserved
+            </p>
           </div>
 
           {/* Right: Contacts */}
@@ -282,28 +301,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom */}
-        <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "1.62037vw" }}>
-          <p
-            style={{
-              fontSize: "14px",
-              lineHeight: "24px",
-              color: "#82889b",
-              marginBottom: "0.694444vw",
-              maxWidth: "52.0833vw",
-            }}
-          >
-            Stockity provides services only to adult users. Online trading may involve significant
-            financial risks including the risk of losing all funds on your trading account. Please,
-            estimate all the risks and get advice from an independent financial advisor before using
-            Stockity services. We also recommend not to invest funds you can&apos;t afford.
-            Stockity isn&apos;t responsible for any losses (direct, indirect, or consequential)
-            resulting from the actions of a client on the platform.
-          </p>
-          <p style={{ fontSize: "14px", lineHeight: "24px", color: "#82889b" }}>
-            © 2022-2026 Stockity. All rights reserved
-          </p>
-        </div>
       </div>
     </footer>
   );
