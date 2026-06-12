@@ -140,7 +140,7 @@ export default function Header() {
                             textDecoration: "none",
                             transition: "background 0.1s",
                             whiteSpace: "nowrap",
-                            borderBottom: idx < item.children!.length - 1 ? "1px solid rgba(255,255,255,0.12)" : "none",
+                            borderBottom: idx < item.children!.length - 1 ? "1px solid rgba(255,255,255,0.3)" : "none",
                           }}
                           onMouseEnter={(e) => {
                             e.currentTarget.style.background = "rgba(255,255,255,0.07)";
