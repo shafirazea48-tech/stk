@@ -1,6 +1,6 @@
 var R=require("../../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(es)/es/tournaments/page.js")
-R.c("server/chunks/ssr/1mkl_next_dist_0_pj6o3._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__0g8gkzt._.js")
+R.c("server/chunks/ssr/1mkl_next_dist_esm_0m_697e._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__11z5n90._.js")
 R.c("server/chunks/ssr/1mkl_next_dist_esm_1ze9t7r._.js")
 R.c("server/chunks/ssr/1mkl_next_dist_compiled_1b57pvk._.js")
 R.c("server/chunks/ssr/1mkl_next_dist_server_route-modules_app-page_0cmurwq._.js")

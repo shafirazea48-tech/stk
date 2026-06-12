@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
+import TournamentsPageContent from "@/components/TournamentsPageContent";
 
 export const metadata: Metadata = {
-  title: "Torneios",
+  title: "Torneios | Stockity",
   description:
     "Participe dos torneios de trading da Stockity e compita com traders do mundo todo. Ganhe prêmios exclusivos e aprimore suas habilidades.",
   alternates: {
@@ -18,5 +18,5 @@ export const metadata: Metadata = {
 };
 
 export default function TournamentsPagePt() {
-  redirect("/tournaments");
+  return <TournamentsPageContent locale="pt" />;
 }

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { redirect } from "next/navigation";
+import PricingPageContent from "@/components/PricingPageContent";
 
 export const metadata: Metadata = {
-  title: "Status e Preços",
+  title: "Status e Preços | Stockity",
   description:
     "Veja os planos de conta Stockity — Free, Standard, Gold, VIP e Platinum. Encontre o nível adequado para seus objetivos de trading.",
   alternates: {
@@ -18,5 +18,5 @@ export const metadata: Metadata = {
 };
 
 export default function PricingPagePt() {
-  redirect("/pricing");
+  return <PricingPageContent locale="pt" />;
 }
