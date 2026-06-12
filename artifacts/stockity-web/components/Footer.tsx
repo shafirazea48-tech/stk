@@ -134,11 +134,11 @@ export default function Footer() {
 
         {/* Contacts */}
         <div style={{ display: "flex", flexDirection: "column", gap: "6.66667vw", marginBottom: "11.1111vw" }}>
-          <p style={{ fontSize: "3.33333vw", color: "#82889b", textTransform: "uppercase", letterSpacing: "0.1em" }}>
+          <p style={{ fontSize: "4.44444vw", color: "#f4f4f6", textTransform: "uppercase", letterSpacing: "0.1em", fontWeight: 700 }}>
             Contacts
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: "1.11111vw" }}>
-            <p style={{ fontSize: "3.33333vw", color: "#82889b" }}>Email</p>
+            <p style={{ fontSize: "4.16667vw", color: "#f4f4f6" }}>Email</p>
             <a href="mailto:support@stockity.com" style={{ fontSize: "4.16667vw", color: "#f4f4f6", textDecoration: "none" }}>
               support@stockity.com
             </a>
@@ -159,7 +159,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "6.66667vw" }}>
-          <p style={{ fontSize: "3.05556vw", color: "rgba(130,136,155,0.6)", lineHeight: 1.8, marginBottom: "4.44444vw" }}>
+          <p style={{ fontSize: "3.88889vw", color: "#82889b", lineHeight: 1.8, marginBottom: "4.44444vw" }}>
             Stockity provides services only to adult users. Online trading may involve significant
             financial risks including the risk of losing all funds on your trading account. Please,
             estimate all the risks and get advice from an independent financial advisor before using
@@ -167,7 +167,7 @@ export default function Footer() {
             Stockity isn&apos;t responsible for any losses (direct, indirect, or consequential)
             resulting from the actions of a client on the platform.
           </p>
-          <p style={{ fontSize: "3.33333vw", color: "rgba(130,136,155,0.6)" }}>
+          <p style={{ fontSize: "3.88889vw", color: "rgb(130, 136, 155)" }}>
             © 2022-2026 Stockity. All rights reserved
           </p>
         </div>
