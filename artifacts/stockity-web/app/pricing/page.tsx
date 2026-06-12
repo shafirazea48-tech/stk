@@ -1,4 +1,5 @@
 "use client";
+import { useRef } from "react";
 import Header from "@/components/Header";
 
 const CheckIcon = ({ checked }: { checked: boolean }) =>
@@ -154,6 +155,17 @@ const GemIcon = ({ color }: { color: string }) => (
 );
 
 export default function PricingPage() {
+  const sliderRef = useRef<HTMLDivElement>(null);
+
+  const scrollSlider = (dir: "prev" | "next") => {
+    const el = sliderRef.current;
+    if (!el) return;
+    const cardWidth = el.firstElementChild
+      ? (el.firstElementChild as HTMLElement).offsetWidth + 16
+      : el.offsetWidth;
+    el.scrollBy({ left: dir === "next" ? cardWidth : -cardWidth, behavior: "smooth" });
+  };
+
   return (
     <>
       <Header />
@@ -194,9 +206,10 @@ export default function PricingPage() {
               </p>
             </div>
             <div style={{ display: "flex", gap: 10, flexShrink: 0 }}>
-              {["←", "→"].map((a) => (
+              {(["←", "→"] as const).map((a) => (
                 <button
                   key={a}
+                  onClick={() => scrollSlider(a === "←" ? "prev" : "next")}
                   style={{
                     width: 44,
                     height: 44,
@@ -220,6 +233,7 @@ export default function PricingPage() {
 
         {/* Cards — full width */}
         <div
+          ref={sliderRef}
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(5, 1fr)",
@@ -480,12 +494,32 @@ export default function PricingPage() {
           }
           .pricing-grid > div {
             border-radius: 16px !important;
-            border-right: var(--tier-border) !important;
+            border-right: 1px solid rgba(255,255,255,0.10) !important;
           }
         }
-        @media (max-width: 640px) {
+        @media (max-width: 768px) {
           .pricing-grid {
-            grid-template-columns: 1fr !important;
+            display: flex !important;
+            flex-direction: row !important;
+            gap: 16px !important;
+            padding: 0 20px !important;
+            overflow-x: auto !important;
+            scroll-snap-type: x mandatory !important;
+            -webkit-overflow-scrolling: touch !important;
+            scrollbar-width: none !important;
+          }
+          .pricing-grid::-webkit-scrollbar {
+            display: none !important;
+          }
+          .pricing-grid > div {
+            flex: 0 0 85vw !important;
+            max-width: 340px !important;
+            border-radius: 16px !important;
+            border-top: 1px solid rgba(255,255,255,0.10) !important;
+            border-bottom: 1px solid rgba(255,255,255,0.10) !important;
+            border-left: 1px solid rgba(255,255,255,0.10) !important;
+            border-right: 1px solid rgba(255,255,255,0.10) !important;
+            scroll-snap-align: center !important;
           }
         }
       `}</style>
