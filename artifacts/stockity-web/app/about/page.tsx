@@ -15,9 +15,9 @@ export default function AboutPage() {
       >
         <div
           style={{
-            maxWidth: 860,
+            maxWidth: 1200,
             margin: "0 auto",
-            padding: "0 24px",
+            padding: "0 3.70370vw",
             boxSizing: "border-box",
           }}
         >
