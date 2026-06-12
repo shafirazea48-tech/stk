@@ -126,7 +126,7 @@ export default function Header() {
                         boxShadow: "0 20px 60px rgba(0,0,0,0.6)",
                       }}
                     >
-                      {item.children!.map((child) => (
+                      {item.children!.map((child, idx) => (
                         <a
                           key={child.label}
                           href={child.href}
@@ -139,6 +139,7 @@ export default function Header() {
                             color: "#fff",
                             textDecoration: "none",
                             transition: "background 0.1s",
+                            borderBottom: idx < item.children!.length - 1 ? "1px solid rgba(255,255,255,0.12)" : "none",
                           }}
                           onMouseEnter={(e) => {
                             e.currentTarget.style.background = "rgba(255,255,255,0.07)";
