@@ -28,7 +28,7 @@ const StockityLogo = () => (
 );
 
 const ChevronDown = () => (
-  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" style={{ display: "inline", marginLeft: 4 }}>
+  <svg width="16" height="16" viewBox="0 0 12 12" fill="none" style={{ display: "inline", marginLeft: 4 }}>
     <path d="M2.5 4.5L6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
   </svg>
 );
