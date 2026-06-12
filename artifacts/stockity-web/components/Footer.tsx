@@ -180,15 +180,26 @@ export default function Footer() {
       >
         {/* Logo */}
         <a href="#" style={{ display: "flex", alignItems: "center", gap: "0.4vw", textDecoration: "none" }}>
+          {/* S icon */}
+          <svg viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "2.77778vw", minHeight: 28, width: "auto" }}>
+            <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#fa)"/>
+            <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#fb)"/>
+            <path d="M1.313 15.717a4.695 4.695 0 0 0 1.713 6.405l8.757 5.068.015.009a4.694 4.694 0 0 1 2.27 4.775c-.176 1.135-.916 2.096-1.697 2.938l6.92-6.938a4.695 4.695 0 0 0-.668-7.655l-8.756-5.068-.015-.009a4.694 4.694 0 0 1-2.27-4.775c.176-1.135.916-2.097 1.697-2.939L2.358 14.59a4.677 4.677 0 0 0-1.045 1.127Z" fill="#0C8DF8"/>
+            <defs>
+              <linearGradient id="fa" x1="17.106" y1="7.408" x2="-11.286" y2="33.808" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
+              </linearGradient>
+              <linearGradient id="fb" x1="7.63" y1="33.255" x2="22.939" y2="17.79" gradientUnits="userSpaceOnUse">
+                <stop stopColor="#0C8DF8"/><stop offset="1" stopColor="#033A68"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          {/* Wordmark SVG */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={LOGO_PNG}
-            alt=""
-            style={{ height: "2.77778vw", minHeight: 28, width: "auto" }}
-          />
-          <img
-            src="/images/stockity-logo-white.svg"
+            src="/images/stockity-unofficial-wordmark.svg"
             alt="Stockity"
-            style={{ height: "2vw", minHeight: 20, width: "auto" }}
+            style={{ height: "0.9vw", minHeight: 10, width: "auto" }}
           />
         </a>
 

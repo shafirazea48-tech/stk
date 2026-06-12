@@ -1,27 +1,6 @@
 {
   "app": {
-    "[project]/artifacts/stockity-web/app/about/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/agreement/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/aml-policy/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/copy-trading-agreement/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
     "[project]/artifacts/stockity-web/app/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/pricing/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/test-reviews/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/tournaments/page": [
       "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
     ]
   },

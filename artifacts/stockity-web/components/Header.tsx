@@ -27,9 +27,9 @@ const StockityLogo = () => (
     {/* Wordmark SVG */}
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
-      src="/images/stockity-logo-white.svg"
+      src="/images/stockity-unofficial-wordmark.svg"
       alt="Stockity"
-      style={{ height: "2vw", minHeight: 20, width: "auto" }}
+      style={{ height: "0.9vw", minHeight: 10, width: "auto" }}
     />
   </span>
 );

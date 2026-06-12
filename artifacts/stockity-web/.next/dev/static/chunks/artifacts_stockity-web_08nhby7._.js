@@ -128,11 +128,11 @@ const StockityLogo = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pr
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                src: "/images/stockity-logo-white.svg",
+                src: "/images/stockity-unofficial-wordmark.svg",
                 alt: "Stockity",
                 style: {
-                    height: "2vw",
-                    minHeight: 20,
+                    height: "0.9vw",
+                    minHeight: 10,
                     width: "auto"
                 }
             }, void 0, false, {

@@ -1,10 +1,3 @@
 {
-  "/about/page": "app/about/page.js",
-  "/agreement/page": "app/agreement/page.js",
-  "/aml-policy/page": "app/aml-policy/page.js",
-  "/copy-trading-agreement/page": "app/copy-trading-agreement/page.js",
-  "/page": "app/page.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/test-reviews/page": "app/test-reviews/page.js",
-  "/tournaments/page": "app/tournaments/page.js"
+  "/page": "app/page.js"
 }
