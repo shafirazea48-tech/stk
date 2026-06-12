@@ -1,3 +1,4 @@
 {
-  "/(en)/page": "app/(en)/page.js"
+  "/(en)/page": "app/(en)/page.js",
+  "/api/sitemap-xml/route": "app/api/sitemap-xml/route.js"
 }

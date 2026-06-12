@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/artifacts/stockity-web/middleware.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\nimport type { NextRequest } from \"next/server\";\n\nexport function middleware(_request: NextRequest) {\n  return NextResponse.next();\n}\n"],"names":["middleware","_request","next"],"mappings":";;;;AAAA;AAAA;;AAGO,SAASA,WAAWC,QAAqB;IAC9C,OAAO,4UAAY,CAACC,IAAI;AAC1B"}}]
+}

@@ -9,6 +9,18 @@ const nextConfig: NextConfig = {
   ...(replitDomain
     ? { allowedDevOrigins: [replitDomain, `*.${replitDomain}`] }
     : {}),
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: "/sitemap.xml",
+          destination: "/api/sitemap-xml",
+        },
+      ],
+      afterFiles: [],
+      fallback: [],
+    };
+  },
   async redirects() {
     return [
       {

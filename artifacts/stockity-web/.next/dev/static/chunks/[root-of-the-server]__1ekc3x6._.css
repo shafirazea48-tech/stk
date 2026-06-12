@@ -639,8 +639,16 @@
     display: inline-flex;
   }
 
+  .table {
+    display: table;
+  }
+
   .grow {
     flex-grow: 1;
+  }
+
+  .border-collapse {
+    border-collapse: collapse;
   }
 
   .transform {
