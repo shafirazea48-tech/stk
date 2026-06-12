@@ -36,3 +36,4 @@ artifacts/stockity-web/.next/dev/cache/turbopack/f37fad94/00000133.sst filter=lf
 artifacts/stockity-web/.next/dev/cache/turbopack/f37fad94/00000134.sst filter=lfs diff=lfs merge=lfs -text
 artifacts/stockity-web/.next/dev/cache/turbopack/f37fad94/00000197.sst filter=lfs diff=lfs merge=lfs -text
 artifacts/stockity-web/.next/dev/cache/turbopack/f37fad94/00000198.sst filter=lfs diff=lfs merge=lfs -text
+artifacts/stockity-web/.next/dev/cache/turbopack/f37fad94/00000221.sst filter=lfs diff=lfs merge=lfs -text
