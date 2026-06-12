@@ -1,7 +1,10 @@
 export default function FootballBannerSection() {
   return (
     <div style={{ padding: "0 3.7037vw", boxSizing: "border-box" }}>
+
+      {/* ── DESKTOP ── */}
       <section
+        className="hidden md:flex"
         style={{
           position: "relative",
           width: "100%",
@@ -9,11 +12,9 @@ export default function FootballBannerSection() {
           borderRadius: "1.5vw",
           minHeight: "clamp(280px, 28vw, 520px)",
           boxSizing: "border-box",
-          display: "flex",
           alignItems: "center",
         }}
       >
-        {/* Background image — no extra brightness filter */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/football-bg.png"
@@ -30,8 +31,6 @@ export default function FootballBannerSection() {
             userSelect: "none",
           }}
         />
-
-        {/* Text content — left aligned */}
         <div
           style={{
             position: "relative",
@@ -40,60 +39,78 @@ export default function FootballBannerSection() {
             maxWidth: "clamp(320px, 42vw, 700px)",
           }}
         >
-          <p style={{
-            fontSize: "clamp(11px, 0.97vw, 16px)",
-            fontWeight: 700,
-            color: "#4db8ff",
-            letterSpacing: "0.06em",
-            marginBottom: "clamp(10px, 1.2vw, 20px)",
-          }}>
+          <p style={{ fontSize: "clamp(11px,0.97vw,16px)", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "clamp(10px,1.2vw,20px)" }}>
             10.06 – 24.06
           </p>
-
-          <h2 style={{
-            fontSize: "clamp(28px, 3.24vw, 58px)",
-            fontWeight: 900,
-            color: "#fff",
-            lineHeight: 1.1,
-            marginBottom: "clamp(10px, 1.2vw, 22px)",
-            fontFamily: "'Nunito Sans', sans-serif",
-            textShadow: "0 2px 8px rgba(0,0,0,0.4)",
-          }}>
+          <h2 style={{ fontSize: "clamp(28px,3.24vw,58px)", fontWeight: 900, color: "#fff", lineHeight: 1.1, marginBottom: "clamp(10px,1.2vw,22px)", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.4)" }}>
             Football Power Battle
           </h2>
-
-          <p style={{
-            fontSize: "clamp(13px, 1.1vw, 18px)",
-            color: "rgba(255,255,255,0.9)",
-            lineHeight: 1.6,
-            marginBottom: "clamp(18px, 2.3vw, 40px)",
-            maxWidth: "clamp(260px, 30vw, 500px)",
-            textShadow: "0 1px 4px rgba(0,0,0,0.4)",
-          }}>
+          <p style={{ fontSize: "clamp(13px,1.1vw,18px)", color: "rgba(255,255,255,0.9)", lineHeight: 1.6, marginBottom: "clamp(18px,2.3vw,40px)", maxWidth: "clamp(260px,30vw,500px)", textShadow: "0 1px 4px rgba(0,0,0,0.4)" }}>
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
-
-          <a
-            href="#"
-            className="btn-primary"
-            style={{
-              fontFamily: "'Nunito Sans', sans-serif",
-              display: "inline-block",
-              minWidth: "clamp(100px, 12vw, 180px)",
-            }}
-          >
+          <a href="#" className="btn-primary" style={{ fontFamily: "'Nunito Sans',sans-serif", display: "inline-block", minWidth: "clamp(100px,12vw,180px)" }}>
             Try it!
           </a>
-
-          <p style={{
-            marginTop: "clamp(8px, 1vw, 16px)",
-            fontSize: "clamp(10px, 0.69vw, 12px)",
-            color: "rgba(255,255,255,0.5)",
-          }}>
+          <p style={{ marginTop: "clamp(8px,1vw,16px)", fontSize: "clamp(10px,0.69vw,12px)", color: "rgba(255,255,255,0.5)" }}>
             Risk warning: your capital might be at risk
           </p>
         </div>
       </section>
+
+      {/* ── MOBILE ── */}
+      <section
+        className="flex md:hidden"
+        style={{
+          position: "relative",
+          width: "100%",
+          overflow: "hidden",
+          borderRadius: "5vw",
+          boxSizing: "border-box",
+          flexDirection: "column",
+          background: "linear-gradient(180deg, #0a1535 0%, #0d2050 60%, #0b1a3e 100%)",
+        }}
+      >
+        {/* Text block */}
+        <div style={{ padding: "8vw 6vw 6vw", position: "relative", zIndex: 1 }}>
+          <p style={{ fontSize: "3.5vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3.5vw" }}>
+            10.06 – 24.06
+          </p>
+          <h2 style={{ fontSize: "8vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif" }}>
+            Football Power Battle
+          </h2>
+          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.85)", lineHeight: 1.6, marginBottom: "6vw", textAlign: "center" }}>
+            Trade 5 regional indices with boosted profitability and compete for the top rankings
+          </p>
+          <a
+            href="#"
+            className="btn-primary"
+            style={{ fontFamily: "'Nunito Sans',sans-serif", display: "block", textAlign: "center", width: "100%", boxSizing: "border-box" }}
+          >
+            Try it!
+          </a>
+          <p style={{ marginTop: "3vw", fontSize: "3vw", color: "rgba(255,255,255,0.4)", textAlign: "center" }}>
+            Risk warning: your capital might be at risk
+          </p>
+        </div>
+
+        {/* Cards image at bottom */}
+        <div style={{ width: "100%", overflow: "hidden", lineHeight: 0 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/football-bg.png"
+            alt=""
+            aria-hidden="true"
+            style={{
+              width: "100%",
+              display: "block",
+              objectFit: "cover",
+              objectPosition: "center 40%",
+              height: "55vw",
+            }}
+          />
+        </div>
+      </section>
+
     </div>
   );
 }

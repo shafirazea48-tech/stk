@@ -92,129 +92,261 @@ function FootballBannerSection() {
             padding: "0 3.7037vw",
             boxSizing: "border-box"
         },
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-            style: {
-                position: "relative",
-                width: "100%",
-                overflow: "hidden",
-                borderRadius: "1.5vw",
-                minHeight: "clamp(280px, 28vw, 520px)",
-                boxSizing: "border-box",
-                display: "flex",
-                alignItems: "center"
-            },
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    src: "/images/football-bg.png",
-                    alt: "",
-                    "aria-hidden": "true",
-                    style: {
-                        position: "absolute",
-                        inset: 0,
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        objectPosition: "center",
-                        pointerEvents: "none",
-                        userSelect: "none"
-                    }
-                }, void 0, false, {
-                    fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                    lineNumber: 18,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    style: {
-                        position: "relative",
-                        zIndex: 1,
-                        padding: "clamp(32px, 3.7vw, 64px) clamp(24px, 3.7vw, 64px)",
-                        maxWidth: "clamp(320px, 42vw, 700px)"
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "hidden md:flex",
+                style: {
+                    position: "relative",
+                    width: "100%",
+                    overflow: "hidden",
+                    borderRadius: "1.5vw",
+                    minHeight: "clamp(280px, 28vw, 520px)",
+                    boxSizing: "border-box",
+                    alignItems: "center"
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: "/images/football-bg.png",
+                        alt: "",
+                        "aria-hidden": "true",
+                        style: {
+                            position: "absolute",
+                            inset: 0,
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "cover",
+                            objectPosition: "center",
+                            pointerEvents: "none",
+                            userSelect: "none"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                        lineNumber: 19,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            position: "relative",
+                            zIndex: 1,
+                            padding: "clamp(32px, 3.7vw, 64px) clamp(24px, 3.7vw, 64px)",
+                            maxWidth: "clamp(320px, 42vw, 700px)"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    fontSize: "clamp(11px,0.97vw,16px)",
+                                    fontWeight: 700,
+                                    color: "#4db8ff",
+                                    letterSpacing: "0.06em",
+                                    marginBottom: "clamp(10px,1.2vw,20px)"
+                                },
+                                children: "10.06 – 24.06"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 42,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                style: {
+                                    fontSize: "clamp(28px,3.24vw,58px)",
+                                    fontWeight: 900,
+                                    color: "#fff",
+                                    lineHeight: 1.1,
+                                    marginBottom: "clamp(10px,1.2vw,22px)",
+                                    fontFamily: "'Nunito Sans',sans-serif",
+                                    textShadow: "0 2px 8px rgba(0,0,0,0.4)"
+                                },
+                                children: "Football Power Battle"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 45,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    fontSize: "clamp(13px,1.1vw,18px)",
+                                    color: "rgba(255,255,255,0.9)",
+                                    lineHeight: 1.6,
+                                    marginBottom: "clamp(18px,2.3vw,40px)",
+                                    maxWidth: "clamp(260px,30vw,500px)",
+                                    textShadow: "0 1px 4px rgba(0,0,0,0.4)"
+                                },
+                                children: "Trade 5 regional indices with boosted profitability and compete for the top rankings"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 48,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "#",
+                                className: "btn-primary",
+                                style: {
+                                    fontFamily: "'Nunito Sans',sans-serif",
+                                    display: "inline-block",
+                                    minWidth: "clamp(100px,12vw,180px)"
+                                },
+                                children: "Try it!"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 51,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    marginTop: "clamp(8px,1vw,16px)",
+                                    fontSize: "clamp(10px,0.69vw,12px)",
+                                    color: "rgba(255,255,255,0.5)"
+                                },
+                                children: "Risk warning: your capital might be at risk"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 54,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                        lineNumber: 34,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                lineNumber: 6,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "flex md:hidden",
+                style: {
+                    position: "relative",
+                    width: "100%",
+                    overflow: "hidden",
+                    borderRadius: "5vw",
+                    boxSizing: "border-box",
+                    flexDirection: "column",
+                    background: "linear-gradient(180deg, #0a1535 0%, #0d2050 60%, #0b1a3e 100%)"
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            padding: "8vw 6vw 6vw",
+                            position: "relative",
+                            zIndex: 1
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    fontSize: "3.5vw",
+                                    fontWeight: 700,
+                                    color: "#4db8ff",
+                                    letterSpacing: "0.06em",
+                                    marginBottom: "3.5vw"
+                                },
+                                children: "10.06 – 24.06"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 75,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                style: {
+                                    fontSize: "8vw",
+                                    fontWeight: 900,
+                                    color: "#fff",
+                                    lineHeight: 1.15,
+                                    marginBottom: "4vw",
+                                    fontFamily: "'Nunito Sans',sans-serif"
+                                },
+                                children: "Football Power Battle"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 78,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    fontSize: "4vw",
+                                    color: "rgba(255,255,255,0.85)",
+                                    lineHeight: 1.6,
+                                    marginBottom: "6vw",
+                                    textAlign: "center"
+                                },
+                                children: "Trade 5 regional indices with boosted profitability and compete for the top rankings"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 81,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "#",
+                                className: "btn-primary",
+                                style: {
+                                    fontFamily: "'Nunito Sans',sans-serif",
+                                    display: "block",
+                                    textAlign: "center",
+                                    width: "100%",
+                                    boxSizing: "border-box"
+                                },
+                                children: "Try it!"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 84,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                style: {
+                                    marginTop: "3vw",
+                                    fontSize: "3vw",
+                                    color: "rgba(255,255,255,0.4)",
+                                    textAlign: "center"
+                                },
+                                children: "Risk warning: your capital might be at risk"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                                lineNumber: 91,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                        lineNumber: 74,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            width: "100%",
+                            overflow: "hidden",
+                            lineHeight: 0
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                            src: "/images/football-bg.png",
+                            alt: "",
+                            "aria-hidden": "true",
                             style: {
-                                fontSize: "clamp(11px, 0.97vw, 16px)",
-                                fontWeight: 700,
-                                color: "#4db8ff",
-                                letterSpacing: "0.06em",
-                                marginBottom: "clamp(10px, 1.2vw, 20px)"
-                            },
-                            children: "10.06 – 24.06"
+                                width: "100%",
+                                display: "block",
+                                objectFit: "cover",
+                                objectPosition: "center 40%",
+                                height: "55vw"
+                            }
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                            lineNumber: 43,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            style: {
-                                fontSize: "clamp(28px, 3.24vw, 58px)",
-                                fontWeight: 900,
-                                color: "#fff",
-                                lineHeight: 1.1,
-                                marginBottom: "clamp(10px, 1.2vw, 22px)",
-                                fontFamily: "'Nunito Sans', sans-serif",
-                                textShadow: "0 2px 8px rgba(0,0,0,0.4)"
-                            },
-                            children: "Football Power Battle"
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                            lineNumber: 53,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: {
-                                fontSize: "clamp(13px, 1.1vw, 18px)",
-                                color: "rgba(255,255,255,0.9)",
-                                lineHeight: 1.6,
-                                marginBottom: "clamp(18px, 2.3vw, 40px)",
-                                maxWidth: "clamp(260px, 30vw, 500px)",
-                                textShadow: "0 1px 4px rgba(0,0,0,0.4)"
-                            },
-                            children: "Trade 5 regional indices with boosted profitability and compete for the top rankings"
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                            lineNumber: 65,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
-                            className: "btn-primary",
-                            style: {
-                                fontFamily: "'Nunito Sans', sans-serif",
-                                display: "inline-block",
-                                minWidth: "clamp(100px, 12vw, 180px)"
-                            },
-                            children: "Try it!"
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                            lineNumber: 76,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: {
-                                marginTop: "clamp(8px, 1vw, 16px)",
-                                fontSize: "clamp(10px, 0.69vw, 12px)",
-                                color: "rgba(255,255,255,0.5)"
-                            },
-                            children: "Risk warning: your capital might be at risk"
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                            lineNumber: 88,
+                            lineNumber: 99,
                             columnNumber: 11
                         }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                    lineNumber: 35,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-            lineNumber: 4,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                        lineNumber: 97,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                lineNumber: 61,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
         lineNumber: 3,
         columnNumber: 5
