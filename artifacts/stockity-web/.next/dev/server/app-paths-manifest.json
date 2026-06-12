@@ -1,3 +1,4 @@
 {
+  "/(en)/go/route": "app/(en)/go/route.js",
   "/(en)/page": "app/(en)/page.js"
 }
