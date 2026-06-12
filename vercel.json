@@ -2,5 +2,13 @@
   "buildCommand": "pnpm --filter @workspace/stockity-web run build",
   "outputDirectory": ".next",
   "installCommand": "pnpm install --frozen-lockfile",
-  "framework": "nextjs"
+  "framework": "nextjs",
+  "env": {
+    "NEXT_PUBLIC_SITE_URL": "https://stockity.link"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_SITE_URL": "https://stockity.link"
+    }
+  }
 }

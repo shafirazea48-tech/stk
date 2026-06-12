@@ -14,7 +14,7 @@ const siteUrl =
   (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "") ||
   (process.env.REPLIT_DOMAINS
     ? `https://${process.env.REPLIT_DOMAINS.split(",")[0]}`
-    : "https://stockity.id");
+    : "https://stockity.link");
 
 export const metadata: Metadata = {
   icons: {

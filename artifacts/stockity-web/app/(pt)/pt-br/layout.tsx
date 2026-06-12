@@ -5,7 +5,7 @@ const siteUrl =
   (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "") ||
   (process.env.REPLIT_DOMAINS
     ? `https://${process.env.REPLIT_DOMAINS.split(",")[0]}`
-    : "https://stockity.id");
+    : "https://stockity.link");
 
 const title = "Stockity | Corretora de Trading Online – 140+ Ativos a partir de $10";
 const description =
