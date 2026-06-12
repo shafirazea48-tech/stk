@@ -115,7 +115,7 @@ export default function Header() {
                   <ChevronDown />
                 </button>
                 {openDropdown === item.label && (
-                  <div style={{ position: "absolute", top: "100%", left: 0, paddingTop: 4, minWidth: 220, zIndex: 100 }}>
+                  <div style={{ position: "absolute", top: "100%", left: 0, paddingTop: 4, width: "max-content", zIndex: 100 }}>
                     <div
                       style={{
                         background: "#1a1a1a",
@@ -134,11 +134,12 @@ export default function Header() {
                             display: "block",
                             padding: "10px 16px",
                             fontSize: "20px",
-                            fontWeight: 700,
+                            fontWeight: 400,
                             fontFamily: "'Nunito Sans', sans-serif",
                             color: "#fff",
                             textDecoration: "none",
                             transition: "background 0.1s",
+                            whiteSpace: "nowrap",
                             borderBottom: idx < item.children!.length - 1 ? "1px solid rgba(255,255,255,0.12)" : "none",
                           }}
                           onMouseEnter={(e) => {
