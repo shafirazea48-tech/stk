@@ -15,9 +15,9 @@ const siteUrl =
     ? `https://${process.env.REPLIT_DOMAINS.split(",")[0]}`
     : "https://stockity.id");
 
-const title = "Stockity — Trade Forex, Stocks & Crypto from $10";
+const title = "Stockity - Login & Register | Official Trading App";
 const description =
-  "Join 3.5M investors trading 140+ assets — forex, stocks, crypto & commodities. Start with just $10, zero commissions, licensed & regulated. Try a free demo today.";
+  "Login or register your Stockity account and access the official trading app. Explore digital options, multiple assets, and a simple trading experience.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

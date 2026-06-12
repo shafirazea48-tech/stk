@@ -42,8 +42,8 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$n
 ;
 ;
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.REPLIT_DOMAINS ? `https://${process.env.REPLIT_DOMAINS.split(",")[0]}` : "https://stockity.id");
-const title = "Stockity — Trade Forex, Stocks & Crypto from $10";
-const description = "Join 3.5M investors trading 140+ assets — forex, stocks, crypto & commodities. Start with just $10, zero commissions, licensed & regulated. Try a free demo today.";
+const title = "Stockity - Login & Register | Official Trading App";
+const description = "Login or register your Stockity account and access the official trading app. Explore digital options, multiple assets, and a simple trading experience.";
 const metadata = {
     metadataBase: new URL(siteUrl),
     title: {
