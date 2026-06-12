@@ -67,7 +67,7 @@ export default function FootballBannerSection() {
           borderRadius: "5vw",
           boxSizing: "border-box",
           flexDirection: "column",
-          background: "linear-gradient(180deg, #0a1535 0%, #0d2050 60%, #0b1a3e 100%)",
+          background: "transparent",
         }}
       >
         {/* Text block */}
