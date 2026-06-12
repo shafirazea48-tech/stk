@@ -288,7 +288,7 @@ export default function Footer() {
             style={{
               fontSize: "14px",
               lineHeight: "24px",
-              color: "rgba(130,136,155,0.6)",
+              color: "#82889b",
               marginBottom: "0.694444vw",
               maxWidth: "52.0833vw",
             }}
@@ -300,7 +300,7 @@ export default function Footer() {
             Stockity isn&apos;t responsible for any losses (direct, indirect, or consequential)
             resulting from the actions of a client on the platform.
           </p>
-          <p style={{ fontSize: "14px", lineHeight: "24px", color: "rgba(130,136,155,0.6)" }}>
+          <p style={{ fontSize: "14px", lineHeight: "24px", color: "#82889b" }}>
             © 2022-2026 Stockity. All rights reserved
           </p>
         </div>

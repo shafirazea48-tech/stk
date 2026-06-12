@@ -3208,7 +3208,7 @@ function Footer() {
                                 style: {
                                     fontSize: "14px",
                                     lineHeight: "24px",
-                                    color: "rgba(130,136,155,0.6)",
+                                    color: "#82889b",
                                     marginBottom: "0.694444vw",
                                     maxWidth: "52.0833vw"
                                 },
@@ -3222,7 +3222,7 @@ function Footer() {
                                 style: {
                                     fontSize: "14px",
                                     lineHeight: "24px",
-                                    color: "rgba(130,136,155,0.6)"
+                                    color: "#82889b"
                                 },
                                 children: "© 2022-2026 Stockity. All rights reserved"
                             }, void 0, false, {
