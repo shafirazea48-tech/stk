@@ -88,15 +88,15 @@ export default function FootballBannerSection() {
           }}
         />
 
-        {/* Text block — overlaid on top */}
-        <div style={{ padding: "7vw 6vw 0", position: "relative", zIndex: 1 }}>
-          <p style={{ fontSize: "3.5vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3vw" }}>
+        {/* Text block — overlaid on top, all centered to match reference */}
+        <div style={{ padding: "8vw 6vw 0", position: "relative", zIndex: 1, textAlign: "center" }}>
+          <p style={{ fontSize: "3.8vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3vw" }}>
             10.06 – 24.06
           </p>
-          <h2 style={{ fontSize: "8vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "3.5vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
+          <h2 style={{ fontSize: "9vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
             Football Power Battle
           </h2>
-          <p style={{ fontSize: "3.8vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.55, marginBottom: "5vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
+          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.55, marginBottom: "6vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
           <a
