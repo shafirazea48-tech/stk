@@ -197,9 +197,9 @@ export default function Footer() {
           {/* Wordmark SVG */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/stockity-unofficial-wordmark.svg"
+            src="/images/stockity-logo-white.svg"
             alt="Stockity"
-            style={{ height: "0.9vw", minHeight: 10, width: "auto" }}
+            style={{ height: "2.4vw", minHeight: 24, width: "auto" }}
           />
         </a>
 
