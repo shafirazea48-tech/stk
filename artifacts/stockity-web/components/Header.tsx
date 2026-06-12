@@ -101,7 +101,7 @@ export default function Header() {
                     padding: "0.555556vw 0.925926vw",
                     fontSize: "20px",
                     fontWeight: 700,
-                    color: "rgba(255,255,255,0.85)",
+                    color: "#fff",
                     background: "none",
                     border: "none",
                     cursor: "pointer",
@@ -110,8 +110,6 @@ export default function Header() {
                     whiteSpace: "nowrap",
                     fontFamily: "'Nunito Sans', sans-serif",
                   }}
-                  onMouseEnter={(e) => (e.currentTarget.style.color = "#fff")}
-                  onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.85)")}
                 >
                   {item.label}
                   <ChevronDown />
@@ -135,18 +133,18 @@ export default function Header() {
                           style={{
                             display: "block",
                             padding: "10px 16px",
-                            fontSize: 14,
-                            color: "rgba(255,255,255,0.8)",
+                            fontSize: "20px",
+                            fontWeight: 700,
+                            fontFamily: "'Nunito Sans', sans-serif",
+                            color: "#fff",
                             textDecoration: "none",
-                            transition: "background 0.1s, color 0.1s",
+                            transition: "background 0.1s",
                           }}
                           onMouseEnter={(e) => {
                             e.currentTarget.style.background = "rgba(255,255,255,0.07)";
-                            e.currentTarget.style.color = "#fff";
                           }}
                           onMouseLeave={(e) => {
                             e.currentTarget.style.background = "transparent";
-                            e.currentTarget.style.color = "rgba(255,255,255,0.8)";
                           }}
                         >
                           {child.label}
@@ -165,14 +163,12 @@ export default function Header() {
                   fontSize: "20px",
                   fontWeight: 700,
                   fontFamily: "'Nunito Sans', sans-serif",
-                  color: "rgba(255,255,255,0.85)",
+                  color: "#fff",
                   textDecoration: "none",
                   borderRadius: "0.555556vw",
                   whiteSpace: "nowrap",
                   transition: "color 0.15s",
                 }}
-                onMouseEnter={(e) => (e.currentTarget.style.color = "#fff")}
-                onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.85)")}
               >
                 {item.label}
               </a>

@@ -269,7 +269,7 @@ function Header() {
                                             padding: "0.555556vw 0.925926vw",
                                             fontSize: "20px",
                                             fontWeight: 700,
-                                            color: "rgba(255,255,255,0.85)",
+                                            color: "#fff",
                                             background: "none",
                                             border: "none",
                                             cursor: "pointer",
@@ -278,13 +278,11 @@ function Header() {
                                             whiteSpace: "nowrap",
                                             fontFamily: "'Nunito Sans', sans-serif"
                                         },
-                                        onMouseEnter: (e)=>e.currentTarget.style.color = "#fff",
-                                        onMouseLeave: (e)=>e.currentTarget.style.color = "rgba(255,255,255,0.85)",
                                         children: [
                                             item.label,
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronDown, {}, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                lineNumber: 117,
+                                                lineNumber: 115,
                                                 columnNumber: 19
                                             }, this)
                                         ]
@@ -316,33 +314,33 @@ function Header() {
                                                     style: {
                                                         display: "block",
                                                         padding: "10px 16px",
-                                                        fontSize: 14,
-                                                        color: "rgba(255,255,255,0.8)",
+                                                        fontSize: "20px",
+                                                        fontWeight: 700,
+                                                        fontFamily: "'Nunito Sans', sans-serif",
+                                                        color: "#fff",
                                                         textDecoration: "none",
-                                                        transition: "background 0.1s, color 0.1s"
+                                                        transition: "background 0.1s"
                                                     },
                                                     onMouseEnter: (e)=>{
                                                         e.currentTarget.style.background = "rgba(255,255,255,0.07)";
-                                                        e.currentTarget.style.color = "#fff";
                                                     },
                                                     onMouseLeave: (e)=>{
                                                         e.currentTarget.style.background = "transparent";
-                                                        e.currentTarget.style.color = "rgba(255,255,255,0.8)";
                                                     },
                                                     children: child.label
                                                 }, child.label, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 130,
                                                     columnNumber: 25
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 119,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 120,
+                                        lineNumber: 118,
                                         columnNumber: 19
                                     }, this)
                                 ]
@@ -357,18 +355,16 @@ function Header() {
                                     fontSize: "20px",
                                     fontWeight: 700,
                                     fontFamily: "'Nunito Sans', sans-serif",
-                                    color: "rgba(255,255,255,0.85)",
+                                    color: "#fff",
                                     textDecoration: "none",
                                     borderRadius: "0.555556vw",
                                     whiteSpace: "nowrap",
                                     transition: "color 0.15s"
                                 },
-                                onMouseEnter: (e)=>e.currentTarget.style.color = "#fff",
-                                onMouseLeave: (e)=>e.currentTarget.style.color = "rgba(255,255,255,0.85)",
                                 children: item.label
                             }, item.label, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 160,
+                                lineNumber: 158,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
@@ -408,7 +404,7 @@ function Header() {
                                 children: "Log in"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 185,
+                                lineNumber: 181,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -443,14 +439,14 @@ function Header() {
                                         unoptimized: true
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 229,
+                                        lineNumber: 225,
                                         columnNumber: 13
                                     }, this),
                                     "Register"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 208,
+                                lineNumber: 204,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -469,18 +465,18 @@ function Header() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 240,
+                                    lineNumber: 236,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 239,
+                                lineNumber: 235,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 184,
+                        lineNumber: 180,
                         columnNumber: 9
                     }, this)
                 ]
@@ -533,12 +529,12 @@ function Header() {
                                         strokeLinecap: "round"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 268,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 271,
+                                    lineNumber: 267,
                                     columnNumber: 15
                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                     width: "22",
@@ -552,17 +548,17 @@ function Header() {
                                         strokeLinecap: "round"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 276,
+                                        lineNumber: 272,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 275,
+                                    lineNumber: 271,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 265,
+                                lineNumber: 261,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -587,7 +583,7 @@ function Header() {
                                             fill: "url(#mhi1)"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 283,
+                                            lineNumber: 279,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -595,7 +591,7 @@ function Header() {
                                             fill: "url(#mhi2)"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 284,
+                                            lineNumber: 280,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -603,7 +599,7 @@ function Header() {
                                             fill: "#0C8DF8"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 285,
+                                            lineNumber: 281,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -620,7 +616,7 @@ function Header() {
                                                             stopColor: "#0C8DF8"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 288,
+                                                            lineNumber: 284,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -628,13 +624,13 @@ function Header() {
                                                             stopColor: "#033A68"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 288,
+                                                            lineNumber: 284,
                                                             columnNumber: 46
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                    lineNumber: 287,
+                                                    lineNumber: 283,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
@@ -649,7 +645,7 @@ function Header() {
                                                             stopColor: "#0C8DF8"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 291,
+                                                            lineNumber: 287,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -657,36 +653,36 @@ function Header() {
                                                             stopColor: "#033A68"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 291,
+                                                            lineNumber: 287,
                                                             columnNumber: 46
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                    lineNumber: 290,
+                                                    lineNumber: 286,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 286,
+                                            lineNumber: 282,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 282,
+                                    lineNumber: 278,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 281,
+                                lineNumber: 277,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 264,
+                        lineNumber: 260,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -712,7 +708,7 @@ function Header() {
                                 children: "Log in"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 300,
+                                lineNumber: 296,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -731,7 +727,7 @@ function Header() {
                                 children: "Register"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 316,
+                                lineNumber: 312,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -745,19 +741,19 @@ function Header() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 332,
+                                lineNumber: 328,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 299,
+                        lineNumber: 295,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                lineNumber: 250,
+                lineNumber: 246,
                 columnNumber: 7
             }, this),
             mobileOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -773,7 +769,7 @@ function Header() {
                         onClick: ()=>setMobileOpen(false)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 344,
+                        lineNumber: 340,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -797,7 +793,7 @@ function Header() {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 369,
+                                lineNumber: 365,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -846,18 +842,18 @@ function Header() {
                                                             strokeLinejoin: "round"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 399,
+                                                            lineNumber: 395,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                        lineNumber: 395,
+                                                        lineNumber: 391,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                lineNumber: 376,
+                                                lineNumber: 372,
                                                 columnNumber: 21
                                             }, this),
                                             mobileOpenDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -878,18 +874,18 @@ function Header() {
                                                         children: child.label
                                                     }, child.label, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                        lineNumber: 405,
+                                                        lineNumber: 401,
                                                         columnNumber: 27
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                lineNumber: 403,
+                                                lineNumber: 399,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, item.label, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 375,
+                                        lineNumber: 371,
                                         columnNumber: 19
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: item.href,
@@ -907,24 +903,24 @@ function Header() {
                                         children: item.label
                                     }, item.label, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 425,
+                                        lineNumber: 421,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 372,
+                                lineNumber: 368,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 354,
+                        lineNumber: 350,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                lineNumber: 342,
+                lineNumber: 338,
                 columnNumber: 9
             }, this)
         ]
