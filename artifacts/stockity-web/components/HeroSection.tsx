@@ -111,7 +111,7 @@ export default function HeroSection() {
           }}
         >
           <a href="#" className="btn-primary hero-btn">
-            Get Started Free
+            Register Now
           </a>
           <a
             href="#"
