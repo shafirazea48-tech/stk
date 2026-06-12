@@ -249,7 +249,9 @@ export default function PricingPage() {
                 key={tier.id}
                 style={{
                   background: tier.cardBg,
-                  border: tier.border,
+                  borderTop: tier.border,
+                  borderBottom: tier.border,
+                  borderLeft: tier.border,
                   borderRight: idx < 4 ? "none" : tier.border,
                   borderRadius: borderRad,
                   padding: "clamp(20px, 2.08333vw, 36px)",
