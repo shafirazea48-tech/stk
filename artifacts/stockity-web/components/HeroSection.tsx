@@ -6,24 +6,29 @@ const features = [
   {
     text: "Intuitive interface",
     icon: "/images/stockity/src/core/images/trade-smart/icon_1.svg",
-    href: "#traders-needs",
+    target: "traders-needs",
   },
   {
     text: "140+ assets",
     icon: "/images/stockity/src/core/images/trade-smart/icon_2.svg",
-    href: "#assets",
+    target: "assets",
   },
   {
     text: "Secure transactions",
     icon: "/images/stockity/src/core/images/trade-smart/icon_3.svg",
-    href: "#protect",
+    target: "protect",
   },
   {
     text: "Licensed and regulated",
     icon: null,
-    href: "#partner",
+    target: "partner",
   },
 ];
+
+function scrollToSection(id: string) {
+  const el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: "smooth" });
+}
 
 const LicensedIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" style={{ flexShrink: 0 }}>
@@ -157,9 +162,9 @@ export default function HeroSection() {
           }}
         >
           {features.map((f) => (
-            <a
+            <button
               key={f.text}
-              href={f.href}
+              onClick={() => scrollToSection(f.target)}
               className="hero-chip"
               style={{
                 boxSizing: "border-box",
@@ -173,7 +178,6 @@ export default function HeroSection() {
                 borderRadius: "0.694444vw",
                 height: "2.77778vw",
                 padding: "0 0.925926vw",
-                textDecoration: "none",
                 cursor: "pointer",
               }}
             >
@@ -200,7 +204,7 @@ export default function HeroSection() {
               >
                 {f.text}
               </span>
-            </a>
+            </button>
           ))}
         </div>
       </div>

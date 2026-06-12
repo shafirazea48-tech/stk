@@ -960,24 +960,30 @@ const features = [
     {
         text: "Intuitive interface",
         icon: "/images/stockity/src/core/images/trade-smart/icon_1.svg",
-        href: "#traders-needs"
+        target: "traders-needs"
     },
     {
         text: "140+ assets",
         icon: "/images/stockity/src/core/images/trade-smart/icon_2.svg",
-        href: "#assets"
+        target: "assets"
     },
     {
         text: "Secure transactions",
         icon: "/images/stockity/src/core/images/trade-smart/icon_3.svg",
-        href: "#protect"
+        target: "protect"
     },
     {
         text: "Licensed and regulated",
         icon: null,
-        href: "#partner"
+        target: "partner"
     }
 ];
+function scrollToSection(id) {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({
+        behavior: "smooth"
+    });
+}
 const LicensedIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
         width: "20",
         height: "20",
@@ -995,7 +1001,7 @@ const LicensedIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pr
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 30,
+                lineNumber: 35,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1006,13 +1012,13 @@ const LicensedIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pr
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 31,
+                lineNumber: 36,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-        lineNumber: 29,
+        lineNumber: 34,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
 _c = LicensedIcon;
@@ -1041,7 +1047,7 @@ function HeroSection() {
                 }
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 49,
+                lineNumber: 54,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1053,7 +1059,7 @@ function HeroSection() {
                 }
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 63,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1090,7 +1096,7 @@ function HeroSection() {
                             "Stockity.",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 106,
+                                lineNumber: 111,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1100,13 +1106,13 @@ function HeroSection() {
                                 children: "Making investing clear"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 107,
+                                lineNumber: 112,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                        lineNumber: 91,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1124,7 +1130,7 @@ function HeroSection() {
                                 children: "Register Now"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 121,
+                                lineNumber: 126,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1159,7 +1165,7 @@ function HeroSection() {
                                                 strokeWidth: "1.5"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                lineNumber: 143,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1167,26 +1173,26 @@ function HeroSection() {
                                                 fill: "rgba(255,255,255,0.9)"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                                lineNumber: 144,
+                                                lineNumber: 149,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                        lineNumber: 142,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this),
                                     "Watch"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 124,
+                                lineNumber: 129,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                        lineNumber: 112,
+                        lineNumber: 117,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1196,8 +1202,8 @@ function HeroSection() {
                             gap: "0.694444vw",
                             marginTop: "5.55556vw"
                         },
-                        children: features.map((f)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: f.href,
+                        children: features.map((f)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>scrollToSection(f.target),
                                 className: "hero-chip",
                                 style: {
                                     boxSizing: "border-box",
@@ -1211,7 +1217,6 @@ function HeroSection() {
                                     borderRadius: "0.694444vw",
                                     height: "2.77778vw",
                                     padding: "0 0.925926vw",
-                                    textDecoration: "none",
                                     cursor: "pointer"
                                 },
                                 children: [
@@ -1233,16 +1238,16 @@ function HeroSection() {
                                             }
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 185,
+                                            lineNumber: 189,
                                             columnNumber: 19
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LicensedIcon, {}, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 191,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 184,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1258,24 +1263,24 @@ function HeroSection() {
                                         children: f.text
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                        lineNumber: 190,
+                                        lineNumber: 194,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, f.text, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                                lineNumber: 160,
+                                lineNumber: 165,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                        lineNumber: 151,
+                        lineNumber: 156,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 73,
+                lineNumber: 78,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -1353,7 +1358,7 @@ function HeroSection() {
       `
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 208,
+                lineNumber: 212,
                 columnNumber: 7
             }, this),
             videoOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1405,7 +1410,7 @@ function HeroSection() {
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                            lineNumber: 310,
+                            lineNumber: 314,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
@@ -1420,24 +1425,24 @@ function HeroSection() {
                             }
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                            lineNumber: 334,
+                            lineNumber: 338,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                    lineNumber: 297,
+                    lineNumber: 301,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-                lineNumber: 283,
+                lineNumber: 287,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/stockity-web/components/HeroSection.tsx",
-        lineNumber: 39,
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 }
