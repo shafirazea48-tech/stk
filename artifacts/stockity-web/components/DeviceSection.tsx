@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
+import { getT, Locale } from "@/lib/i18n/translations";
 
 const WebIcon = () => (
   <svg width="18" height="18" viewBox="0 0 16 16" fill="none">
@@ -11,7 +12,6 @@ const WebIcon = () => (
   </svg>
 );
 
-/* Original SVG icons from stockity CSS */
 const GooglePlayIcon = ({ size = "1.85185vw" }: { size?: string }) => (
   <svg width={size} height={size} viewBox="0 0 32 32" fill="none" style={{ flexShrink: 0 }}>
     <path d="m20.89 20.723-12.111 7.05c-.256.117-1.043.608-1.99.35l10.54-11.064 3.56 3.664Zm-4.531-4.769L5.512 27.291s-.431-.236-.431-1.57V6.29c0-.518.064-.973.49-1.574l10.788 11.24Zm9.305-1.942c1.88 1.067 1.429 3.242.093 4.004-1.819 1.037-3.112 1.772-3.495 1.999l-3.88-4.04 3.763-3.952 3.519 1.989ZM6.789 3.876c.947-.259 1.734.232 1.99.349l12.11 7.05-3.56 3.665L6.79 3.876Z" fill="#fff"/>
@@ -24,11 +24,14 @@ const AppleIcon = ({ size = "1.85185vw" }: { size?: string }) => (
   </svg>
 );
 
-export default function DeviceSection() {
+export default function DeviceSection({ locale }: { locale?: Locale }) {
   const [activeSlide, setActiveSlide] = useState(0);
   const trackRef = useRef<HTMLDivElement>(null);
   const startXRef = useRef(0);
   const isDraggingRef = useRef(false);
+  const t = getT(locale ?? "en");
+  const headingBefore = locale === "id" ? "Investasi di mana saja, dengan " : "Invest wherever you want, on ";
+  const headingHighlight = locale === "id" ? "perangkat apa pun" : "any device";
 
   const totalSlides = 2;
 
@@ -48,7 +51,6 @@ export default function DeviceSection() {
     <section id="device" style={{ background: "#000", overflow: "hidden" }}>
       {/* ── DESKTOP ─────────────────────────────────────────────── */}
       <div className="hidden md:block">
-        {/* Section title */}
         <p
           style={{
             boxSizing: "border-box",
@@ -62,11 +64,10 @@ export default function DeviceSection() {
             width: "100%",
           }}
         >
-          Invest wherever you want, on{" "}
-          <span style={{ color: "#0C8DF8" }}>any device</span>
+          {headingBefore}
+          <span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
         </p>
 
-        {/* Two cards */}
         <div
           style={{
             display: "flex",
@@ -87,7 +88,6 @@ export default function DeviceSection() {
               boxSizing: "border-box",
             }}
           >
-            {/* Phone image — covers full card as background */}
             <div style={{ position: "absolute", inset: 0 }}>
               <Image
                 src="/images/stockity/src/core/images/device/mob_desktop-873a8cb8ab00908e.webp"
@@ -98,7 +98,6 @@ export default function DeviceSection() {
               />
             </div>
 
-            {/* Content overlay — full card height, flex column */}
             <div
               style={{
                 position: "absolute",
@@ -110,7 +109,6 @@ export default function DeviceSection() {
                 zIndex: 2,
               }}
             >
-              {/* Card subtitle */}
               <p
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
@@ -122,10 +120,9 @@ export default function DeviceSection() {
                   textAlign: "center",
                 }}
               >
-                Mobile Apps
+                {t.device.mobileApps}
               </p>
 
-              {/* Store buttons row */}
               <div style={{ display: "flex", gap: "1.38889vw", width: "100%" }}>
                 <a
                   href="/go"
@@ -177,7 +174,6 @@ export default function DeviceSection() {
                 </a>
               </div>
 
-              {/* QR code + download link — pushed to bottom */}
               <div
                 style={{
                   marginTop: "auto",
@@ -208,7 +204,6 @@ export default function DeviceSection() {
               boxSizing: "border-box",
             }}
           >
-            {/* Laptop image — covers full card as background */}
             <div style={{ position: "absolute", inset: 0 }}>
               <Image
                 src="/images/stockity/src/core/images/device/web_desktop-358cd5506175c9cf.webp"
@@ -219,7 +214,6 @@ export default function DeviceSection() {
               />
             </div>
 
-            {/* Content overlay — full card height, flex column */}
             <div
               style={{
                 position: "absolute",
@@ -231,7 +225,6 @@ export default function DeviceSection() {
                 zIndex: 2,
               }}
             >
-              {/* Card subtitle */}
               <p
                 style={{
                   fontFamily: "'Nunito Sans', sans-serif",
@@ -243,10 +236,9 @@ export default function DeviceSection() {
                   textAlign: "center",
                 }}
               >
-                Web Version
+                {t.device.webVersion}
               </p>
 
-              {/* Open button */}
               <a
                 href="/go"
                 target="_blank"
@@ -270,7 +262,7 @@ export default function DeviceSection() {
                   color: "#f4f4f6",
                 }}
               >
-                Open
+                {t.device.open}
               </a>
             </div>
           </div>
@@ -279,7 +271,6 @@ export default function DeviceSection() {
 
       {/* ── MOBILE SLIDER ───────────────────────────────────────── */}
       <div className="block md:hidden">
-        {/* Title */}
         <p
           style={{
             boxSizing: "border-box",
@@ -292,11 +283,10 @@ export default function DeviceSection() {
             textAlign: "center",
           }}
         >
-          Invest wherever you want, on{" "}
-          <span style={{ color: "#0C8DF8" }}>any device</span>
+          {headingBefore}
+          <span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
         </p>
 
-        {/* Swiper container */}
         <div
           style={{ overflow: "hidden", padding: "0 4.44444vw" }}
           onTouchStart={onTouchStart}
@@ -324,7 +314,6 @@ export default function DeviceSection() {
                   minHeight: "160vw",
                 }}
               >
-                {/* Card content overlaid at top */}
                 <div style={{ padding: "8.88889vw 6.66667vw 6.66667vw" }}>
                   <p
                     style={{
@@ -337,10 +326,9 @@ export default function DeviceSection() {
                       marginBottom: "6.66667vw",
                     }}
                   >
-                    Mobile Apps
+                    {t.device.mobileApps}
                   </p>
 
-                  {/* Google Play — centered icon + label */}
                   <a
                     href="/go"
                     target="_blank"
@@ -364,7 +352,6 @@ export default function DeviceSection() {
                     <span style={{ fontSize: "4.44444vw", fontWeight: 700, color: "#fff", fontFamily: "'Nunito Sans', sans-serif" }}>Google Play</span>
                   </a>
 
-                  {/* App Store — centered icon + label */}
                   <a
                     href="/go"
                     target="_blank"
@@ -403,7 +390,6 @@ export default function DeviceSection() {
                   minHeight: "160vw",
                 }}
               >
-                {/* Card content overlaid at top */}
                 <div style={{ padding: "8.88889vw 6.66667vw 6.66667vw" }}>
                   <p
                     style={{
@@ -416,10 +402,9 @@ export default function DeviceSection() {
                       marginBottom: "6.66667vw",
                     }}
                   >
-                    Web Platform
+                    {t.device.webPlatform}
                   </p>
 
-                  {/* Open button — full width */}
                   <a
                     href="/go"
                     target="_blank"
@@ -443,7 +428,7 @@ export default function DeviceSection() {
                     }}
                   >
                     <WebIcon />
-                    Open Web Platform
+                    {t.device.openWebPlatform}
                   </a>
                 </div>
               </div>
@@ -451,7 +436,6 @@ export default function DeviceSection() {
           </div>
         </div>
 
-        {/* Pagination dots */}
         <div
           style={{
             display: "flex",

@@ -1,4 +1,11 @@
-export default function AssetsSection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function AssetsSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
+  const heading = t.assets.heading;
+  const highlightEnd = locale === "id" ? "140+ aset" : "140+ assets";
+  const afterHighlight = locale === "id" ? " untuk dijelajahi" : " to explore";
+
   return (
     <section id="assets" style={{ background: "#000", overflow: "hidden" }}>
       {/* Desktop */}
@@ -30,11 +37,11 @@ export default function AssetsSection() {
             paddingTop: "6.01852vw",
           }}
         >
-          <span style={{ color: "#0C8DF8" }}>140+ assets</span> to explore
+          <span style={{ color: "#0C8DF8" }}>{highlightEnd}</span>{afterHighlight}
         </p>
         <div style={{ marginTop: "auto", marginBottom: "6.94444vw" }}>
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Start now
+            {t.assets.cta}
           </a>
         </div>
       </div>
@@ -49,7 +56,6 @@ export default function AssetsSection() {
           background: "#0d0d0d",
         }}
       >
-        {/* Title */}
         <p
           style={{
             fontFamily: "'Nunito Sans', sans-serif",
@@ -63,10 +69,9 @@ export default function AssetsSection() {
             boxSizing: "border-box",
           }}
         >
-          <span style={{ color: "#0C8DF8" }}>140+ assets</span> to explore
+          <span style={{ color: "#0C8DF8" }}>{highlightEnd}</span>{afterHighlight}
         </p>
 
-        {/* Mobile assets image: 75vw tall background */}
         <div
           style={{
             width: "100%",
@@ -78,10 +83,9 @@ export default function AssetsSection() {
           }}
         />
 
-        {/* Button */}
         <div style={{ width: "100%", padding: "8.88889vw 4.44444vw", boxSizing: "border-box" }}>
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
-            Start now
+            {t.assets.cta}
           </a>
         </div>
       </div>

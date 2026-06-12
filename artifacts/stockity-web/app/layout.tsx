@@ -71,9 +71,6 @@ export const metadata: Metadata = {
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
-  alternates: {
-    canonical: "/",
-  },
 };
 
 const jsonLd = {
@@ -108,16 +105,6 @@ const jsonLd = {
       },
     },
     {
-      "@type": "WebPage",
-      "@id": `${siteUrl}/#webpage`,
-      url: siteUrl,
-      name: title,
-      isPartOf: { "@id": `${siteUrl}/#website` },
-      about: { "@id": `${siteUrl}/#organization` },
-      description,
-      inLanguage: "en-US",
-    },
-    {
       "@type": "FinancialService",
       "@id": `${siteUrl}/#service`,
       name: "Stockity Trading Platform",
@@ -143,6 +130,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="alternate" hrefLang="en" href={siteUrl} />
+        <link rel="alternate" hrefLang="id" href={`${siteUrl}/id`} />
+        <link rel="alternate" hrefLang="x-default" href={siteUrl} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

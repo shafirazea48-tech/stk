@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import FootballBannerSection from "@/components/FootballBannerSection";
@@ -16,26 +17,37 @@ import FaqSection from "@/components/FaqSection";
 import JoinSection from "@/components/JoinSection";
 import Footer from "@/components/Footer";
 
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+    languages: {
+      en: "/",
+      id: "/id",
+      "x-default": "/",
+    },
+  },
+};
+
 export default function Home() {
   return (
     <main>
-      <Header />
-      <HeroSection />
-      <FootballBannerSection />
-      <EarthSection />
-      <TradersNeedsSection />
-      <UsableSection />
-      <AssetsSection />
-      <ProtectSection />
-      <CopytradingSection />
-      <WithdrawSection />
-      <DeviceSection />
-      <CharitySection />
-      <PartnerSection />
-      <ReviewsSection />
-      <FaqSection />
-      <JoinSection />
-      <Footer />
+      <Header locale="en" />
+      <HeroSection locale="en" />
+      <FootballBannerSection locale="en" />
+      <EarthSection locale="en" />
+      <TradersNeedsSection locale="en" />
+      <UsableSection locale="en" />
+      <AssetsSection locale="en" />
+      <ProtectSection locale="en" />
+      <CopytradingSection locale="en" />
+      <WithdrawSection locale="en" />
+      <DeviceSection locale="en" />
+      <CharitySection locale="en" />
+      <PartnerSection locale="en" />
+      <ReviewsSection locale="en" />
+      <FaqSection locale="en" />
+      <JoinSection locale="en" />
+      <Footer locale="en" />
     </main>
   );
 }

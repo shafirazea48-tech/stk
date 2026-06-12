@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { getT, Locale } from "@/lib/i18n/translations";
 
 const reviews = [
   {
@@ -217,9 +218,10 @@ function MobileReviewCard({ review }: { review: (typeof reviews)[0] }) {
 
 const DESKTOP_PER_PAGE = 4;
 
-export default function ReviewsSection() {
+export default function ReviewsSection({ locale }: { locale?: Locale }) {
   const [page, setPage] = useState(0);
   const [mobileCurrent, setMobileCurrent] = useState(0);
+  const t = getT(locale ?? "en");
 
   const pageCount = Math.ceil(reviews.length / DESKTOP_PER_PAGE);
   const visibleReviews = reviews.slice(
@@ -242,8 +244,11 @@ export default function ReviewsSection() {
             marginBottom: "3.7037vw",
           }}
         >
-          Millions of{" "}
-          <span style={{ color: "#0C8DF8" }}>users trust us</span> already
+          {locale === "id" ? (
+            t.reviews.heading
+          ) : (
+            <>Millions of{" "}<span style={{ color: "#0C8DF8" }}>users trust us</span> already</>
+          )}
         </h2>
 
         {/* 4-column grid */}
@@ -294,8 +299,11 @@ export default function ReviewsSection() {
             marginBottom: "8.88889vw",
           }}
         >
-          Millions of{" "}
-          <span style={{ color: "#0C8DF8" }}>users trust us</span> already
+          {locale === "id" ? (
+            t.reviews.heading
+          ) : (
+            <>Millions of{" "}<span style={{ color: "#0C8DF8" }}>users trust us</span> already</>
+          )}
         </h2>
 
         <MobileReviewCard review={reviews[mobileCurrent]} />

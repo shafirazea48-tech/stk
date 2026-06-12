@@ -1,4 +1,7 @@
-export default function FootballBannerSection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function FootballBannerSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
   return (
     <div style={{ padding: "0 3.7037vw", boxSizing: "border-box" }}>
 
@@ -43,16 +46,16 @@ export default function FootballBannerSection() {
             10.06 – 24.06
           </p>
           <h2 style={{ fontSize: "clamp(28px,3.24vw,58px)", fontWeight: 900, color: "#fff", lineHeight: 1.1, marginBottom: "clamp(10px,1.2vw,22px)", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.4)" }}>
-            Football Power Battle
+            {t.football.heading}
           </h2>
           <p style={{ fontSize: "clamp(13px,1.1vw,18px)", color: "rgba(255,255,255,0.9)", lineHeight: 1.6, marginBottom: "clamp(18px,2.3vw,40px)", maxWidth: "clamp(260px,30vw,500px)", textShadow: "0 1px 4px rgba(0,0,0,0.4)" }}>
-            Trade 5 regional indices with boosted profitability and compete for the top rankings
+            {t.football.text}
           </p>
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontFamily: "'Nunito Sans',sans-serif", display: "inline-block", minWidth: "clamp(100px,12vw,180px)" }}>
-            Try it!
+            {t.football.cta}
           </a>
           <p style={{ marginTop: "clamp(8px,1vw,16px)", fontSize: "14px", color: "#ffffff" }}>
-            Risk warning: your capital might be at risk
+            {t.football.risk}
           </p>
         </div>
       </section>
@@ -70,7 +73,6 @@ export default function FootballBannerSection() {
           minHeight: "155vw",
         }}
       >
-        {/* Background image — 60% vertical offset shows dark top (text area) + all cards */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/football-mobile-bg.png"
@@ -88,16 +90,15 @@ export default function FootballBannerSection() {
           }}
         />
 
-        {/* Text block — overlaid on top, all centered to match reference */}
         <div style={{ padding: "8vw 6vw 0", position: "relative", zIndex: 1, textAlign: "center" }}>
           <p style={{ fontSize: "3.8vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3vw" }}>
             10.06 – 24.06
           </p>
           <h2 style={{ fontSize: "7vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>
-            Football Power Battle
+            {t.football.heading}
           </h2>
           <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.9)", lineHeight: 1.55, marginBottom: "6vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
-            Trade 5 regional indices with boosted profitability and compete for the top rankings
+            {t.football.text}
           </p>
           <a
             href="/go"
@@ -106,16 +107,14 @@ export default function FootballBannerSection() {
             className="btn-primary"
             style={{ fontFamily: "'Nunito Sans',sans-serif", display: "block", textAlign: "center", width: "100%", boxSizing: "border-box" }}
           >
-            Try it!
+            {t.football.cta}
           </a>
         </div>
 
-        {/* Dark gradient at bottom so risk warning is readable over cards */}
         <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "18vw", background: "linear-gradient(to bottom, transparent 0%, rgba(5,10,30,0.75) 100%)", zIndex: 1, pointerEvents: "none" }} />
 
-        {/* Risk warning — pinned to bottom */}
         <p style={{ position: "absolute", bottom: "4vw", left: 0, right: 0, fontSize: "14px", color: "rgba(255,255,255,0.65)", textAlign: "center", zIndex: 2 }}>
-          Risk warning: your capital might be at risk
+          {t.football.risk}
         </p>
       </section>
 

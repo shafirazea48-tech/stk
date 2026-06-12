@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { getT, Locale } from "@/lib/i18n/translations";
 
-export default function TradersNeedsSection() {
+export default function TradersNeedsSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
   return (
     <section id="traders-needs" style={{ background: "#000", overflow: "hidden" }}>
       {/* Desktop content */}
@@ -25,8 +27,8 @@ export default function TradersNeedsSection() {
             maxWidth: "100%",
           }}
         >
-          A platform designed with{" "}
-          <span style={{ color: "#0C8DF8" }}>users in mind</span>
+          {t.tradersNeeds.headingStart}
+          <span style={{ color: "#0C8DF8" }}>{t.tradersNeeds.headingHighlight}</span>
         </p>
         <p
           style={{
@@ -39,10 +41,10 @@ export default function TradersNeedsSection() {
             marginBottom: "2.77778vw",
           }}
         >
-          Explore the market at your own pace
+          {t.tradersNeeds.subheading}
         </p>
         <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
-          Start now
+          {t.tradersNeeds.cta}
         </a>
         <div
           style={{
@@ -78,7 +80,7 @@ export default function TradersNeedsSection() {
               color: "#f4f4f6",
             }}
           >
-            4.8 Rating
+            {t.tradersNeeds.rating}
           </p>
         </div>
       </div>
@@ -105,8 +107,8 @@ export default function TradersNeedsSection() {
             maxWidth: "90.2778vw",
           }}
         >
-          A platform designed with{" "}
-          <span style={{ color: "#0C8DF8" }}>users in mind</span>
+          {t.tradersNeeds.headingStart}
+          <span style={{ color: "#0C8DF8" }}>{t.tradersNeeds.headingHighlight}</span>
         </p>
         <p
           style={{
@@ -118,11 +120,11 @@ export default function TradersNeedsSection() {
             marginBottom: "11.1111vw",
           }}
         >
-          Explore the market at your own pace
+          {t.tradersNeeds.subheading}
         </p>
         <div style={{ width: "100%", marginBottom: "8.88889vw" }}>
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
-            Start now
+            {t.tradersNeeds.cta}
           </a>
         </div>
         <div
@@ -161,7 +163,7 @@ export default function TradersNeedsSection() {
               color: "#f4f4f6",
             }}
           >
-            Rating
+            {t.tradersNeeds.ratingShort}
           </p>
         </div>
       </div>

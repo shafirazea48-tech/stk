@@ -1,4 +1,13 @@
-export default function CharitySection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function CharitySection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
+  const headingLine1 = locale === "id"
+    ? "Kami berinvestasi lebih dari sekadar trading."
+    : "We invest in more than trading.";
+  const headingLine2Before = locale === "id" ? "Stockity " : "Stockity is ";
+  const headingHighlight = locale === "id" ? "aktif secara sosial" : "socially active";
+
   return (
     <>
       {/* Desktop */}
@@ -35,9 +44,9 @@ export default function CharitySection() {
               marginBottom: "0.925926vw",
             }}
           >
-            We invest in more than trading.
+            {headingLine1}
             <br />
-            Stockity is <span style={{ color: "#0C8DF8" }}>socially active</span>
+            {headingLine2Before}<span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
           </h2>
 
           <p
@@ -51,12 +60,11 @@ export default function CharitySection() {
               maxWidth: "69.4444vw",
             }}
           >
-            We support environmental protection, animal welfare, sports, and many
-            other initiatives. Read more to see how we give back to communities
+            {t.charity.text}
           </p>
 
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Learn more
+            {t.charity.cta}
           </a>
         </div>
       </section>
@@ -87,9 +95,9 @@ export default function CharitySection() {
               marginBottom: "4.44444vw",
             }}
           >
-            We invest in more than trading.
+            {headingLine1}
             <br />
-            Stockity is <span style={{ color: "#0C8DF8" }}>socially active</span>
+            {headingLine2Before}<span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
           </h2>
           <p
             style={{
@@ -101,11 +109,10 @@ export default function CharitySection() {
               marginBottom: "6.66667vw",
             }}
           >
-            We support environmental protection, animal welfare, sports, and many
-            other initiatives.
+            {t.charity.textMobile}
           </p>
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
-            Learn more
+            {t.charity.cta}
           </a>
         </div>
       </section>

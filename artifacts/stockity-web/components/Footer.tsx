@@ -1,3 +1,5 @@
+import { getT, Locale } from "@/lib/i18n/translations";
+
 const InstagramIcon = () => (
   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M10 1.8c2.67 0 2.987.01 4.04.058 2.71.124 3.977 1.41 4.1 4.1.049 1.052.059 1.369.059 4.039 0 2.672-.01 2.988-.058 4.04-.124 2.687-1.387 3.977-4.1 4.1-1.053.048-1.368.058-4.04.058-2.672 0-2.988-.01-4.04-.058-2.717-.124-3.977-1.416-4.1-4.1C1.81 12.985 1.8 12.67 1.8 10c0-2.671.01-2.987.058-4.039.124-2.69 1.387-3.977 4.1-4.101C6.012 1.81 6.328 1.8 10 1.8zm0-1.8C7.284 0 6.943.012 5.878.06 2.246.227.227 2.243.061 5.877.012 6.943 0 7.284 0 10c0 2.717.012 3.057.06 4.123.167 3.632 2.182 5.65 5.817 5.817C6.944 19.988 7.284 20 10 20c2.717 0 3.057-.012 4.122-.06 3.629-.167 5.652-2.182 5.817-5.817C19.988 13.057 20 12.717 20 10c0-2.716-.012-3.057-.06-4.122C19.775 2.249 17.76.228 14.123.06 13.057.012 12.717 0 10 0zm0 4.865a5.135 5.135 0 1 0 0 10.27 5.135 5.135 0 0 0 0-10.27zm0 8.469a3.334 3.334 0 1 1 0-6.668 3.334 3.334 0 0 1 0 6.668zm5.338-9.87a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z" fill="currentColor"/>
@@ -36,15 +38,7 @@ const socialLinks = [
   { name: "TikTok", href: "#", icon: <TikTokIcon /> },
 ];
 
-const footerLinks = [
-  { label: "About us", href: "#" },
-  { label: "Affiliate program", href: "#" },
-  { label: "Privacy Policy", href: "#" },
-  { label: "Client Agreement", href: "/agreement" },
-  { label: "AML policy", href: "/aml-policy" },
-];
-
-const LOGO_PNG = "/images/stockity-logo-trimmed.png";
+const LOGO_PNG = "/images/stockity-trimmed.png";
 
 const SocialIcon = ({ name, href, icon }: { name: string; href: string; icon: React.ReactNode }) => (
   <a
@@ -90,7 +84,10 @@ const SocialIconMobile = ({ name, href, icon }: { name: string; href: string; ic
   </a>
 );
 
-export default function Footer() {
+export default function Footer({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
+  const f = t.footer;
+
   return (
     <footer style={{ background: "#000" }}>
       {/* ===== MOBILE footer (< 768px) ===== */}
@@ -116,7 +113,7 @@ export default function Footer() {
             marginBottom: "11.1111vw",
           }}
         >
-          {footerLinks.map((link) => (
+          {f.links.map((link) => (
             <a
               key={link.label}
               href={link.href}
@@ -135,7 +132,7 @@ export default function Footer() {
         {/* Contacts */}
         <div style={{ display: "flex", flexDirection: "column", gap: "6.66667vw", marginBottom: "11.1111vw" }}>
           <p style={{ fontSize: "4.44444vw", color: "#f4f4f6", textTransform: "uppercase", letterSpacing: "0.1em", fontWeight: 700 }}>
-            Contacts
+            {f.contacts}
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: "1.11111vw" }}>
             <p style={{ fontSize: "4.16667vw", color: "#f4f4f6" }}>Email</p>
@@ -160,15 +157,10 @@ export default function Footer() {
         {/* Bottom */}
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "6.66667vw" }}>
           <p style={{ fontSize: "3.88889vw", color: "#82889b", lineHeight: 1.8, marginBottom: "4.44444vw" }}>
-            Stockity provides services only to adult users. Online trading may involve significant
-            financial risks including the risk of losing all funds on your trading account. Please,
-            estimate all the risks and get advice from an independent financial advisor before using
-            Stockity services. We also recommend not to invest funds you can&apos;t afford.
-            Stockity isn&apos;t responsible for any losses (direct, indirect, or consequential)
-            resulting from the actions of a client on the platform.
+            {f.disclaimer}
           </p>
           <p style={{ fontSize: "3.88889vw", color: "rgb(130, 136, 155)" }}>
-            © 2022-2026 Stockity. All rights reserved
+            {f.copyright}
           </p>
         </div>
       </div>
@@ -180,7 +172,6 @@ export default function Footer() {
       >
         {/* Logo */}
         <a href="#" style={{ display: "flex", alignItems: "center", gap: "0.4vw", textDecoration: "none" }}>
-          {/* S icon */}
           <svg viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "2.77778vw", minHeight: 28, width: "auto" }}>
             <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#fa)"/>
             <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#fb)"/>
@@ -194,7 +185,6 @@ export default function Footer() {
               </linearGradient>
             </defs>
           </svg>
-          {/* Wordmark SVG */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/images/stockity-logo-white.svg"
@@ -224,7 +214,7 @@ export default function Footer() {
                 columnGap: "4.62963vw",
               }}
             >
-              {footerLinks.map((link) => (
+              {f.links.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
@@ -240,7 +230,6 @@ export default function Footer() {
                 </a>
               ))}
             </div>
-            {/* Disclaimer */}
             <p
               style={{
                 fontSize: "14px",
@@ -248,16 +237,10 @@ export default function Footer() {
                 color: "#82889b",
               }}
             >
-              Stockity provides services only to adult users. Online trading may involve significant
-              financial risks including the risk of losing all funds on your trading account. Please,
-              estimate all the risks and get advice from an independent financial advisor before using
-              Stockity services. We also recommend not to invest funds you can&apos;t afford.
-              Stockity isn&apos;t responsible for any losses (direct, indirect, or consequential)
-              resulting from the actions of a client on the platform.
+              {f.disclaimer}
             </p>
-            {/* Copyright */}
             <p style={{ fontSize: "14px", lineHeight: "24px", color: "rgb(130, 136, 155)" }}>
-              © 2022-2026 Stockity. All rights reserved
+              {f.copyright}
             </p>
           </div>
 
@@ -281,10 +264,9 @@ export default function Footer() {
                 fontWeight: 700,
               }}
             >
-              Contacts
+              {f.contacts}
             </p>
 
-            {/* Email */}
             <div style={{ display: "flex", flexDirection: "column", gap: "0.277778vw" }}>
               <p style={{ fontSize: "14px", lineHeight: "22px", color: "#f4f4f6" }}>Email</p>
               <a
@@ -295,7 +277,6 @@ export default function Footer() {
               </a>
             </div>
 
-            {/* Address */}
             <div style={{ display: "flex", flexDirection: "column", gap: "0.277778vw" }}>
               <p style={{ fontSize: "14px", lineHeight: "24px", color: "#f4f4f6", fontWeight: 600 }}>
                 VERTE SECURITIES LIMITED
@@ -305,10 +286,8 @@ export default function Footer() {
               </p>
             </div>
 
-            {/* Reg No */}
             <p style={{ fontSize: "14px", lineHeight: "22px", color: "#82889b" }}>Reg No. 700726</p>
 
-            {/* Socials */}
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.925926vw" }}>
               {socialLinks.map((s) => (
                 <SocialIcon key={s.name} name={s.name} href={s.href} icon={s.icon} />

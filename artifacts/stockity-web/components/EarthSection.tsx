@@ -1,4 +1,7 @@
-export default function EarthSection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function EarthSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
   return (
     <section style={{ width: "100%", background: "#000", overflow: "hidden" }}>
       {/* Mobile */}
@@ -52,7 +55,7 @@ export default function EarthSection() {
               boxSizing: "border-box",
             }}
           >
-            users from 130+ countries trust us
+            {t.earth.label}
           </p>
         </div>
       </div>
@@ -106,7 +109,7 @@ export default function EarthSection() {
               marginTop: "17.3611vw",
             }}
           >
-            users from 130+ countries trust us
+            {t.earth.label}
           </p>
         </div>
       </div>

@@ -1,72 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
-const faqs = [
-  {
-    question: "How do I start?",
-    answer: (
-      <ol style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column" as const, gap: 10 }}>
-        {["Register in seconds", "Deposit easily", "Learn for free", "Predict assets moves", "Withdraw anytime"].map(
-          (step, i) => (
-            <li key={step} style={{ display: "flex", alignItems: "flex-start", gap: 10, color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
-              <span
-                style={{
-                  flexShrink: 0,
-                  width: 24,
-                  height: 24,
-                  borderRadius: "50%",
-                  background: "rgba(12,141,248,0.15)",
-                  color: "#0C8DF8",
-                  fontSize: 12,
-                  fontWeight: 700,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  marginTop: 1,
-                }}
-              >
-                {i + 1}
-              </span>
-              {step}
-            </li>
-          )
-        )}
-      </ol>
-    ),
-  },
-  {
-    question: "How fast will I get my withdrawals?",
-    answer: (
-      <p style={{ color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
-        All requests are processed within{" "}
-        <span style={{ color: "#0C8DF8", fontWeight: 600 }}>1-2 hours</span>. Our
-        financial team works around the clock to ensure fast and secure transactions.
-      </p>
-    ),
-  },
-  {
-    question: "Can I practice first?",
-    answer: (
-      <p style={{ color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
-        Yes! You get a{" "}
-        <span style={{ color: "#0C8DF8", fontWeight: 600 }}>$10,000 demo account</span>{" "}
-        completely free. Use it to practice trading strategies, explore assets, and test
-        strategies — all with no real money at risk.
-      </p>
-    ),
-  },
-  {
-    question: "Are there any special events?",
-    answer: (
-      <p style={{ color: "#82889B", fontSize: "1.62037vw", lineHeight: "2.31481vw" }}>
-        Of course! Subscribe to our e-mails to get notified about new activities you can
-        participate in. We regularly host tournaments, contests, and exclusive promotions
-        for our users.
-      </p>
-    ),
-  },
-];
+import { getT, Locale } from "@/lib/i18n/translations";
 
 const ChevronIcon = ({ open }: { open: boolean }) => (
   <svg
@@ -84,8 +19,58 @@ const ChevronIcon = ({ open }: { open: boolean }) => (
   </svg>
 );
 
-export default function FaqSection() {
+function FaqAnswer({ item, mobile }: { item: ReturnType<typeof getT>["faq"]["items"][number]; mobile?: boolean }) {
+  const fs = mobile ? "3.88889vw" : "1.62037vw";
+  const lh = mobile ? "5.55556vw" : "2.31481vw";
+  const base: React.CSSProperties = { color: "#82889B", fontSize: fs, lineHeight: lh };
+
+  if (item.type === "steps") {
+    return (
+      <ol style={{ listStyle: "none", padding: 0, display: "flex", flexDirection: "column", gap: 10 }}>
+        {item.steps.map((step, i) => (
+          <li key={step} style={{ display: "flex", alignItems: "flex-start", gap: 10, ...base }}>
+            <span
+              style={{
+                flexShrink: 0,
+                width: 24,
+                height: 24,
+                borderRadius: "50%",
+                background: "rgba(12,141,248,0.15)",
+                color: "#0C8DF8",
+                fontSize: 12,
+                fontWeight: 700,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                marginTop: 1,
+              }}
+            >
+              {i + 1}
+            </span>
+            {step}
+          </li>
+        ))}
+      </ol>
+    );
+  }
+
+  if (item.type === "highlight") {
+    return (
+      <p style={base}>
+        {item.before}
+        <span style={{ color: "#0C8DF8", fontWeight: 600 }}>{item.highlight}</span>
+        {item.after}
+      </p>
+    );
+  }
+
+  return <p style={base}>{item.text}</p>;
+}
+
+export default function FaqSection({ locale }: { locale?: Locale }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const t = getT(locale ?? "en");
+  const faqs = t.faq.items;
 
   return (
     <section
@@ -106,7 +91,7 @@ export default function FaqSection() {
             padding: "11.1111vw 0 6.66667vw",
           }}
         >
-          FAQ
+          {t.faq.heading}
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "2.22222vw" }}>
@@ -154,7 +139,9 @@ export default function FaqSection() {
                   itemType="https://schema.org/Answer"
                   itemProp="acceptedAnswer"
                 >
-                  <div itemProp="text" className="faq-mobile-answer" style={{ fontSize: "3.88889vw", lineHeight: "5.55556vw", color: "#82889B", fontFamily: "'Nunito Sans', sans-serif" }}>{faq.answer}</div>
+                  <div itemProp="text" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                    <FaqAnswer item={faq} mobile />
+                  </div>
                 </div>
               )}
             </div>
@@ -175,7 +162,7 @@ export default function FaqSection() {
             padding: "9.25926vw 0 3.7037vw",
           }}
         >
-          FAQ
+          {t.faq.heading}
         </p>
 
         <div style={{ display: "flex", flexDirection: "column", gap: "0.925926vw" }}>
@@ -231,21 +218,15 @@ export default function FaqSection() {
                   itemType="https://schema.org/Answer"
                   itemProp="acceptedAnswer"
                 >
-                  <div itemProp="text" style={{ fontSize: "1.62037vw", lineHeight: "2.31481vw", color: "#82889B" }}>{faq.answer}</div>
+                  <div itemProp="text">
+                    <FaqAnswer item={faq} />
+                  </div>
                 </div>
               )}
             </div>
           ))}
         </div>
       </div>
-      <style>{`
-        .faq-mobile-answer p,
-        .faq-mobile-answer li,
-        .faq-mobile-answer span {
-          font-size: 3.88889vw !important;
-          line-height: 5.55556vw !important;
-        }
-      `}</style>
     </section>
   );
 }

@@ -1,28 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import { getT, Locale } from "@/lib/i18n/translations";
 
-const features = [
-  {
-    text: "Intuitive interface",
-    icon: "/images/stockity/src/core/images/trade-smart/icon_1.svg",
-    target: "traders-needs",
-  },
-  {
-    text: "140+ assets",
-    icon: "/images/stockity/src/core/images/trade-smart/icon_2.svg",
-    target: "assets",
-  },
-  {
-    text: "Secure transactions",
-    icon: "/images/stockity/src/core/images/trade-smart/icon_3.svg",
-    target: "protect",
-  },
-  {
-    text: "Licensed and regulated",
-    icon: null,
-    target: "partner",
-  },
+const featureMeta = [
+  { icon: "/images/stockity/src/core/images/trade-smart/icon_1.svg", target: "traders-needs" },
+  { icon: "/images/stockity/src/core/images/trade-smart/icon_2.svg", target: "assets" },
+  { icon: "/images/stockity/src/core/images/trade-smart/icon_3.svg", target: "protect" },
+  { icon: null, target: "partner" },
 ];
 
 function scrollToSection(id: string) {
@@ -37,8 +22,10 @@ const LicensedIcon = () => (
   </svg>
 );
 
-export default function HeroSection() {
+export default function HeroSection({ locale }: { locale?: Locale }) {
   const [videoOpen, setVideoOpen] = useState(false);
+  const t = getT(locale ?? "en");
+  const [titleLine1, titleLine2] = t.hero.heading.split(". ");
 
   return (
     <section
@@ -108,11 +95,10 @@ export default function HeroSection() {
             textShadow: "0 2px 40px rgba(0,0,0,0.4)",
           }}
         >
-          Stockity.
+          {titleLine1}.
           <br />
-          <span style={{ color: "#fff" }}>Making investing clear</span>
+          <span style={{ color: "#fff" }}>{titleLine2}</span>
         </h1>
-
 
         {/* CTA buttons */}
         <div
@@ -125,7 +111,7 @@ export default function HeroSection() {
           }}
         >
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary hero-btn">
-            Register Now
+            {t.hero.register}
           </a>
           <button
             onClick={() => setVideoOpen(true)}
@@ -149,7 +135,7 @@ export default function HeroSection() {
               <circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
               <path d="M10 8l6 4-6 4V8z" fill="rgba(255,255,255,0.9)"/>
             </svg>
-            Watch
+            {t.hero.watch}
           </button>
         </div>
 
@@ -162,51 +148,54 @@ export default function HeroSection() {
             marginTop: "5.55556vw",
           }}
         >
-          {features.map((f) => (
-            <button
-              key={f.text}
-              onClick={() => scrollToSection(f.target)}
-              className="hero-chip"
-              style={{
-                boxSizing: "border-box",
-                display: "flex",
-                alignItems: "center",
-                gap: "0.462963vw",
-                backdropFilter: "blur(12px)",
-                WebkitBackdropFilter: "blur(12px)",
-                background: "rgba(255,255,255,0.08)",
-                border: "1px solid rgba(255,255,255,0.12)",
-                borderRadius: "0.694444vw",
-                height: "2.77778vw",
-                padding: "0 0.925926vw",
-                cursor: "pointer",
-              }}
-            >
-              <span
-                className="hero-chip-icon"
-                style={{ display: "flex", alignItems: "center", flexShrink: 0, width: "1.2963vw", height: "1.2963vw" }}
-              >
-                {f.icon ? (
-                  <img src={f.icon} alt="" style={{ width: "1.2963vw", height: "1.2963vw" }} />
-                ) : (
-                  <LicensedIcon />
-                )}
-              </span>
-              <span
-                className="hero-chip-text"
+          {t.hero.features.map((text, idx) => {
+            const meta = featureMeta[idx];
+            return (
+              <button
+                key={text}
+                onClick={() => scrollToSection(meta.target)}
+                className="hero-chip"
                 style={{
-                  whiteSpace: "nowrap",
-                  color: "#ebebeb",
-                  fontWeight: 700,
-                  fontFamily: "'Nunito Sans', sans-serif",
-                  fontSize: "0.833333vw",
-                  lineHeight: 1,
+                  boxSizing: "border-box",
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.462963vw",
+                  backdropFilter: "blur(12px)",
+                  WebkitBackdropFilter: "blur(12px)",
+                  background: "rgba(255,255,255,0.08)",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                  borderRadius: "0.694444vw",
+                  height: "2.77778vw",
+                  padding: "0 0.925926vw",
+                  cursor: "pointer",
                 }}
               >
-                {f.text}
-              </span>
-            </button>
-          ))}
+                <span
+                  className="hero-chip-icon"
+                  style={{ display: "flex", alignItems: "center", flexShrink: 0, width: "1.2963vw", height: "1.2963vw" }}
+                >
+                  {meta.icon ? (
+                    <img src={meta.icon} alt="" style={{ width: "1.2963vw", height: "1.2963vw" }} />
+                  ) : (
+                    <LicensedIcon />
+                  )}
+                </span>
+                <span
+                  className="hero-chip-text"
+                  style={{
+                    whiteSpace: "nowrap",
+                    color: "#ebebeb",
+                    fontWeight: 700,
+                    fontFamily: "'Nunito Sans', sans-serif",
+                    fontSize: "0.833333vw",
+                    lineHeight: 1,
+                  }}
+                >
+                  {text}
+                </span>
+              </button>
+            );
+          })}
         </div>
       </div>
 
@@ -283,7 +272,7 @@ export default function HeroSection() {
         }
       `}</style>
 
-      {/* Video Modal — lazy: video only mounts when open */}
+      {/* Video Modal */}
       {videoOpen && (
         <div
           onClick={() => setVideoOpen(false)}
@@ -311,7 +300,6 @@ export default function HeroSection() {
               boxShadow: "0 24px 80px rgba(0,0,0,0.7)",
             }}
           >
-            {/* Close button */}
             <button
               onClick={() => setVideoOpen(false)}
               style={{

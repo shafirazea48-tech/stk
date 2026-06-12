@@ -1,7 +1,13 @@
-export default function CopytradingSection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function CopytradingSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
+  const headingBefore = locale === "id" ? "Belajar dari para " : "Learn from the ";
+  const headingHighlight = locale === "id" ? "ahli" : "experts";
+
   return (
     <section id="copytrading" style={{ background: "#000", overflow: "hidden" }}>
-      {/* Desktop: copytrading__wrapper_desktop — background image, min-height: 84.7222vw */}
+      {/* Desktop */}
       <div
         className="hidden md:flex"
         style={{
@@ -15,7 +21,6 @@ export default function CopytradingSection() {
           minHeight: "84.7222vw",
         }}
       >
-        {/* copytrading__content: padding-top: 11.5741vw, padding: 0 1.85185vw */}
         <div
           style={{
             boxSizing: "border-box",
@@ -30,7 +35,6 @@ export default function CopytradingSection() {
             textAlign: "center",
           }}
         >
-          {/* Title: 3.7037vw/4.16667vw */}
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
@@ -41,10 +45,9 @@ export default function CopytradingSection() {
               maxWidth: "100%",
             }}
           >
-            Learn from the <span style={{ color: "#0C8DF8" }}>experts</span>
+            {headingBefore}<span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
           </p>
 
-          {/* Subtitle: lp-font-regular-subtitle = 1.85185vw/2.31481vw */}
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
@@ -56,18 +59,17 @@ export default function CopytradingSection() {
               marginBottom: "2.77778vw",
             }}
           >
-            Study successful investment strategies and apply them to your routine
+            {t.copytrading.text}
           </p>
 
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Start now
+            {t.copytrading.cta}
           </a>
         </div>
       </div>
 
-      {/* Mobile: copytrading__wrapper_mobile */}
+      {/* Mobile */}
       <div className="flex md:hidden" style={{ flexDirection: "column" }}>
-        {/* Background image */}
         <div
           style={{
             backgroundImage: "url('/images/stockity/src/core/images/copytrading/section_copytrading_mobile-2ec72b466737d77d.webp')",
@@ -78,7 +80,6 @@ export default function CopytradingSection() {
             height: "88.8889vw",
           }}
         />
-        {/* Content */}
         <div
           style={{
             boxSizing: "border-box",
@@ -101,7 +102,7 @@ export default function CopytradingSection() {
               maxWidth: "83.3333vw",
             }}
           >
-            Learn from the <span style={{ color: "#0C8DF8" }}>experts</span>
+            {headingBefore}<span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
           </p>
           <p
             style={{
@@ -113,11 +114,11 @@ export default function CopytradingSection() {
               marginBottom: "8.88889vw",
             }}
           >
-            Study successful investment strategies and apply them to your routine
+            {t.copytrading.text}
           </p>
           <div style={{ width: "100%" }}>
             <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
-              Start now
+              {t.copytrading.cta}
             </a>
           </div>
         </div>

@@ -1,6 +1,12 @@
 "use client";
 
-export default function WithdrawSection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function WithdrawSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
+  const headingBefore = locale === "id" ? "Deposit & tarik menggunakan " : "Deposit & withdraw using ";
+  const headingHighlight = locale === "id" ? "metode pembayaran lokal" : "local payment methods";
+
   const logos = [
     { num: 1, file: "/images/stockity/src/core/images/withdraw/logo_1.svg" },
     { num: 2, file: "/images/stockity/src/core/images/withdraw/logo_2.svg" },
@@ -75,8 +81,8 @@ export default function WithdrawSection() {
             width: "100%",
           }}
         >
-          Deposit &amp; withdraw using{" "}
-          <span style={{ color: "#0C8DF8" }}>local payment methods</span>
+          {headingBefore}
+          <span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
         </p>
 
         {/* Title — desktop */}
@@ -94,8 +100,8 @@ export default function WithdrawSection() {
             width: "100%",
           }}
         >
-          Deposit &amp; withdraw using{" "}
-          <span style={{ color: "#0C8DF8" }}>local payment methods</span>
+          {headingBefore}
+          <span style={{ color: "#0C8DF8" }}>{headingHighlight}</span>
         </p>
 
         {/* ── Mobile: infinite auto-scroll slider ── */}
@@ -103,7 +109,6 @@ export default function WithdrawSection() {
           className="block md:hidden"
           style={{ width: "100%", overflow: "hidden" }}
         >
-          {/* Single track with logos×2 — keyframe moves -50% for seamless loop */}
           <div
             style={{
               display: "flex",
@@ -173,7 +178,7 @@ export default function WithdrawSection() {
             onMouseEnter={(e) => ((e.target as HTMLElement).style.background = "#3b3b3b")}
             onMouseLeave={(e) => ((e.target as HTMLElement).style.background = "rgba(255,255,255,0.15)")}
           >
-            Show more
+            {t.withdraw.cta}
           </a>
         </div>
       </div>

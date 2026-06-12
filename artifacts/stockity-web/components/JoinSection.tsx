@@ -1,6 +1,9 @@
 "use client";
 
-export default function JoinSection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function JoinSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
   return (
     <>
       {/* Desktop */}
@@ -22,8 +25,6 @@ export default function JoinSection() {
             textAlign: "center",
           }}
         >
-          {/* Title: "Join the 3,5+ million investors using Stockity"
-              lp-font-bold-title-big-small: desktop 6.94444vw/6.94444vw */}
           <p
             style={{
               fontFamily: "'Nunito Sans', sans-serif",
@@ -34,12 +35,11 @@ export default function JoinSection() {
               marginBottom: 0,
             }}
           >
-            Join the <span style={{ color: "#0C8DF8" }}>3,5+ million</span>
+            {t.join.headingStart}<span style={{ color: "#0C8DF8" }}>{t.join.headingHighlight}</span>
             <br />
-            investors using Stockity
+            {locale === "id" ? "investor yang menggunakan Stockity" : "investors using Stockity"}
           </p>
 
-          {/* Button — full width, 6.94444vw tall, border-radius: 32px, gradient #0990ff→#00eaff */}
           <a
             href="/go"
             target="_blank"
@@ -67,7 +67,7 @@ export default function JoinSection() {
             onMouseEnter={(e) => (e.currentTarget.style.opacity = "0.9")}
             onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
           >
-            Start Now
+            {t.join.cta}
           </a>
         </div>
       </section>
@@ -92,11 +92,14 @@ export default function JoinSection() {
             marginBottom: 0,
           }}
         >
-          Join the <span style={{ color: "#0C8DF8" }}>3,5+&nbsp;million</span>
+          {t.join.headingMobile1}<span style={{ color: "#0C8DF8" }}>{t.join.headingMobile2}</span>
           <br />
-          investors using
-          <br />
-          Stockity
+          {t.join.headingMobile3}
+          {locale === "id" ? (
+            <><br />Stockity</>
+          ) : (
+            <><br />Stockity</>
+          )}
         </p>
         <a
           href="/go"
@@ -122,7 +125,7 @@ export default function JoinSection() {
             boxShadow: "0 10px 60px 0 rgba(93,139,192,.5)",
           }}
         >
-          Start Now
+          {t.join.cta}
         </a>
       </section>
     </>

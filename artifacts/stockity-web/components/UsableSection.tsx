@@ -1,4 +1,11 @@
-export default function UsableSection() {
+import { getT, Locale } from "@/lib/i18n/translations";
+
+export default function UsableSection({ locale }: { locale?: Locale }) {
+  const t = getT(locale ?? "en");
+  const [line1, line2] = t.usable.heading.includes(". ")
+    ? t.usable.heading.split(". ").map((s, i, a) => (i < a.length - 1 ? s + "." : s))
+    : [t.usable.heading, ""];
+
   return (
     <section
       id="usable"
@@ -19,7 +26,6 @@ export default function UsableSection() {
           textAlign: "center",
         }}
       >
-        {/* "Usable, reliable, secure." — blue (p-color), font: 6.94444vw/6.94444vw, Bold */}
         <p
           style={{
             color: "#0C8DF8",
@@ -30,10 +36,9 @@ export default function UsableSection() {
             maxWidth: "100%",
           }}
         >
-          Usable, reliable, secure.
+          {line1}
         </p>
 
-        {/* "Works just as you expect" — white */}
         <p
           style={{
             color: "#ebebeb",
@@ -44,13 +49,12 @@ export default function UsableSection() {
             maxWidth: "100%",
           }}
         >
-          Works just as you expect
+          {line2}
         </p>
 
-        {/* Button — margin-top: 4.62963vw */}
         <div style={{ marginTop: "4.62963vw" }}>
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Start trading
+            {t.usable.cta}
           </a>
         </div>
       </div>
@@ -77,7 +81,7 @@ export default function UsableSection() {
             maxWidth: "91.1111vw",
           }}
         >
-          Usable, reliable, secure.
+          {line1}
         </p>
         <p
           style={{
@@ -90,11 +94,11 @@ export default function UsableSection() {
             marginTop: "2.22222vw",
           }}
         >
-          Works just as you expect
+          {line2}
         </p>
         <div style={{ marginTop: "11.1111vw", width: "100%" }}>
           <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
-            Start trading
+            {t.usable.cta}
           </a>
         </div>
       </div>

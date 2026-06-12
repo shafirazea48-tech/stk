@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import { getT, Locale } from "@/lib/i18n/translations";
 
 const StockityLogo = () => (
   <span style={{ display: "flex", alignItems: "center", gap: "0.4vw" }}>
-    {/* Icon only */}
     <svg
       viewBox="0 0 24 42"
       fill="none"
@@ -24,7 +24,6 @@ const StockityLogo = () => (
         </linearGradient>
       </defs>
     </svg>
-    {/* Wordmark SVG */}
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
       src="/images/stockity-logo-white.svg"
@@ -40,33 +39,40 @@ const ChevronDown = () => (
   </svg>
 );
 
-const navItems = [
-  {
-    label: "For users",
-    children: [
-      { label: "Statuses", href: "/pricing" },
-      { label: "Tournaments", href: "/tournaments" },
-    ],
-  },
-  {
-    label: "Information",
-    children: [
-      { label: "Client Agreement", href: "/agreement" },
-      { label: "AML Policy", href: "/aml-policy" },
-      { label: "Copy Trading Agreement", href: "/copy-trading-agreement" },
-    ],
-  },
-  { label: "About us", href: "/about" },
-];
-
-export default function Header() {
+export default function Header({ locale }: { locale?: Locale }) {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [mobileOpenDropdown, setMobileOpenDropdown] = useState<string | null>(null);
+  const t = getT(locale ?? "en");
+  const n = t.header.nav;
+  const homeHref = locale === "id" ? "/id" : "/";
+
+  const navItems = [
+    {
+      label: n.forUsers,
+      children: [
+        { label: n.statuses, href: locale === "id" ? "/id/pricing" : "/pricing" },
+        { label: n.tournaments, href: locale === "id" ? "/id/tournaments" : "/tournaments" },
+      ],
+    },
+    {
+      label: n.information,
+      children: [
+        { label: n.clientAgreement, href: "/agreement" },
+        { label: n.amlPolicy, href: "/aml-policy" },
+        { label: n.copyTradingAgreement, href: "/copy-trading-agreement" },
+      ],
+    },
+    { label: n.aboutUs, href: locale === "id" ? "/id/about" : "/about" },
+  ];
+
+  const flagSrc = locale === "id" ? "https://flagcdn.com/w40/id.png" : "https://flagcdn.com/w40/gb.png";
+  const flagAlt = locale === "id" ? "ID" : "EN";
+  const switchHref = locale === "id" ? "/" : "/id";
 
   return (
     <header style={{ backgroundColor: "#000", position: "fixed", top: 0, left: 0, right: 0, zIndex: 260 }}>
-      {/* Desktop header — md breakpoint = 768px, matching original */}
+      {/* Desktop header */}
       <div
         className="hidden md:flex"
         style={{
@@ -78,7 +84,7 @@ export default function Header() {
       >
         {/* Logo */}
         <a
-          href="/"
+          href={homeHref}
           style={{
             display: "flex",
             alignItems: "center",
@@ -149,12 +155,8 @@ export default function Header() {
                             whiteSpace: "nowrap",
                             borderBottom: idx < item.children!.length - 1 ? "1px solid rgba(255,255,255,0.3)" : "none",
                           }}
-                          onMouseEnter={(e) => {
-                            e.currentTarget.style.background = "rgba(255,255,255,0.07)";
-                          }}
-                          onMouseLeave={(e) => {
-                            e.currentTarget.style.background = "transparent";
-                          }}
+                          onMouseEnter={(e) => { e.currentTarget.style.background = "rgba(255,255,255,0.07)"; }}
+                          onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
                         >
                           {child.label}
                         </a>
@@ -212,7 +214,7 @@ export default function Header() {
             onMouseEnter={(e) => (e.currentTarget.style.borderColor = "#48a9fa")}
             onMouseLeave={(e) => (e.currentTarget.style.borderColor = "#0c8df8")}
           >
-            Log in
+            {t.header.login}
           </a>
           <a
             href="/go"
@@ -247,19 +249,24 @@ export default function Header() {
               style={{ flexShrink: 0 }}
               unoptimized
             />
-            Register
+            {t.header.register}
           </a>
-          <div style={{ cursor: "pointer", display: "flex", alignItems: "center" }}>
+          {/* Language switcher */}
+          <a
+            href={switchHref}
+            style={{ cursor: "pointer", display: "flex", alignItems: "center", textDecoration: "none" }}
+            title={locale === "id" ? "Switch to English" : "Ganti ke Bahasa Indonesia"}
+          >
             <img
-              src="https://flagcdn.com/w40/gb.png"
-              alt="EN"
+              src={flagSrc}
+              alt={flagAlt}
               style={{ height: "1.85185vw", minHeight: 20, width: "auto" }}
             />
-          </div>
+          </a>
         </div>
       </div>
 
-      {/* Mobile header bar — shown below 768px */}
+      {/* Mobile header bar */}
       <div
         className="flex md:hidden"
         style={{
@@ -290,8 +297,7 @@ export default function Header() {
               </svg>
             )}
           </button>
-          {/* S icon only — no text on mobile */}
-          <a href="/" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+          <a href={homeHref} style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
             <svg viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "7.22222vw", minHeight: 24, width: "auto" }}>
               <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#mhi1)"/>
               <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#mhi2)"/>
@@ -308,7 +314,7 @@ export default function Header() {
           </a>
         </div>
 
-        {/* Right: Log in + Register buttons + flag */}
+        {/* Right: Log in + Register + flag */}
         <div style={{ display: "flex", alignItems: "center", gap: "2.22222vw" }}>
           <a
             href="/go"
@@ -328,7 +334,7 @@ export default function Header() {
               textDecoration: "none",
             }}
           >
-            Log in
+            {t.header.login}
           </a>
           <a
             href="/go"
@@ -348,20 +354,21 @@ export default function Header() {
               textDecoration: "none",
             }}
           >
-            Register
+            {t.header.register}
           </a>
-          <img
-            src="https://flagcdn.com/w40/gb.png"
-            alt="EN"
-            style={{ height: "5.55556vw", minHeight: 18, width: "auto", borderRadius: 2 }}
-          />
+          <a href={switchHref} style={{ textDecoration: "none" }}>
+            <img
+              src={flagSrc}
+              alt={flagAlt}
+              style={{ height: "5.55556vw", minHeight: 18, width: "auto", borderRadius: 2 }}
+            />
+          </a>
         </div>
       </div>
 
-      {/* Mobile side drawer — z-index below header (260) so header stays on top */}
+      {/* Mobile side drawer */}
       {mobileOpen && (
         <div className="md:hidden">
-          {/* Backdrop — covers page but stays below header */}
           <div
             style={{
               position: "fixed",
@@ -371,7 +378,6 @@ export default function Header() {
             }}
             onClick={() => setMobileOpen(false)}
           />
-          {/* Side panel */}
           <div
             style={{
               position: "fixed",
@@ -386,10 +392,8 @@ export default function Header() {
               overflowY: "auto",
             }}
           >
-            {/* Spacer matching mobile header height so nav items start below it */}
             <div style={{ height: "16vw", flexShrink: 0 }} />
 
-            {/* Nav items with dividers */}
             <nav style={{ flex: 1 }}>
               {navItems.map((item) =>
                 item.children ? (

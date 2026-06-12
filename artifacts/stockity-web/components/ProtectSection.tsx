@@ -1,88 +1,10 @@
 "use client";
 
 import { useState, useRef, useId } from "react";
+import { getT, Locale } from "@/lib/i18n/translations";
 
 const CARD_WIDTH_VW = 90.5556;
 const CARD_GAP_VW = 4.44444;
-
-const cards = [
-  {
-    key: "fund",
-    bgImage: "url('/images/stockity/src/core/images/protect/card_3_mobile-54a0fa1fcfbf9102.webp')",
-    bgImageDesktop: "url('/images/stockity/src/core/images/protect/card_3_desktop-467ada6d994d3f16.webp')",
-    hasAnimation: false,
-    content: (
-      <p
-        style={{
-          color: "#ebebeb",
-          fontFamily: "'Nunito Sans', sans-serif",
-          fontWeight: 900,
-          fontSize: "6.66667vw",
-          lineHeight: "8.88889vw",
-          textAlign: "center",
-          padding: "8.88889vw 4.44444vw 0",
-        }}
-      >
-        High-level <span style={{ color: "#0C8DF8" }}>fund protection</span> and transactions
-      </p>
-    ),
-    contentDesktop: (
-      <p
-        style={{
-          textAlign: "center",
-          color: "#fff",
-          fontFamily: "'Nunito Sans', sans-serif",
-          fontWeight: 900,
-          fontSize: "2.77778vw",
-          lineHeight: "3.24074vw",
-          padding: "2.77778vw 2.77778vw 0",
-        }}
-      >
-        High-level <span style={{ color: "#0C8DF8" }}>fund protection</span>
-        {" "}and transactions
-      </p>
-    ),
-  },
-  {
-    key: "fees",
-    bgImage: null,
-    bgImageDesktop: null,
-    hasAnimation: true,
-    content: (
-      <p
-        style={{
-          color: "#ebebeb",
-          fontFamily: "'Nunito Sans', sans-serif",
-          fontWeight: 900,
-          fontSize: "6.66667vw",
-          lineHeight: "8.88889vw",
-          textAlign: "center",
-          padding: "0 4.44444vw 8.88889vw",
-          marginTop: "auto",
-        }}
-      >
-        Transparent investing<br />
-        <span style={{ color: "#0C8DF8" }}>with no hidden fees</span>
-      </p>
-    ),
-    contentDesktop: (
-      <p
-        style={{
-          color: "#fff",
-          fontFamily: "'Nunito Sans', sans-serif",
-          fontWeight: 900,
-          fontSize: "2.77778vw",
-          lineHeight: "3.24074vw",
-          textAlign: "center",
-          padding: "0 2.77778vw 2.77778vw",
-        }}
-      >
-        Transparent investing<br />
-        <span style={{ color: "#0C8DF8" }}>with no hidden fees</span>
-      </p>
-    ),
-  },
-];
 
 const ChartSVG = ({ height }: { height: string }) => {
   const uid = useId();
@@ -127,12 +49,14 @@ const ChartSVG = ({ height }: { height: string }) => {
   );
 };
 
-export default function ProtectSection() {
+export default function ProtectSection({ locale }: { locale?: Locale }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
+  const t = getT(locale ?? "en");
+  const p = t.protect;
 
-  const goTo = (i: number) => setActiveIndex(Math.max(0, Math.min(cards.length - 1, i)));
+  const goTo = (i: number) => setActiveIndex(Math.max(0, Math.min(1, i)));
 
   const onTouchStart = (e: React.TouchEvent) => {
     touchStartX.current = e.touches[0].clientX;
@@ -169,7 +93,7 @@ export default function ProtectSection() {
             width: "100%",
           }}
         >
-          Everything you want in a platform
+          {p.heading}
         </p>
 
         <div
@@ -182,11 +106,11 @@ export default function ProtectSection() {
             paddingBottom: "9.25926vw",
           }}
         >
-          {/* Card 1 */}
+          {/* Card 1 — fund protection */}
           <div
             style={{
               boxSizing: "border-box",
-              backgroundImage: cards[0].bgImageDesktop!,
+              backgroundImage: "url('/images/stockity/src/core/images/protect/card_3_desktop-467ada6d994d3f16.webp')",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
               backgroundSize: "cover",
@@ -198,11 +122,24 @@ export default function ProtectSection() {
             }}
           >
             <div style={{ zIndex: 10, display: "flex", flexDirection: "column", alignItems: "center", width: "100%" }}>
-              {cards[0].contentDesktop}
+              <p
+                style={{
+                  textAlign: "center",
+                  color: "#fff",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontWeight: 900,
+                  fontSize: "2.77778vw",
+                  lineHeight: "3.24074vw",
+                  padding: "2.77778vw 2.77778vw 0",
+                }}
+              >
+                {p.card1Before}<span style={{ color: "#0C8DF8" }}>{p.card1Highlight}</span>
+                {" "}{p.card1After}
+              </p>
             </div>
           </div>
 
-          {/* Card 2 — animated (no hidden fees) */}
+          {/* Card 2 — no hidden fees */}
           <div
             style={{
               boxSizing: "border-box",
@@ -216,7 +153,20 @@ export default function ProtectSection() {
           >
             <ChartSVG height="28vw" />
             <div style={{ marginTop: "auto" }}>
-              {cards[1].contentDesktop}
+              <p
+                style={{
+                  color: "#fff",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontWeight: 900,
+                  fontSize: "2.77778vw",
+                  lineHeight: "3.24074vw",
+                  textAlign: "center",
+                  padding: "0 2.77778vw 2.77778vw",
+                }}
+              >
+                {p.card2Before}<br />
+                <span style={{ color: "#0C8DF8" }}>{p.card2Highlight}</span>
+              </p>
             </div>
           </div>
         </div>
@@ -224,7 +174,6 @@ export default function ProtectSection() {
 
       {/* ── Mobile ── */}
       <div className="block md:hidden">
-        {/* Title */}
         <p
           style={{
             textAlign: "center",
@@ -236,7 +185,7 @@ export default function ProtectSection() {
             padding: "20vw 4.44444vw 6.66667vw",
           }}
         >
-          Everything you want in a platform
+          {p.heading}
         </p>
 
         {/* Swiper container */}
@@ -245,7 +194,6 @@ export default function ProtectSection() {
           onTouchStart={onTouchStart}
           onTouchEnd={onTouchEnd}
         >
-          {/* Swiper wrapper — translate by active index */}
           <div
             style={{
               display: "flex",
@@ -260,7 +208,7 @@ export default function ProtectSection() {
             <div
               style={{
                 flexShrink: 0,
-                backgroundImage: cards[0].bgImage!,
+                backgroundImage: "url('/images/stockity/src/core/images/protect/card_3_mobile-54a0fa1fcfbf9102.webp')",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -271,7 +219,20 @@ export default function ProtectSection() {
                 justifyContent: "center",
               }}
             >
-              {cards[0].content}
+              <p
+                style={{
+                  color: "#ebebeb",
+                  fontFamily: "'Nunito Sans', sans-serif",
+                  fontWeight: 900,
+                  fontSize: "6.66667vw",
+                  lineHeight: "8.88889vw",
+                  textAlign: "center",
+                  padding: "8.88889vw 4.44444vw 0",
+                }}
+              >
+                {p.card1Before}<span style={{ color: "#0C8DF8" }}>{p.card1Highlight}</span>
+                {" "}{p.card1After}
+              </p>
             </div>
 
             {/* Card 2 — no hidden fees */}
@@ -289,7 +250,21 @@ export default function ProtectSection() {
             >
               <ChartSVG height="70vw" />
               <div style={{ marginTop: "auto" }}>
-                {cards[1].content}
+                <p
+                  style={{
+                    color: "#ebebeb",
+                    fontFamily: "'Nunito Sans', sans-serif",
+                    fontWeight: 900,
+                    fontSize: "6.66667vw",
+                    lineHeight: "8.88889vw",
+                    textAlign: "center",
+                    padding: "0 4.44444vw 8.88889vw",
+                    marginTop: "auto",
+                  }}
+                >
+                  {p.card2Before}<br />
+                  <span style={{ color: "#0C8DF8" }}>{p.card2Highlight}</span>
+                </p>
               </div>
             </div>
           </div>
@@ -307,7 +282,7 @@ export default function ProtectSection() {
             height: 32,
           }}
         >
-          {cards.map((_, i) => (
+          {[0, 1].map((i) => (
             <button
               key={i}
               onClick={() => goTo(i)}
