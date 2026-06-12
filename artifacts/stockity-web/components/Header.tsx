@@ -42,17 +42,6 @@ const ChevronDown = () => (
 const languages = [
   { name: "English",          code: "en", flag: "gb", href: "/" },
   { name: "Bahasa Indonesia", code: "id", flag: "id", href: "/id" },
-  { name: "Português",        code: "pt", flag: "pt", href: "https://stockity.id/pt" },
-  { name: "Tiếng Việt",       code: "vi", flag: "vn", href: "https://stockity.id/vi" },
-  { name: "Русский",          code: "ru", flag: "ru", href: "https://stockity.id/ru" },
-  { name: "हिन्दी",            code: "hi", flag: "in", href: "https://stockity.id/hi" },
-  { name: "Español",          code: "es", flag: "es", href: "https://stockity.id/es" },
-  { name: "Українська мова",  code: "uk", flag: "ua", href: "https://stockity.id/uk" },
-  { name: "Türkçe",           code: "tr", flag: "tr", href: "https://stockity.id/tr" },
-  { name: "ไทย",              code: "th", flag: "th", href: "https://stockity.id/th" },
-  { name: "中文",              code: "zh", flag: "cn", href: "https://stockity.id/zh" },
-  { name: "Қазақ тілі",       code: "kk", flag: "kz", href: "https://stockity.id/kk" },
-  { name: "العربية",           code: "ar", flag: "sa", href: "https://stockity.id/ar" },
 ];
 
 function LanguagePanel({ locale, onClose }: { locale?: Locale; onClose: () => void }) {
