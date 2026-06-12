@@ -3065,7 +3065,7 @@ function Footer() {
                                         style: {
                                             fontSize: "14px",
                                             lineHeight: "24px",
-                                            color: "#82889b"
+                                            color: "rgb(130, 136, 155)"
                                         },
                                         children: "© 2022-2026 Stockity. All rights reserved"
                                     }, void 0, false, {

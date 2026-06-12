@@ -240,7 +240,7 @@ export default function Footer() {
               resulting from the actions of a client on the platform.
             </p>
             {/* Copyright */}
-            <p style={{ fontSize: "14px", lineHeight: "24px", color: "#82889b" }}>
+            <p style={{ fontSize: "14px", lineHeight: "24px", color: "rgb(130, 136, 155)" }}>
               © 2022-2026 Stockity. All rights reserved
             </p>
           </div>
