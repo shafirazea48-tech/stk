@@ -1,3 +1,0 @@
-:HL["/_next/static/chunks/1c2ng0ezeiodf.css","style"]
-:HL["/_next/static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":0,"slots":{"children":{"name":"(en)","param":null,"prefetchHints":16,"slots":{"children":{"name":"agreement","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"5-DwCXOKlem2yOzY_H7KK"}

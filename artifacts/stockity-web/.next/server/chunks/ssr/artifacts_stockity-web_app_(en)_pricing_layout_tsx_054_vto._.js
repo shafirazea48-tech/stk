@@ -1,3 +1,0 @@
-module.exports=[2816,a=>{"use strict";var b=a.i(85313);a.s(["default",0,function({children:a}){return(0,b.jsx)(b.Fragment,{children:a})},"metadata",0,{title:"Pricing & Account Types",description:"Compare Stockity account types and pricing. Start with a $10 minimum deposit and access 140+ trading assets with competitive spreads and no hidden fees.",alternates:{canonical:"/pricing"},openGraph:{title:"Pricing & Account Types | Stockity",description:"Compare Stockity account types and pricing. $10 minimum deposit, 140+ assets, no hidden fees.",url:"/pricing"}}])},63772,a=>{a.n(a.i(2816))}];
-
-//# sourceMappingURL=artifacts_stockity-web_app_%28en%29_pricing_layout_tsx_054_vto._.js.map

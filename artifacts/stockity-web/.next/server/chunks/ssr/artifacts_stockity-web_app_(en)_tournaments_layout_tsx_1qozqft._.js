@@ -1,3 +1,0 @@
-module.exports=[83237,a=>{"use strict";var b=a.i(85313);a.s(["default",0,function({children:a}){return(0,b.jsx)(b.Fragment,{children:a})},"metadata",0,{title:"Trading Tournaments",description:"Join Stockity trading tournaments — compete with other traders, trade 5 regional indices with boosted profitability, and climb the rankings.",alternates:{canonical:"/tournaments"},openGraph:{title:"Trading Tournaments | Stockity",description:"Compete in Stockity trading tournaments. Trade regional indices with boosted profitability.",url:"/tournaments"}}])},35255,a=>{a.n(a.i(83237))}];
-
-//# sourceMappingURL=artifacts_stockity-web_app_%28en%29_tournaments_layout_tsx_1qozqft._.js.map

@@ -1,7 +1,0 @@
-module.exports = [
-"[project]/artifacts/stockity-web/.next-internal/server/app/test-footer/page/actions.js [app-rsc] (server actions loader, ecmascript)", ((__turbopack_context__, module, exports) => {
-
-}),
-];
-
-//# sourceMappingURL=1xr3_stockity-web__next-internal_server_app_test-footer_page_actions_0ufv-1c.js.map

@@ -3537,7 +3537,7 @@ function DeviceSection({ locale }) {
                                                 },
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/go",
+                                                        href: "https://linkayi.com/stockityapp",
                                                         target: "_blank",
                                                         rel: "noopener noreferrer",
                                                         style: {
@@ -3546,7 +3546,7 @@ function DeviceSection({ locale }) {
                                                             alignItems: "center",
                                                             justifyContent: "center",
                                                             gap: "0.925926vw",
-                                                            background: "rgba(20,20,20,0.7)",
+                                                            background: "#333333",
                                                             border: "1px solid rgba(255,255,255,0.12)",
                                                             borderRadius: "0.925926vw",
                                                             height: "4.62963vw",
@@ -3582,7 +3582,7 @@ function DeviceSection({ locale }) {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/go",
+                                                        href: "https://linkayi.com/stockityapp",
                                                         target: "_blank",
                                                         rel: "noopener noreferrer",
                                                         style: {
@@ -3591,7 +3591,7 @@ function DeviceSection({ locale }) {
                                                             alignItems: "center",
                                                             justifyContent: "center",
                                                             gap: "0.925926vw",
-                                                            background: "rgba(20,20,20,0.7)",
+                                                            background: "#333333",
                                                             border: "1px solid rgba(255,255,255,0.12)",
                                                             borderRadius: "0.925926vw",
                                                             height: "4.62963vw",
@@ -3741,7 +3741,7 @@ function DeviceSection({ locale }) {
                                                     display: "flex",
                                                     alignItems: "center",
                                                     justifyContent: "center",
-                                                    background: "rgba(20,20,20,0.7)",
+                                                    background: "#333333",
                                                     border: "1px solid rgba(255,255,255,0.12)",
                                                     borderRadius: "0.925926vw",
                                                     height: "4.62963vw",
@@ -3868,7 +3868,7 @@ function DeviceSection({ locale }) {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "/go",
+                                                    href: "https://linkayi.com/stockityapp",
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
                                                     style: {
@@ -3876,7 +3876,7 @@ function DeviceSection({ locale }) {
                                                         alignItems: "center",
                                                         justifyContent: "center",
                                                         gap: "2.77778vw",
-                                                        background: "#252525",
+                                                        background: "#333333",
                                                         border: "1px solid rgba(255,255,255,0.1)",
                                                         borderRadius: "3.33333vw",
                                                         padding: "3.33333vw 5.55556vw",
@@ -3913,7 +3913,7 @@ function DeviceSection({ locale }) {
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: "/go",
+                                                    href: "https://linkayi.com/stockityapp",
                                                     target: "_blank",
                                                     rel: "noopener noreferrer",
                                                     style: {
@@ -3921,7 +3921,7 @@ function DeviceSection({ locale }) {
                                                         alignItems: "center",
                                                         justifyContent: "center",
                                                         gap: "2.77778vw",
-                                                        background: "#252525",
+                                                        background: "#333333",
                                                         border: "1px solid rgba(255,255,255,0.1)",
                                                         borderRadius: "3.33333vw",
                                                         padding: "3.33333vw 5.55556vw",
@@ -4017,7 +4017,7 @@ function DeviceSection({ locale }) {
                                                         alignItems: "center",
                                                         justifyContent: "center",
                                                         gap: "2.22222vw",
-                                                        background: "rgba(20,20,20,0.92)",
+                                                        background: "#333333",
                                                         border: "1px solid rgba(255,255,255,0.15)",
                                                         borderRadius: "3.33333vw",
                                                         padding: "4.44444vw 5.55556vw",
