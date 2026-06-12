@@ -78,7 +78,7 @@ export default function Header() {
       >
         {/* Logo */}
         <a
-          href="#"
+          href="/"
           style={{
             display: "flex",
             alignItems: "center",
@@ -291,7 +291,7 @@ export default function Header() {
             )}
           </button>
           {/* S icon only — no text on mobile */}
-          <a href="#" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+          <a href="/" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
             <svg viewBox="0 0 24 42" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "7.22222vw", minHeight: 24, width: "auto" }}>
               <path d="M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z" fill="url(#mhi1)"/>
               <path d="M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z" fill="url(#mhi2)"/>
