@@ -6,95 +6,38 @@ const siteUrl =
     ? `https://${process.env.REPLIT_DOMAINS.split(",")[0]}`
     : "https://stockity.id");
 
+const allLangs = {
+  en: siteUrl,
+  id: `${siteUrl}/id`,
+  es: `${siteUrl}/es`,
+  "pt-BR": `${siteUrl}/pt-br`,
+};
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: siteUrl,
       changeFrequency: "weekly",
       priority: 1.0,
-      alternates: {
-        languages: {
-          en: siteUrl,
-          id: `${siteUrl}/id`,
-        },
-      },
-    },
-    {
-      url: `${siteUrl}/about`,
-      changeFrequency: "monthly",
-      priority: 0.8,
-      alternates: {
-        languages: {
-          en: `${siteUrl}/about`,
-          id: `${siteUrl}/id/about`,
-        },
-      },
-    },
-    {
-      url: `${siteUrl}/pricing`,
-      changeFrequency: "monthly",
-      priority: 0.7,
-      alternates: {
-        languages: {
-          en: `${siteUrl}/pricing`,
-          id: `${siteUrl}/id/pricing`,
-        },
-      },
-    },
-    {
-      url: `${siteUrl}/tournaments`,
-      changeFrequency: "weekly",
-      priority: 0.6,
-      alternates: {
-        languages: {
-          en: `${siteUrl}/tournaments`,
-          id: `${siteUrl}/id/tournaments`,
-        },
-      },
+      alternates: { languages: allLangs },
     },
     {
       url: `${siteUrl}/id`,
       changeFrequency: "weekly",
       priority: 0.95,
-      alternates: {
-        languages: {
-          en: siteUrl,
-          id: `${siteUrl}/id`,
-        },
-      },
+      alternates: { languages: allLangs },
     },
     {
-      url: `${siteUrl}/id/about`,
-      changeFrequency: "monthly",
-      priority: 0.75,
-      alternates: {
-        languages: {
-          en: `${siteUrl}/about`,
-          id: `${siteUrl}/id/about`,
-        },
-      },
-    },
-    {
-      url: `${siteUrl}/id/pricing`,
-      changeFrequency: "monthly",
-      priority: 0.65,
-      alternates: {
-        languages: {
-          en: `${siteUrl}/pricing`,
-          id: `${siteUrl}/id/pricing`,
-        },
-      },
-    },
-    {
-      url: `${siteUrl}/id/tournaments`,
+      url: `${siteUrl}/es`,
       changeFrequency: "weekly",
-      priority: 0.55,
-      alternates: {
-        languages: {
-          en: `${siteUrl}/tournaments`,
-          id: `${siteUrl}/id/tournaments`,
-        },
-      },
+      priority: 0.95,
+      alternates: { languages: allLangs },
+    },
+    {
+      url: `${siteUrl}/pt-br`,
+      changeFrequency: "weekly",
+      priority: 0.95,
+      alternates: { languages: allLangs },
     },
     {
       url: `${siteUrl}/agreement`,
