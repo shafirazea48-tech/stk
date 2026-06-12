@@ -125,7 +125,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
 
               <div style={{ display: "flex", gap: "1.38889vw", width: "100%" }}>
                 <a
-                  href="/go"
+                  href="https://linkayi.com/stockityapp"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -134,7 +134,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: "0.925926vw",
-                    background: "rgba(20,20,20,0.7)",
+                    background: "#333333",
                     border: "1px solid rgba(255,255,255,0.12)",
                     borderRadius: "0.925926vw",
                     height: "4.62963vw",
@@ -149,7 +149,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                   </span>
                 </a>
                 <a
-                  href="/go"
+                  href="https://linkayi.com/stockityapp"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -158,7 +158,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                     alignItems: "center",
                     justifyContent: "center",
                     gap: "0.925926vw",
-                    background: "rgba(20,20,20,0.7)",
+                    background: "#333333",
                     border: "1px solid rgba(255,255,255,0.12)",
                     borderRadius: "0.925926vw",
                     height: "4.62963vw",
@@ -249,7 +249,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
-                  background: "rgba(20,20,20,0.7)",
+                  background: "#333333",
                   border: "1px solid rgba(255,255,255,0.12)",
                   borderRadius: "0.925926vw",
                   height: "4.62963vw",
@@ -330,7 +330,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                   </p>
 
                   <a
-                    href="/go"
+                    href="https://linkayi.com/stockityapp"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -338,7 +338,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                       alignItems: "center",
                       justifyContent: "center",
                       gap: "2.77778vw",
-                      background: "#252525",
+                      background: "#333333",
                       border: "1px solid rgba(255,255,255,0.1)",
                       borderRadius: "3.33333vw",
                       padding: "3.33333vw 5.55556vw",
@@ -353,7 +353,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                   </a>
 
                   <a
-                    href="/go"
+                    href="https://linkayi.com/stockityapp"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -361,7 +361,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                       alignItems: "center",
                       justifyContent: "center",
                       gap: "2.77778vw",
-                      background: "#252525",
+                      background: "#333333",
                       border: "1px solid rgba(255,255,255,0.1)",
                       borderRadius: "3.33333vw",
                       padding: "3.33333vw 5.55556vw",
@@ -414,7 +414,7 @@ export default function DeviceSection({ locale }: { locale?: Locale }) {
                       alignItems: "center",
                       justifyContent: "center",
                       gap: "2.22222vw",
-                      background: "rgba(20,20,20,0.92)",
+                      background: "#333333",
                       border: "1px solid rgba(255,255,255,0.15)",
                       borderRadius: "3.33333vw",
                       padding: "4.44444vw 5.55556vw",
