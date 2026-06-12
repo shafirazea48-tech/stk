@@ -49,7 +49,7 @@ const navItems = [
       { label: "Copy Trading Agreement", href: "#" },
     ],
   },
-  { label: "About us", href: "#" },
+  { label: "About us", href: "/about" },
 ];
 
 export default function Header() {

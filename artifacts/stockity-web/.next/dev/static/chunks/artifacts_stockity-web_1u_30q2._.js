@@ -201,7 +201,7 @@ const navItems = [
     },
     {
         label: "About us",
-        href: "#"
+        href: "/about"
     }
 ];
 function Header() {
