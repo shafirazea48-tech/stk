@@ -879,7 +879,7 @@ function PricingPage() {
                                                 tier.icon,
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     style: {
-                                                        fontSize: "clamp(16px, 1.38889vw, 24px)",
+                                                        fontSize: "clamp(20px, 1.66667vw, 28px)",
                                                         fontWeight: 700,
                                                         color: textColor
                                                     },
@@ -944,7 +944,7 @@ function PricingPage() {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     style: {
-                                                        fontSize: 10,
+                                                        fontSize: 12,
                                                         fontWeight: 700,
                                                         letterSpacing: "0.1em",
                                                         color: subColor,
@@ -980,7 +980,7 @@ function PricingPage() {
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         style: {
                                                                             margin: 0,
-                                                                            fontSize: "clamp(11px, 0.83333vw, 14px)",
+                                                                            fontSize: "clamp(14px, 1.04167vw, 17px)",
                                                                             fontWeight: 600,
                                                                             color: textColor
                                                                         },
@@ -993,7 +993,7 @@ function PricingPage() {
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         style: {
                                                                             margin: 0,
-                                                                            fontSize: "clamp(10px, 0.69444vw, 12px)",
+                                                                            fontSize: "clamp(12px, 0.90278vw, 15px)",
                                                                             color: subColor,
                                                                             lineHeight: 1.4
                                                                         },
@@ -1040,7 +1040,7 @@ function PricingPage() {
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     style: {
                                                                         margin: 0,
-                                                                        fontSize: "clamp(16px, 1.52778vw, 26px)",
+                                                                        fontSize: "clamp(20px, 1.80556vw, 30px)",
                                                                         fontWeight: 700,
                                                                         color: textColor
                                                                     },
@@ -1053,7 +1053,7 @@ function PricingPage() {
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     style: {
                                                                         margin: 0,
-                                                                        fontSize: "clamp(10px, 0.76389vw, 13px)",
+                                                                        fontSize: "clamp(13px, 0.97222vw, 16px)",
                                                                         color: subColor
                                                                     },
                                                                     children: s.sub
@@ -1085,7 +1085,7 @@ function PricingPage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             style: {
                                                                 margin: 0,
-                                                                fontSize: "clamp(16px, 1.52778vw, 26px)",
+                                                                fontSize: "clamp(20px, 1.80556vw, 30px)",
                                                                 fontWeight: 700,
                                                                 color: textColor
                                                             },
@@ -1098,7 +1098,7 @@ function PricingPage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             style: {
                                                                 margin: 0,
-                                                                fontSize: "clamp(10px, 0.76389vw, 13px)",
+                                                                fontSize: "clamp(13px, 0.97222vw, 16px)",
                                                                 color: subColor
                                                             },
                                                             children: tier.statRight.sub
@@ -1125,7 +1125,7 @@ function PricingPage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             style: {
                                                                 margin: 0,
-                                                                fontSize: "clamp(16px, 1.52778vw, 26px)",
+                                                                fontSize: "clamp(20px, 1.80556vw, 30px)",
                                                                 fontWeight: 700,
                                                                 color: textColor
                                                             },
@@ -1138,7 +1138,7 @@ function PricingPage() {
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                             style: {
                                                                 margin: 0,
-                                                                fontSize: "clamp(10px, 0.76389vw, 13px)",
+                                                                fontSize: "clamp(13px, 0.97222vw, 16px)",
                                                                 color: subColor
                                                             },
                                                             children: tier.statExtra.sub
@@ -1191,7 +1191,7 @@ function PricingPage() {
                                                         row.link ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                             href: "#",
                                                             style: {
-                                                                fontSize: "clamp(11px, 0.83333vw, 14px)",
+                                                                fontSize: "clamp(14px, 1.04167vw, 16px)",
                                                                 color: "#0990ff",
                                                                 textDecoration: "none"
                                                             },
@@ -1202,7 +1202,7 @@ function PricingPage() {
                                                             columnNumber: 27
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                fontSize: "clamp(11px, 0.83333vw, 14px)",
+                                                                fontSize: "clamp(14px, 1.04167vw, 16px)",
                                                                 color: subColor
                                                             },
                                                             children: row.label
@@ -1213,7 +1213,7 @@ function PricingPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                fontSize: "clamp(11px, 0.83333vw, 14px)",
+                                                                fontSize: "clamp(14px, 1.04167vw, 16px)",
                                                                 color: textColor,
                                                                 fontWeight: 500
                                                             },
@@ -1258,7 +1258,7 @@ function PricingPage() {
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             style: {
-                                                                fontSize: "clamp(10px, 0.76389vw, 13px)",
+                                                                fontSize: "clamp(13px, 0.97222vw, 15px)",
                                                                 color: tier.checkedFeatures.includes(i) ? textColor : subColor,
                                                                 lineHeight: 1.4
                                                             },
@@ -1287,7 +1287,7 @@ function PricingPage() {
                                                 border: "none",
                                                 background: "linear-gradient(90deg,#0990ff 0%,#00eaff 100%)",
                                                 color: "#fff",
-                                                fontSize: "clamp(13px, 1.04167vw, 18px)",
+                                                fontSize: "clamp(15px, 1.18056vw, 20px)",
                                                 fontWeight: 700,
                                                 cursor: "pointer",
                                                 marginTop: "auto"

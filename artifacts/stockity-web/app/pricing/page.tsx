@@ -356,7 +356,7 @@ export default function PricingPage() {
                     {tier.icon}
                     <span
                       style={{
-                        fontSize: "clamp(16px, 1.38889vw, 24px)",
+                        fontSize: "clamp(20px, 1.66667vw, 28px)",
                         fontWeight: 700,
                         color: textColor,
                       }}
@@ -384,7 +384,7 @@ export default function PricingPage() {
                     >
                       <p
                         style={{
-                          fontSize: 10,
+                          fontSize: 12,
                           fontWeight: 700,
                           letterSpacing: "0.1em",
                           color: subColor,
@@ -398,8 +398,8 @@ export default function PricingPage() {
                         <div key={f.title} style={{ display: "flex", gap: "0.55556vw", alignItems: "flex-start" }}>
                           <span style={{ marginTop: 1, flexShrink: 0 }}>{f.icon}</span>
                           <div>
-                            <p style={{ margin: 0, fontSize: "clamp(11px, 0.83333vw, 14px)", fontWeight: 600, color: textColor }}>{f.title}</p>
-                            <p style={{ margin: 0, fontSize: "clamp(10px, 0.69444vw, 12px)", color: subColor, lineHeight: 1.4 }}>{f.desc}</p>
+                            <p style={{ margin: 0, fontSize: "clamp(14px, 1.04167vw, 17px)", fontWeight: 600, color: textColor }}>{f.title}</p>
+                            <p style={{ margin: 0, fontSize: "clamp(12px, 0.90278vw, 15px)", color: subColor, lineHeight: 1.4 }}>{f.desc}</p>
                           </div>
                         </div>
                       ))}
@@ -424,8 +424,8 @@ export default function PricingPage() {
                     >
                       {tier.stats.map((s) => (
                         <div key={s.label}>
-                          <p style={{ margin: 0, fontSize: "clamp(16px, 1.52778vw, 26px)", fontWeight: 700, color: textColor }}>{s.label}</p>
-                          <p style={{ margin: 0, fontSize: "clamp(10px, 0.76389vw, 13px)", color: subColor }}>{s.sub}</p>
+                          <p style={{ margin: 0, fontSize: "clamp(20px, 1.80556vw, 30px)", fontWeight: 700, color: textColor }}>{s.label}</p>
+                          <p style={{ margin: 0, fontSize: "clamp(13px, 0.97222vw, 16px)", color: subColor }}>{s.sub}</p>
                         </div>
                       ))}
                     </div>
@@ -439,8 +439,8 @@ export default function PricingPage() {
                           boxSizing: "border-box",
                         }}
                       >
-                        <p style={{ margin: 0, fontSize: "clamp(16px, 1.52778vw, 26px)", fontWeight: 700, color: textColor }}>{tier.statRight.label}</p>
-                        <p style={{ margin: 0, fontSize: "clamp(10px, 0.76389vw, 13px)", color: subColor }}>{tier.statRight.sub}</p>
+                        <p style={{ margin: 0, fontSize: "clamp(20px, 1.80556vw, 30px)", fontWeight: 700, color: textColor }}>{tier.statRight.label}</p>
+                        <p style={{ margin: 0, fontSize: "clamp(13px, 0.97222vw, 16px)", color: subColor }}>{tier.statRight.sub}</p>
                       </div>
                     )}
                     {"statExtra" in tier && tier.statExtra && (
@@ -453,8 +453,8 @@ export default function PricingPage() {
                           boxSizing: "border-box",
                         }}
                       >
-                        <p style={{ margin: 0, fontSize: "clamp(16px, 1.52778vw, 26px)", fontWeight: 700, color: textColor }}>{tier.statExtra.label}</p>
-                        <p style={{ margin: 0, fontSize: "clamp(10px, 0.76389vw, 13px)", color: subColor }}>{tier.statExtra.sub}</p>
+                        <p style={{ margin: 0, fontSize: "clamp(20px, 1.80556vw, 30px)", fontWeight: 700, color: textColor }}>{tier.statExtra.label}</p>
+                        <p style={{ margin: 0, fontSize: "clamp(13px, 0.97222vw, 16px)", color: subColor }}>{tier.statExtra.sub}</p>
                       </div>
                     )}
                   </div>
@@ -468,11 +468,11 @@ export default function PricingPage() {
                     ].map((row) => (
                       <div key={row.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                         {row.link ? (
-                          <a href="#" style={{ fontSize: "clamp(11px, 0.83333vw, 14px)", color: "#0990ff", textDecoration: "none" }}>{row.label}</a>
+                          <a href="#" style={{ fontSize: "clamp(14px, 1.04167vw, 16px)", color: "#0990ff", textDecoration: "none" }}>{row.label}</a>
                         ) : (
-                          <span style={{ fontSize: "clamp(11px, 0.83333vw, 14px)", color: subColor }}>{row.label}</span>
+                          <span style={{ fontSize: "clamp(14px, 1.04167vw, 16px)", color: subColor }}>{row.label}</span>
                         )}
-                        <span style={{ fontSize: "clamp(11px, 0.83333vw, 14px)", color: textColor, fontWeight: 500 }}>{row.value}</span>
+                        <span style={{ fontSize: "clamp(14px, 1.04167vw, 16px)", color: textColor, fontWeight: 500 }}>{row.value}</span>
                       </div>
                     ))}
                   </div>
@@ -484,7 +484,7 @@ export default function PricingPage() {
                         <CheckIcon checked={tier.checkedFeatures.includes(i)} />
                         <span
                           style={{
-                            fontSize: "clamp(10px, 0.76389vw, 13px)",
+                            fontSize: "clamp(13px, 0.97222vw, 15px)",
                             color: tier.checkedFeatures.includes(i) ? textColor : subColor,
                             lineHeight: 1.4,
                           }}
@@ -504,7 +504,7 @@ export default function PricingPage() {
                       border: "none",
                       background: "linear-gradient(90deg,#0990ff 0%,#00eaff 100%)",
                       color: "#fff",
-                      fontSize: "clamp(13px, 1.04167vw, 18px)",
+                      fontSize: "clamp(15px, 1.18056vw, 20px)",
                       fontWeight: 700,
                       cursor: "pointer",
                       marginTop: "auto",
