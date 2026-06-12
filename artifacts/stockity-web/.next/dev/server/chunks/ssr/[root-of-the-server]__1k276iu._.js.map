@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/pricing/page.tsx"],"sourcesContent":["export default function PricingPage() {\n  return (\n    <main\n      style={{\n        width: \"100%\",\n        height: \"100vh\",\n        display: \"flex\",\n        flexDirection: \"column\",\n        backgroundColor: \"#151723\",\n        paddingTop: 0,\n      }}\n    >\n      <iframe\n        src=\"https://stockity.id/information/pricing\"\n        style={{\n          width: \"100%\",\n          flex: 1,\n          border: \"none\",\n          display: \"block\",\n        }}\n        title=\"Stockity Pricing\"\n        allowFullScreen\n      />\n    </main>\n  );\n}\n"],"names":["PricingPage","style","width","height","display","flexDirection","backgroundColor","paddingTop","src","flex","border","title","allowFullScreen"],"mappings":";;;;;;AAAe,SAASA;IACtB,qBACE,6WAAC;QACCC,OAAO;YACLC,OAAO;YACPC,QAAQ;YACRC,SAAS;YACTC,eAAe;YACfC,iBAAiB;YACjBC,YAAY;QACd;kBAEA,cAAA,6WAAC;YACCC,KAAI;YACJP,OAAO;gBACLC,OAAO;gBACPO,MAAM;gBACNC,QAAQ;gBACRN,SAAS;YACX;YACAO,OAAM;YACNC,eAAe;;;;;;;;;;;AAIvB"}}]
+}

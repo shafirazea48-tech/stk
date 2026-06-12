@@ -174,7 +174,7 @@ const navItems = [
         children: [
             {
                 label: "Statuses",
-                href: "#"
+                href: "/pricing"
             },
             {
                 label: "Tournaments",

@@ -37,7 +37,7 @@ const navItems = [
   {
     label: "For users",
     children: [
-      { label: "Statuses", href: "#" },
+      { label: "Statuses", href: "/pricing" },
       { label: "Tournaments", href: "#" },
     ],
   },
