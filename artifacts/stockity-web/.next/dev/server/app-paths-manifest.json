@@ -1,19 +1,3 @@
 {
-  "/(en)/go/route": "app/(en)/go/route.js",
-  "/(en)/page": "app/(en)/page.js",
-  "/(en)/pricing/page": "app/(en)/pricing/page.js",
-  "/(en)/tournaments/page": "app/(en)/tournaments/page.js",
-  "/(es)/es/about/page": "app/(es)/es/about/page.js",
-  "/(es)/es/page": "app/(es)/es/page.js",
-  "/(es)/es/pricing/page": "app/(es)/es/pricing/page.js",
-  "/(es)/es/tournaments/page": "app/(es)/es/tournaments/page.js",
-  "/(id)/id/page": "app/(id)/id/page.js",
-  "/(id)/id/pricing/page": "app/(id)/id/pricing/page.js",
-  "/(id)/id/tournaments/page": "app/(id)/id/tournaments/page.js",
-  "/(pt)/pt-br/about/page": "app/(pt)/pt-br/about/page.js",
-  "/(pt)/pt-br/page": "app/(pt)/pt-br/page.js",
-  "/(pt)/pt-br/pricing/page": "app/(pt)/pt-br/pricing/page.js",
-  "/(pt)/pt-br/tournaments/page": "app/(pt)/pt-br/tournaments/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+  "/(en)/page": "app/(en)/page.js"
 }
