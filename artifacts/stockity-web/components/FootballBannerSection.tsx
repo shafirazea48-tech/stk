@@ -97,15 +97,15 @@ export default function FootballBannerSection() {
         <div style={{ width: "100%", overflow: "hidden", lineHeight: 0 }}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/football-bg.png"
+            src="/images/football-mobile-bg.png"
             alt=""
             aria-hidden="true"
             style={{
               width: "100%",
               display: "block",
               objectFit: "cover",
-              objectPosition: "center 40%",
-              height: "55vw",
+              objectPosition: "center bottom",
+              height: "90vw",
             }}
           />
         </div>
