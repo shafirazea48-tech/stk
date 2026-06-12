@@ -61,6 +61,7 @@ export default function HeroSection() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          filter: "brightness(1.5)",
         }}
       />
 
