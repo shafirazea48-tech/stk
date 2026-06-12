@@ -1,4 +1,5 @@
 {
+  "/(en)/go/route": "app/(en)/go/route.js",
   "/(en)/page": "app/(en)/page.js",
   "/(en)/pricing/page": "app/(en)/pricing/page.js",
   "/(en)/tournaments/page": "app/(en)/tournaments/page.js",
@@ -9,7 +10,9 @@
   "/(id)/id/pricing/page": "app/(id)/id/pricing/page.js",
   "/(id)/id/tournaments/page": "app/(id)/id/tournaments/page.js",
   "/(pt)/pt-br/about/page": "app/(pt)/pt-br/about/page.js",
+  "/(pt)/pt-br/page": "app/(pt)/pt-br/page.js",
   "/(pt)/pt-br/pricing/page": "app/(pt)/pt-br/pricing/page.js",
   "/(pt)/pt-br/tournaments/page": "app/(pt)/pt-br/tournaments/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }
