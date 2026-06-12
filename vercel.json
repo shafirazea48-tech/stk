@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm --filter @workspace/stockity-web run build",
-  "outputDirectory": "artifacts/stockity-web/.next",
+  "outputDirectory": ".next",
   "installCommand": "pnpm install --frozen-lockfile",
   "framework": "nextjs"
 }
