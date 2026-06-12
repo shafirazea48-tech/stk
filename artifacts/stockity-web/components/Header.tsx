@@ -45,7 +45,7 @@ const navItems = [
     label: "Information",
     children: [
       { label: "Client Agreement", href: "/agreement" },
-      { label: "AML Policy", href: "#" },
+      { label: "AML Policy", href: "/aml-policy" },
       { label: "Copy Trading Agreement", href: "#" },
     ],
   },

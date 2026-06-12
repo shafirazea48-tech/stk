@@ -41,7 +41,7 @@ const footerLinks = [
   { label: "Affiliate program", href: "#" },
   { label: "Privacy Policy", href: "#" },
   { label: "Client Agreement", href: "/agreement" },
-  { label: "AML policy", href: "#" },
+  { label: "AML policy", href: "/aml-policy" },
 ];
 
 const LOGO_PNG = "/images/stockity-logo-trimmed.png";

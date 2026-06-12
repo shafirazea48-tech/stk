@@ -2660,7 +2660,7 @@ const footerLinks = [
     },
     {
         label: "AML policy",
-        href: "#"
+        href: "/aml-policy"
     }
 ];
 const LOGO_PNG = "/images/stockity-logo-trimmed.png";

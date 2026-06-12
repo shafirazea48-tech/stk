@@ -191,7 +191,7 @@ const navItems = [
             },
             {
                 label: "AML Policy",
-                href: "#"
+                href: "/aml-policy"
             },
             {
                 label: "Copy Trading Agreement",
