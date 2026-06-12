@@ -224,7 +224,7 @@ function FootballBannerSection() {
                     borderRadius: "5vw",
                     boxSizing: "border-box",
                     flexDirection: "column",
-                    minHeight: "130vw"
+                    minHeight: "145vw"
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -237,7 +237,7 @@ function FootballBannerSection() {
                             width: "100%",
                             height: "100%",
                             objectFit: "cover",
-                            objectPosition: "center top",
+                            objectPosition: "center 30%",
                             pointerEvents: "none",
                             userSelect: "none"
                         }
@@ -289,7 +289,6 @@ function FootballBannerSection() {
                                     color: "rgba(255,255,255,0.9)",
                                     lineHeight: 1.6,
                                     marginBottom: "6vw",
-                                    textAlign: "center",
                                     textShadow: "0 1px 4px rgba(0,0,0,0.5)"
                                 },
                                 children: "Trade 5 regional indices with boosted profitability and compete for the top rankings"
@@ -313,24 +312,28 @@ function FootballBannerSection() {
                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
                                 lineNumber: 102,
                                 columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                style: {
-                                    marginTop: "3vw",
-                                    fontSize: "3vw",
-                                    color: "rgba(255,255,255,0.5)",
-                                    textAlign: "center"
-                                },
-                                children: "Risk warning: your capital might be at risk"
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                lineNumber: 109,
-                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
                         lineNumber: 92,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        style: {
+                            position: "absolute",
+                            bottom: "5vw",
+                            left: 0,
+                            right: 0,
+                            fontSize: "14px",
+                            color: "rgba(255,255,255,0.5)",
+                            textAlign: "center",
+                            zIndex: 1
+                        },
+                        children: "Risk warning: your capital might be at risk"
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                        lineNumber: 112,
                         columnNumber: 9
                     }, this)
                 ]

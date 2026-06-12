@@ -67,10 +67,10 @@ export default function FootballBannerSection() {
           borderRadius: "5vw",
           boxSizing: "border-box",
           flexDirection: "column",
-          minHeight: "130vw",
+          minHeight: "145vw",
         }}
       >
-        {/* Background image — full cover from top */}
+        {/* Background image — shifted down to reveal cards */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/football-mobile-bg.png"
@@ -82,7 +82,7 @@ export default function FootballBannerSection() {
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            objectPosition: "center top",
+            objectPosition: "center 30%",
             pointerEvents: "none",
             userSelect: "none",
           }}
@@ -96,7 +96,7 @@ export default function FootballBannerSection() {
           <h2 style={{ fontSize: "8vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
             Football Power Battle
           </h2>
-          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.6, marginBottom: "6vw", textAlign: "center", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
+          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.6, marginBottom: "6vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
           <a
@@ -106,10 +106,12 @@ export default function FootballBannerSection() {
           >
             Try it!
           </a>
-          <p style={{ marginTop: "3vw", fontSize: "3vw", color: "rgba(255,255,255,0.5)", textAlign: "center" }}>
-            Risk warning: your capital might be at risk
-          </p>
         </div>
+
+        {/* Risk warning — pinned to bottom */}
+        <p style={{ position: "absolute", bottom: "5vw", left: 0, right: 0, fontSize: "14px", color: "rgba(255,255,255,0.5)", textAlign: "center", zIndex: 1 }}>
+          Risk warning: your capital might be at risk
+        </p>
       </section>
 
     </div>
