@@ -96,7 +96,7 @@ export default function FootballBannerSection() {
           <h2 style={{ fontSize: "7vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>
             Football Power Battle
           </h2>
-          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.55, marginBottom: "6vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
+          <p style={{ fontSize: "16px", color: "rgba(255,255,255,0.9)", lineHeight: 1.55, marginBottom: "6vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
           <a
