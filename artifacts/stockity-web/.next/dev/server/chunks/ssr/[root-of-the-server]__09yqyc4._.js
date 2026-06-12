@@ -1285,7 +1285,7 @@ function PricingPage() {
                                                 padding: "0.76389vw 0",
                                                 borderRadius: "0.55556vw",
                                                 border: "none",
-                                                background: "linear-gradient(90deg,#0990ff 0%,#00eaff 100%)",
+                                                background: "#0c8df8",
                                                 color: "#fff",
                                                 fontSize: "clamp(15px, 1.18056vw, 20px)",
                                                 fontWeight: 700,
