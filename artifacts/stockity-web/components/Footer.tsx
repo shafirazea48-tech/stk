@@ -82,7 +82,7 @@ const SocialIconMobile = ({ name, href, icon }: { name: string; href: string; ic
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      color: "#82889b",
+      color: "#f4f4f6",
       textDecoration: "none",
     }}
   >
