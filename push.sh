@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 if [ -z "$GITHUB_PUSH_TOKEN" ]; then
-  echo "Error: GITHUB_PUSH_TOKEN tidak ditemukan."
+  echo "Error: GITHUB_PUSH_TOKEN tidak ditemukan. Buka shell baru dan coba lagi."
   exit 1
 fi
 REPO="https://x-token:${GITHUB_PUSH_TOKEN}@github.com/shafirazea48-tech/stk.git"

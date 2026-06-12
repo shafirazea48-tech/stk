@@ -49,19 +49,19 @@ __turbopack_context__.s([
     ()=>sitemap
 ]);
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "") || (process.env.REPLIT_DOMAINS ? `https://${process.env.REPLIT_DOMAINS.split(",")[0]}` : "https://stockity.link");
-const homeLangs = {
+const homeAlts = {
     en: siteUrl,
     id: `${siteUrl}/id`,
     es: `${siteUrl}/es`,
     "pt-BR": `${siteUrl}/pt-br`
 };
-const pricingLangs = {
+const pricingAlts = {
     en: `${siteUrl}/pricing`,
     id: `${siteUrl}/id/pricing`,
     es: `${siteUrl}/es/pricing`,
     "pt-BR": `${siteUrl}/pt-br/pricing`
 };
-const tournamentsLangs = {
+const tournamentsAlts = {
     en: `${siteUrl}/tournaments`,
     id: `${siteUrl}/id/tournaments`,
     es: `${siteUrl}/es/tournaments`,
@@ -74,7 +74,7 @@ function sitemap() {
             changeFrequency: "weekly",
             priority: 1.0,
             alternates: {
-                languages: homeLangs
+                languages: homeAlts
             }
         },
         {
@@ -82,7 +82,7 @@ function sitemap() {
             changeFrequency: "weekly",
             priority: 0.95,
             alternates: {
-                languages: homeLangs
+                languages: homeAlts
             }
         },
         {
@@ -90,7 +90,7 @@ function sitemap() {
             changeFrequency: "weekly",
             priority: 0.95,
             alternates: {
-                languages: homeLangs
+                languages: homeAlts
             }
         },
         {
@@ -98,7 +98,7 @@ function sitemap() {
             changeFrequency: "weekly",
             priority: 0.95,
             alternates: {
-                languages: homeLangs
+                languages: homeAlts
             }
         },
         {
@@ -106,7 +106,7 @@ function sitemap() {
             changeFrequency: "monthly",
             priority: 0.85,
             alternates: {
-                languages: pricingLangs
+                languages: pricingAlts
             }
         },
         {
@@ -114,7 +114,7 @@ function sitemap() {
             changeFrequency: "monthly",
             priority: 0.8,
             alternates: {
-                languages: pricingLangs
+                languages: pricingAlts
             }
         },
         {
@@ -122,7 +122,7 @@ function sitemap() {
             changeFrequency: "monthly",
             priority: 0.8,
             alternates: {
-                languages: pricingLangs
+                languages: pricingAlts
             }
         },
         {
@@ -130,7 +130,7 @@ function sitemap() {
             changeFrequency: "monthly",
             priority: 0.8,
             alternates: {
-                languages: pricingLangs
+                languages: pricingAlts
             }
         },
         {
@@ -138,7 +138,7 @@ function sitemap() {
             changeFrequency: "daily",
             priority: 0.85,
             alternates: {
-                languages: tournamentsLangs
+                languages: tournamentsAlts
             }
         },
         {
@@ -146,7 +146,7 @@ function sitemap() {
             changeFrequency: "daily",
             priority: 0.8,
             alternates: {
-                languages: tournamentsLangs
+                languages: tournamentsAlts
             }
         },
         {
@@ -154,7 +154,7 @@ function sitemap() {
             changeFrequency: "daily",
             priority: 0.8,
             alternates: {
-                languages: tournamentsLangs
+                languages: tournamentsAlts
             }
         },
         {
@@ -162,7 +162,7 @@ function sitemap() {
             changeFrequency: "daily",
             priority: 0.8,
             alternates: {
-                languages: tournamentsLangs
+                languages: tournamentsAlts
             }
         },
         {
