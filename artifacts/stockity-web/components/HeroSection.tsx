@@ -6,7 +6,7 @@ const features = [
   {
     text: "Intuitive interface",
     icon: "/images/stockity/src/core/images/trade-smart/icon_1.svg",
-    href: "#usable",
+    href: "#traders-needs",
   },
   {
     text: "140+ assets",
