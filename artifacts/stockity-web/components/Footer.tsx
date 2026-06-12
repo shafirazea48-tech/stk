@@ -44,7 +44,7 @@ const footerLinks = [
   { label: "AML policy", href: "#" },
 ];
 
-const LOGO_PNG = "/images/stockity-logo.png";
+const LOGO_PNG = "/images/stockity-logo-trimmed.png";
 
 const SocialIcon = ({ name, href, icon }: { name: string; href: string; icon: React.ReactNode }) => (
   <a
