@@ -1,4 +1,13 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
+
+export const metadata: Metadata = {
+  title: "Client Agreement",
+  description:
+    "Read the Stockity Client Agreement — terms and conditions governing the use of our trading platform and services.",
+  alternates: { canonical: "/agreement" },
+  robots: { index: false, follow: false },
+};
 
 const linkStyle = { color: "#0c8df8", textDecoration: "none" };
 const h2Style: React.CSSProperties = {

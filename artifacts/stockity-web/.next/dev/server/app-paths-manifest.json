@@ -1,4 +1,6 @@
 {
   "/page": "app/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/status/page": "app/status/page.js"
 }

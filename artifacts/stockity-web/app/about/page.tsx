@@ -1,4 +1,18 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn about Stockity — a licensed and regulated trading platform serving 3.5 million investors in 170+ countries with transparent, fair, and secure trading.",
+  alternates: { canonical: "/about" },
+  openGraph: {
+    title: "About Stockity",
+    description:
+      "Learn about Stockity — a licensed and regulated trading platform serving 3.5 million investors in 170+ countries.",
+    url: "/about",
+  },
+};
 
 export default function AboutPage() {
   return (

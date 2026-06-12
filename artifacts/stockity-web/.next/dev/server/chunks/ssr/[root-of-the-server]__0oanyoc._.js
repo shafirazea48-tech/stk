@@ -46,12 +46,25 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$artifact
 
 __turbopack_context__.s([
     "default",
-    ()=>CopyTradingAgreementPage
+    ()=>CopyTradingAgreementPage,
+    "metadata",
+    ()=>metadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.9_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/artifacts/stockity-web/components/Header.tsx [app-rsc] (ecmascript)");
 ;
 ;
+const metadata = {
+    title: "Copy Trading Agreement",
+    description: "Stockity Copy Trading Agreement — terms and conditions for using our copy trading service to follow expert investors.",
+    alternates: {
+        canonical: "/copy-trading-agreement"
+    },
+    robots: {
+        index: false,
+        follow: false
+    }
+};
 const linkStyle = {
     color: "#0c8df8",
     textDecoration: "none"
@@ -80,7 +93,7 @@ function CopyTradingAgreementPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                lineNumber: 27,
+                lineNumber: 36,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -112,7 +125,7 @@ function CopyTradingAgreementPage() {
                             children: "Copy Trading Agreement"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 45,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -124,7 +137,7 @@ function CopyTradingAgreementPage() {
                             children: "This Copy Trading Agreement regulates providing Copy Trading services by the Company to their Clients."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 58,
+                            lineNumber: 67,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -132,7 +145,7 @@ function CopyTradingAgreementPage() {
                             children: "General Provisions"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 63,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -145,74 +158,10 @@ function CopyTradingAgreementPage() {
                                     children: "1.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 65,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 " The Client accepts this Copy Trading Agreement by starting to use Copy Trading services. Acceptance of the Agreement means full and unconditional agreement of the Client to its terms and conditions."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 64,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "1.2."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 68,
-                                    columnNumber: 13
-                                }, this),
-                                " This Copy Trading Agreement serves as a supplement to",
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/agreement",
-                                    style: linkStyle,
-                                    children: "the Stockity Client Agreement"
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 69,
-                                    columnNumber: 13
-                                }, this),
-                                " and is its integral part. Any and all terms and conditions included in this Copy Trading Agreement are to be read in conjunction with",
-                                " ",
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                    href: "/agreement",
-                                    style: linkStyle,
-                                    children: "the Stockity Client Agreement"
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 70,
-                                    columnNumber: 13
-                                }, this),
-                                ".",
-                                " ",
-                                "In the event of any discrepancy between the Copy Trading Agreement and the Stockity Client Agreement, the terms of this Copy Trading Agreement shall prevail."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 67,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "1.3."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 73,
-                                    columnNumber: 29
-                                }, this),
-                                " Copy Trading is available only on the Website and only on Real Accounts."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
@@ -226,17 +175,81 @@ function CopyTradingAgreementPage() {
                                     style: {
                                         color: "#f4f4f6"
                                     },
+                                    children: "1.2."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
+                                    lineNumber: 77,
+                                    columnNumber: 13
+                                }, this),
+                                " This Copy Trading Agreement serves as a supplement to",
+                                " ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/agreement",
+                                    style: linkStyle,
+                                    children: "the Stockity Client Agreement"
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
+                                    lineNumber: 78,
+                                    columnNumber: 13
+                                }, this),
+                                " and is its integral part. Any and all terms and conditions included in this Copy Trading Agreement are to be read in conjunction with",
+                                " ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: "/agreement",
+                                    style: linkStyle,
+                                    children: "the Stockity Client Agreement"
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
+                                    lineNumber: 79,
+                                    columnNumber: 13
+                                }, this),
+                                ".",
+                                " ",
+                                "In the event of any discrepancy between the Copy Trading Agreement and the Stockity Client Agreement, the terms of this Copy Trading Agreement shall prevail."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
+                            lineNumber: 76,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
+                                    children: "1.3."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
+                                    lineNumber: 82,
+                                    columnNumber: 29
+                                }, this),
+                                " Copy Trading is available only on the Website and only on Real Accounts."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
+                            lineNumber: 82,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
                                     children: "1.4."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 83,
                                     columnNumber: 29
                                 }, this),
                                 " Copy Trading is available only for Fixed Time Trades (FTT)."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 74,
+                            lineNumber: 83,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -244,7 +257,7 @@ function CopyTradingAgreementPage() {
                             children: "Terminology"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 77,
+                            lineNumber: 86,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -258,14 +271,14 @@ function CopyTradingAgreementPage() {
                                     children: "the Stockity Client Agreement"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 89,
                                     columnNumber: 13
                                 }, this),
                                 "."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 78,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, this),
                         [
@@ -299,7 +312,7 @@ function CopyTradingAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                        lineNumber: 89,
+                                        lineNumber: 98,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -307,7 +320,7 @@ function CopyTradingAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                lineNumber: 89,
+                                lineNumber: 98,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -315,7 +328,7 @@ function CopyTradingAgreementPage() {
                             children: "Choosing a Copied Trader"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 93,
+                            lineNumber: 102,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -328,14 +341,14 @@ function CopyTradingAgreementPage() {
                                     children: "3.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 103,
                                     columnNumber: 29
                                 }, this),
                                 " To choose a Copied Trader for Copying, the Trader can use the Copied Traders leaderboard on the Website."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 94,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -348,14 +361,14 @@ function CopyTradingAgreementPage() {
                                     children: "3.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 104,
                                     columnNumber: 29
                                 }, this),
                                 " The Copied Traders leaderboard contains the following information about Copied Traders:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 95,
+                            lineNumber: 104,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -378,12 +391,12 @@ function CopyTradingAgreementPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 116,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 96,
+                            lineNumber: 105,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -396,14 +409,14 @@ function CopyTradingAgreementPage() {
                                     children: "3.3."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 118,
                                     columnNumber: 29
                                 }, this),
                                 " A Client chooses to copy or not to copy the Copied Trader's Trades voluntarily and at their sole discretion. All such decisions are a personal matter of each Client and are made without any recommendation or suggestions from the Company."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 109,
+                            lineNumber: 118,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -416,14 +429,14 @@ function CopyTradingAgreementPage() {
                                     children: "3.4."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 119,
                                     columnNumber: 29
                                 }, this),
                                 " The Trader can copy Trades of an unlimited number of Copied Traders."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 110,
+                            lineNumber: 119,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -431,7 +444,7 @@ function CopyTradingAgreementPage() {
                             children: "Start of Copying"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 113,
+                            lineNumber: 122,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -444,14 +457,14 @@ function CopyTradingAgreementPage() {
                                     children: "4.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 123,
                                     columnNumber: 29
                                 }, this),
                                 " To start Copying a Copied Trader's Trades, the Client must press the 'Start copying' button in the Copied Trader's Card."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 114,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -464,14 +477,14 @@ function CopyTradingAgreementPage() {
                                     children: "4.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 124,
                                     columnNumber: 29
                                 }, this),
                                 " When starting to copy the Copied Trader's Trades, the Trader has to indicate:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 115,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -488,12 +501,12 @@ function CopyTradingAgreementPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 130,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 116,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -506,14 +519,14 @@ function CopyTradingAgreementPage() {
                                     children: "4.3."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 123,
+                                    lineNumber: 132,
                                     columnNumber: 29
                                 }, this),
                                 " The maximum number of Copy Trades in one Copying cannot exceed fifty (50) Trades."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 123,
+                            lineNumber: 132,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -521,7 +534,7 @@ function CopyTradingAgreementPage() {
                             children: "Opening and Closing of a Copy Trade"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 126,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this),
                         [
@@ -555,7 +568,7 @@ function CopyTradingAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                        lineNumber: 134,
+                                        lineNumber: 143,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -563,7 +576,7 @@ function CopyTradingAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                lineNumber: 134,
+                                lineNumber: 143,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -571,7 +584,7 @@ function CopyTradingAgreementPage() {
                             children: "End of Copying"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 138,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -584,14 +597,14 @@ function CopyTradingAgreementPage() {
                                     children: "6.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 139,
+                                    lineNumber: 148,
                                     columnNumber: 29
                                 }, this),
                                 " The Trader can stop Copying the Copied Trader's Trades at any time through the 'Stop copying' button in the Copied Trader's Card. The Trader can start Copying the same Copied Trader's Trades again after that at any time, if they are still on the Copied Traders leaderboard."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 139,
+                            lineNumber: 148,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -604,14 +617,14 @@ function CopyTradingAgreementPage() {
                                     children: "6.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 140,
+                                    lineNumber: 149,
                                     columnNumber: 29
                                 }, this),
                                 " Copying of the Copied Trader's Trades stops automatically as follows:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 140,
+                            lineNumber: 149,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -630,12 +643,12 @@ function CopyTradingAgreementPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 157,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 141,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -648,14 +661,14 @@ function CopyTradingAgreementPage() {
                                     children: "6.3."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 159,
                                     columnNumber: 29
                                 }, this),
                                 " When Copying stops, all Open Copy Trades close upon reaching the closing time. New Copied Trader's Trades are not copied on the Trader Account."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 150,
+                            lineNumber: 159,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -663,7 +676,7 @@ function CopyTradingAgreementPage() {
                             children: "Commissions"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 153,
+                            lineNumber: 162,
                             columnNumber: 11
                         }, this),
                         [
@@ -693,7 +706,7 @@ function CopyTradingAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                        lineNumber: 160,
+                                        lineNumber: 169,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -701,7 +714,7 @@ function CopyTradingAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                lineNumber: 160,
+                                lineNumber: 169,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -709,7 +722,7 @@ function CopyTradingAgreementPage() {
                             children: "Rights and Obligations of the Company and the Trader"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 164,
+                            lineNumber: 173,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -722,14 +735,14 @@ function CopyTradingAgreementPage() {
                                     children: "8.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 174,
                                     columnNumber: 29
                                 }, this),
                                 " The Trader must ensure that they comply with all applicable laws and regulations regarding Copy Trading."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 165,
+                            lineNumber: 174,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -742,14 +755,14 @@ function CopyTradingAgreementPage() {
                                     children: "8.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 166,
+                                    lineNumber: 175,
                                     columnNumber: 29
                                 }, this),
                                 " The Trader must evaluate all the financial risks before using Copy Trading."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 166,
+                            lineNumber: 175,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -762,14 +775,14 @@ function CopyTradingAgreementPage() {
                                     children: "8.3."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 167,
+                                    lineNumber: 176,
                                     columnNumber: 29
                                 }, this),
                                 " The Company reserves the right:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 167,
+                            lineNumber: 176,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -787,12 +800,12 @@ function CopyTradingAgreementPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 174,
+                                    lineNumber: 183,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 168,
+                            lineNumber: 177,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -800,7 +813,7 @@ function CopyTradingAgreementPage() {
                             children: "Risk Disclosures"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 178,
+                            lineNumber: 187,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -813,14 +826,14 @@ function CopyTradingAgreementPage() {
                                     children: "9.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 179,
+                                    lineNumber: 188,
                                     columnNumber: 29
                                 }, this),
                                 " The Trader fully acknowledges the following:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 179,
+                            lineNumber: 188,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -843,12 +856,12 @@ function CopyTradingAgreementPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 191,
+                                    lineNumber: 200,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 180,
+                            lineNumber: 189,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -861,14 +874,14 @@ function CopyTradingAgreementPage() {
                                     children: "9.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 193,
+                                    lineNumber: 202,
                                     columnNumber: 29
                                 }, this),
                                 " The Trader uses Copy Trading at their own risk. Starting to use Copy Trading, the Trader accepts responsibility for possible financial losses resulting from the following risks:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 193,
+                            lineNumber: 202,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -886,12 +899,12 @@ function CopyTradingAgreementPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                    lineNumber: 200,
+                                    lineNumber: 209,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 194,
+                            lineNumber: 203,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -899,7 +912,7 @@ function CopyTradingAgreementPage() {
                             children: "Guarantees and Liability"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 204,
+                            lineNumber: 213,
                             columnNumber: 11
                         }, this),
                         [
@@ -933,7 +946,7 @@ function CopyTradingAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                        lineNumber: 212,
+                                        lineNumber: 221,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -941,7 +954,7 @@ function CopyTradingAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                lineNumber: 212,
+                                lineNumber: 221,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -949,7 +962,7 @@ function CopyTradingAgreementPage() {
                             children: "Amendment and Termination"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 216,
+                            lineNumber: 225,
                             columnNumber: 11
                         }, this),
                         [
@@ -987,7 +1000,7 @@ function CopyTradingAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                        lineNumber: 225,
+                                        lineNumber: 234,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -995,7 +1008,7 @@ function CopyTradingAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                lineNumber: 225,
+                                lineNumber: 234,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1013,23 +1026,23 @@ function CopyTradingAgreementPage() {
                                 children: "Effective November 6, 2025"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                                lineNumber: 235,
+                                lineNumber: 244,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                            lineNumber: 228,
+                            lineNumber: 237,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                    lineNumber: 37,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/copy-trading-agreement/page.tsx",
-                lineNumber: 28,
+                lineNumber: 37,
                 columnNumber: 7
             }, this)
         ]

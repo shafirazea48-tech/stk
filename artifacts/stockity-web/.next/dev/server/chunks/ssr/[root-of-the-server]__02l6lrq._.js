@@ -46,12 +46,25 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$artifact
 
 __turbopack_context__.s([
     "default",
-    ()=>AMLPolicyPage
+    ()=>AMLPolicyPage,
+    "metadata",
+    ()=>metadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.9_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/artifacts/stockity-web/components/Header.tsx [app-rsc] (ecmascript)");
 ;
 ;
+const metadata = {
+    title: "AML Policy",
+    description: "Stockity Anti-Money Laundering (AML) Policy — our commitment to preventing financial crime and maintaining regulatory compliance.",
+    alternates: {
+        canonical: "/aml-policy"
+    },
+    robots: {
+        index: false,
+        follow: false
+    }
+};
 const linkStyle = {
     color: "#0c8df8",
     textDecoration: "none"
@@ -98,7 +111,7 @@ function AMLPolicyPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                lineNumber: 45,
+                lineNumber: 54,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -130,7 +143,7 @@ function AMLPolicyPage() {
                             children: "AML & KYC Policy"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 63,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -146,12 +159,12 @@ function AMLPolicyPage() {
                                 children: "Stockity Anti-Money Laundering Policy"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                lineNumber: 77,
+                                lineNumber: 86,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 76,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -163,7 +176,7 @@ function AMLPolicyPage() {
                             children: '(hereinafter referred to as the "Policy")'
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 81,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -171,7 +184,7 @@ function AMLPolicyPage() {
                             children: "Section 1: Interpretative Provisions"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 86,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -179,7 +192,7 @@ function AMLPolicyPage() {
                             children: "For the purposes of this Policy, the following definitions shall apply consistently, whether referenced in singular or plural form:"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 87,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this),
                         [
@@ -229,7 +242,7 @@ function AMLPolicyPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                        lineNumber: 99,
+                                        lineNumber: 108,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -237,7 +250,7 @@ function AMLPolicyPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                lineNumber: 99,
+                                lineNumber: 108,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -245,7 +258,7 @@ function AMLPolicyPage() {
                             children: "Section 2: Risk-Based Approach Framework"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 103,
+                            lineNumber: 112,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -253,7 +266,7 @@ function AMLPolicyPage() {
                             children: "2.1 Risk Assessment Methodology"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 104,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -261,7 +274,7 @@ function AMLPolicyPage() {
                             children: "The Company implements a comprehensive risk-based approach to AML/CFT compliance, consistent with the requirements of Vanuatu legislation and international best practices including FATF Recommendations and FIU Guidance Notes (VFIU). This approach involves the systematic identification, assessment, and mitigation of money laundering and terrorist financing risks associated with:"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 105,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -279,12 +292,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 121,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 106,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -292,7 +305,7 @@ function AMLPolicyPage() {
                             children: "2.2 Enhanced Due Diligence Triggers"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 114,
+                            lineNumber: 123,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -300,7 +313,7 @@ function AMLPolicyPage() {
                             children: "Enhanced due diligence measures are implemented when Clients or transactions present heightened risk factors, including but not limited to:"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 115,
+                            lineNumber: 124,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -318,12 +331,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 131,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 116,
+                            lineNumber: 125,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -331,7 +344,7 @@ function AMLPolicyPage() {
                             children: "Section 3: Client Identification and Verification"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 126,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -339,7 +352,7 @@ function AMLPolicyPage() {
                             children: "Identity Verification Documents:"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 127,
+                            lineNumber: 136,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -356,12 +369,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 142,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 128,
+                            lineNumber: 137,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -369,7 +382,7 @@ function AMLPolicyPage() {
                             children: "Additional Documentation (KYC/AML Compliance):"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 135,
+                            lineNumber: 144,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -389,12 +402,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 144,
+                                    lineNumber: 153,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 136,
+                            lineNumber: 145,
                             columnNumber: 11
                         }, this),
                         [
@@ -409,7 +422,7 @@ function AMLPolicyPage() {
                                             children: "verification@stockity.com"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                            lineNumber: 147,
+                                            lineNumber: 156,
                                             columnNumber: 138
                                         }, this),
                                         ". We cannot accept RAR/ZIP archives or DOC/DOCX files. All materials must be delivered within fourteen (14) calendar days of our request. Upon receipt of a complete document set, verification is normally completed within twenty (20) minutes. In certain circumstances, this timeframe may be extended up to seven (7) calendar days."
@@ -431,7 +444,7 @@ function AMLPolicyPage() {
                                             children: "Privacy Policy"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 158,
                                             columnNumber: 219
                                         }, this),
                                         "."
@@ -448,7 +461,7 @@ function AMLPolicyPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 160,
                                         columnNumber: 49
                                     }, this),
                                     " ",
@@ -456,7 +469,7 @@ function AMLPolicyPage() {
                                 ]
                             }, String(num), true, {
                                 fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                lineNumber: 151,
+                                lineNumber: 160,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -464,7 +477,7 @@ function AMLPolicyPage() {
                             children: "3.4 Detailed Document Requirements"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 154,
+                            lineNumber: 163,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -477,14 +490,14 @@ function AMLPolicyPage() {
                                     children: "General ID Documents:"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 155,
+                                    lineNumber: 164,
                                     columnNumber: 29
                                 }, this),
                                 " All sides of the passport or ID must be fully visible in the image, with no cropping, glare, or obstructions. The document's text must be sharp and legible. Images will be checked for signs of editing or manipulation."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 155,
+                            lineNumber: 164,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -497,14 +510,14 @@ function AMLPolicyPage() {
                                     children: "Validity Checks:"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 165,
                                     columnNumber: 29
                                 }, this),
                                 " If authenticity is in question, we may use AML database services (including global watchlists: OFAC, UN, EU, and law enforcement or regulatory registries) to verify document legitimacy."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 156,
+                            lineNumber: 165,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -517,14 +530,14 @@ function AMLPolicyPage() {
                                     children: "Bank Card Criteria:"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 166,
                                     columnNumber: 29
                                 }, this),
                                 " Photograph the card so all corners are visible, without glare. The following must be legible: cardholder's full name; first six and last four digits of the card number; expiry date."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 157,
+                            lineNumber: 166,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -537,14 +550,14 @@ function AMLPolicyPage() {
                                     children: "Electronic Wallets:"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 158,
+                                    lineNumber: 167,
                                     columnNumber: 29
                                 }, this),
                                 " Provide 2 screenshots showing: (a) a deposit transaction to Verte Securities Limited, with date, time, amount and wallet ID; (b) the wallet's personal information page displaying first and last name."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 158,
+                            lineNumber: 167,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -557,14 +570,14 @@ function AMLPolicyPage() {
                                     children: "Selfies with Documents:"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 159,
+                                    lineNumber: 168,
                                     columnNumber: 29
                                 }, this),
                                 " The Client's face and the entire ID must be clearly visible and match the document photo. The document held in the selfie must be identical to the one in the standalone scan."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 159,
+                            lineNumber: 168,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -577,14 +590,14 @@ function AMLPolicyPage() {
                                     children: "Translations:"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 160,
+                                    lineNumber: 169,
                                     columnNumber: 29
                                 }, this),
                                 " Non-English documents require a notarized English translation and the original's clear image."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 160,
+                            lineNumber: 169,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -597,14 +610,14 @@ function AMLPolicyPage() {
                                     children: "3.5"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 170,
                                     columnNumber: 29
                                 }, this),
                                 " The measures indicated herein are designed not only to comply with Our KYC/AML Policy but also to safeguard the security of Client assets."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 161,
+                            lineNumber: 170,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -617,14 +630,14 @@ function AMLPolicyPage() {
                                     children: "3.6"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 162,
+                                    lineNumber: 171,
                                     columnNumber: 29
                                 }, this),
                                 " Deposits of Funds: the name of the depositor (Client) of Funds should fully comply with the name specified in the registered Account. Payments from third parties are prohibited."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 162,
+                            lineNumber: 171,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -632,7 +645,7 @@ function AMLPolicyPage() {
                             children: "WE HEREBY DECLARE THAT, IN ORDER TO COMPLY WITH THIS AML POLICY, TRANSFERS OF FUNDS BY THE CLIENTS ARE PERMITTED SOLELY FOR THE PURPOSE OF CARRYING OUT TRADING OPERATIONS ON THE PLATFORM. IF THE COMPANY REASONABLY BELIEVES THAT TRANSFERS OF FUNDS ARE BEING USED BY THE CLIENT IN VIOLATION OF LAWS AND/OR OUR AML POLICY, THE COMPANY RESERVES THE RIGHT TO BLOCK THE CLIENT'S ACCOUNT TO PREVENT SUCH A VIOLATION."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 163,
+                            lineNumber: 172,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -640,7 +653,7 @@ function AMLPolicyPage() {
                             children: "Section 4: Measures Against Suspicious Transactions and Activities"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 168,
+                            lineNumber: 177,
                             columnNumber: 11
                         }, this),
                         [
@@ -666,7 +679,7 @@ function AMLPolicyPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                        lineNumber: 174,
+                                        lineNumber: 183,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -674,7 +687,7 @@ function AMLPolicyPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                lineNumber: 174,
+                                lineNumber: 183,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -682,7 +695,7 @@ function AMLPolicyPage() {
                             children: "ALL SUCH RISK-MITIGATION ACTIONS WILL BE REPORTED, AS PROMPTLY AS PRACTICABLE, TO THE APPROPRIATE GOVERNMENTAL AUTHORITY WHENEVER OUR AML/CFT COMPLIANCE TEAM KNOWS, SUSPECTS, OR HAS REASONABLE GROUNDS TO BELIEVE THAT THE CLIENT IS INVOLVED IN MONEY LAUNDERING OR TERRORIST FINANCING."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 176,
+                            lineNumber: 185,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -690,7 +703,7 @@ function AMLPolicyPage() {
                             children: "Section 5: Document Submission and Processing"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 181,
+                            lineNumber: 190,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -703,14 +716,14 @@ function AMLPolicyPage() {
                                     children: "5.1"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 182,
+                                    lineNumber: 191,
                                     columnNumber: 29
                                 }, this),
                                 " Clients must provide verification documents in digital format through secure channels. The Company accepts documents in the following formats: JPEG, PNG, PDF, and TIFF. All non-English documents must be accompanied by certified translations prepared by qualified translators."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 182,
+                            lineNumber: 191,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -723,14 +736,14 @@ function AMLPolicyPage() {
                                     children: "5.2"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 183,
+                                    lineNumber: 192,
                                     columnNumber: 29
                                 }, this),
                                 " The Company maintains strict security protocols for document handling: encrypted transmission channels for all document submissions, secure storage systems with access controls and audit trails, and regular security assessments of document management systems."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 183,
+                            lineNumber: 192,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -743,14 +756,14 @@ function AMLPolicyPage() {
                                     children: "5.3"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 184,
+                                    lineNumber: 193,
                                     columnNumber: 29
                                 }, this),
                                 " The Company employs multiple verification methodologies: Enhanced Digital Verification (video verification sessions, real-time document authentication, biometric verification) and Manual Review Processes (expert review by qualified compliance officers, cross-referencing with multiple data sources)."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 184,
+                            lineNumber: 193,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -758,7 +771,7 @@ function AMLPolicyPage() {
                             children: "Section 6: Ongoing Due Diligence Obligations"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 187,
+                            lineNumber: 196,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -771,14 +784,14 @@ function AMLPolicyPage() {
                                     children: "6.1"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 188,
+                                    lineNumber: 197,
                                     columnNumber: 29
                                 }, this),
                                 " The Company maintains continuous monitoring of all Client relationships and transactions, ensuring that: (i) transactions remain consistent with the Company's knowledge of the Client; (ii) business activities align with stated purposes and risk profiles; (iii) unusual patterns or suspicious activities are promptly identified; (iv) Client information remains current and accurate."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 188,
+                            lineNumber: 197,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -791,14 +804,14 @@ function AMLPolicyPage() {
                                     children: "6.2"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 189,
+                                    lineNumber: 198,
                                     columnNumber: 29
                                 }, this),
                                 " Reporting mechanisms include:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 189,
+                            lineNumber: 198,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -815,12 +828,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 195,
+                                    lineNumber: 204,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 190,
+                            lineNumber: 199,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -828,7 +841,7 @@ function AMLPolicyPage() {
                             children: "Section 7: Sanctions Screening and Compliance"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 199,
+                            lineNumber: 208,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -841,14 +854,14 @@ function AMLPolicyPage() {
                                     children: "7.1"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 200,
+                                    lineNumber: 209,
                                     columnNumber: 29
                                 }, this),
                                 " We maintain comprehensive sanctions screening procedures utilizing:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 200,
+                            lineNumber: 209,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -868,12 +881,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 209,
+                                    lineNumber: 218,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 201,
+                            lineNumber: 210,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -886,14 +899,14 @@ function AMLPolicyPage() {
                                     children: "7.2"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 211,
+                                    lineNumber: 220,
                                     columnNumber: 29
                                 }, this),
                                 " Our advanced screening technology incorporates: real-time screening against consolidated sanctions databases; name-matching algorithms with fuzzy logic capabilities; periodic re-screening of existing Client bases; and transaction screening for sanctions-related indicators."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 211,
+                            lineNumber: 220,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -901,7 +914,7 @@ function AMLPolicyPage() {
                             children: "Section 8: Record Keeping and Data Retention"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 214,
+                            lineNumber: 223,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -914,14 +927,14 @@ function AMLPolicyPage() {
                                     children: "8.1"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 215,
+                                    lineNumber: 224,
                                     columnNumber: 29
                                 }, this),
                                 " In compliance with Vanuatu's record-keeping obligations, We maintain all Client due diligence records, transaction records, and compliance documentation for a minimum period of six years following the cessation of the business relationship or completion of the transaction."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 215,
+                            lineNumber: 224,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -934,14 +947,14 @@ function AMLPolicyPage() {
                                     children: "8.2"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 216,
+                                    lineNumber: 225,
                                     columnNumber: 29
                                 }, this),
                                 " We implement robust data protection measures ensuring: (1) confidentiality of Client information in accordance with privacy laws; (2) secure data storage with appropriate access controls; (3) regular backup procedures and disaster recovery protocols; (4) compliance with applicable data protection regulations."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 216,
+                            lineNumber: 225,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -949,7 +962,7 @@ function AMLPolicyPage() {
                             children: "Section 9: Compliance Officer Responsibilities"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 219,
+                            lineNumber: 228,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -962,14 +975,14 @@ function AMLPolicyPage() {
                                     children: "9.1"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 220,
+                                    lineNumber: 229,
                                     columnNumber: 29
                                 }, this),
                                 " In accordance with the requirements of the Anti-Money Laundering and Counter-Terrorism Financing Act, the Company has appointed a qualified AML/CFT Compliance Officer responsible for:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 220,
+                            lineNumber: 229,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -987,12 +1000,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 227,
+                                    lineNumber: 236,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 221,
+                            lineNumber: 230,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1000,7 +1013,7 @@ function AMLPolicyPage() {
                             children: "Section 10: Cross-Border Transaction Management"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 231,
+                            lineNumber: 240,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1008,7 +1021,7 @@ function AMLPolicyPage() {
                             children: "We implement enhanced due diligence for international wire transfers, consistent with FATF Recommendation 16 and Vanuatu's wire transfer obligations, including:"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 232,
+                            lineNumber: 241,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1026,12 +1039,12 @@ function AMLPolicyPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                    lineNumber: 239,
+                                    lineNumber: 248,
                                     columnNumber: 24
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 233,
+                            lineNumber: 242,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1039,7 +1052,7 @@ function AMLPolicyPage() {
                             children: "Correspondent banking enhanced due diligence includes assessment of correspondent institutions' AML/CFT programs, clear definition of roles and responsibilities, regular monitoring of correspondent banking activities, and termination procedures for unsatisfactory relationships."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 241,
+                            lineNumber: 250,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1047,7 +1060,7 @@ function AMLPolicyPage() {
                             children: "Section 11: Enterprise Risk Management Integration"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 244,
+                            lineNumber: 253,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1055,7 +1068,7 @@ function AMLPolicyPage() {
                             children: "The Company integrates AML/CFT risk management within its broader enterprise risk management framework, ensuring that money laundering and terrorist financing risks are identified, assessed, and mitigated as part of the Company's overall risk governance structure. This includes regular board-level reporting on AML/CFT risk exposure and the effectiveness of control measures, as well as integration with operational risk management processes."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 245,
+                            lineNumber: 254,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1079,7 +1092,7 @@ function AMLPolicyPage() {
                                         children: "verification@stockity.com"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                        lineNumber: 256,
+                                        lineNumber: 265,
                                         columnNumber: 15
                                     }, this),
                                     " ",
@@ -1091,7 +1104,7 @@ function AMLPolicyPage() {
                                         children: "complaints@stockity.com"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                        lineNumber: 260,
+                                        lineNumber: 269,
                                         columnNumber: 15
                                     }, this),
                                     " ",
@@ -1103,29 +1116,29 @@ function AMLPolicyPage() {
                                         children: "support@stockity.com"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                        lineNumber: 264,
+                                        lineNumber: 273,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                                lineNumber: 254,
+                                lineNumber: 263,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                            lineNumber: 247,
+                            lineNumber: 256,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                    lineNumber: 55,
+                    lineNumber: 64,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/aml-policy/page.tsx",
-                lineNumber: 46,
+                lineNumber: 55,
                 columnNumber: 7
             }, this)
         ]

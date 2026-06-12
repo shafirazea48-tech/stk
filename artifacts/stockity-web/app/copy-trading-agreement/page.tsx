@@ -1,4 +1,13 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
+
+export const metadata: Metadata = {
+  title: "Copy Trading Agreement",
+  description:
+    "Stockity Copy Trading Agreement — terms and conditions for using our copy trading service to follow expert investors.",
+  alternates: { canonical: "/copy-trading-agreement" },
+  robots: { index: false, follow: false },
+};
 
 const linkStyle = { color: "#0c8df8", textDecoration: "none" };
 const sectionStyle: React.CSSProperties = {

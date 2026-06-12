@@ -46,12 +46,25 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$artifact
 
 __turbopack_context__.s([
     "default",
-    ()=>ClientAgreementPage
+    ()=>ClientAgreementPage,
+    "metadata",
+    ()=>metadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.9_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/artifacts/stockity-web/components/Header.tsx [app-rsc] (ecmascript)");
 ;
 ;
+const metadata = {
+    title: "Client Agreement",
+    description: "Read the Stockity Client Agreement — terms and conditions governing the use of our trading platform and services.",
+    alternates: {
+        canonical: "/agreement"
+    },
+    robots: {
+        index: false,
+        follow: false
+    }
+};
 const linkStyle = {
     color: "#0c8df8",
     textDecoration: "none"
@@ -80,7 +93,7 @@ function ClientAgreementPage() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                lineNumber: 27,
+                lineNumber: 36,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -112,7 +125,7 @@ function ClientAgreementPage() {
                             children: "Stockity Client Agreement"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 45,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -128,7 +141,7 @@ function ClientAgreementPage() {
                                     children: "stockity.com"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 75,
                                     columnNumber: 13
                                 }, this),
                                 " ",
@@ -136,7 +149,7 @@ function ClientAgreementPage() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 59,
+                            lineNumber: 68,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -144,7 +157,7 @@ function ClientAgreementPage() {
                             children: "The place of services provision shall be the Republic of Vanuatu."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 75,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -158,7 +171,7 @@ function ClientAgreementPage() {
                                     children: "the Privacy Policy"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
                                 " ",
@@ -166,7 +179,7 @@ function ClientAgreementPage() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 76,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -174,7 +187,7 @@ function ClientAgreementPage() {
                             children: "I. DEFINITIONS"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 87,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this),
                         [
@@ -324,7 +337,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 124,
+                                        lineNumber: 133,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -332,7 +345,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 124,
+                                lineNumber: 133,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -340,7 +353,7 @@ function ClientAgreementPage() {
                             children: "II. REGISTRATION AND VERIFICATION"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 128,
+                            lineNumber: 137,
                             columnNumber: 11
                         }, this),
                         [
@@ -398,7 +411,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 142,
+                                        lineNumber: 151,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -406,7 +419,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 142,
+                                lineNumber: 151,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -414,7 +427,7 @@ function ClientAgreementPage() {
                             children: "III. FTT TRADING (FIXED TIME TRADES)"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 146,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this),
                         [
@@ -444,7 +457,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 162,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -452,7 +465,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 153,
+                                lineNumber: 162,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -460,7 +473,7 @@ function ClientAgreementPage() {
                             children: "IV. 5ST TRADING"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 157,
+                            lineNumber: 166,
                             columnNumber: 11
                         }, this),
                         [
@@ -494,7 +507,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 165,
+                                        lineNumber: 174,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -502,7 +515,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 165,
+                                lineNumber: 174,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -510,7 +523,7 @@ function ClientAgreementPage() {
                             children: "V. CFD TRADING"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 169,
+                            lineNumber: 178,
                             columnNumber: 11
                         }, this),
                         [
@@ -560,7 +573,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 181,
+                                        lineNumber: 190,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -568,7 +581,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 181,
+                                lineNumber: 190,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -576,7 +589,7 @@ function ClientAgreementPage() {
                             children: "VI. PREDICTION TRADING"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 185,
+                            lineNumber: 194,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -589,138 +602,10 @@ function ClientAgreementPage() {
                                     children: "6.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 186,
-                                    columnNumber: 29
-                                }, this),
-                                ' To open a Trade, the Client selects the event, specifies the investment amount, and chooses either "yes" or "no".'
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 186,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "6.2."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 187,
-                                    columnNumber: 29
-                                }, this),
-                                " Trade closes either by Client instruction to sell the Event Contract or automatically upon reaching the time or occurrence of an event indicated in the Event Contract."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 187,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "6.3."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 188,
-                                    columnNumber: 29
-                                }, this),
-                                ' A Trade is profitable if, at closing upon reaching the time indicated in the Event Contract, the event has occurred when the chosen option was "yes", or event has not occurred when the chosen option was "no."'
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 188,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            style: h2Style,
-                            children: "VII. TRADING TRANSACTIONS"
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 191,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "7.1."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 192,
-                                    columnNumber: 29
-                                }, this),
-                                " Quotes on the Trading Platform are delivered from an external data feed in real time and may be incomplete due to connectivity issues. The Company does not guarantee execution at the Quote shown at the time the Trading Order is placed."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 192,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "7.1.2."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 193,
-                                    columnNumber: 29
-                                }, this),
-                                " Asset Quotation on the Trading Platform is calculated as the arithmetic mean of the purchase and sale prices: (purchase + sale) / 2."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 193,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "7.2."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 194,
-                                    columnNumber: 29
-                                }, this),
-                                " Processing of Client's Trading Orders: (i) the Client executes a Trading Order, validated on the Trading Platform; (ii) the validated order is transmitted to the Company Server; (iii) upon successful verification, the Server processes the order and communicates the outcome back to the Trading Platform."
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 194,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            style: pStyle,
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                    style: {
-                                        color: "#f4f4f6"
-                                    },
-                                    children: "7.3."
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
                                     lineNumber: 195,
                                     columnNumber: 29
                                 }, this),
-                                " Processing time depends on communication quality and market conditions. Under normal circumstances, processing requires 0–4 seconds."
+                                ' To open a Trade, the Client selects the event, specifies the investment amount, and chooses either "yes" or "no".'
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
@@ -734,13 +619,13 @@ function ClientAgreementPage() {
                                     style: {
                                         color: "#f4f4f6"
                                     },
-                                    children: "7.4.1."
+                                    children: "6.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
                                     lineNumber: 196,
                                     columnNumber: 29
                                 }, this),
-                                " Minimum investment per Trade is $1/€1 or equivalent of $1; maximum is $5,000/€5,000 or equivalent of $5,000."
+                                " Trade closes either by Client instruction to sell the Event Contract or automatically upon reaching the time or occurrence of an event indicated in the Event Contract."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
@@ -754,17 +639,145 @@ function ClientAgreementPage() {
                                     style: {
                                         color: "#f4f4f6"
                                     },
-                                    children: "7.6."
+                                    children: "6.3."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
                                     lineNumber: 197,
+                                    columnNumber: 29
+                                }, this),
+                                ' A Trade is profitable if, at closing upon reaching the time indicated in the Event Contract, the event has occurred when the chosen option was "yes", or event has not occurred when the chosen option was "no."'
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                            lineNumber: 197,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                            style: h2Style,
+                            children: "VII. TRADING TRANSACTIONS"
+                        }, void 0, false, {
+                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                            lineNumber: 200,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
+                                    children: "7.1."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                                    lineNumber: 201,
+                                    columnNumber: 29
+                                }, this),
+                                " Quotes on the Trading Platform are delivered from an external data feed in real time and may be incomplete due to connectivity issues. The Company does not guarantee execution at the Quote shown at the time the Trading Order is placed."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                            lineNumber: 201,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
+                                    children: "7.1.2."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                                    lineNumber: 202,
+                                    columnNumber: 29
+                                }, this),
+                                " Asset Quotation on the Trading Platform is calculated as the arithmetic mean of the purchase and sale prices: (purchase + sale) / 2."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                            lineNumber: 202,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
+                                    children: "7.2."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                                    lineNumber: 203,
+                                    columnNumber: 29
+                                }, this),
+                                " Processing of Client's Trading Orders: (i) the Client executes a Trading Order, validated on the Trading Platform; (ii) the validated order is transmitted to the Company Server; (iii) upon successful verification, the Server processes the order and communicates the outcome back to the Trading Platform."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                            lineNumber: 203,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
+                                    children: "7.3."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                                    lineNumber: 204,
+                                    columnNumber: 29
+                                }, this),
+                                " Processing time depends on communication quality and market conditions. Under normal circumstances, processing requires 0–4 seconds."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                            lineNumber: 204,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
+                                    children: "7.4.1."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                                    lineNumber: 205,
+                                    columnNumber: 29
+                                }, this),
+                                " Minimum investment per Trade is $1/€1 or equivalent of $1; maximum is $5,000/€5,000 or equivalent of $5,000."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                            lineNumber: 205,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: pStyle,
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    style: {
+                                        color: "#f4f4f6"
+                                    },
+                                    children: "7.6."
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
+                                    lineNumber: 206,
                                     columnNumber: 29
                                 }, this),
                                 " AI Trading is available only on the Real Account and only for FTT (Fixed Time Trades). AI Trades are open and closed automatically without any prior consultation, consent or approval of the Client. The Client can stop the AI Trading session at any time through the 'AI Stop' button."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 197,
+                            lineNumber: 206,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -777,14 +790,14 @@ function ClientAgreementPage() {
                                     children: "7.8."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 198,
+                                    lineNumber: 207,
                                     columnNumber: 29
                                 }, this),
                                 " The Company may restrict the maximum number of Trades per Client within defined intervals (minute, hour, day)."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 198,
+                            lineNumber: 207,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -797,14 +810,14 @@ function ClientAgreementPage() {
                                     children: "7.9."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 199,
+                                    lineNumber: 208,
                                     columnNumber: 29
                                 }, this),
                                 " The Company reserves the right to add, modify, or remove Assets and/or Event Contracts, amend profitability percentages, minimum and maximum investment amounts, and Expiration terms for one or multiple Assets."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 199,
+                            lineNumber: 208,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -812,7 +825,7 @@ function ClientAgreementPage() {
                             children: "VIII. NON-TRADING TRANSACTIONS"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 202,
+                            lineNumber: 211,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -825,14 +838,14 @@ function ClientAgreementPage() {
                                     children: "8.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 203,
+                                    lineNumber: 212,
                                     columnNumber: 29
                                 }, this),
                                 " Official methods for Deposits and Withdrawals are set forth on the Company's Website. The Client bears all risks related to payment system usage, including commissions and currency conversion fees. Applicable withdrawal commissions by jurisdiction:"
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 203,
+                            lineNumber: 212,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -850,12 +863,12 @@ function ClientAgreementPage() {
                                     children: t
                                 }, t, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 205,
+                                    lineNumber: 214,
                                     columnNumber: 390
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 204,
+                            lineNumber: 213,
                             columnNumber: 11
                         }, this),
                         [
@@ -909,7 +922,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 219,
+                                        lineNumber: 228,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -917,7 +930,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 219,
+                                lineNumber: 228,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -925,7 +938,7 @@ function ClientAgreementPage() {
                             children: "IX. BONUSES, TOURNAMENTS AND PROMOTIONS"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 223,
+                            lineNumber: 232,
                             columnNumber: 11
                         }, this),
                         [
@@ -963,7 +976,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 232,
+                                        lineNumber: 241,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -971,7 +984,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 232,
+                                lineNumber: 241,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -979,7 +992,7 @@ function ClientAgreementPage() {
                             children: "X. MARKET"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 236,
+                            lineNumber: 245,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -992,14 +1005,14 @@ function ClientAgreementPage() {
                                     children: "10.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 237,
+                                    lineNumber: 246,
                                     columnNumber: 29
                                 }, this),
                                 " The Client acknowledges that materials in the Market do not constitute investment or trading advice; all trading decisions are at the Client's sole discretion, and the Company disclaims liability for direct, indirect, or any other losses arising from Market information."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 237,
+                            lineNumber: 246,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1012,14 +1025,14 @@ function ClientAgreementPage() {
                                     children: "10.9."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 238,
+                                    lineNumber: 247,
                                     columnNumber: 29
                                 }, this),
                                 " Violation of the Agreement terms by the Client may result in the Company restricting the Client's Market access at its sole discretion."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 238,
+                            lineNumber: 247,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1027,7 +1040,7 @@ function ClientAgreementPage() {
                             children: "XI. STOCKENS"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 241,
+                            lineNumber: 250,
                             columnNumber: 11
                         }, this),
                         [
@@ -1057,7 +1070,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 248,
+                                        lineNumber: 257,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -1065,7 +1078,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 248,
+                                lineNumber: 257,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1073,7 +1086,7 @@ function ClientAgreementPage() {
                             children: "XII. CLIENT RISKS"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 252,
+                            lineNumber: 261,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1086,14 +1099,14 @@ function ClientAgreementPage() {
                                     children: "12.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 253,
+                                    lineNumber: 262,
                                     columnNumber: 29
                                 }, this),
                                 " The Client fully acknowledges that: (i) trading in financial instruments involves significant risks; prior financial capacity assessment is advised; (ii) Trading Transactions conducted via the Trading Platform are over-the-counter, not exchange-traded, and carry higher risks; (iii) information or recommendations from the Company or partners do not constitute direct offers to trade; (iv) technical failures, unstable internet connection, power outages, or other factors may cause the Client financial losses."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 253,
+                            lineNumber: 262,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1106,14 +1119,14 @@ function ClientAgreementPage() {
                                     children: "12.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 254,
+                                    lineNumber: 263,
                                     columnNumber: 29
                                 }, this),
                                 " The Client assumes all risks regarding legal restrictions in their jurisdiction and bears responsibility for compliance."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 254,
+                            lineNumber: 263,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1126,14 +1139,14 @@ function ClientAgreementPage() {
                                     children: "12.3."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 255,
+                                    lineNumber: 264,
                                     columnNumber: 29
                                 }, this),
                                 " The Company does not guarantee Client profits or absence of losses from use of its services."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 255,
+                            lineNumber: 264,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1141,7 +1154,7 @@ function ClientAgreementPage() {
                             children: "XIII. GUARANTEES, LIABILITY, AND FORCE MAJEURE"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 258,
+                            lineNumber: 267,
                             columnNumber: 11
                         }, this),
                         [
@@ -1175,7 +1188,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 266,
+                                        lineNumber: 275,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -1183,7 +1196,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 266,
+                                lineNumber: 275,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1191,7 +1204,7 @@ function ClientAgreementPage() {
                             children: "XIV. DISPUTE RESOLUTION"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 270,
+                            lineNumber: 279,
                             columnNumber: 11
                         }, this),
                         [
@@ -1225,7 +1238,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 279,
+                                        lineNumber: 288,
                                         columnNumber: 15
                                     }, this),
                                     " ",
@@ -1239,7 +1252,7 @@ function ClientAgreementPage() {
                                                 children: "complaints@stockity.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                                lineNumber: 282,
+                                                lineNumber: 291,
                                                 columnNumber: 19
                                             }, this),
                                             "."
@@ -1248,7 +1261,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 278,
+                                lineNumber: 287,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1256,7 +1269,7 @@ function ClientAgreementPage() {
                             children: "XV. CONTACTS"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 288,
+                            lineNumber: 297,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1269,7 +1282,7 @@ function ClientAgreementPage() {
                                     children: "15.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 289,
+                                    lineNumber: 298,
                                     columnNumber: 29
                                 }, this),
                                 " The Client may contact the Company via: (i) email",
@@ -1280,14 +1293,14 @@ function ClientAgreementPage() {
                                     children: "support@stockity.com"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 290,
+                                    lineNumber: 299,
                                     columnNumber: 13
                                 }, this),
                                 "; (ii) online chat on the Website."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 289,
+                            lineNumber: 298,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1300,14 +1313,14 @@ function ClientAgreementPage() {
                                     children: "15.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 300,
                                     columnNumber: 29
                                 }, this),
                                 " The Client's contact details include their registered email and optionally a phone number provided in their Personal Account."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 291,
+                            lineNumber: 300,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1315,7 +1328,7 @@ function ClientAgreementPage() {
                             children: "XVI. TAXES"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 294,
+                            lineNumber: 303,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1323,7 +1336,7 @@ function ClientAgreementPage() {
                             children: "The Company is not a tax agent and does not disclose Client transactions data except upon official request by competent authorities."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 295,
+                            lineNumber: 304,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1331,7 +1344,7 @@ function ClientAgreementPage() {
                             children: "XVII. VALIDITY AND TERMINATION. AMENDMENT"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 298,
+                            lineNumber: 307,
                             columnNumber: 11
                         }, this),
                         [
@@ -1369,7 +1382,7 @@ function ClientAgreementPage() {
                                         children: num
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                        lineNumber: 307,
+                                        lineNumber: 316,
                                         columnNumber: 41
                                     }, this),
                                     " ",
@@ -1377,7 +1390,7 @@ function ClientAgreementPage() {
                                 ]
                             }, num, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                lineNumber: 307,
+                                lineNumber: 316,
                                 columnNumber: 13
                             }, this)),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1385,7 +1398,7 @@ function ClientAgreementPage() {
                             children: "XVIII. FINAL PROVISIONS"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 311,
+                            lineNumber: 320,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1398,14 +1411,14 @@ function ClientAgreementPage() {
                                     children: "18.1."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 312,
+                                    lineNumber: 321,
                                     columnNumber: 29
                                 }, this),
                                 " The Client may not assign rights or obligations under the Agreement to third parties."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 312,
+                            lineNumber: 321,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1418,14 +1431,14 @@ function ClientAgreementPage() {
                                     children: "18.2."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 313,
+                                    lineNumber: 322,
                                     columnNumber: 29
                                 }, this),
                                 " In case of discrepancies, the English version prevails over translations."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 313,
+                            lineNumber: 322,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1438,25 +1451,25 @@ function ClientAgreementPage() {
                                     children: "18.3."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                                    lineNumber: 314,
+                                    lineNumber: 323,
                                     columnNumber: 29
                                 }, this),
                                 " This Agreement is governed by the laws of the Republic of Vanuatu."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                            lineNumber: 314,
+                            lineNumber: 323,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                    lineNumber: 37,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/agreement/page.tsx",
-                lineNumber: 28,
+                lineNumber: 37,
                 columnNumber: 7
             }, this)
         ]

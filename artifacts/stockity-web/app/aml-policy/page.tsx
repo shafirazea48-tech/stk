@@ -1,4 +1,13 @@
+import type { Metadata } from "next";
 import Header from "@/components/Header";
+
+export const metadata: Metadata = {
+  title: "AML Policy",
+  description:
+    "Stockity Anti-Money Laundering (AML) Policy — our commitment to preventing financial crime and maintaining regulatory compliance.",
+  alternates: { canonical: "/aml-policy" },
+  robots: { index: false, follow: false },
+};
 
 const linkStyle = { color: "#0c8df8", textDecoration: "none" };
 const h2Style: React.CSSProperties = {

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/tournaments/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\n\nexport const metadata: Metadata = {\n  title: \"Trading Tournaments\",\n  description:\n    \"Join Stockity trading tournaments — compete with other traders, trade 5 regional indices with boosted profitability, and climb the rankings.\",\n  alternates: { canonical: \"/tournaments\" },\n  openGraph: {\n    title: \"Trading Tournaments | Stockity\",\n    description:\n      \"Compete in Stockity trading tournaments. Trade regional indices with boosted profitability.\",\n    url: \"/tournaments\",\n  },\n};\n\nexport default function TournamentsLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return <>{children}</>;\n}\n"],"names":["metadata","title","description","alternates","canonical","openGraph","url","TournamentsLayout","children"],"mappings":";;;;;;;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aACE;IACFC,YAAY;QAAEC,WAAW;IAAe;IACxCC,WAAW;QACTJ,OAAO;QACPC,aACE;QACFI,KAAK;IACP;AACF;AAEe,SAASC,kBAAkB,EACxCC,QAAQ,EAGT;IACC,qBAAO;kBAAGA;;AACZ"}}]
+}
