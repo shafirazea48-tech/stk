@@ -170,11 +170,19 @@ export default function PricingPage() {
     const el = sliderRef.current;
     if (!el) return;
     const onScroll = () => {
-      const cardWidth = el.firstElementChild
-        ? (el.firstElementChild as HTMLElement).offsetWidth + 16
-        : el.offsetWidth;
-      const idx = Math.round(el.scrollLeft / cardWidth);
-      setActiveSlide(Math.max(0, Math.min(idx, tiers.length - 1)));
+      const cards = Array.from(el.children) as HTMLElement[];
+      const scrollCenter = el.scrollLeft + el.offsetWidth / 2;
+      let closestIdx = 0;
+      let closestDist = Infinity;
+      cards.forEach((card, i) => {
+        const cardCenter = card.offsetLeft + card.offsetWidth / 2;
+        const dist = Math.abs(cardCenter - scrollCenter);
+        if (dist < closestDist) {
+          closestDist = dist;
+          closestIdx = i;
+        }
+      });
+      setActiveSlide(closestIdx);
     };
     el.addEventListener("scroll", onScroll, { passive: true });
     return () => el.removeEventListener("scroll", onScroll);
@@ -183,14 +191,16 @@ export default function PricingPage() {
   const scrollToSlide = (idx: number) => {
     const el = sliderRef.current;
     if (!el) return;
-    const cardWidth = el.firstElementChild
-      ? (el.firstElementChild as HTMLElement).offsetWidth + 16
-      : el.offsetWidth;
-    el.scrollTo({ left: idx * cardWidth, behavior: "smooth" });
+    const cards = Array.from(el.children) as HTMLElement[];
+    const card = cards[idx] as HTMLElement | undefined;
+    if (!card) return;
+    const targetLeft = card.offsetLeft - (el.offsetWidth - card.offsetWidth) / 2;
+    el.scrollTo({ left: targetLeft, behavior: "smooth" });
+    setActiveSlide(idx);
   };
 
   const scrollSlider = (dir: "prev" | "next") => {
-    scrollToSlide(dir === "next" ? activeSlide + 1 : activeSlide - 1);
+    scrollToSlide(Math.max(0, Math.min(tiers.length - 1, activeSlide + (dir === "next" ? 1 : -1))));
   };
 
   return (
