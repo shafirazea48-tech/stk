@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/%28id%29/id/pricing/page.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport { redirect } from \"next/navigation\";\n\nexport const metadata: Metadata = {\n  title: \"Status & Harga\",\n  description:\n    \"Lihat paket akun Stockity — Free, Standard, Gold, VIP, dan Platinum. Temukan tier yang sesuai dengan tujuan trading Anda.\",\n  alternates: {\n    canonical: \"/id/pricing\",\n    languages: {\n      en: \"/pricing\",\n      id: \"/id/pricing\",\n      \"x-default\": \"/pricing\",\n    },\n  },\n};\n\nexport default function PricingPageId() {\n  redirect(\"/pricing\");\n}\n"],"names":["metadata","title","description","alternates","canonical","languages","en","id","PricingPageId"],"mappings":";;;;;;AACA;AAAA;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aACE;IACFC,YAAY;QACVC,WAAW;QACXC,WAAW;YACTC,IAAI;YACJC,IAAI;YACJ,aAAa;QACf;IACF;AACF;AAEe,SAASC;IACtB,IAAA,gUAAQ,EAAC;AACX"}}]
-}

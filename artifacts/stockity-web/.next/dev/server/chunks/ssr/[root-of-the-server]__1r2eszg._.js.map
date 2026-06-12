@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/%28id%29/id/tournaments/page.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport { redirect } from \"next/navigation\";\n\nexport const metadata: Metadata = {\n  title: \"Turnamen\",\n  description:\n    \"Ikuti turnamen trading Stockity dan bersaing dengan trader dari seluruh dunia. Dapatkan hadiah eksklusif dan tingkatkan skill trading Anda.\",\n  alternates: {\n    canonical: \"/id/tournaments\",\n    languages: {\n      en: \"/tournaments\",\n      id: \"/id/tournaments\",\n      \"x-default\": \"/tournaments\",\n    },\n  },\n};\n\nexport default function TournamentsPageId() {\n  redirect(\"/tournaments\");\n}\n"],"names":["metadata","title","description","alternates","canonical","languages","en","id","TournamentsPageId"],"mappings":";;;;;;AACA;AAAA;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aACE;IACFC,YAAY;QACVC,WAAW;QACXC,WAAW;YACTC,IAAI;YACJC,IAAI;YACJ,aAAa;QACf;IACF;AACF;AAEe,SAASC;IACtB,IAAA,gUAAQ,EAAC;AACX"}}]
-}

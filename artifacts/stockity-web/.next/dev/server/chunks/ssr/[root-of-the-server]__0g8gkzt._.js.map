@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/%28es%29/es/tournaments/page.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport { redirect } from \"next/navigation\";\n\nexport const metadata: Metadata = {\n  title: \"Torneos\",\n  description:\n    \"Participa en los torneos de trading de Stockity y compite con traders de todo el mundo. Gana premios exclusivos y mejora tus habilidades.\",\n  alternates: {\n    canonical: \"/es/tournaments\",\n    languages: {\n      en: \"/tournaments\",\n      id: \"/id/tournaments\",\n      es: \"/es/tournaments\",\n      \"pt-BR\": \"/pt-br/tournaments\",\n      \"x-default\": \"/tournaments\",\n    },\n  },\n};\n\nexport default function TournamentsPageEs() {\n  redirect(\"/tournaments\");\n}\n"],"names":["metadata","title","description","alternates","canonical","languages","en","id","es","TournamentsPageEs"],"mappings":";;;;;;AACA;AAAA;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aACE;IACFC,YAAY;QACVC,WAAW;QACXC,WAAW;YACTC,IAAI;YACJC,IAAI;YACJC,IAAI;YACJ,SAAS;YACT,aAAa;QACf;IACF;AACF;AAEe,SAASC;IACtB,IAAA,gUAAQ,EAAC;AACX"}}]
-}
