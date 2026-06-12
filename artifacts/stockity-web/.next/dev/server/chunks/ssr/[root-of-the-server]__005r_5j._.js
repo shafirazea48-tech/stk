@@ -2521,22 +2521,38 @@ function Footer() {
                         style: {
                             display: "flex",
                             alignItems: "center",
+                            gap: "0.4vw",
                             textDecoration: "none"
                         },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: LOGO_PNG,
-                            alt: "Stockity",
-                            style: {
-                                height: "2.77778vw",
-                                minHeight: 28,
-                                width: "auto"
-                            }
-                        }, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                            lineNumber: 183,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: LOGO_PNG,
+                                alt: "",
+                                style: {
+                                    height: "2.77778vw",
+                                    minHeight: 28,
+                                    width: "auto"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
+                                lineNumber: 183,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/images/stockity-logo-white.svg",
+                                alt: "Stockity",
+                                style: {
+                                    height: "2vw",
+                                    minHeight: 20,
+                                    width: "auto"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
+                                lineNumber: 188,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
                         lineNumber: 182,
                         columnNumber: 9
@@ -2578,12 +2594,12 @@ function Footer() {
                                                 children: link.label
                                             }, link.label, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                                lineNumber: 212,
+                                                lineNumber: 217,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 202,
+                                        lineNumber: 207,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2595,7 +2611,7 @@ function Footer() {
                                         children: "Stockity provides services only to adult users. Online trading may involve significant financial risks including the risk of losing all funds on your trading account. Please, estimate all the risks and get advice from an independent financial advisor before using Stockity services. We also recommend not to invest funds you can't afford. Stockity isn't responsible for any losses (direct, indirect, or consequential) resulting from the actions of a client on the platform."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 228,
+                                        lineNumber: 233,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2607,13 +2623,13 @@ function Footer() {
                                         children: "© 2022-2026 Stockity. All rights reserved"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 243,
+                                        lineNumber: 248,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                lineNumber: 201,
+                                lineNumber: 206,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2637,7 +2653,7 @@ function Footer() {
                                         children: "Contacts"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 258,
+                                        lineNumber: 263,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2656,7 +2672,7 @@ function Footer() {
                                                 children: "Email"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                                lineNumber: 273,
+                                                lineNumber: 278,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2670,13 +2686,13 @@ function Footer() {
                                                 children: "support@stockity.com"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                                lineNumber: 274,
+                                                lineNumber: 279,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 272,
+                                        lineNumber: 277,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2696,7 +2712,7 @@ function Footer() {
                                                 children: "VERTE SECURITIES LIMITED"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                                lineNumber: 284,
+                                                lineNumber: 289,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2708,13 +2724,13 @@ function Footer() {
                                                 children: "International Business Centre, Suite 8, Pot 820/104, Route Elluk, Port Vila, Vanuatu"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                                lineNumber: 287,
+                                                lineNumber: 292,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 283,
+                                        lineNumber: 288,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2726,7 +2742,7 @@ function Footer() {
                                         children: "Reg No. 700726"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 293,
+                                        lineNumber: 298,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2741,24 +2757,24 @@ function Footer() {
                                                 icon: s.icon
                                             }, s.name, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                                lineNumber: 298,
+                                                lineNumber: 303,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 301,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                                lineNumber: 249,
+                                lineNumber: 254,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
-                        lineNumber: 191,
+                        lineNumber: 196,
                         columnNumber: 9
                     }, this)
                 ]

@@ -179,11 +179,16 @@ export default function Footer() {
         style={{ boxSizing: "border-box", width: "100%", padding: "3.24074vw 1.85185vw" }}
       >
         {/* Logo */}
-        <a href="#" style={{ display: "flex", alignItems: "center", textDecoration: "none" }}>
+        <a href="#" style={{ display: "flex", alignItems: "center", gap: "0.4vw", textDecoration: "none" }}>
           <img
             src={LOGO_PNG}
-            alt="Stockity"
+            alt=""
             style={{ height: "2.77778vw", minHeight: 28, width: "auto" }}
+          />
+          <img
+            src="/images/stockity-logo-white.svg"
+            alt="Stockity"
+            style={{ height: "2vw", minHeight: 20, width: "auto" }}
           />
         </a>
 
