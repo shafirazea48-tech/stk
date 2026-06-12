@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/%28es%29/es/pricing/page.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport { redirect } from \"next/navigation\";\n\nexport const metadata: Metadata = {\n  title: \"Estado y Precios\",\n  description:\n    \"Consulta los planes de cuenta Stockity — Free, Standard, Gold, VIP y Platinum. Encuentra el nivel que se adapta a tus objetivos de trading.\",\n  alternates: {\n    canonical: \"/es/pricing\",\n    languages: {\n      en: \"/pricing\",\n      id: \"/id/pricing\",\n      es: \"/es/pricing\",\n      \"pt-BR\": \"/pt-br/pricing\",\n      \"x-default\": \"/pricing\",\n    },\n  },\n};\n\nexport default function PricingPageEs() {\n  redirect(\"/pricing\");\n}\n"],"names":["metadata","title","description","alternates","canonical","languages","en","id","es","PricingPageEs"],"mappings":";;;;;;AACA;AAAA;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aACE;IACFC,YAAY;QACVC,WAAW;QACXC,WAAW;YACTC,IAAI;YACJC,IAAI;YACJC,IAAI;YACJ,SAAS;YACT,aAAa;QACf;IACF;AACF;AAEe,SAASC;IACtB,IAAA,gUAAQ,EAAC;AACX"}}]
+}
