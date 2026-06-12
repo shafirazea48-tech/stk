@@ -172,147 +172,147 @@ const en = {
 const id = {
     header: {
         nav: {
-            forUsers: "Untuk pengguna",
-            statuses: "Status",
+            forUsers: "Fitur",
+            statuses: "Status Akun",
             tournaments: "Turnamen",
             information: "Informasi",
-            clientAgreement: "Client Agreement",
-            amlPolicy: "AML Policy",
-            copyTradingAgreement: "Copy Trading Agreement",
-            aboutUs: "Tentang kami"
+            clientAgreement: "Perjanjian Klien",
+            amlPolicy: "Kebijakan AML",
+            copyTradingAgreement: "Perjanjian Copy Trading",
+            aboutUs: "Tentang Kami"
         },
         login: "Masuk",
         register: "Daftar"
     },
     hero: {
-        heading: "Stockity. Investasi yang Lebih Jelas",
-        register: "Daftar Sekarang",
-        watch: "Tonton",
+        heading: "Stockity. Investasi jadi lebih mudah",
+        register: "Mulai Gratis",
+        watch: "Lihat Video",
         features: [
-            "Antarmuka intuitif",
-            "140+ aset",
-            "Transaksi aman",
-            "Berlisensi & teregulasi"
+            "Tampilan yang simpel",
+            "140+ aset pilihan",
+            "Transaksi terjamin",
+            "Legal & terpercaya"
         ]
     },
     tradersNeeds: {
-        headingStart: "Platform yang dirancang untuk ",
-        headingHighlight: "pengguna",
-        subheading: "Jelajahi pasar sesuai kecepatan Anda",
-        cta: "Mulai sekarang",
+        headingStart: "Platform yang dibuat khusus buat ",
+        headingHighlight: "kamu",
+        subheading: "Eksplorasi pasar sesuka kamu, kapan pun dan di mana pun",
+        cta: "Coba Sekarang",
         rating: "Rating 4.8",
         ratingShort: "Rating"
     },
     usable: {
-        heading: "Mudah digunakan, andal, aman. Bekerja sesuai yang Anda harapkan",
-        cta: "Mulai trading"
+        heading: "Praktis, andal, aman. Persis seperti yang kamu mau",
+        cta: "Mulai Trading"
     },
     assets: {
-        heading: "140+ aset untuk dijelajahi",
-        cta: "Mulai sekarang"
+        heading: "140+ aset siap dijelajahi",
+        cta: "Coba Sekarang"
     },
     protect: {
-        heading: "Semua yang Anda inginkan dalam satu platform",
+        heading: "Semua yang kamu butuhkan dalam satu platform",
         card1Before: "Perlindungan ",
-        card1Highlight: "dana tingkat tinggi",
-        card1After: " dan transaksi aman",
-        card2Before: "Investasi transparan",
-        card2Highlight: "tanpa biaya tersembunyi"
+        card1Highlight: "dana berlapis",
+        card1After: " dan transaksi yang aman",
+        card2Before: "Investasi transparan,",
+        card2Highlight: "nol biaya tersembunyi"
     },
     copytrading: {
-        heading: "Belajar dari para ahli",
-        text: "Pelajari strategi investasi yang sukses dan terapkan dalam aktivitas Anda",
-        cta: "Mulai sekarang"
+        heading: "Belajar dari sang",
+        text: "Ikuti strategi trader sukses dan langsung terapkan ke portofoliomu",
+        cta: "Coba Sekarang"
     },
     withdraw: {
-        heading: "Deposit & tarik menggunakan metode pembayaran lokal",
-        cta: "Lihat lainnya"
+        heading: "Deposit & tarik dana pakai metode pembayaran lokal",
+        cta: "Lihat Semua"
     },
     device: {
-        heading: "Investasi di mana saja, dengan perangkat apa pun",
+        heading: "Trading di mana aja, pakai perangkat apa aja",
         mobileApps: "Aplikasi Mobile",
         webVersion: "Versi Web",
         webPlatform: "Platform Web",
         open: "Buka",
-        openWebPlatform: "Buka Platform Web"
+        openWebPlatform: "Buka via Browser"
     },
     charity: {
-        heading: "Kami berinvestasi lebih dari sekadar trading. Stockity aktif secara sosial",
-        text: "Kami mendukung perlindungan lingkungan, kesejahteraan hewan, olahraga, dan banyak inisiatif lainnya. Baca selengkapnya untuk melihat bagaimana kami berkontribusi pada komunitas",
-        textMobile: "Kami mendukung perlindungan lingkungan, kesejahteraan hewan, olahraga, dan banyak inisiatif lainnya.",
-        cta: "Pelajari lebih lanjut"
+        heading: "Kami lebih dari sekadar platform trading. Stockity peduli dan aktif berkontribusi",
+        text: "Kami mendukung pelestarian lingkungan, kesejahteraan hewan, dunia olahraga, dan berbagai inisiatif sosial lainnya. Yuk, lihat bagaimana kami nyata berkontribusi untuk komunitas",
+        textMobile: "Kami mendukung lingkungan, kesejahteraan hewan, olahraga, dan banyak inisiatif sosial lainnya.",
+        cta: "Selengkapnya"
     },
     partner: {
-        heading: "Stockity adalah platform online berlisensi dan teregulasi",
-        cta: "Pelajari lebih lanjut"
+        heading: "Stockity adalah platform online yang legal dan teregulasi",
+        cta: "Selengkapnya"
     },
     reviews: {
-        heading: "Jutaan pengguna sudah mempercayai kami"
+        heading: "Jutaan trader sudah percaya Stockity"
     },
     faq: {
-        heading: "FAQ",
+        heading: "Pertanyaan Umum",
         items: [
             {
-                question: "Bagaimana cara memulai?",
+                question: "Gimana cara mulainya?",
                 type: "steps",
                 steps: [
                     "Daftar dalam hitungan detik",
                     "Deposit dengan mudah",
-                    "Belajar secara gratis",
+                    "Belajar gratis tanpa batas",
                     "Prediksi pergerakan aset",
-                    "Tarik kapan saja"
+                    "Tarik kapan pun kamu mau"
                 ]
             },
             {
-                question: "Seberapa cepat penarikan saya diproses?",
+                question: "Berapa lama proses penarikan dana?",
                 type: "highlight",
                 before: "Semua permintaan diproses dalam ",
-                highlight: "1-2 jam",
-                after: ". Tim keuangan kami bekerja sepanjang waktu untuk memastikan transaksi yang cepat dan aman."
+                highlight: "1–2 jam",
+                after: ". Tim keuangan kami siaga 24 jam untuk memastikan transaksimu berjalan cepat dan aman."
             },
             {
-                question: "Bisakah saya berlatih terlebih dahulu?",
+                question: "Bisa latihan dulu sebelum pakai uang sungguhan?",
                 type: "highlight",
-                before: "Ya! Anda mendapatkan ",
-                highlight: "akun demo $10.000",
-                after: " sepenuhnya gratis. Gunakan untuk berlatih strategi trading, menjelajahi aset, dan menguji strategi \u2014 semua tanpa risiko uang nyata."
+                before: "Tentu! Kamu langsung dapat ",
+                highlight: "akun demo senilai $10.000",
+                after: " secara gratis. Latih strategimu, kenali berbagai aset, semua tanpa risiko kehilangan uang."
             },
             {
-                question: "Apakah ada acara khusus?",
+                question: "Ada event atau promo khusus nggak?",
                 type: "plain",
-                text: "Tentu saja! Berlangganan email kami untuk mendapatkan notifikasi tentang aktivitas baru yang dapat Anda ikuti. Kami secara rutin mengadakan turnamen, kontes, dan promosi eksklusif untuk pengguna kami."
+                text: "Ada dong! Daftarkan emailmu biar kamu nggak ketinggalan info event terbaru. Kami rutin bikin turnamen, kontes, dan promo eksklusif yang sayang untuk dilewatkan."
             }
         ]
     },
     join: {
-        headingStart: "Bergabunglah dengan ",
+        headingStart: "Bergabung bersama ",
         headingHighlight: "3,5+ juta",
-        headingEnd: " investor yang menggunakan Stockity",
-        headingMobile1: "Bergabunglah dengan ",
+        headingEnd: " investor pengguna Stockity",
+        headingMobile1: "Bergabung bersama ",
         headingMobile2: "3,5+\u00a0juta",
-        headingMobile3: " investor yang menggunakan",
+        headingMobile3: " investor pengguna",
         cta: "Mulai Sekarang"
     },
     football: {
-        heading: "Pertarungan Sepak Bola",
-        text: "Perdagangkan 5 indeks regional dengan profitabilitas lebih tinggi dan bersaing untuk posisi teratas",
-        cta: "Coba Sekarang!",
-        risk: "Peringatan risiko: modal Anda mungkin berisiko"
+        heading: "Duel Sepak Bola",
+        text: "Trading 5 indeks regional dengan imbal hasil lebih tinggi dan raih posisi puncak leaderboard",
+        cta: "Ikut Sekarang!",
+        risk: "Peringatan: trading berisiko, modal bisa berkurang"
     },
     earth: {
-        label: "pengguna dari 130+ negara mempercayai kami"
+        label: "pengguna dari 130+ negara telah mempercayai kami"
     },
     footer: {
         contacts: "Kontak",
-        disclaimer: "Stockity hanya menyediakan layanan untuk pengguna dewasa. Trading online dapat melibatkan risiko keuangan yang signifikan termasuk risiko kehilangan semua dana di akun trading Anda. Harap perkirakan semua risiko dan dapatkan saran dari penasihat keuangan independen sebelum menggunakan layanan Stockity. Kami juga merekomendasikan untuk tidak menginvestasikan dana yang tidak mampu Anda tanggung kerugiannya. Stockity tidak bertanggung jawab atas kerugian apa pun (langsung, tidak langsung, atau konsekuensial) yang diakibatkan oleh tindakan klien di platform.",
-        copyright: "\u00a9 2022-2026 Stockity. Semua hak dilindungi",
+        disclaimer: "Stockity hanya melayani pengguna yang sudah berusia dewasa. Trading online mengandung risiko finansial yang signifikan, termasuk kemungkinan kehilangan seluruh dana di akun trading kamu. Harap pertimbangkan seluruh risiko dan konsultasikan dengan penasihat keuangan independen sebelum menggunakan layanan Stockity. Jangan investasikan dana yang tidak siap kamu tanggung risikonya. Stockity tidak bertanggung jawab atas kerugian apa pun, baik langsung maupun tidak langsung, akibat tindakan klien di platform.",
+        copyright: "\u00a9 2022\u20132026 Stockity. Hak cipta dilindungi.",
         links: [
             {
-                label: "Tentang kami",
+                label: "Tentang Kami",
                 href: "/id/about"
             },
             {
-                label: "Program afiliasi",
+                label: "Program Afiliasi",
                 href: "#"
             },
             {
@@ -320,11 +320,11 @@ const id = {
                 href: "#"
             },
             {
-                label: "Client Agreement",
+                label: "Perjanjian Klien",
                 href: "/agreement"
             },
             {
-                label: "AML policy",
+                label: "Kebijakan AML",
                 href: "/aml-policy"
             }
         ]
