@@ -3,6 +3,7 @@
   "/(en)/page": "app/(en)/page.js",
   "/(en)/pricing/page": "app/(en)/pricing/page.js",
   "/(en)/tournaments/page": "app/(en)/tournaments/page.js",
+  "/(es)/es/about/page": "app/(es)/es/about/page.js",
   "/(es)/es/page": "app/(es)/es/page.js",
   "/(es)/es/pricing/page": "app/(es)/es/pricing/page.js",
   "/(es)/es/tournaments/page": "app/(es)/es/tournaments/page.js",
