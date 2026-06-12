@@ -187,7 +187,10 @@ export default function Header() {
 
         {/* Right buttons */}
         <div style={{ display: "flex", alignItems: "center", gap: "0.694444vw", flexShrink: 0, marginLeft: "auto" }}>
-          <button
+          <a
+            href="/go"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               boxSizing: "border-box",
               display: "flex",
@@ -204,13 +207,17 @@ export default function Header() {
               whiteSpace: "nowrap",
               maxHeight: "2.77778vw",
               transition: "border-color 0.15s",
+              textDecoration: "none",
             }}
             onMouseEnter={(e) => (e.currentTarget.style.borderColor = "#48a9fa")}
             onMouseLeave={(e) => (e.currentTarget.style.borderColor = "#0c8df8")}
           >
             Log in
-          </button>
-          <button
+          </a>
+          <a
+            href="/go"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               boxSizing: "border-box",
               display: "flex",
@@ -227,6 +234,7 @@ export default function Header() {
               cursor: "pointer",
               whiteSpace: "nowrap",
               transition: "background 0.15s",
+              textDecoration: "none",
             }}
             onMouseEnter={(e) => (e.currentTarget.style.background = "#48a9fa")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "#0c8df8")}
@@ -240,7 +248,7 @@ export default function Header() {
               unoptimized
             />
             Register
-          </button>
+          </a>
           <div style={{ cursor: "pointer", display: "flex", alignItems: "center" }}>
             <img
               src="https://flagcdn.com/w40/gb.png"
@@ -302,7 +310,10 @@ export default function Header() {
 
         {/* Right: Log in + Register buttons + flag */}
         <div style={{ display: "flex", alignItems: "center", gap: "2.22222vw" }}>
-          <button
+          <a
+            href="/go"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               padding: "1.94444vw 3.88889vw",
               fontSize: "16px",
@@ -314,11 +325,15 @@ export default function Header() {
               cursor: "pointer",
               fontFamily: "'Nunito Sans', sans-serif",
               whiteSpace: "nowrap",
+              textDecoration: "none",
             }}
           >
             Log in
-          </button>
-          <button
+          </a>
+          <a
+            href="/go"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               padding: "1.94444vw 3.88889vw",
               fontSize: "16px",
@@ -330,10 +345,11 @@ export default function Header() {
               cursor: "pointer",
               fontFamily: "'Nunito Sans', sans-serif",
               whiteSpace: "nowrap",
+              textDecoration: "none",
             }}
           >
             Register
-          </button>
+          </a>
           <img
             src="https://flagcdn.com/w40/gb.png"
             alt="EN"

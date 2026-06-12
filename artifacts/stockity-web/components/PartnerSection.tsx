@@ -59,7 +59,7 @@ export default function PartnerSection() {
 
           {/* Button — min-height: partner__btn has min-height but we can use btn-primary */}
           <div style={{ marginTop: "2.77778vw" }}>
-            <a href="#" className="btn-primary">
+            <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Learn more
             </a>
           </div>
@@ -106,7 +106,7 @@ export default function PartnerSection() {
             online platform
           </p>
           <div style={{ marginTop: "11.1111vw", width: "100%" }}>
-            <a href="#" className="btn-primary" style={{ width: "100%" }}>
+            <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
               Learn more
             </a>
           </div>

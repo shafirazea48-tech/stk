@@ -33,7 +33,7 @@ export default function AssetsSection() {
           <span style={{ color: "#0C8DF8" }}>140+ assets</span> to explore
         </p>
         <div style={{ marginTop: "auto", marginBottom: "6.94444vw" }}>
-          <a href="#" className="btn-primary">
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
             Start now
           </a>
         </div>
@@ -80,7 +80,7 @@ export default function AssetsSection() {
 
         {/* Button */}
         <div style={{ width: "100%", padding: "8.88889vw 4.44444vw", boxSizing: "border-box" }}>
-          <a href="#" className="btn-primary" style={{ width: "100%" }}>
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
             Start now
           </a>
         </div>

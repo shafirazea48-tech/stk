@@ -128,7 +128,9 @@ export default function DeviceSection() {
               {/* Store buttons row */}
               <div style={{ display: "flex", gap: "1.38889vw", width: "100%" }}>
                 <a
-                  href="#"
+                  href="/go"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
                     flex: 1,
                     display: "flex",
@@ -150,7 +152,9 @@ export default function DeviceSection() {
                   </span>
                 </a>
                 <a
-                  href="#"
+                  href="/go"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
                     flex: 1,
                     display: "flex",
@@ -244,7 +248,9 @@ export default function DeviceSection() {
 
               {/* Open button */}
               <a
-                href="#"
+                href="/go"
+                target="_blank"
+                rel="noopener noreferrer"
                 style={{
                   width: "100%",
                   maxWidth: "352px",
@@ -336,7 +342,9 @@ export default function DeviceSection() {
 
                   {/* Google Play — centered icon + label */}
                   <a
-                    href="#"
+                    href="/go"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -358,7 +366,9 @@ export default function DeviceSection() {
 
                   {/* App Store — centered icon + label */}
                   <a
-                    href="#"
+                    href="/go"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -411,7 +421,9 @@ export default function DeviceSection() {
 
                   {/* Open button — full width */}
                   <a
-                    href="#"
+                    href="/go"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                       display: "flex",
                       alignItems: "center",

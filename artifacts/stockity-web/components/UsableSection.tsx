@@ -49,7 +49,7 @@ export default function UsableSection() {
 
         {/* Button — margin-top: 4.62963vw */}
         <div style={{ marginTop: "4.62963vw" }}>
-          <a href="#" className="btn-primary">
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
             Start trading
           </a>
         </div>
@@ -93,7 +93,7 @@ export default function UsableSection() {
           Works just as you expect
         </p>
         <div style={{ marginTop: "11.1111vw", width: "100%" }}>
-          <a href="#" className="btn-primary" style={{ width: "100%" }}>
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
             Start trading
           </a>
         </div>

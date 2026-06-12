@@ -48,7 +48,7 @@ export default function FootballBannerSection() {
           <p style={{ fontSize: "clamp(13px,1.1vw,18px)", color: "rgba(255,255,255,0.9)", lineHeight: 1.6, marginBottom: "clamp(18px,2.3vw,40px)", maxWidth: "clamp(260px,30vw,500px)", textShadow: "0 1px 4px rgba(0,0,0,0.4)" }}>
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
-          <a href="#" className="btn-primary" style={{ fontFamily: "'Nunito Sans',sans-serif", display: "inline-block", minWidth: "clamp(100px,12vw,180px)" }}>
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ fontFamily: "'Nunito Sans',sans-serif", display: "inline-block", minWidth: "clamp(100px,12vw,180px)" }}>
             Try it!
           </a>
           <p style={{ marginTop: "clamp(8px,1vw,16px)", fontSize: "14px", color: "#ffffff" }}>
@@ -100,7 +100,9 @@ export default function FootballBannerSection() {
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
           <a
-            href="#"
+            href="/go"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary"
             style={{ fontFamily: "'Nunito Sans',sans-serif", display: "block", textAlign: "center", width: "100%", boxSizing: "border-box" }}
           >

@@ -59,7 +59,7 @@ export default function CopytradingSection() {
             Study successful investment strategies and apply them to your routine
           </p>
 
-          <a href="#" className="btn-primary">
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
             Start now
           </a>
         </div>
@@ -116,7 +116,7 @@ export default function CopytradingSection() {
             Study successful investment strategies and apply them to your routine
           </p>
           <div style={{ width: "100%" }}>
-            <a href="#" className="btn-primary" style={{ width: "100%" }}>
+            <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
               Start now
             </a>
           </div>

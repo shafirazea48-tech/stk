@@ -55,7 +55,7 @@ export default function CharitySection() {
             other initiatives. Read more to see how we give back to communities
           </p>
 
-          <a href="#" className="btn-primary">
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
             Learn more
           </a>
         </div>
@@ -104,7 +104,7 @@ export default function CharitySection() {
             We support environmental protection, animal welfare, sports, and many
             other initiatives.
           </p>
-          <a href="#" className="btn-primary" style={{ width: "100%" }}>
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
             Learn more
           </a>
         </div>

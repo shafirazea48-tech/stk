@@ -150,7 +150,9 @@ export default function WithdrawSection() {
           }}
         >
           <a
-            href="#"
+            href="/go"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               boxSizing: "border-box",
               display: "inline-flex",

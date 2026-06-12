@@ -41,7 +41,7 @@ export default function TradersNeedsSection() {
         >
           Explore the market at your own pace
         </p>
-        <a href="#" className="btn-primary">
+        <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary">
           Start now
         </a>
         <div
@@ -121,7 +121,7 @@ export default function TradersNeedsSection() {
           Explore the market at your own pace
         </p>
         <div style={{ width: "100%", marginBottom: "8.88889vw" }}>
-          <a href="#" className="btn-primary" style={{ width: "100%" }}>
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ width: "100%" }}>
             Start now
           </a>
         </div>

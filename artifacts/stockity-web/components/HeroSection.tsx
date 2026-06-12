@@ -124,7 +124,7 @@ export default function HeroSection() {
             marginTop: "3.24074vw",
           }}
         >
-          <a href="#" className="btn-primary hero-btn">
+          <a href="/go" target="_blank" rel="noopener noreferrer" className="btn-primary hero-btn">
             Register Now
           </a>
           <button

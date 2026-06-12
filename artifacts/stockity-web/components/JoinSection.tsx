@@ -40,8 +40,15 @@ export default function JoinSection() {
           </p>
 
           {/* Button — full width, 6.94444vw tall, border-radius: 32px, gradient #0990ff→#00eaff */}
-          <button
+          <a
+            href="/go"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              textDecoration: "none",
               background: "linear-gradient(90deg, #0990ff 0%, #00eaff 100%)",
               height: "6.94444vw",
               width: "100%",
@@ -61,7 +68,7 @@ export default function JoinSection() {
             onMouseLeave={(e) => (e.currentTarget.style.opacity = "1")}
           >
             Start Now
-          </button>
+          </a>
         </div>
       </section>
 
@@ -91,8 +98,15 @@ export default function JoinSection() {
           <br />
           Stockity
         </p>
-        <button
+        <a
+          href="/go"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            textDecoration: "none",
             background: "linear-gradient(90deg, #0990ff 0%, #00eaff 100%)",
             height: "20vw",
             width: "100%",
@@ -109,7 +123,7 @@ export default function JoinSection() {
           }}
         >
           Start Now
-        </button>
+        </a>
       </section>
     </>
   );
