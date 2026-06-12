@@ -73,11 +73,7 @@ export default function FaqSection({ locale }: { locale?: Locale }) {
   const faqs = t.faq.items;
 
   return (
-    <section
-      style={{ background: "#000" }}
-      itemScope
-      itemType="https://schema.org/FAQPage"
-    >
+    <section style={{ background: "#000" }}>
       {/* Mobile */}
       <div className="block md:hidden" style={{ padding: "0 4.44444vw 11.1111vw" }}>
         <p
@@ -104,9 +100,6 @@ export default function FaqSection({ locale }: { locale?: Locale }) {
                 borderRadius: "3.33333vw",
                 overflow: "hidden",
               }}
-              itemScope
-              itemType="https://schema.org/Question"
-              itemProp="mainEntity"
             >
               <button
                 style={{
@@ -125,7 +118,6 @@ export default function FaqSection({ locale }: { locale?: Locale }) {
               >
                 <span
                   style={{ fontSize: "4.44444vw", lineHeight: "6.11111vw", fontWeight: 700, color: "#F4F4F6", flex: 1, fontFamily: "'Nunito Sans', sans-serif" }}
-                  itemProp="name"
                 >
                   {faq.question}
                 </span>
@@ -133,13 +125,8 @@ export default function FaqSection({ locale }: { locale?: Locale }) {
               </button>
 
               {openIndex === index && (
-                <div
-                  style={{ padding: "0 4.44444vw 4.44444vw" }}
-                  itemScope
-                  itemType="https://schema.org/Answer"
-                  itemProp="acceptedAnswer"
-                >
-                  <div itemProp="text" style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
+                <div style={{ padding: "0 4.44444vw 4.44444vw" }}>
+                  <div style={{ fontFamily: "'Nunito Sans', sans-serif" }}>
                     <FaqAnswer item={faq} mobile />
                   </div>
                 </div>
@@ -175,9 +162,6 @@ export default function FaqSection({ locale }: { locale?: Locale }) {
                 borderRadius: "0.925926vw",
                 overflow: "hidden",
               }}
-              itemScope
-              itemType="https://schema.org/Question"
-              itemProp="mainEntity"
             >
               <button
                 style={{
@@ -204,7 +188,6 @@ export default function FaqSection({ locale }: { locale?: Locale }) {
                     flex: 1,
                     fontFamily: "'Nunito Sans', sans-serif",
                   }}
-                  itemProp="name"
                 >
                   {faq.question}
                 </span>
@@ -212,13 +195,8 @@ export default function FaqSection({ locale }: { locale?: Locale }) {
               </button>
 
               {openIndex === index && (
-                <div
-                  style={{ padding: "0 1.85185vw 1.85185vw" }}
-                  itemScope
-                  itemType="https://schema.org/Answer"
-                  itemProp="acceptedAnswer"
-                >
-                  <div itemProp="text">
+                <div style={{ padding: "0 1.85185vw 1.85185vw" }}>
+                  <div>
                     <FaqAnswer item={faq} />
                   </div>
                 </div>

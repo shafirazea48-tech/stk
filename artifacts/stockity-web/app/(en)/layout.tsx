@@ -127,6 +127,44 @@ const jsonLd = {
         availableLanguage: ["English", "Indonesian", "Spanish"],
       },
     },
+    {
+      "@type": "FAQPage",
+      "@id": `${siteUrl}/#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "How do I start?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "1. Register in seconds\n2. Deposit easily\n3. Learn for free\n4. Predict assets moves\n5. Withdraw anytime",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How fast will I get my withdrawals?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "All requests are processed within 1-2 hours. Our financial team works around the clock to ensure fast and secure transactions.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I practice first?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes! You get a $10,000 demo account completely free. Use it to practice trading strategies, explore assets, and test strategies — all with no real money at risk.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Are there any special events?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Of course! Subscribe to our e-mails to get notified about new activities you can participate in. We regularly host tournaments, contests, and exclusive promotions for our users.",
+          },
+        },
+      ],
+    },
   ],
 };
 

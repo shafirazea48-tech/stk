@@ -4779,8 +4779,6 @@ function FaqSection({ locale }) {
         style: {
             background: "#000"
         },
-        itemScope: true,
-        itemType: "https://schema.org/FAQPage",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "block md:hidden",
@@ -4801,7 +4799,7 @@ function FaqSection({ locale }) {
                         children: t.faq.heading
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 83,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4817,9 +4815,6 @@ function FaqSection({ locale }) {
                                     borderRadius: "3.33333vw",
                                     overflow: "hidden"
                                 },
-                                itemScope: true,
-                                itemType: "https://schema.org/Question",
-                                itemProp: "mainEntity",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         style: {
@@ -4845,35 +4840,30 @@ function FaqSection({ locale }) {
                                                     flex: 1,
                                                     fontFamily: "'Nunito Sans', sans-serif"
                                                 },
-                                                itemProp: "name",
                                                 children: faq.question
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 119,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronIcon, {
                                                 open: openIndex === index
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 132,
+                                                lineNumber: 124,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 111,
+                                        lineNumber: 104,
                                         columnNumber: 15
                                     }, this),
                                     openIndex === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
                                             padding: "0 4.44444vw 4.44444vw"
                                         },
-                                        itemScope: true,
-                                        itemType: "https://schema.org/Answer",
-                                        itemProp: "acceptedAnswer",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            itemProp: "text",
                                             style: {
                                                 fontFamily: "'Nunito Sans', sans-serif"
                                             },
@@ -4882,34 +4872,34 @@ function FaqSection({ locale }) {
                                                 mobile: true
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 143,
+                                                lineNumber: 130,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 129,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 136,
+                                        lineNumber: 128,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, faq.question, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                lineNumber: 99,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 97,
+                        lineNumber: 93,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                lineNumber: 82,
+                lineNumber: 78,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4931,7 +4921,7 @@ function FaqSection({ locale }) {
                         children: t.faq.heading
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 154,
+                        lineNumber: 141,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4947,9 +4937,6 @@ function FaqSection({ locale }) {
                                     borderRadius: "0.925926vw",
                                     overflow: "hidden"
                                 },
-                                itemScope: true,
-                                itemType: "https://schema.org/Question",
-                                itemProp: "mainEntity",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         style: {
@@ -4976,67 +4963,62 @@ function FaqSection({ locale }) {
                                                     flex: 1,
                                                     fontFamily: "'Nunito Sans', sans-serif"
                                                 },
-                                                itemProp: "name",
                                                 children: faq.question
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 198,
+                                                lineNumber: 182,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronIcon, {
                                                 open: openIndex === index
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 211,
+                                                lineNumber: 194,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 182,
+                                        lineNumber: 166,
                                         columnNumber: 15
                                     }, this),
                                     openIndex === index && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
                                             padding: "0 1.85185vw 1.85185vw"
                                         },
-                                        itemScope: true,
-                                        itemType: "https://schema.org/Answer",
-                                        itemProp: "acceptedAnswer",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            itemProp: "text",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FaqAnswer, {
                                                 item: faq
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                                lineNumber: 222,
+                                                lineNumber: 200,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                            lineNumber: 221,
+                                            lineNumber: 199,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                        lineNumber: 215,
+                                        lineNumber: 198,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, faq.question, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                                lineNumber: 170,
+                                lineNumber: 157,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                        lineNumber: 168,
+                        lineNumber: 155,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/FaqSection.tsx",
-                lineNumber: 153,
+                lineNumber: 140,
                 columnNumber: 7
             }, this)
         ]

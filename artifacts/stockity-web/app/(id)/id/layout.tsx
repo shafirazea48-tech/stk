@@ -104,6 +104,44 @@ const jsonLd = {
       areaServed: "ID",
       availableLanguage: ["Indonesian"],
     },
+    {
+      "@type": "FAQPage",
+      "@id": `${siteUrl}/id#faq`,
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Gimana cara mulainya?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "1. Daftar dalam hitungan detik\n2. Deposit dengan mudah\n3. Belajar gratis tanpa batas\n4. Prediksi pergerakan aset\n5. Tarik kapan pun kamu mau",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Berapa lama proses penarikan dana?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Semua permintaan diproses dalam 1–2 jam. Tim keuangan kami siaga 24 jam untuk memastikan transaksimu berjalan cepat dan aman.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Bisa latihan dulu sebelum pakai uang sungguhan?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Tentu! Kamu langsung dapat akun demo senilai $10.000 secara gratis. Latih strategimu, kenali berbagai aset, semua tanpa risiko kehilangan uang.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Ada event atau promo khusus nggak?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Ada dong! Daftarkan emailmu biar kamu nggak ketinggalan info event terbaru. Kami rutin bikin turnamen, kontes, dan promo eksklusif yang sayang untuk dilewatkan.",
+          },
+        },
+      ],
+    },
   ],
 };
 

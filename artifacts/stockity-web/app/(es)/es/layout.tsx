@@ -70,6 +70,54 @@ export const metadata: Metadata = {
   },
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": `${siteUrl}/es#faq`,
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "¿Cómo empiezo?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "1. Regístrate en segundos\n2. Deposita fácilmente\n3. Aprende gratis\n4. Predice el movimiento de activos\n5. Retira cuando quieras",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Cuánto tarda un retiro?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Todos los pedidos se procesan en 1-2 horas. Nuestro equipo financiero trabaja las 24 horas para garantizar operaciones rápidas y seguras.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Puedo practicar antes de operar con dinero real?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "¡Claro! Obtienes una cuenta demo de $10,000 completamente gratis. Practica estrategias, explora activos y aprende sin arriesgar tu dinero.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "¿Hay eventos o promociones especiales?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "¡Por supuesto! Suscríbete a nuestros correos para enterarte de nuevas actividades. Organizamos torneos, concursos y promociones exclusivas de forma regular.",
+      },
+    },
+  ],
+};
+
 export default function EsLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
+      {children}
+    </>
+  );
 }
