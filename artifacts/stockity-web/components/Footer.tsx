@@ -213,7 +213,7 @@ export default function Footer() {
                   key={link.label}
                   href={link.href}
                   style={{
-                    fontSize: "14px",
+                    fontSize: "16px",
                     lineHeight: "24px",
                     color: "#f4f4f6",
                     textDecoration: "underline",
@@ -284,13 +284,13 @@ export default function Footer() {
               <p style={{ fontSize: "14px", lineHeight: "24px", color: "#f4f4f6", fontWeight: 600 }}>
                 VERTE SECURITIES LIMITED
               </p>
-              <p style={{ fontSize: "12px", lineHeight: "20px", color: "#82889b" }}>
+              <p style={{ fontSize: "14px", lineHeight: "22px", color: "#82889b" }}>
                 International Business Centre, Suite 8, Pot 820/104, Route Elluk, Port Vila, Vanuatu
               </p>
             </div>
 
             {/* Reg No */}
-            <p style={{ fontSize: "12px", lineHeight: "20px", color: "#82889b" }}>Reg No. 700726</p>
+            <p style={{ fontSize: "14px", lineHeight: "22px", color: "#82889b" }}>Reg No. 700726</p>
 
             {/* Socials */}
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.925926vw" }}>
