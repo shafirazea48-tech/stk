@@ -135,6 +135,7 @@ export default function EnLayout({
         <link rel="alternate" hrefLang="en" href={siteUrl} />
         <link rel="alternate" hrefLang="id" href={`${siteUrl}/id`} />
         <link rel="alternate" hrefLang="es" href={`${siteUrl}/es`} />
+        <link rel="alternate" hrefLang="pt-BR" href={`${siteUrl}/pt`} />
         <link rel="alternate" hrefLang="x-default" href={siteUrl} />
         <script
           type="application/ld+json"

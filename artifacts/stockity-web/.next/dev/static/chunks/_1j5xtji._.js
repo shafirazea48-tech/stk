@@ -491,10 +491,172 @@ const es = {
         ]
     }
 };
+const pt = {
+    header: {
+        nav: {
+            forUsers: "Recursos",
+            statuses: "Status",
+            tournaments: "Torneios",
+            information: "Informa\u00e7\u00f5es",
+            clientAgreement: "Contrato do Cliente",
+            amlPolicy: "Pol\u00edtica AML",
+            copyTradingAgreement: "Contrato de Copy Trading",
+            aboutUs: "Sobre n\u00f3s"
+        },
+        login: "Entrar",
+        register: "Cadastrar"
+    },
+    hero: {
+        heading: "Stockity. Invista de forma mais inteligente",
+        register: "Come\u00e7ar gr\u00e1tis",
+        watch: "Ver v\u00eddeo",
+        features: [
+            "Interface simples",
+            "140+ ativos",
+            "Transa\u00e7\u00f5es seguras",
+            "Legal e regulado"
+        ]
+    },
+    tradersNeeds: {
+        headingStart: "Uma plataforma feita para ",
+        headingHighlight: "voc\u00ea",
+        subheading: "Explore o mercado no seu ritmo, quando e onde quiser",
+        cta: "Come\u00e7ar agora",
+        rating: "Avalia\u00e7\u00e3o 4.8",
+        ratingShort: "Avalia\u00e7\u00e3o"
+    },
+    usable: {
+        heading: "F\u00e1cil, confi\u00e1vel e seguro. Do jeito que voc\u00ea esperava",
+        cta: "Come\u00e7ar a operar"
+    },
+    assets: {
+        heading: "Mais de 140 ativos para explorar",
+        cta: "Come\u00e7ar agora"
+    },
+    protect: {
+        heading: "Tudo o que voc\u00ea precisa em uma plataforma",
+        card1Before: "Prote\u00e7\u00e3o ",
+        card1Highlight: "de fundos de alto n\u00edvel",
+        card1After: " e transa\u00e7\u00f5es seguras",
+        card2Before: "Investimento transparente,",
+        card2Highlight: "sem taxas ocultas"
+    },
+    copytrading: {
+        heading: "Aprenda com os",
+        text: "Siga as estrat\u00e9gias dos traders mais bem-sucedidos e aplique no seu portf\u00f3lio",
+        cta: "Come\u00e7ar agora"
+    },
+    withdraw: {
+        heading: "Deposite e saque com m\u00e9todos de pagamento locais",
+        cta: "Ver mais"
+    },
+    device: {
+        heading: "Invista onde quiser, em qualquer dispositivo",
+        mobileApps: "Apps Mobile",
+        webVersion: "Vers\u00e3o Web",
+        webPlatform: "Plataforma Web",
+        open: "Abrir",
+        openWebPlatform: "Abrir no navegador"
+    },
+    charity: {
+        heading: "Vamos al\u00e9m do trading. A Stockity \u00e9 socialmente ativa",
+        text: "Apoiamos a prote\u00e7\u00e3o ambiental, o bem-estar animal, o esporte e muitas outras iniciativas. Veja como contribu\u00edmos com a comunidade",
+        textMobile: "Apoiamos o meio ambiente, o bem-estar animal, o esporte e muitas outras iniciativas.",
+        cta: "Saiba mais"
+    },
+    partner: {
+        heading: "A Stockity \u00e9 uma plataforma online legal e regulamentada",
+        cta: "Saiba mais"
+    },
+    reviews: {
+        heading: "Milh\u00f5es de traders j\u00e1 confiam na Stockity"
+    },
+    faq: {
+        heading: "Perguntas frequentes",
+        items: [
+            {
+                question: "Como eu come\u00e7o?",
+                type: "steps",
+                steps: [
+                    "Cadastre-se em segundos",
+                    "Deposite com facilidade",
+                    "Aprenda de gra\u00e7a",
+                    "Preveja o movimento dos ativos",
+                    "Saque quando quiser"
+                ]
+            },
+            {
+                question: "Quanto tempo leva um saque?",
+                type: "highlight",
+                before: "Todos os pedidos s\u00e3o processados em ",
+                highlight: "1 a 2 horas",
+                after: ". Nossa equipe financeira trabalha 24 horas por dia para garantir transa\u00e7\u00f5es r\u00e1pidas e seguras."
+            },
+            {
+                question: "Posso praticar antes de investir de verdade?",
+                type: "highlight",
+                before: "Claro! Voc\u00ea recebe uma ",
+                highlight: "conta demo de $10.000",
+                after: " completamente de gra\u00e7a. Pratique estrat\u00e9gias, explore ativos e aprenda sem arriscar seu dinheiro."
+            },
+            {
+                question: "Tem eventos ou promo\u00e7\u00f5es especiais?",
+                type: "plain",
+                text: "Com certeza! Assine nossos e-mails para ficar por dentro das novidades. Realizamos torneios, concursos e promo\u00e7\u00f5es exclusivas com frequ\u00eancia."
+            }
+        ]
+    },
+    join: {
+        headingStart: "Junte-se aos ",
+        headingHighlight: "3,5+ milh\u00f5es",
+        headingEnd: " de investidores que usam a Stockity",
+        headingMobile1: "Junte-se aos ",
+        headingMobile2: "3,5+\u00a0milh\u00f5es",
+        headingMobile3: " de investidores que usam",
+        cta: "Come\u00e7ar agora"
+    },
+    football: {
+        heading: "Batalha de Futebol",
+        text: "Opere 5 \u00edndices regionais com maior rentabilidade e dispute as primeiras posi\u00e7\u00f5es do ranking",
+        cta: "Participar agora!",
+        risk: "Aviso de risco: seu capital pode estar em risco"
+    },
+    earth: {
+        label: "usu\u00e1rios de mais de 130 pa\u00edses confiam em n\u00f3s"
+    },
+    footer: {
+        contacts: "Contato",
+        disclaimer: "A Stockity presta servi\u00e7os exclusivamente a usu\u00e1rios adultos. O trading online pode envolver riscos financeiros significativos, incluindo a perda total dos fundos da sua conta. Avalie todos os riscos e consulte um assessor financeiro independente antes de usar os servi\u00e7os da Stockity. N\u00e3o invista dinheiro que voc\u00ea n\u00e3o pode se dar ao luxo de perder. A Stockity n\u00e3o \u00e9 respons\u00e1vel por quaisquer perdas, diretas ou indiretas, decorrentes das a\u00e7\u00f5es do cliente na plataforma.",
+        copyright: "\u00a9 2022\u20132026 Stockity. Todos os direitos reservados.",
+        links: [
+            {
+                label: "Sobre n\u00f3s",
+                href: "/pt/about"
+            },
+            {
+                label: "Programa de afiliados",
+                href: "#"
+            },
+            {
+                label: "Pol\u00edtica de privacidade",
+                href: "#"
+            },
+            {
+                label: "Contrato do Cliente",
+                href: "/agreement"
+            },
+            {
+                label: "Pol\u00edtica AML",
+                href: "/aml-policy"
+            }
+        ]
+    }
+};
 const translations = {
     en,
     id,
-    es
+    es,
+    pt
 };
 function getT(locale) {
     return translations[locale];
