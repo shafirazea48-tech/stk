@@ -400,12 +400,6 @@
   }
 
   @media (min-width: 48rem) {
-    .md\:grid {
-      display: grid;
-    }
-  }
-
-  @media (min-width: 48rem) {
     .md\:hidden {
       display: none;
     }
@@ -490,14 +484,6 @@ body {
 .btn-outline:hover {
   background: #ffffff0f;
   border-color: #ffffff80;
-}
-
-@media (max-width: 767px) {
-  .hero-sub {
-    max-width: 85vw !important;
-    font-size: 4.44444vw !important;
-    line-height: 6.66667vw !important;
-  }
 }
 
 @keyframes scroll-left {
