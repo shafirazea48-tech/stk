@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 const features = [
   {
     text: "Intuitive interface",
@@ -27,6 +29,8 @@ const LicensedIcon = () => (
 );
 
 export default function HeroSection() {
+  const [videoOpen, setVideoOpen] = useState(false);
+
   return (
     <section
       className="hero-section"
@@ -113,8 +117,8 @@ export default function HeroSection() {
           <a href="#" className="btn-primary hero-btn">
             Register Now
           </a>
-          <a
-            href="#"
+          <button
+            onClick={() => setVideoOpen(true)}
             className="hero-btn-outline"
             style={{
               display: "inline-flex",
@@ -124,7 +128,10 @@ export default function HeroSection() {
               fontFamily: "'Nunito Sans', sans-serif",
               fontWeight: 700,
               fontSize: "0.972222vw",
-              textDecoration: "none",
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              padding: 0,
               opacity: 0.85,
             }}
           >
@@ -132,8 +139,8 @@ export default function HeroSection() {
               <circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/>
               <path d="M10 8l6 4-6 4V8z" fill="rgba(255,255,255,0.9)"/>
             </svg>
-            Watch demo
-          </a>
+            Watch
+          </button>
         </div>
 
         {/* Feature chips */}
@@ -263,6 +270,70 @@ export default function HeroSection() {
           }
         }
       `}</style>
+
+      {/* Video Modal — lazy: video only mounts when open */}
+      {videoOpen && (
+        <div
+          onClick={() => setVideoOpen(false)}
+          style={{
+            position: "fixed",
+            inset: 0,
+            zIndex: 9999,
+            background: "rgba(0,0,0,0.85)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "20px",
+            boxSizing: "border-box",
+          }}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            style={{
+              position: "relative",
+              width: "100%",
+              maxWidth: 900,
+              borderRadius: 12,
+              overflow: "hidden",
+              background: "#000",
+              boxShadow: "0 24px 80px rgba(0,0,0,0.7)",
+            }}
+          >
+            {/* Close button */}
+            <button
+              onClick={() => setVideoOpen(false)}
+              style={{
+                position: "absolute",
+                top: 12,
+                right: 12,
+                zIndex: 10,
+                background: "rgba(0,0,0,0.6)",
+                border: "none",
+                borderRadius: "50%",
+                width: 36,
+                height: 36,
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#fff",
+                fontSize: 20,
+                lineHeight: 1,
+              }}
+              aria-label="Close"
+            >
+              ×
+            </button>
+            <video
+              src="/videos/stockity-promo.mp4"
+              controls
+              autoPlay
+              playsInline
+              style={{ width: "100%", display: "block", maxHeight: "80vh" }}
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 }
