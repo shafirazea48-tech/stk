@@ -1,99 +1,17 @@
+"use client";
 import Header from "@/components/Header";
 
 const CheckIcon = ({ checked }: { checked: boolean }) =>
   checked ? (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
-      <circle cx="8" cy="8" r="8" fill="#0990ff" opacity="0.15" />
-      <path d="M4.5 8l2.5 2.5 4.5-4.5" stroke="#0990ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" style={{ flexShrink: 0, marginTop: 1 }}>
+      <circle cx="9" cy="9" r="9" fill="rgba(9,144,255,0.15)" />
+      <path d="M5 9l3 3 5-5" stroke="#0c8df8" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   ) : (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ flexShrink: 0 }}>
-      <path d="M4.5 4.5l7 7M11.5 4.5l-7 7" stroke="#82889b" strokeWidth="1.5" strokeLinecap="round" />
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" style={{ flexShrink: 0, marginTop: 1 }}>
+      <path d="M5.5 5.5l7 7M12.5 5.5l-7 7" stroke="rgba(130,136,155,0.5)" strokeWidth="1.6" strokeLinecap="round" />
     </svg>
   );
-
-const DiamondFree = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-    <path d="M20 4L36 14V26L20 36L4 26V14L20 4Z" fill="none" stroke="#82889b" strokeWidth="1.5" />
-    <path d="M20 4L36 14H4L20 4Z" fill="#82889b" opacity="0.2" />
-  </svg>
-);
-
-const DiamondSilver = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-    <path d="M20 4L36 14V26L20 36L4 26V14L20 4Z" fill="url(#silverGrad)" />
-    <defs>
-      <linearGradient id="silverGrad" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#e0e0e0" />
-        <stop offset="1" stopColor="#9e9e9e" />
-      </linearGradient>
-    </defs>
-  </svg>
-);
-
-const DiamondGold = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-    <path d="M20 4L36 14V26L20 36L4 26V14L20 4Z" fill="url(#goldGrad)" />
-    <defs>
-      <linearGradient id="goldGrad" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#ffe066" />
-        <stop offset="1" stopColor="#b8860b" />
-      </linearGradient>
-    </defs>
-  </svg>
-);
-
-const DiamondVIP = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-    <path d="M20 4L36 14V26L20 36L4 26V14L20 4Z" fill="url(#vipGrad)" />
-    <defs>
-      <linearGradient id="vipGrad" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#64b5f6" />
-        <stop offset="1" stopColor="#0d47a1" />
-      </linearGradient>
-    </defs>
-  </svg>
-);
-
-const DiamondPlatinum = () => (
-  <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
-    <path d="M20 4L36 14V26L20 36L4 26V14L20 4Z" fill="url(#platGrad)" />
-    <defs>
-      <linearGradient id="platGrad" x1="4" y1="4" x2="36" y2="36" gradientUnits="userSpaceOnUse">
-        <stop stopColor="#ce93d8" />
-        <stop offset="1" stopColor="#6a1b9a" />
-      </linearGradient>
-    </defs>
-  </svg>
-);
-
-const FastWithdrawIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <path d="M10 2v8l4 4" stroke="#0990ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-    <circle cx="10" cy="10" r="8" stroke="#0990ff" strokeWidth="1.5" />
-  </svg>
-);
-
-const RiskFreeIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <path d="M10 2L3 6v5c0 4 3 7 7 7s7-3 7-7V6L10 2Z" stroke="#0990ff" strokeWidth="1.5" strokeLinejoin="round" />
-    <path d="M7 10l2 2 4-4" stroke="#0990ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>
-);
-
-const CashbackIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <circle cx="10" cy="10" r="8" stroke="#a78bfa" strokeWidth="1.5" />
-    <path d="M7 10h6M10 7v6" stroke="#a78bfa" strokeWidth="1.5" strokeLinecap="round" />
-  </svg>
-);
-
-const InsuranceIcon = () => (
-  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-    <path d="M10 2L3 6v5c0 4 3 7 7 7s7-3 7-7V6L10 2Z" stroke="#a78bfa" strokeWidth="1.5" strokeLinejoin="round" />
-    <path d="M10 8v4M10 13.5v.5" stroke="#a78bfa" strokeWidth="1.5" strokeLinecap="round" />
-  </svg>
-);
 
 const allFeatures = [
   "Risk-free trades to protect your investments from losses",
@@ -107,109 +25,133 @@ const allFeatures = [
   "Deposit insurance",
 ];
 
-const tiers = [
+type Tier = {
+  id: string;
+  name: string;
+  accentColor: string;
+  cardBg: string;
+  border: string;
+  mostPopular: boolean;
+  gemColor: string;
+  mainStat: { value: string; label: string } | null;
+  statBoxes: { value: string; label: string }[];
+  topFeatures: { color: string; title: string; desc: string }[] | null;
+  rows: { label: string; value: string; linkColor?: string }[];
+  checkedFeatures: number[];
+  cta: string;
+};
+
+const tiers: Tier[] = [
   {
     id: "free",
     name: "Free",
-    icon: <DiamondFree />,
-    dark: false,
-    purple: false,
+    accentColor: "#82889b",
+    cardBg: "rgba(255,255,255,0.04)",
+    border: "1px solid rgba(255,255,255,0.08)",
     mostPopular: false,
-    stats: [
-      { label: "30 trades", sub: "on demo account" },
+    gemColor: "#82889b",
+    mainStat: null,
+    statBoxes: [{ value: "30", label: "trades on demo" }, { value: "100+", label: "assets" }],
+    topFeatures: null,
+    rows: [
+      { label: "Withdrawals", value: "—" },
+      { label: "Invite Friends", value: "—" },
+      { label: "Deposit bonuses", value: "—" },
     ],
-    statRight: null,
-    withdrawals: "—",
-    inviteFriends: "—",
-    depositBonuses: "—",
     checkedFeatures: [],
     cta: "Registration",
-    ctaStyle: "gradient",
   },
   {
     id: "standard",
     name: "Standard",
-    icon: <DiamondSilver />,
-    dark: false,
-    purple: false,
+    accentColor: "#c0c8d8",
+    cardBg: "rgba(255,255,255,0.04)",
+    border: "1px solid rgba(255,255,255,0.08)",
     mostPopular: false,
-    stats: [
-      { label: "up to 85%", sub: "profitability" },
+    gemColor: "#c0c8d8",
+    mainStat: { value: "up to 85%", label: "profitability" },
+    statBoxes: [{ value: "120+", label: "assets" }],
+    topFeatures: null,
+    rows: [
+      { label: "Withdrawals", value: "3 days" },
+      { label: "Invite Friends", value: "up to $50", linkColor: "#0c8df8" },
+      { label: "Deposit bonuses", value: "up to 100%" },
     ],
-    statRight: { label: "120+", sub: "assets" },
-    withdrawals: "3 days",
-    inviteFriends: "up to $50",
-    depositBonuses: "up to 100%",
     checkedFeatures: [],
     cta: "Get",
-    ctaStyle: "gradient",
   },
   {
     id: "gold",
     name: "Gold",
-    icon: <DiamondGold />,
-    dark: false,
-    purple: false,
+    accentColor: "#f5c842",
+    cardBg: "rgba(255,255,255,0.04)",
+    border: "1px solid rgba(255,255,255,0.08)",
     mostPopular: false,
-    stats: [
-      { label: "up to 90%", sub: "profitability" },
+    gemColor: "#f5c842",
+    mainStat: { value: "up to 90%", label: "profitability" },
+    statBoxes: [{ value: "130+", label: "assets" }, { value: "3%", label: "cashback" }],
+    topFeatures: null,
+    rows: [
+      { label: "Withdrawals", value: "24 hours" },
+      { label: "Invite Friends", value: "up to $50", linkColor: "#0c8df8" },
+      { label: "Deposit bonuses", value: "up to 150%" },
     ],
-    statRight: { label: "130+", sub: "assets" },
-    statExtra: { label: "3%", sub: "cashback" },
-    withdrawals: "24 hours",
-    inviteFriends: "up to $50",
-    depositBonuses: "up to 150%",
     checkedFeatures: [],
     cta: "Get",
-    ctaStyle: "gradient",
   },
   {
     id: "vip",
     name: "VIP",
-    icon: <DiamondVIP />,
-    dark: true,
-    purple: false,
+    accentColor: "#0c8df8",
+    cardBg: "linear-gradient(160deg, #0d2144 0%, #071528 100%)",
+    border: "1px solid rgba(12,141,248,0.3)",
     mostPopular: true,
+    gemColor: "#4da6ff",
+    mainStat: { value: "up to 90%", label: "profitability" },
+    statBoxes: [{ value: "140+", label: "assets" }, { value: "7%", label: "cashback" }],
     topFeatures: [
-      { icon: <FastWithdrawIcon />, title: "Fast withdraw", desc: "Get your funds in 4 hours or less" },
-      { icon: <RiskFreeIcon />, title: "Risk-free trades", desc: "Profit from successful trades and forget the unsuccessful" },
+      { color: "#0c8df8", title: "Fast withdraw", desc: "Get your funds in 4 hours or less" },
+      { color: "#0c8df8", title: "Risk-free trades", desc: "Profit from successful trades and forget the unsuccessful" },
     ],
-    stats: [
-      { label: "up to 90%", sub: "profitability" },
+    rows: [
+      { label: "Withdrawals", value: "4 hours" },
+      { label: "Invite Friends", value: "up to $850", linkColor: "#4da6ff" },
+      { label: "Deposit bonuses", value: "up to 200%" },
     ],
-    statRight: { label: "140+", sub: "assets" },
-    statExtra: { label: "7%", sub: "cashback" },
-    withdrawals: "4 hours",
-    inviteFriends: "up to $850",
-    depositBonuses: "up to 200%",
     checkedFeatures: [0, 1, 2, 3, 4, 5],
     cta: "Get",
-    ctaStyle: "gradient",
   },
   {
     id: "platinum",
     name: "Platinum",
-    icon: <DiamondPlatinum />,
-    dark: false,
-    purple: true,
+    accentColor: "#a78bfa",
+    cardBg: "linear-gradient(160deg, #1e1040 0%, #120a2e 100%)",
+    border: "1px solid rgba(167,139,250,0.3)",
     mostPopular: false,
+    gemColor: "#a78bfa",
+    mainStat: { value: "up to 90%", label: "profitability" },
+    statBoxes: [{ value: "140+", label: "assets" }, { value: "10%", label: "cashback" }],
     topFeatures: [
-      { icon: <CashbackIcon />, title: "Cashback Plus", desc: "Additional 5% compensation for unsuccessful trades every month" },
-      { icon: <InsuranceIcon />, title: "Deposit insurance", desc: "Use your money with more certainty. Increased deposit insurance can help" },
+      { color: "#a78bfa", title: "Cashback Plus", desc: "Additional 5% compensation for unsuccessful trades every month" },
+      { color: "#a78bfa", title: "Deposit insurance", desc: "Use your money with more certainty. Increased deposit insurance can help" },
     ],
-    stats: [
-      { label: "up to 90%", sub: "profitability" },
+    rows: [
+      { label: "Withdrawals", value: "4 hours" },
+      { label: "Invite Friends", value: "up to $850", linkColor: "#a78bfa" },
+      { label: "Deposit bonuses", value: "up to 300%" },
     ],
-    statRight: { label: "140+", sub: "assets" },
-    statExtra: { label: "10%", sub: "cashback" },
-    withdrawals: "4 hours",
-    inviteFriends: "up to $850",
-    depositBonuses: "up to 300%",
     checkedFeatures: [0, 1, 2, 3, 4, 5, 6, 7, 8],
     cta: "Get",
-    ctaStyle: "gradient",
   },
 ];
+
+const GemIcon = ({ color }: { color: string }) => (
+  <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+    <path d="M18 3L32 11V25L18 33L4 25V11L18 3Z" fill={color} opacity="0.25" />
+    <path d="M18 3L32 11V25L18 33L4 25V11L18 3Z" stroke={color} strokeWidth="1.5" />
+    <path d="M18 3L32 11H4L18 3Z" fill={color} opacity="0.4" />
+  </svg>
+);
 
 export default function PricingPage() {
   return (
@@ -218,45 +160,32 @@ export default function PricingPage() {
       <main
         style={{
           minHeight: "100vh",
-          backgroundColor: "#151723",
-          paddingTop: "6.25vw",
+          backgroundColor: "#0e1120",
+          paddingTop: "calc(5.55556vw + 60px)",
           paddingBottom: "5.55556vw",
           boxSizing: "border-box",
         }}
       >
-        <div
-          style={{
-            maxWidth: "1440px",
-            margin: "0 auto",
-            padding: "0 1.85185vw",
-            boxSizing: "border-box",
-          }}
-        >
-          {/* Title row */}
-          <div
-            style={{
-              display: "flex",
-              alignItems: "flex-start",
-              justifyContent: "space-between",
-              marginBottom: "3.47222vw",
-            }}
-          >
+        {/* Page header */}
+        <div style={{ padding: "0 3.70370vw", marginBottom: "3.70370vw" }}>
+          <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between" }}>
             <div>
               <h1
                 style={{
-                  fontSize: "clamp(28px, 3.47222vw, 60px)",
+                  fontSize: "clamp(32px, 3.88889vw, 64px)",
                   fontWeight: 800,
                   color: "#f4f4f6",
                   margin: 0,
-                  lineHeight: 1.15,
+                  lineHeight: 1.1,
+                  letterSpacing: "-0.02em",
                 }}
               >
                 Statuses
               </h1>
               <p
                 style={{
-                  marginTop: "0.69444vw",
-                  fontSize: "clamp(13px, 1.04167vw, 18px)",
+                  margin: "12px 0 0",
+                  fontSize: "clamp(14px, 1.11111vw, 18px)",
                   color: "#82889b",
                   lineHeight: 1.6,
                 }}
@@ -264,14 +193,13 @@ export default function PricingPage() {
                 More trading advantages and benefits with each status. Check in cards below
               </p>
             </div>
-            {/* Nav arrows */}
-            <div style={{ display: "flex", gap: "0.69444vw", flexShrink: 0, marginTop: 8 }}>
-              {["←", "→"].map((arrow) => (
+            <div style={{ display: "flex", gap: 10, flexShrink: 0 }}>
+              {["←", "→"].map((a) => (
                 <button
-                  key={arrow}
+                  key={a}
                   style={{
-                    width: "clamp(36px, 2.77778vw, 48px)",
-                    height: "clamp(36px, 2.77778vw, 48px)",
+                    width: 44,
+                    height: 44,
                     borderRadius: "50%",
                     border: "1px solid rgba(255,255,255,0.15)",
                     background: "transparent",
@@ -283,249 +211,277 @@ export default function PricingPage() {
                     justifyContent: "center",
                   }}
                 >
-                  {arrow}
+                  {a}
                 </button>
               ))}
             </div>
           </div>
+        </div>
 
-          {/* Cards grid */}
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(5, 1fr)",
-              gap: "1.38889vw",
-              alignItems: "start",
-            }}
-            className="pricing-grid"
-          >
-            {tiers.map((tier) => {
-              const cardBg = tier.purple
-                ? "linear-gradient(160deg, #2d1b4e 0%, #1a103a 100%)"
-                : tier.dark
-                ? "linear-gradient(160deg, #1a2a4a 0%, #0d1b35 100%)"
-                : "#1e2235";
-              const textColor = "#f4f4f6";
-              const subColor = tier.dark || tier.purple ? "rgba(255,255,255,0.6)" : "#82889b";
-              const borderColor = tier.purple
-                ? "rgba(167,139,250,0.25)"
-                : tier.dark
-                ? "rgba(9,144,255,0.25)"
-                : "rgba(255,255,255,0.06)";
+        {/* Cards — full width */}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(5, 1fr)",
+            gap: 0,
+            padding: "0 3.70370vw",
+            alignItems: "stretch",
+          }}
+          className="pricing-grid"
+        >
+          {tiers.map((tier, idx) => {
+            const isVIP = tier.id === "vip";
+            const isPlatinum = tier.id === "platinum";
+            const isDark = isVIP || isPlatinum;
+            const textPrimary = "#f4f4f6";
+            const textSub = isDark ? "rgba(255,255,255,0.55)" : "#82889b";
+            const divider = isDark
+              ? isPlatinum ? "rgba(167,139,250,0.2)" : "rgba(12,141,248,0.2)"
+              : "rgba(255,255,255,0.07)";
+            const borderR = idx < 4 ? "none" : undefined;
+            const borderRad =
+              idx === 0 ? "16px 0 0 16px"
+              : idx === 4 ? "0 16px 16px 0"
+              : "0";
 
-              return (
-                <div
-                  key={tier.id}
-                  style={{
-                    background: cardBg,
-                    borderRadius: "1.11111vw",
-                    border: `1px solid ${borderColor}`,
-                    padding: "1.38889vw",
-                    boxSizing: "border-box",
-                    display: "flex",
-                    flexDirection: "column",
-                    gap: "1.04167vw",
-                    position: "relative",
-                    minWidth: 0,
-                  }}
-                >
-                  {/* MOST POPULAR badge */}
-                  {tier.mostPopular && (
-                    <div
+            return (
+              <div
+                key={tier.id}
+                style={{
+                  background: tier.cardBg,
+                  border: tier.border,
+                  borderRight: idx < 4 ? "none" : tier.border,
+                  borderRadius: borderRad,
+                  padding: "clamp(20px, 2.08333vw, 36px)",
+                  boxSizing: "border-box",
+                  display: "flex",
+                  flexDirection: "column",
+                  gap: 0,
+                  position: "relative",
+                  overflow: "visible",
+                }}
+              >
+                {/* MOST POPULAR */}
+                {tier.mostPopular && (
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: -14,
+                      left: "50%",
+                      transform: "translateX(-50%)",
+                      background: "linear-gradient(90deg,#0990ff,#00eaff)",
+                      borderRadius: 20,
+                      padding: "4px 18px",
+                      fontSize: 11,
+                      fontWeight: 800,
+                      color: "#fff",
+                      letterSpacing: "0.08em",
+                      whiteSpace: "nowrap",
+                      boxShadow: "0 4px 20px rgba(9,144,255,0.4)",
+                    }}
+                  >
+                    MOST POPULAR
+                  </div>
+                )}
+
+                {/* Tier name + gem */}
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 20 }}>
+                  <GemIcon color={tier.gemColor} />
+                  <span
+                    style={{
+                      fontSize: "clamp(18px, 1.52778vw, 26px)",
+                      fontWeight: 800,
+                      color: textPrimary,
+                      letterSpacing: "-0.01em",
+                    }}
+                  >
+                    {tier.name}
+                  </span>
+                  {isPlatinum && (
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                      <circle cx="9" cy="9" r="8" stroke="#a78bfa" strokeWidth="1.3" />
+                      <text x="6.5" y="13" fontSize="10" fill="#a78bfa" fontWeight="700">i</text>
+                    </svg>
+                  )}
+                </div>
+
+                {/* Top Features (VIP / Platinum) */}
+                {tier.topFeatures && (
+                  <div style={{ marginBottom: 20 }}>
+                    <p
                       style={{
-                        position: "absolute",
-                        top: -13,
-                        left: "50%",
-                        transform: "translateX(-50%)",
-                        background: "linear-gradient(90deg,#0990ff 0%,#00eaff 100%)",
-                        borderRadius: 20,
-                        padding: "3px 14px",
                         fontSize: 11,
                         fontWeight: 700,
-                        color: "#fff",
-                        letterSpacing: "0.05em",
-                        whiteSpace: "nowrap",
+                        letterSpacing: "0.12em",
+                        color: textSub,
+                        margin: "0 0 10px",
+                        textTransform: "uppercase",
                       }}
                     >
-                      MOST POPULAR
-                    </div>
-                  )}
-
-                  {/* Icon + Name */}
-                  <div style={{ display: "flex", alignItems: "center", gap: "0.55556vw" }}>
-                    {tier.icon}
-                    <span
-                      style={{
-                        fontSize: "clamp(20px, 1.66667vw, 28px)",
-                        fontWeight: 700,
-                        color: textColor,
-                      }}
-                    >
-                      {tier.name}
-                    </span>
-                    {tier.purple && (
-                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style={{ marginLeft: 2 }}>
-                        <circle cx="8" cy="8" r="7" stroke="#a78bfa" strokeWidth="1.2" />
-                        <text x="5" y="12" fontSize="9" fill="#a78bfa" fontWeight="bold">i</text>
-                      </svg>
-                    )}
-                  </div>
-
-                  {/* Top Features (VIP / Platinum) */}
-                  {tier.topFeatures && (
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        gap: "0.55556vw",
-                        borderBottom: `1px solid ${borderColor}`,
-                        paddingBottom: "0.83333vw",
-                      }}
-                    >
-                      <p
-                        style={{
-                          fontSize: 12,
-                          fontWeight: 700,
-                          letterSpacing: "0.1em",
-                          color: subColor,
-                          margin: 0,
-                          textTransform: "uppercase",
-                        }}
-                      >
-                        TOP FEATURES
-                      </p>
+                      TOP FEATURES
+                    </p>
+                    <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
                       {tier.topFeatures.map((f) => (
-                        <div key={f.title} style={{ display: "flex", gap: "0.55556vw", alignItems: "flex-start" }}>
-                          <span style={{ marginTop: 1, flexShrink: 0 }}>{f.icon}</span>
+                        <div key={f.title} style={{ display: "flex", gap: 10, alignItems: "flex-start" }}>
+                          <div
+                            style={{
+                              width: 32,
+                              height: 32,
+                              borderRadius: 8,
+                              background: `${f.color}20`,
+                              border: `1px solid ${f.color}40`,
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              flexShrink: 0,
+                            }}
+                          >
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                              <path d="M3 8l3.5 3.5 6.5-7" stroke={f.color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                          </div>
                           <div>
-                            <p style={{ margin: 0, fontSize: "clamp(14px, 1.04167vw, 17px)", fontWeight: 600, color: textColor }}>{f.title}</p>
-                            <p style={{ margin: 0, fontSize: "clamp(12px, 0.90278vw, 15px)", color: subColor, lineHeight: 1.4 }}>{f.desc}</p>
+                            <p style={{ margin: 0, fontSize: "clamp(13px, 1vw, 15px)", fontWeight: 700, color: textPrimary, lineHeight: 1.3 }}>{f.title}</p>
+                            <p style={{ margin: "2px 0 0", fontSize: "clamp(11px, 0.83333vw, 13px)", color: textSub, lineHeight: 1.45 }}>{f.desc}</p>
                           </div>
                         </div>
                       ))}
                     </div>
-                  )}
+                    <div style={{ height: 1, background: divider, margin: "16px 0" }} />
+                  </div>
+                )}
 
-                  {/* Main stat */}
-                  <div
-                    style={{
-                      display: "flex",
-                      gap: "0.69444vw",
-                    }}
-                  >
+                {/* Main stat */}
+                {tier.mainStat && (
+                  <div style={{ marginBottom: 12 }}>
                     <div
                       style={{
-                        flex: 1,
-                        background: tier.dark || tier.purple ? "rgba(255,255,255,0.06)" : "rgba(255,255,255,0.04)",
-                        borderRadius: "0.55556vw",
-                        padding: "0.69444vw",
+                        background: isDark ? "rgba(255,255,255,0.07)" : "rgba(255,255,255,0.05)",
+                        borderRadius: 10,
+                        padding: "12px 14px",
+                        display: "inline-block",
+                        width: "100%",
                         boxSizing: "border-box",
                       }}
                     >
-                      {tier.stats.map((s) => (
-                        <div key={s.label}>
-                          <p style={{ margin: 0, fontSize: "clamp(20px, 1.80556vw, 30px)", fontWeight: 700, color: textColor }}>{s.label}</p>
-                          <p style={{ margin: 0, fontSize: "clamp(13px, 0.97222vw, 16px)", color: subColor }}>{s.sub}</p>
-                        </div>
-                      ))}
+                      <p
+                        style={{
+                          margin: 0,
+                          fontSize: "clamp(22px, 2.08333vw, 36px)",
+                          fontWeight: 800,
+                          color: textPrimary,
+                          lineHeight: 1.1,
+                          letterSpacing: "-0.02em",
+                        }}
+                      >
+                        {tier.mainStat.value}
+                      </p>
+                      <p style={{ margin: "4px 0 0", fontSize: "clamp(12px, 0.90278vw, 14px)", color: textSub }}>{tier.mainStat.label}</p>
                     </div>
-                    {tier.statRight && (
+                  </div>
+                )}
+
+                {/* Stat boxes */}
+                {tier.statBoxes.length > 0 && (
+                  <div style={{ display: "flex", gap: 8, marginBottom: 20 }}>
+                    {tier.statBoxes.map((s) => (
                       <div
+                        key={s.label}
                         style={{
                           flex: 1,
-                          background: tier.dark || tier.purple ? "rgba(255,255,255,0.06)" : "rgba(255,255,255,0.04)",
-                          borderRadius: "0.55556vw",
-                          padding: "0.69444vw",
+                          background: isDark ? "rgba(255,255,255,0.07)" : "rgba(255,255,255,0.05)",
+                          borderRadius: 10,
+                          padding: "12px 14px",
                           boxSizing: "border-box",
                         }}
                       >
-                        <p style={{ margin: 0, fontSize: "clamp(20px, 1.80556vw, 30px)", fontWeight: 700, color: textColor }}>{tier.statRight.label}</p>
-                        <p style={{ margin: 0, fontSize: "clamp(13px, 0.97222vw, 16px)", color: subColor }}>{tier.statRight.sub}</p>
-                      </div>
-                    )}
-                    {"statExtra" in tier && tier.statExtra && (
-                      <div
-                        style={{
-                          flex: 1,
-                          background: tier.dark || tier.purple ? "rgba(255,255,255,0.06)" : "rgba(255,255,255,0.04)",
-                          borderRadius: "0.55556vw",
-                          padding: "0.69444vw",
-                          boxSizing: "border-box",
-                        }}
-                      >
-                        <p style={{ margin: 0, fontSize: "clamp(20px, 1.80556vw, 30px)", fontWeight: 700, color: textColor }}>{tier.statExtra.label}</p>
-                        <p style={{ margin: 0, fontSize: "clamp(13px, 0.97222vw, 16px)", color: subColor }}>{tier.statExtra.sub}</p>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Withdrawals / Invite / Deposit */}
-                  <div style={{ display: "flex", flexDirection: "column", gap: "0.41667vw", borderTop: `1px solid ${borderColor}`, paddingTop: "0.83333vw" }}>
-                    {[
-                      { label: "Withdrawals", value: tier.withdrawals },
-                      { label: "Invite Friends", value: tier.inviteFriends, link: tier.id !== "free" },
-                      { label: "Deposit bonuses", value: tier.depositBonuses },
-                    ].map((row) => (
-                      <div key={row.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                        {row.link ? (
-                          <a href="#" style={{ fontSize: "clamp(14px, 1.04167vw, 16px)", color: "#0990ff", textDecoration: "none" }}>{row.label}</a>
-                        ) : (
-                          <span style={{ fontSize: "clamp(14px, 1.04167vw, 16px)", color: subColor }}>{row.label}</span>
-                        )}
-                        <span style={{ fontSize: "clamp(14px, 1.04167vw, 16px)", color: textColor, fontWeight: 500 }}>{row.value}</span>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* Feature checklist */}
-                  <div style={{ display: "flex", flexDirection: "column", gap: "0.41667vw", borderTop: `1px solid ${borderColor}`, paddingTop: "0.83333vw" }}>
-                    {allFeatures.map((feat, i) => (
-                      <div key={feat} style={{ display: "flex", gap: "0.41667vw", alignItems: "flex-start" }}>
-                        <CheckIcon checked={tier.checkedFeatures.includes(i)} />
-                        <span
+                        <p
                           style={{
-                            fontSize: "clamp(13px, 0.97222vw, 15px)",
-                            color: tier.checkedFeatures.includes(i) ? textColor : subColor,
-                            lineHeight: 1.4,
+                            margin: 0,
+                            fontSize: "clamp(20px, 1.80556vw, 30px)",
+                            fontWeight: 800,
+                            color: textPrimary,
+                            lineHeight: 1.1,
+                            letterSpacing: "-0.02em",
                           }}
                         >
-                          {feat}
-                        </span>
+                          {s.value}
+                        </p>
+                        <p style={{ margin: "4px 0 0", fontSize: "clamp(12px, 0.90278vw, 14px)", color: textSub }}>{s.label}</p>
                       </div>
                     ))}
                   </div>
+                )}
 
-                  {/* CTA Button */}
-                  <button
-                    style={{
-                      width: "100%",
-                      padding: "0.76389vw 0",
-                      borderRadius: "0.55556vw",
-                      border: "none",
-                      background: "#0c8df8",
-                      color: "#fff",
-                      fontSize: "clamp(15px, 1.18056vw, 20px)",
-                      fontWeight: 700,
-                      cursor: "pointer",
-                      marginTop: "auto",
-                    }}
-                  >
-                    {tier.cta}
-                  </button>
+                {/* Rows */}
+                <div style={{ display: "flex", flexDirection: "column", gap: 8, paddingBottom: 16, borderBottom: `1px solid ${divider}`, marginBottom: 16 }}>
+                  {tier.rows.map((row) => (
+                    <div key={row.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
+                      {row.linkColor ? (
+                        <a href="#" style={{ fontSize: "clamp(13px, 1vw, 15px)", color: row.linkColor, textDecoration: "none", fontWeight: 500 }}>{row.label}</a>
+                      ) : (
+                        <span style={{ fontSize: "clamp(13px, 1vw, 15px)", color: textSub }}>{row.label}</span>
+                      )}
+                      <span style={{ fontSize: "clamp(13px, 1vw, 15px)", color: textPrimary, fontWeight: 600, whiteSpace: "nowrap" }}>{row.value}</span>
+                    </div>
+                  ))}
                 </div>
-              );
-            })}
-          </div>
+
+                {/* Feature checklist */}
+                <div style={{ display: "flex", flexDirection: "column", gap: 7, flexGrow: 1, marginBottom: 20 }}>
+                  {allFeatures.map((feat, i) => (
+                    <div key={feat} style={{ display: "flex", gap: 8, alignItems: "flex-start" }}>
+                      <CheckIcon checked={tier.checkedFeatures.includes(i)} />
+                      <span
+                        style={{
+                          fontSize: "clamp(12px, 0.90278vw, 14px)",
+                          color: tier.checkedFeatures.includes(i) ? textPrimary : textSub,
+                          lineHeight: 1.45,
+                        }}
+                      >
+                        {feat}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* CTA */}
+                <button
+                  style={{
+                    width: "100%",
+                    padding: "14px 0",
+                    borderRadius: 10,
+                    border: "none",
+                    background: "#0c8df8",
+                    color: "#fff",
+                    fontSize: "clamp(14px, 1.11111vw, 18px)",
+                    fontWeight: 700,
+                    cursor: "pointer",
+                    letterSpacing: "0.01em",
+                    transition: "opacity 0.15s",
+                  }}
+                >
+                  {tier.cta}
+                </button>
+              </div>
+            );
+          })}
         </div>
       </main>
 
       <style>{`
-        @media (max-width: 900px) {
+        @media (max-width: 1024px) {
           .pricing-grid {
-            grid-template-columns: repeat(2, 1fr) !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 16px !important;
+            padding: 0 24px !important;
+          }
+          .pricing-grid > div {
+            border-radius: 16px !important;
+            border-right: var(--tier-border) !important;
           }
         }
-        @media (max-width: 560px) {
+        @media (max-width: 640px) {
           .pricing-grid {
             grid-template-columns: 1fr !important;
           }
