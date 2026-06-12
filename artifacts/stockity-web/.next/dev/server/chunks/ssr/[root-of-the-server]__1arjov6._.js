@@ -45,7 +45,7 @@ const metadata = {
     title: "Stockity",
     description: "Stockity is a modern trading platform for beginners and professionals. $10,000 in a demo account for training, and the minimum trade amount is only $1. Practice conveniently and invest wisely!",
     icons: {
-        icon: "/favicon.ico"
+        icon: "/favicon.png"
     },
     openGraph: {
         title: "Stockity",
