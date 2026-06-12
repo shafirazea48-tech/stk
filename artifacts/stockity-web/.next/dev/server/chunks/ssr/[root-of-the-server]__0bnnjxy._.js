@@ -517,10 +517,278 @@ const ChevronDown = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
         lineNumber: 37,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
+const languages = [
+    {
+        name: "English",
+        code: "en",
+        flag: "gb",
+        href: "/"
+    },
+    {
+        name: "Bahasa Indonesia",
+        code: "id",
+        flag: "id",
+        href: "/id"
+    },
+    {
+        name: "Português",
+        code: "pt",
+        flag: "pt",
+        href: "https://stockity.id/pt"
+    },
+    {
+        name: "Tiếng Việt",
+        code: "vi",
+        flag: "vn",
+        href: "https://stockity.id/vi"
+    },
+    {
+        name: "Русский",
+        code: "ru",
+        flag: "ru",
+        href: "https://stockity.id/ru"
+    },
+    {
+        name: "हिन्दी",
+        code: "hi",
+        flag: "in",
+        href: "https://stockity.id/hi"
+    },
+    {
+        name: "Español",
+        code: "es",
+        flag: "es",
+        href: "https://stockity.id/es"
+    },
+    {
+        name: "Українська мова",
+        code: "uk",
+        flag: "ua",
+        href: "https://stockity.id/uk"
+    },
+    {
+        name: "Türkçe",
+        code: "tr",
+        flag: "tr",
+        href: "https://stockity.id/tr"
+    },
+    {
+        name: "ไทย",
+        code: "th",
+        flag: "th",
+        href: "https://stockity.id/th"
+    },
+    {
+        name: "中文",
+        code: "zh",
+        flag: "cn",
+        href: "https://stockity.id/zh"
+    },
+    {
+        name: "Қазақ тілі",
+        code: "kk",
+        flag: "kz",
+        href: "https://stockity.id/kk"
+    },
+    {
+        name: "العربية",
+        code: "ar",
+        flag: "sa",
+        href: "https://stockity.id/ar"
+    }
+];
+function LanguagePanel({ locale, onClose }) {
+    const activeCode = locale ?? "en";
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                onClick: onClose,
+                style: {
+                    position: "fixed",
+                    inset: 0,
+                    background: "rgba(0,0,0,0.4)",
+                    zIndex: 400
+                }
+            }, void 0, false, {
+                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                lineNumber: 63,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    position: "fixed",
+                    top: 0,
+                    right: 0,
+                    width: 260,
+                    height: "100dvh",
+                    background: "#13151f",
+                    zIndex: 401,
+                    display: "flex",
+                    flexDirection: "column",
+                    boxShadow: "-8px 0 40px rgba(0,0,0,0.6)"
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "flex-end",
+                            padding: "20px 16px 12px",
+                            flexShrink: 0
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            onClick: onClose,
+                            "aria-label": "Close language selector",
+                            style: {
+                                background: "none",
+                                border: "none",
+                                cursor: "pointer",
+                                color: "rgba(255,255,255,0.7)",
+                                padding: 4,
+                                display: "flex",
+                                alignItems: "center",
+                                justifyContent: "center"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                width: "22",
+                                height: "22",
+                                viewBox: "0 0 24 24",
+                                fill: "none",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                    d: "M6 6l12 12M6 18L18 6",
+                                    stroke: "currentColor",
+                                    strokeWidth: "2",
+                                    strokeLinecap: "round"
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                    lineNumber: 112,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                lineNumber: 111,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                            lineNumber: 97,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                        lineNumber: 88,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            overflowY: "auto",
+                            flex: 1,
+                            paddingBottom: 24
+                        },
+                        children: languages.map((lang)=>{
+                            const isActive = lang.code === activeCode;
+                            const isExternal = !lang.href.startsWith("/");
+                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: lang.href,
+                                target: isExternal ? "_blank" : undefined,
+                                rel: isExternal ? "noopener noreferrer" : undefined,
+                                onClick: !isExternal ? onClose : undefined,
+                                style: {
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: 14,
+                                    padding: "13px 20px",
+                                    textDecoration: "none",
+                                    background: isActive ? "rgba(12,141,248,0.12)" : "transparent",
+                                    transition: "background 0.15s",
+                                    cursor: "pointer"
+                                },
+                                onMouseEnter: (e)=>{
+                                    if (!isActive) e.currentTarget.style.background = "rgba(255,255,255,0.06)";
+                                },
+                                onMouseLeave: (e)=>{
+                                    e.currentTarget.style.background = isActive ? "rgba(12,141,248,0.12)" : "transparent";
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        src: `https://flagcdn.com/w40/${lang.flag}.png`,
+                                        alt: lang.code,
+                                        width: 28,
+                                        height: 20,
+                                        style: {
+                                            borderRadius: 3,
+                                            objectFit: "cover",
+                                            flexShrink: 0
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 147,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            fontSize: 15,
+                                            fontWeight: isActive ? 700 : 400,
+                                            color: isActive ? "#0c8df8" : "#fff",
+                                            fontFamily: "'Nunito Sans', sans-serif"
+                                        },
+                                        children: lang.name
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 154,
+                                        columnNumber: 17
+                                    }, this),
+                                    isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                        width: "16",
+                                        height: "16",
+                                        viewBox: "0 0 16 16",
+                                        fill: "none",
+                                        style: {
+                                            marginLeft: "auto",
+                                            flexShrink: 0
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                            d: "M3 8l3.5 3.5L13 5",
+                                            stroke: "#0c8df8",
+                                            strokeWidth: "2",
+                                            strokeLinecap: "round",
+                                            strokeLinejoin: "round"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                            lineNumber: 169,
+                                            columnNumber: 21
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 165,
+                                        columnNumber: 19
+                                    }, this)
+                                ]
+                            }, lang.code, true, {
+                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                lineNumber: 123,
+                                columnNumber: 15
+                            }, this);
+                        })
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                        lineNumber: 118,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                lineNumber: 73,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true);
+}
 function Header({ locale }) {
     const [mobileOpen, setMobileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [openDropdown, setOpenDropdown] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [mobileOpenDropdown, setMobileOpenDropdown] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [langPanelOpen, setLangPanelOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const t = (0, __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$lib$2f$i18n$2f$translations$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getT"])(locale ?? "en");
     const n = t.header.nav;
     const homeHref = locale === "id" ? "/id" : "/";
@@ -560,760 +828,779 @@ function Header({ locale }) {
             href: locale === "id" ? "/id/about" : "/about"
         }
     ];
-    const flagSrc = locale === "id" ? "https://flagcdn.com/w40/id.png" : "https://flagcdn.com/w40/gb.png";
-    const flagAlt = locale === "id" ? "ID" : "EN";
-    const switchHref = locale === "id" ? "/" : "/id";
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        style: {
-            backgroundColor: "#000",
-            position: "fixed",
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: 260
-        },
+    const activeLang = languages.find((l)=>l.code === (locale ?? "en"));
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hidden md:flex",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 style: {
-                    width: "100%",
-                    padding: "1.38889vw 1.85185vw",
-                    alignItems: "center",
-                    boxSizing: "border-box"
-                },
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                        href: homeHref,
-                        style: {
-                            display: "flex",
-                            alignItems: "center",
-                            textDecoration: "none",
-                            flexShrink: 0,
-                            marginRight: "6.01852vw",
-                            gap: "0.462963vw"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StockityLogo, {}, void 0, false, {
-                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                            lineNumber: 97,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 86,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                        style: {
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "0.2vw",
-                            flex: 1
-                        },
-                        children: navItems.map((item)=>item.children ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    position: "relative"
-                                },
-                                onMouseEnter: ()=>setOpenDropdown(item.label),
-                                onMouseLeave: ()=>setOpenDropdown(null),
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        style: {
-                                            display: "flex",
-                                            alignItems: "center",
-                                            padding: "0.555556vw 0.925926vw",
-                                            fontSize: "20px",
-                                            fontWeight: 700,
-                                            color: "#fff",
-                                            background: "none",
-                                            border: "none",
-                                            cursor: "pointer",
-                                            borderRadius: "0.555556vw",
-                                            transition: "color 0.15s",
-                                            whiteSpace: "nowrap",
-                                            fontFamily: "'Nunito Sans', sans-serif"
-                                        },
-                                        children: [
-                                            item.label,
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronDown, {}, void 0, false, {
-                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                lineNumber: 128,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 110,
-                                        columnNumber: 17
-                                    }, this),
-                                    openDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            position: "absolute",
-                                            top: "100%",
-                                            left: 0,
-                                            paddingTop: 4,
-                                            width: "max-content",
-                                            zIndex: 100
-                                        },
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                background: "#1a1a1a",
-                                                border: "1px solid rgba(255,255,255,0.1)",
-                                                borderRadius: 12,
-                                                overflow: "hidden",
-                                                padding: "4px 0",
-                                                boxShadow: "0 20px 60px rgba(0,0,0,0.6)"
-                                            },
-                                            children: item.children.map((child, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: child.href,
-                                                    style: {
-                                                        display: "block",
-                                                        padding: "10px 16px",
-                                                        fontSize: "20px",
-                                                        fontWeight: 400,
-                                                        fontFamily: "'Nunito Sans', sans-serif",
-                                                        color: "#fff",
-                                                        textDecoration: "none",
-                                                        transition: "background 0.1s",
-                                                        whiteSpace: "nowrap",
-                                                        borderBottom: idx < item.children.length - 1 ? "1px solid rgba(255,255,255,0.3)" : "none"
-                                                    },
-                                                    onMouseEnter: (e)=>{
-                                                        e.currentTarget.style.background = "rgba(255,255,255,0.07)";
-                                                    },
-                                                    onMouseLeave: (e)=>{
-                                                        e.currentTarget.style.background = "transparent";
-                                                    },
-                                                    children: child.label
-                                                }, child.label, false, {
-                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                    lineNumber: 143,
-                                                    columnNumber: 25
-                                                }, this))
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 132,
-                                            columnNumber: 21
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 131,
-                                        columnNumber: 19
-                                    }, this)
-                                ]
-                            }, item.label, true, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 104,
-                                columnNumber: 15
-                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: item.href,
-                                style: {
-                                    padding: "0.555556vw 0.925926vw",
-                                    fontSize: "20px",
-                                    fontWeight: 700,
-                                    fontFamily: "'Nunito Sans', sans-serif",
-                                    color: "#fff",
-                                    textDecoration: "none",
-                                    borderRadius: "0.555556vw",
-                                    whiteSpace: "nowrap",
-                                    transition: "color 0.15s"
-                                },
-                                children: item.label
-                            }, item.label, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 169,
-                                columnNumber: 15
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 101,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "0.694444vw",
-                            flexShrink: 0,
-                            marginLeft: "auto"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "/go",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                style: {
-                                    boxSizing: "border-box",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    padding: "0.462963vw 1.38889vw",
-                                    fontSize: "20px",
-                                    fontWeight: 700,
-                                    fontFamily: "'Nunito Sans', sans-serif",
-                                    color: "#fff",
-                                    background: "none",
-                                    border: "2px solid #0c8df8",
-                                    borderRadius: "0.694444vw",
-                                    cursor: "pointer",
-                                    whiteSpace: "nowrap",
-                                    maxHeight: "2.77778vw",
-                                    transition: "border-color 0.15s",
-                                    textDecoration: "none"
-                                },
-                                onMouseEnter: (e)=>e.currentTarget.style.borderColor = "#48a9fa",
-                                onMouseLeave: (e)=>e.currentTarget.style.borderColor = "#0c8df8",
-                                children: t.header.login
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 192,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "/go",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                style: {
-                                    boxSizing: "border-box",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    gap: "0.462963vw",
-                                    padding: "0.462963vw 1.38889vw",
-                                    fontSize: "20px",
-                                    fontWeight: 700,
-                                    fontFamily: "'Nunito Sans', sans-serif",
-                                    color: "#fff",
-                                    background: "#0c8df8",
-                                    border: "none",
-                                    borderRadius: "0.694444vw",
-                                    cursor: "pointer",
-                                    whiteSpace: "nowrap",
-                                    transition: "background 0.15s",
-                                    textDecoration: "none"
-                                },
-                                onMouseEnter: (e)=>e.currentTarget.style.background = "#48a9fa",
-                                onMouseLeave: (e)=>e.currentTarget.style.background = "#0c8df8",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        src: "/images/stockity/src/core/images/register-arrow.svg",
-                                        alt: "",
-                                        width: 20,
-                                        height: 20,
-                                        style: {
-                                            flexShrink: 0
-                                        },
-                                        unoptimized: true
-                                    }, void 0, false, {
-                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 244,
-                                        columnNumber: 13
-                                    }, this),
-                                    t.header.register
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 219,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: switchHref,
-                                style: {
-                                    cursor: "pointer",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    textDecoration: "none"
-                                },
-                                title: locale === "id" ? "Switch to English" : "Ganti ke Bahasa Indonesia",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: flagSrc,
-                                    alt: flagAlt,
-                                    style: {
-                                        height: "1.85185vw",
-                                        minHeight: 20,
-                                        width: "auto"
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 260,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 255,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 191,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                lineNumber: 76,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex md:hidden",
-                style: {
-                    width: "100%",
-                    padding: "3.33333vw 4.44444vw",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    boxSizing: "border-box",
-                    gap: "2.22222vw",
-                    position: "relative",
-                    zIndex: 300
+                    backgroundColor: "#000",
+                    position: "fixed",
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    zIndex: 260
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "hidden md:flex",
                         style: {
-                            display: "flex",
+                            width: "100%",
+                            padding: "1.38889vw 1.85185vw",
                             alignItems: "center",
-                            gap: "3.33333vw"
+                            boxSizing: "border-box"
                         },
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                style: {
-                                    padding: 0,
-                                    color: "#fff",
-                                    background: "none",
-                                    border: "none",
-                                    cursor: "pointer",
-                                    display: "flex",
-                                    alignItems: "center"
-                                },
-                                onClick: ()=>setMobileOpen(!mobileOpen),
-                                "aria-label": "Toggle menu",
-                                children: mobileOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    width: "22",
-                                    height: "22",
-                                    viewBox: "0 0 24 24",
-                                    fill: "none",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        d: "M6 6l12 12M6 18L18 6",
-                                        stroke: "white",
-                                        strokeWidth: "2.2",
-                                        strokeLinecap: "round"
-                                    }, void 0, false, {
-                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 292,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 291,
-                                    columnNumber: 15
-                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    width: "22",
-                                    height: "22",
-                                    viewBox: "0 0 24 24",
-                                    fill: "none",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                        d: "M3 6h18M3 12h18M3 18h18",
-                                        stroke: "white",
-                                        strokeWidth: "2.2",
-                                        strokeLinecap: "round"
-                                    }, void 0, false, {
-                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 296,
-                                        columnNumber: 17
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 295,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 285,
-                                columnNumber: 11
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 href: homeHref,
                                 style: {
                                     display: "flex",
                                     alignItems: "center",
-                                    textDecoration: "none"
+                                    textDecoration: "none",
+                                    flexShrink: 0,
+                                    marginRight: "6.01852vw",
+                                    gap: "0.462963vw"
                                 },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                    viewBox: "0 0 24 42",
-                                    fill: "none",
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    style: {
-                                        height: "7.22222vw",
-                                        minHeight: 24,
-                                        width: "auto"
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z",
-                                            fill: "url(#mhi1)"
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 302,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z",
-                                            fill: "url(#mhi2)"
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 303,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                            d: "M1.313 15.717a4.695 4.695 0 0 0 1.713 6.405l8.757 5.068.015.009a4.694 4.694 0 0 1 2.27 4.775c-.176 1.135-.916 2.096-1.697 2.938l6.92-6.938a4.695 4.695 0 0 0-.668-7.655l-8.756-5.068-.015-.009a4.694 4.694 0 0 1-2.27-4.775c.176-1.135.916-2.097 1.697-2.939L2.358 14.59a4.677 4.677 0 0 0-1.045 1.127Z",
-                                            fill: "#0C8DF8"
-                                        }, void 0, false, {
-                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 304,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
-                                                    id: "mhi1",
-                                                    x1: "17.106",
-                                                    y1: "7.408",
-                                                    x2: "-11.286",
-                                                    y2: "33.808",
-                                                    gradientUnits: "userSpaceOnUse",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                                                            stopColor: "#0C8DF8"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 307,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                                                            offset: "1",
-                                                            stopColor: "#033A68"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 307,
-                                                            columnNumber: 46
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                    lineNumber: 306,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
-                                                    id: "mhi2",
-                                                    x1: "7.63",
-                                                    y1: "33.255",
-                                                    x2: "22.939",
-                                                    y2: "17.79",
-                                                    gradientUnits: "userSpaceOnUse",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                                                            stopColor: "#0C8DF8"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 310,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
-                                                            offset: "1",
-                                                            stopColor: "#033A68"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 310,
-                                                            columnNumber: 46
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                    lineNumber: 309,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                            lineNumber: 305,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(StockityLogo, {}, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 301,
+                                    lineNumber: 236,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 300,
+                                lineNumber: 225,
                                 columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 284,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "2.22222vw"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "/go",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                style: {
-                                    padding: "1.94444vw 3.88889vw",
-                                    fontSize: "16px",
-                                    fontWeight: 700,
-                                    color: "#fff",
-                                    background: "none",
-                                    border: "1.5px solid rgba(255,255,255,0.5)",
-                                    borderRadius: "1.94444vw",
-                                    cursor: "pointer",
-                                    fontFamily: "'Nunito Sans', sans-serif",
-                                    whiteSpace: "nowrap",
-                                    textDecoration: "none"
-                                },
-                                children: t.header.login
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 319,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "/go",
-                                target: "_blank",
-                                rel: "noopener noreferrer",
-                                style: {
-                                    padding: "1.94444vw 3.88889vw",
-                                    fontSize: "16px",
-                                    fontWeight: 700,
-                                    color: "#fff",
-                                    background: "#0c8df8",
-                                    border: "none",
-                                    borderRadius: "1.94444vw",
-                                    cursor: "pointer",
-                                    fontFamily: "'Nunito Sans', sans-serif",
-                                    whiteSpace: "nowrap",
-                                    textDecoration: "none"
-                                },
-                                children: t.header.register
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 339,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: switchHref,
-                                style: {
-                                    textDecoration: "none"
-                                },
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: flagSrc,
-                                    alt: flagAlt,
-                                    style: {
-                                        height: "5.55556vw",
-                                        minHeight: 18,
-                                        width: "auto",
-                                        borderRadius: 2
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                    lineNumber: 360,
-                                    columnNumber: 13
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 359,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 318,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                lineNumber: 270,
-                columnNumber: 7
-            }, this),
-            mobileOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "md:hidden",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            position: "fixed",
-                            inset: 0,
-                            background: "rgba(0,0,0,0.55)",
-                            zIndex: 240
-                        },
-                        onClick: ()=>setMobileOpen(false)
-                    }, void 0, false, {
-                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 372,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            position: "fixed",
-                            top: 0,
-                            left: 0,
-                            width: "87vw",
-                            height: "100dvh",
-                            background: "#0d1020",
-                            zIndex: 250,
-                            display: "flex",
-                            flexDirection: "column",
-                            overflowY: "auto"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    height: "16vw",
-                                    flexShrink: 0
-                                }
-                            }, void 0, false, {
-                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 395,
-                                columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                                 style: {
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "0.2vw",
                                     flex: 1
                                 },
                                 children: navItems.map((item)=>item.children ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         style: {
-                                            borderBottom: "1px solid rgba(255,255,255,0.1)"
+                                            position: "relative"
                                         },
+                                        onMouseEnter: ()=>setOpenDropdown(item.label),
+                                        onMouseLeave: ()=>setOpenDropdown(null),
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 style: {
-                                                    width: "100%",
                                                     display: "flex",
                                                     alignItems: "center",
-                                                    justifyContent: "space-between",
-                                                    padding: "5.55556vw 4.44444vw",
-                                                    fontSize: "16px",
+                                                    padding: "0.555556vw 0.925926vw",
+                                                    fontSize: "20px",
                                                     fontWeight: 700,
                                                     color: "#fff",
                                                     background: "none",
                                                     border: "none",
                                                     cursor: "pointer",
-                                                    textAlign: "left",
+                                                    borderRadius: "0.555556vw",
+                                                    transition: "color 0.15s",
+                                                    whiteSpace: "nowrap",
                                                     fontFamily: "'Nunito Sans', sans-serif"
                                                 },
-                                                onClick: ()=>setMobileOpenDropdown(mobileOpenDropdown === item.label ? null : item.label),
                                                 children: [
                                                     item.label,
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                        width: "20",
-                                                        height: "20",
-                                                        viewBox: "0 0 12 12",
-                                                        fill: "none",
-                                                        style: {
-                                                            transform: mobileOpenDropdown === item.label ? "rotate(180deg)" : "none",
-                                                            transition: "transform 0.2s",
-                                                            flexShrink: 0
-                                                        },
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                            d: "M2.5 4.5L6 8l3.5-3.5",
-                                                            stroke: "white",
-                                                            strokeWidth: "1.6",
-                                                            strokeLinecap: "round",
-                                                            strokeLinejoin: "round"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                            lineNumber: 424,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    }, void 0, false, {
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ChevronDown, {}, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                        lineNumber: 420,
-                                                        columnNumber: 23
+                                                        lineNumber: 267,
+                                                        columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                lineNumber: 401,
-                                                columnNumber: 21
+                                                lineNumber: 249,
+                                                columnNumber: 19
                                             }, this),
-                                            mobileOpenDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            openDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 style: {
-                                                    background: "#0a0d18"
+                                                    position: "absolute",
+                                                    top: "100%",
+                                                    left: 0,
+                                                    paddingTop: 4,
+                                                    width: "max-content",
+                                                    zIndex: 100
                                                 },
-                                                children: item.children.map((child)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: child.href,
-                                                        style: {
-                                                            display: "block",
-                                                            padding: "4.44444vw 8.88889vw",
-                                                            fontSize: "16px",
-                                                            color: "rgba(255,255,255,0.65)",
-                                                            textDecoration: "none",
-                                                            borderBottom: "1px solid rgba(255,255,255,0.06)",
-                                                            fontFamily: "'Nunito Sans', sans-serif"
-                                                        },
-                                                        children: child.label
-                                                    }, child.label, false, {
-                                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                        lineNumber: 430,
-                                                        columnNumber: 27
-                                                    }, this))
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        background: "#1a1a1a",
+                                                        border: "1px solid rgba(255,255,255,0.1)",
+                                                        borderRadius: 12,
+                                                        overflow: "hidden",
+                                                        padding: "4px 0",
+                                                        boxShadow: "0 20px 60px rgba(0,0,0,0.6)"
+                                                    },
+                                                    children: item.children.map((child, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                            href: child.href,
+                                                            style: {
+                                                                display: "block",
+                                                                padding: "10px 16px",
+                                                                fontSize: "20px",
+                                                                fontWeight: 400,
+                                                                fontFamily: "'Nunito Sans', sans-serif",
+                                                                color: "#fff",
+                                                                textDecoration: "none",
+                                                                transition: "background 0.1s",
+                                                                whiteSpace: "nowrap",
+                                                                borderBottom: idx < item.children.length - 1 ? "1px solid rgba(255,255,255,0.3)" : "none"
+                                                            },
+                                                            onMouseEnter: (e)=>{
+                                                                e.currentTarget.style.background = "rgba(255,255,255,0.07)";
+                                                            },
+                                                            onMouseLeave: (e)=>{
+                                                                e.currentTarget.style.background = "transparent";
+                                                            },
+                                                            children: child.label
+                                                        }, child.label, false, {
+                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                            lineNumber: 282,
+                                                            columnNumber: 27
+                                                        }, this))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                    lineNumber: 271,
+                                                    columnNumber: 23
+                                                }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                                lineNumber: 428,
-                                                columnNumber: 23
+                                                lineNumber: 270,
+                                                columnNumber: 21
                                             }, this)
                                         ]
                                     }, item.label, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 400,
-                                        columnNumber: 19
+                                        lineNumber: 243,
+                                        columnNumber: 17
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: item.href,
                                         style: {
-                                            display: "flex",
-                                            alignItems: "center",
-                                            padding: "5.55556vw 4.44444vw",
-                                            fontSize: "16px",
+                                            padding: "0.555556vw 0.925926vw",
+                                            fontSize: "20px",
                                             fontWeight: 700,
+                                            fontFamily: "'Nunito Sans', sans-serif",
                                             color: "#fff",
                                             textDecoration: "none",
-                                            borderBottom: "1px solid rgba(255,255,255,0.1)",
-                                            fontFamily: "'Nunito Sans', sans-serif"
+                                            borderRadius: "0.555556vw",
+                                            whiteSpace: "nowrap",
+                                            transition: "color 0.15s"
                                         },
                                         children: item.label
                                     }, item.label, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                        lineNumber: 450,
-                                        columnNumber: 19
+                                        lineNumber: 308,
+                                        columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                                lineNumber: 397,
+                                lineNumber: 240,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "0.694444vw",
+                                    flexShrink: 0,
+                                    marginLeft: "auto"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "/go",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        style: {
+                                            boxSizing: "border-box",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            padding: "0.462963vw 1.38889vw",
+                                            fontSize: "20px",
+                                            fontWeight: 700,
+                                            fontFamily: "'Nunito Sans', sans-serif",
+                                            color: "#fff",
+                                            background: "none",
+                                            border: "2px solid #0c8df8",
+                                            borderRadius: "0.694444vw",
+                                            cursor: "pointer",
+                                            whiteSpace: "nowrap",
+                                            maxHeight: "2.77778vw",
+                                            transition: "border-color 0.15s",
+                                            textDecoration: "none"
+                                        },
+                                        onMouseEnter: (e)=>e.currentTarget.style.borderColor = "#48a9fa",
+                                        onMouseLeave: (e)=>e.currentTarget.style.borderColor = "#0c8df8",
+                                        children: t.header.login
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 331,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "/go",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        style: {
+                                            boxSizing: "border-box",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            gap: "0.462963vw",
+                                            padding: "0.462963vw 1.38889vw",
+                                            fontSize: "20px",
+                                            fontWeight: 700,
+                                            fontFamily: "'Nunito Sans', sans-serif",
+                                            color: "#fff",
+                                            background: "#0c8df8",
+                                            border: "none",
+                                            borderRadius: "0.694444vw",
+                                            cursor: "pointer",
+                                            whiteSpace: "nowrap",
+                                            transition: "background 0.15s",
+                                            textDecoration: "none"
+                                        },
+                                        onMouseEnter: (e)=>e.currentTarget.style.background = "#48a9fa",
+                                        onMouseLeave: (e)=>e.currentTarget.style.background = "#0c8df8",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                                src: "/images/stockity/src/core/images/register-arrow.svg",
+                                                alt: "",
+                                                width: 20,
+                                                height: 20,
+                                                style: {
+                                                    flexShrink: 0
+                                                },
+                                                unoptimized: true
+                                            }, void 0, false, {
+                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                lineNumber: 383,
+                                                columnNumber: 15
+                                            }, this),
+                                            t.header.register
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 358,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: ()=>setLangPanelOpen(true),
+                                        style: {
+                                            cursor: "pointer",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            background: "none",
+                                            border: "none",
+                                            padding: 0
+                                        },
+                                        "aria-label": "Select language",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: `https://flagcdn.com/w40/${activeLang.flag}.png`,
+                                            alt: activeLang.code,
+                                            style: {
+                                                height: "1.85185vw",
+                                                minHeight: 20,
+                                                width: "auto",
+                                                borderRadius: 3
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                            lineNumber: 406,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 394,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                lineNumber: 330,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                        lineNumber: 215,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex md:hidden",
+                        style: {
+                            width: "100%",
+                            padding: "3.33333vw 4.44444vw",
+                            alignItems: "center",
+                            justifyContent: "space-between",
+                            boxSizing: "border-box",
+                            gap: "2.22222vw",
+                            position: "relative",
+                            zIndex: 300
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "3.33333vw"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        style: {
+                                            padding: 0,
+                                            color: "#fff",
+                                            background: "none",
+                                            border: "none",
+                                            cursor: "pointer",
+                                            display: "flex",
+                                            alignItems: "center"
+                                        },
+                                        onClick: ()=>setMobileOpen(!mobileOpen),
+                                        "aria-label": "Toggle menu",
+                                        children: mobileOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            width: "22",
+                                            height: "22",
+                                            viewBox: "0 0 24 24",
+                                            fill: "none",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                d: "M6 6l12 12M6 18L18 6",
+                                                stroke: "white",
+                                                strokeWidth: "2.2",
+                                                strokeLinecap: "round"
+                                            }, void 0, false, {
+                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                lineNumber: 438,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                            lineNumber: 437,
+                                            columnNumber: 17
+                                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            width: "22",
+                                            height: "22",
+                                            viewBox: "0 0 24 24",
+                                            fill: "none",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                d: "M3 6h18M3 12h18M3 18h18",
+                                                stroke: "white",
+                                                strokeWidth: "2.2",
+                                                strokeLinecap: "round"
+                                            }, void 0, false, {
+                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                lineNumber: 442,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                            lineNumber: 441,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 431,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: homeHref,
+                                        style: {
+                                            display: "flex",
+                                            alignItems: "center",
+                                            textDecoration: "none"
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            viewBox: "0 0 24 42",
+                                            fill: "none",
+                                            xmlns: "http://www.w3.org/2000/svg",
+                                            style: {
+                                                height: "7.22222vw",
+                                                minHeight: 24,
+                                                width: "auto"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                    d: "M21.6 2.5a.66.66 0 0 0-.735-.738L8.087 3.47a.659.659 0 0 0-.38 1.119l2 1.288a.824.824 0 0 1 .137 1.274L2.26 14.757a4.697 4.697 0 0 0 0 6.631 4.671 4.671 0 0 0 6.616 0l7.593-7.609a.82.82 0 0 1 1.271.138l1.279 1.997a.656.656 0 0 0 1.115-.381L21.6 2.5Z",
+                                                    fill: "url(#mhi1)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                    lineNumber: 448,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                    d: "M4.055 36.638a4.697 4.697 0 0 1 0-6.633l8.926-8.944a4.671 4.671 0 0 1 6.616 0 4.697 4.697 0 0 1 0 6.632l-8.925 8.945a4.671 4.671 0 0 1-6.617 0Z",
+                                                    fill: "url(#mhi2)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                    lineNumber: 449,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                    d: "M1.313 15.717a4.695 4.695 0 0 0 1.713 6.405l8.757 5.068.015.009a4.694 4.694 0 0 1 2.27 4.775c-.176 1.135-.916 2.096-1.697 2.938l6.92-6.938a4.695 4.695 0 0 0-.668-7.655l-8.756-5.068-.015-.009a4.694 4.694 0 0 1-2.27-4.775c.176-1.135.916-2.097 1.697-2.939L2.358 14.59a4.677 4.677 0 0 0-1.045 1.127Z",
+                                                    fill: "#0C8DF8"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                    lineNumber: 450,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
+                                                            id: "mhi1",
+                                                            x1: "17.106",
+                                                            y1: "7.408",
+                                                            x2: "-11.286",
+                                                            y2: "33.808",
+                                                            gradientUnits: "userSpaceOnUse",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                                                    stopColor: "#0C8DF8"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                                    lineNumber: 453,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                                                    offset: "1",
+                                                                    stopColor: "#033A68"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                                    lineNumber: 453,
+                                                                    columnNumber: 48
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                            lineNumber: 452,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("linearGradient", {
+                                                            id: "mhi2",
+                                                            x1: "7.63",
+                                                            y1: "33.255",
+                                                            x2: "22.939",
+                                                            y2: "17.79",
+                                                            gradientUnits: "userSpaceOnUse",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                                                    stopColor: "#0C8DF8"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                                    lineNumber: 456,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
+                                                                    offset: "1",
+                                                                    stopColor: "#033A68"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                                    lineNumber: 456,
+                                                                    columnNumber: 48
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                            lineNumber: 455,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                    lineNumber: 451,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                            lineNumber: 447,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 446,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                lineNumber: 430,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    display: "flex",
+                                    alignItems: "center",
+                                    gap: "2.22222vw"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "/go",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        style: {
+                                            padding: "1.94444vw 3.88889vw",
+                                            fontSize: "16px",
+                                            fontWeight: 700,
+                                            color: "#fff",
+                                            background: "none",
+                                            border: "1.5px solid rgba(255,255,255,0.5)",
+                                            borderRadius: "1.94444vw",
+                                            cursor: "pointer",
+                                            fontFamily: "'Nunito Sans', sans-serif",
+                                            whiteSpace: "nowrap",
+                                            textDecoration: "none"
+                                        },
+                                        children: t.header.login
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 465,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "/go",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        style: {
+                                            padding: "1.94444vw 3.88889vw",
+                                            fontSize: "16px",
+                                            fontWeight: 700,
+                                            color: "#fff",
+                                            background: "#0c8df8",
+                                            border: "none",
+                                            borderRadius: "1.94444vw",
+                                            cursor: "pointer",
+                                            fontFamily: "'Nunito Sans', sans-serif",
+                                            whiteSpace: "nowrap",
+                                            textDecoration: "none"
+                                        },
+                                        children: t.header.register
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 485,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        onClick: ()=>setLangPanelOpen(true),
+                                        style: {
+                                            background: "none",
+                                            border: "none",
+                                            cursor: "pointer",
+                                            padding: 0,
+                                            display: "flex",
+                                            alignItems: "center"
+                                        },
+                                        "aria-label": "Select language",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                            src: `https://flagcdn.com/w40/${activeLang.flag}.png`,
+                                            alt: activeLang.code,
+                                            style: {
+                                                height: "5.55556vw",
+                                                minHeight: 18,
+                                                width: "auto",
+                                                borderRadius: 2
+                                            }
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                            lineNumber: 510,
+                                            columnNumber: 15
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 505,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                lineNumber: 464,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                        lineNumber: 416,
+                        columnNumber: 9
+                    }, this),
+                    mobileOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "md:hidden",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    position: "fixed",
+                                    inset: 0,
+                                    background: "rgba(0,0,0,0.55)",
+                                    zIndex: 240
+                                },
+                                onClick: ()=>setMobileOpen(false)
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                lineNumber: 522,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    position: "fixed",
+                                    top: 0,
+                                    left: 0,
+                                    width: "87vw",
+                                    height: "100dvh",
+                                    background: "#0d1020",
+                                    zIndex: 250,
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    overflowY: "auto"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            height: "16vw",
+                                            flexShrink: 0
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 545,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                                        style: {
+                                            flex: 1
+                                        },
+                                        children: navItems.map((item)=>item.children ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    borderBottom: "1px solid rgba(255,255,255,0.1)"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        style: {
+                                                            width: "100%",
+                                                            display: "flex",
+                                                            alignItems: "center",
+                                                            justifyContent: "space-between",
+                                                            padding: "5.55556vw 4.44444vw",
+                                                            fontSize: "16px",
+                                                            fontWeight: 700,
+                                                            color: "#fff",
+                                                            background: "none",
+                                                            border: "none",
+                                                            cursor: "pointer",
+                                                            textAlign: "left",
+                                                            fontFamily: "'Nunito Sans', sans-serif"
+                                                        },
+                                                        onClick: ()=>setMobileOpenDropdown(mobileOpenDropdown === item.label ? null : item.label),
+                                                        children: [
+                                                            item.label,
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                                                width: "20",
+                                                                height: "20",
+                                                                viewBox: "0 0 12 12",
+                                                                fill: "none",
+                                                                style: {
+                                                                    transform: mobileOpenDropdown === item.label ? "rotate(180deg)" : "none",
+                                                                    transition: "transform 0.2s",
+                                                                    flexShrink: 0
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                                    d: "M2.5 4.5L6 8l3.5-3.5",
+                                                                    stroke: "white",
+                                                                    strokeWidth: "1.6",
+                                                                    strokeLinecap: "round",
+                                                                    strokeLinejoin: "round"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                                    lineNumber: 574,
+                                                                    columnNumber: 27
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                                lineNumber: 570,
+                                                                columnNumber: 25
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                        lineNumber: 551,
+                                                        columnNumber: 23
+                                                    }, this),
+                                                    mobileOpenDropdown === item.label && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            background: "#0a0d18"
+                                                        },
+                                                        children: item.children.map((child)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: child.href,
+                                                                style: {
+                                                                    display: "block",
+                                                                    padding: "4.44444vw 8.88889vw",
+                                                                    fontSize: "16px",
+                                                                    color: "rgba(255,255,255,0.65)",
+                                                                    textDecoration: "none",
+                                                                    borderBottom: "1px solid rgba(255,255,255,0.06)",
+                                                                    fontFamily: "'Nunito Sans', sans-serif"
+                                                                },
+                                                                children: child.label
+                                                            }, child.label, false, {
+                                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                                lineNumber: 580,
+                                                                columnNumber: 29
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                        lineNumber: 578,
+                                                        columnNumber: 25
+                                                    }, this)
+                                                ]
+                                            }, item.label, true, {
+                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                lineNumber: 550,
+                                                columnNumber: 21
+                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: item.href,
+                                                style: {
+                                                    display: "flex",
+                                                    alignItems: "center",
+                                                    padding: "5.55556vw 4.44444vw",
+                                                    fontSize: "16px",
+                                                    fontWeight: 700,
+                                                    color: "#fff",
+                                                    textDecoration: "none",
+                                                    borderBottom: "1px solid rgba(255,255,255,0.1)",
+                                                    fontFamily: "'Nunito Sans', sans-serif"
+                                                },
+                                                children: item.label
+                                            }, item.label, false, {
+                                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                                lineNumber: 600,
+                                                columnNumber: 21
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                        lineNumber: 547,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                                lineNumber: 531,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                        lineNumber: 381,
+                        lineNumber: 521,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-                lineNumber: 371,
+                lineNumber: 213,
+                columnNumber: 7
+            }, this),
+            langPanelOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LanguagePanel, {
+                locale: locale,
+                onClose: ()=>setLangPanelOpen(false)
+            }, void 0, false, {
+                fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
+                lineNumber: 627,
                 columnNumber: 9
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "[project]/artifacts/stockity-web/components/Header.tsx",
-        lineNumber: 74,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
 }),
 "[project]/artifacts/stockity-web/app/(en)/pricing/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
