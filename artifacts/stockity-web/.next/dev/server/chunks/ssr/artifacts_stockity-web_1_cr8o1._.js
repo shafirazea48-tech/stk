@@ -1292,22 +1292,66 @@ const GemIcon = ({ color })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5
         lineNumber: 150,
         columnNumber: 3
     }, ("TURBOPACK compile-time value", void 0));
+const tierIcons = [
+    {
+        id: "free",
+        color: "#82889b",
+        label: "Free"
+    },
+    {
+        id: "standard",
+        color: "#c0c8d8",
+        label: "Standard"
+    },
+    {
+        id: "gold",
+        color: "#f5c842",
+        label: "Gold"
+    },
+    {
+        id: "vip",
+        color: "#4da6ff",
+        label: "VIP"
+    },
+    {
+        id: "platinum",
+        color: "#a78bfa",
+        label: "Platinum"
+    }
+];
 function PricingPage() {
     const sliderRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const scrollSlider = (dir)=>{
+    const [activeSlide, setActiveSlide] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const el = sliderRef.current;
+        if (!el) return;
+        const onScroll = ()=>{
+            const cardWidth = el.firstElementChild ? el.firstElementChild.offsetWidth + 16 : el.offsetWidth;
+            const idx = Math.round(el.scrollLeft / cardWidth);
+            setActiveSlide(Math.max(0, Math.min(idx, tiers.length - 1)));
+        };
+        el.addEventListener("scroll", onScroll, {
+            passive: true
+        });
+        return ()=>el.removeEventListener("scroll", onScroll);
+    }, []);
+    const scrollToSlide = (idx)=>{
         const el = sliderRef.current;
         if (!el) return;
         const cardWidth = el.firstElementChild ? el.firstElementChild.offsetWidth + 16 : el.offsetWidth;
-        el.scrollBy({
-            left: dir === "next" ? cardWidth : -cardWidth,
+        el.scrollTo({
+            left: idx * cardWidth,
             behavior: "smooth"
         });
+    };
+    const scrollSlider = (dir)=>{
+        scrollToSlide(dir === "next" ? activeSlide + 1 : activeSlide - 1);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                lineNumber: 171,
+                lineNumber: 198,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1345,7 +1389,7 @@ function PricingPage() {
                                             children: "Statuses"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                            lineNumber: 185,
+                                            lineNumber: 212,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1358,13 +1402,13 @@ function PricingPage() {
                                             children: "More trading advantages and benefits with each status. Check in cards below"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                            lineNumber: 197,
+                                            lineNumber: 224,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                    lineNumber: 184,
+                                    lineNumber: 211,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1394,23 +1438,92 @@ function PricingPage() {
                                             children: a
                                         }, a, false, {
                                             fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                            lineNumber: 210,
+                                            lineNumber: 237,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                    lineNumber: 208,
+                                    lineNumber: 235,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                            lineNumber: 183,
+                            lineNumber: 210,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                        lineNumber: 182,
+                        lineNumber: 209,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "tier-indicators",
+                        style: {
+                            display: "none"
+                        },
+                        children: tierIcons.map((t, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>scrollToSlide(i),
+                                style: {
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    alignItems: "center",
+                                    gap: 4,
+                                    background: "none",
+                                    border: "none",
+                                    cursor: "pointer",
+                                    padding: "6px 8px",
+                                    borderRadius: 10,
+                                    opacity: activeSlide === i ? 1 : 0.4,
+                                    transition: "opacity 0.2s"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        style: {
+                                            width: 36,
+                                            height: 36,
+                                            borderRadius: 10,
+                                            background: activeSlide === i ? `${t.color}25` : "rgba(255,255,255,0.05)",
+                                            border: `2px solid ${activeSlide === i ? t.color : "transparent"}`,
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center",
+                                            transition: "all 0.2s"
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(GemIcon, {
+                                            color: t.color
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
+                                            lineNumber: 294,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
+                                        lineNumber: 281,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        style: {
+                                            fontSize: 10,
+                                            fontWeight: activeSlide === i ? 700 : 400,
+                                            color: activeSlide === i ? t.color : "#82889b",
+                                            whiteSpace: "nowrap"
+                                        },
+                                        children: t.label
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
+                                        lineNumber: 296,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, t.id, true, {
+                                fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
+                                lineNumber: 264,
+                                columnNumber: 13
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
+                        lineNumber: 262,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1469,7 +1582,7 @@ function PricingPage() {
                                         children: "MOST POPULAR"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 282,
+                                        lineNumber: 358,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1484,7 +1597,7 @@ function PricingPage() {
                                                 color: tier.gemColor
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 306,
+                                                lineNumber: 382,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1497,7 +1610,7 @@ function PricingPage() {
                                                 children: tier.name
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 307,
+                                                lineNumber: 383,
                                                 columnNumber: 19
                                             }, this),
                                             isPlatinum && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1514,7 +1627,7 @@ function PricingPage() {
                                                         strokeWidth: "1.3"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 319,
+                                                        lineNumber: 395,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
@@ -1526,19 +1639,19 @@ function PricingPage() {
                                                         children: "i"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 320,
+                                                        lineNumber: 396,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 318,
+                                                lineNumber: 394,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 305,
+                                        lineNumber: 381,
                                         columnNumber: 17
                                     }, this),
                                     tier.topFeatures && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1558,7 +1671,7 @@ function PricingPage() {
                                                 children: "TOP FEATURES"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 328,
+                                                lineNumber: 404,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1599,17 +1712,17 @@ function PricingPage() {
                                                                         strokeLinejoin: "round"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                                        lineNumber: 357,
+                                                                        lineNumber: 433,
                                                                         columnNumber: 31
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                                    lineNumber: 356,
+                                                                    lineNumber: 432,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                                lineNumber: 343,
+                                                                lineNumber: 419,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1625,7 +1738,7 @@ function PricingPage() {
                                                                         children: f.title
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                                        lineNumber: 361,
+                                                                        lineNumber: 437,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1638,24 +1751,24 @@ function PricingPage() {
                                                                         children: f.desc
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                                        lineNumber: 362,
+                                                                        lineNumber: 438,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                                lineNumber: 360,
+                                                                lineNumber: 436,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, f.title, true, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 342,
+                                                        lineNumber: 418,
                                                         columnNumber: 25
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 340,
+                                                lineNumber: 416,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1666,13 +1779,13 @@ function PricingPage() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 367,
+                                                lineNumber: 443,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 327,
+                                        lineNumber: 403,
                                         columnNumber: 19
                                     }, this),
                                     tier.mainStat && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1701,7 +1814,7 @@ function PricingPage() {
                                                     children: tier.mainStat.value
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                    lineNumber: 384,
+                                                    lineNumber: 460,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1713,18 +1826,18 @@ function PricingPage() {
                                                     children: tier.mainStat.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                    lineNumber: 396,
+                                                    lineNumber: 472,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                            lineNumber: 374,
+                                            lineNumber: 450,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 373,
+                                        lineNumber: 449,
                                         columnNumber: 19
                                     }, this),
                                     tier.statBoxes.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1754,7 +1867,7 @@ function PricingPage() {
                                                         children: s.value
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 415,
+                                                        lineNumber: 491,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1766,18 +1879,18 @@ function PricingPage() {
                                                         children: s.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 427,
+                                                        lineNumber: 503,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, s.label, true, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 405,
+                                                lineNumber: 481,
                                                 columnNumber: 23
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 403,
+                                        lineNumber: 479,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1808,7 +1921,7 @@ function PricingPage() {
                                                         children: row.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 438,
+                                                        lineNumber: 514,
                                                         columnNumber: 25
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         style: {
@@ -1818,7 +1931,7 @@ function PricingPage() {
                                                         children: row.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 440,
+                                                        lineNumber: 516,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1831,18 +1944,18 @@ function PricingPage() {
                                                         children: row.value
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 442,
+                                                        lineNumber: 518,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, row.label, true, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 436,
+                                                lineNumber: 512,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 434,
+                                        lineNumber: 510,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1864,7 +1977,7 @@ function PricingPage() {
                                                         checked: tier.checkedFeatures.includes(i)
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 451,
+                                                        lineNumber: 527,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1876,18 +1989,18 @@ function PricingPage() {
                                                         children: feat
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                        lineNumber: 452,
+                                                        lineNumber: 528,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, feat, true, {
                                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                                lineNumber: 450,
+                                                lineNumber: 526,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 448,
+                                        lineNumber: 524,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1907,25 +2020,25 @@ function PricingPage() {
                                         children: tier.cta
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                        lineNumber: 466,
+                                        lineNumber: 542,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, tier.id, true, {
                                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                                lineNumber: 262,
+                                lineNumber: 338,
                                 columnNumber: 15
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                        lineNumber: 235,
+                        lineNumber: 311,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                lineNumber: 172,
+                lineNumber: 199,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("style", {
@@ -1942,6 +2055,13 @@ function PricingPage() {
           }
         }
         @media (max-width: 768px) {
+          .tier-indicators {
+            display: flex !important;
+            flex-direction: row !important;
+            justify-content: center !important;
+            gap: 4px !important;
+            padding: 0 16px 20px !important;
+          }
           .pricing-grid {
             display: flex !important;
             flex-direction: row !important;
@@ -1978,7 +2098,7 @@ function PricingPage() {
       `
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/pricing/page.tsx",
-                lineNumber: 489,
+                lineNumber: 565,
                 columnNumber: 7
             }, this)
         ]

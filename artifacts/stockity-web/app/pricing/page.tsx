@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Header from "@/components/Header";
 
 const CheckIcon = ({ checked }: { checked: boolean }) =>
@@ -154,16 +154,43 @@ const GemIcon = ({ color }: { color: string }) => (
   </svg>
 );
 
+const tierIcons = [
+  { id: "free", color: "#82889b", label: "Free" },
+  { id: "standard", color: "#c0c8d8", label: "Standard" },
+  { id: "gold", color: "#f5c842", label: "Gold" },
+  { id: "vip", color: "#4da6ff", label: "VIP" },
+  { id: "platinum", color: "#a78bfa", label: "Platinum" },
+];
+
 export default function PricingPage() {
   const sliderRef = useRef<HTMLDivElement>(null);
+  const [activeSlide, setActiveSlide] = useState(0);
 
-  const scrollSlider = (dir: "prev" | "next") => {
+  useEffect(() => {
+    const el = sliderRef.current;
+    if (!el) return;
+    const onScroll = () => {
+      const cardWidth = el.firstElementChild
+        ? (el.firstElementChild as HTMLElement).offsetWidth + 16
+        : el.offsetWidth;
+      const idx = Math.round(el.scrollLeft / cardWidth);
+      setActiveSlide(Math.max(0, Math.min(idx, tiers.length - 1)));
+    };
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => el.removeEventListener("scroll", onScroll);
+  }, []);
+
+  const scrollToSlide = (idx: number) => {
     const el = sliderRef.current;
     if (!el) return;
     const cardWidth = el.firstElementChild
       ? (el.firstElementChild as HTMLElement).offsetWidth + 16
       : el.offsetWidth;
-    el.scrollBy({ left: dir === "next" ? cardWidth : -cardWidth, behavior: "smooth" });
+    el.scrollTo({ left: idx * cardWidth, behavior: "smooth" });
+  };
+
+  const scrollSlider = (dir: "prev" | "next") => {
+    scrollToSlide(dir === "next" ? activeSlide + 1 : activeSlide - 1);
   };
 
   return (
@@ -229,6 +256,55 @@ export default function PricingPage() {
               ))}
             </div>
           </div>
+        </div>
+
+        {/* Mobile tier icon indicators */}
+        <div className="tier-indicators" style={{ display: "none" }}>
+          {tierIcons.map((t, i) => (
+            <button
+              key={t.id}
+              onClick={() => scrollToSlide(i)}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                gap: 4,
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: "6px 8px",
+                borderRadius: 10,
+                opacity: activeSlide === i ? 1 : 0.4,
+                transition: "opacity 0.2s",
+              }}
+            >
+              <div
+                style={{
+                  width: 36,
+                  height: 36,
+                  borderRadius: 10,
+                  background: activeSlide === i ? `${t.color}25` : "rgba(255,255,255,0.05)",
+                  border: `2px solid ${activeSlide === i ? t.color : "transparent"}`,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  transition: "all 0.2s",
+                }}
+              >
+                <GemIcon color={t.color} />
+              </div>
+              <span
+                style={{
+                  fontSize: 10,
+                  fontWeight: activeSlide === i ? 700 : 400,
+                  color: activeSlide === i ? t.color : "#82889b",
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {t.label}
+              </span>
+            </button>
+          ))}
         </div>
 
         {/* Cards — full width */}
@@ -499,6 +575,13 @@ export default function PricingPage() {
           }
         }
         @media (max-width: 768px) {
+          .tier-indicators {
+            display: flex !important;
+            flex-direction: row !important;
+            justify-content: center !important;
+            gap: 4px !important;
+            padding: 0 16px 20px !important;
+          }
           .pricing-grid {
             display: flex !important;
             flex-direction: row !important;
