@@ -1600,7 +1600,7 @@ function PricingPage() {
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         style: {
                                                                             margin: 0,
-                                                                            fontSize: "clamp(13px, 1vw, 15px)",
+                                                                            fontSize: "clamp(15px, 1.11111vw, 17px)",
                                                                             fontWeight: 700,
                                                                             color: textPrimary,
                                                                             lineHeight: 1.3
@@ -1614,7 +1614,7 @@ function PricingPage() {
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                         style: {
                                                                             margin: "2px 0 0",
-                                                                            fontSize: "clamp(11px, 0.83333vw, 13px)",
+                                                                            fontSize: "clamp(13px, 0.97222vw, 15px)",
                                                                             color: textSub,
                                                                             lineHeight: 1.45
                                                                         },
@@ -1690,7 +1690,7 @@ function PricingPage() {
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     style: {
                                                         margin: "4px 0 0",
-                                                        fontSize: "clamp(12px, 0.90278vw, 14px)",
+                                                        fontSize: "clamp(14px, 1.04167vw, 16px)",
                                                         color: textSub
                                                     },
                                                     children: tier.mainStat.label
@@ -1743,7 +1743,7 @@ function PricingPage() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         style: {
                                                             margin: "4px 0 0",
-                                                            fontSize: "clamp(12px, 0.90278vw, 14px)",
+                                                            fontSize: "clamp(14px, 1.04167vw, 16px)",
                                                             color: textSub
                                                         },
                                                         children: s.label
@@ -1783,7 +1783,7 @@ function PricingPage() {
                                                     row.linkColor ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                                         href: "#",
                                                         style: {
-                                                            fontSize: "clamp(13px, 1vw, 15px)",
+                                                            fontSize: "clamp(15px, 1.11111vw, 17px)",
                                                             color: row.linkColor,
                                                             textDecoration: "none",
                                                             fontWeight: 500
@@ -1795,7 +1795,7 @@ function PricingPage() {
                                                         columnNumber: 25
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         style: {
-                                                            fontSize: "clamp(13px, 1vw, 15px)",
+                                                            fontSize: "clamp(15px, 1.11111vw, 17px)",
                                                             color: textSub
                                                         },
                                                         children: row.label
@@ -1806,7 +1806,7 @@ function PricingPage() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         style: {
-                                                            fontSize: "clamp(13px, 1vw, 15px)",
+                                                            fontSize: "clamp(15px, 1.11111vw, 17px)",
                                                             color: textPrimary,
                                                             fontWeight: 600,
                                                             whiteSpace: "nowrap"
@@ -1852,7 +1852,7 @@ function PricingPage() {
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         style: {
-                                                            fontSize: "clamp(12px, 0.90278vw, 14px)",
+                                                            fontSize: "clamp(14px, 1.04167vw, 16px)",
                                                             color: tier.checkedFeatures.includes(i) ? textPrimary : textSub,
                                                             lineHeight: 1.45
                                                         },

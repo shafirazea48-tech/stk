@@ -341,8 +341,8 @@ export default function PricingPage() {
                             </svg>
                           </div>
                           <div>
-                            <p style={{ margin: 0, fontSize: "clamp(13px, 1vw, 15px)", fontWeight: 700, color: textPrimary, lineHeight: 1.3 }}>{f.title}</p>
-                            <p style={{ margin: "2px 0 0", fontSize: "clamp(11px, 0.83333vw, 13px)", color: textSub, lineHeight: 1.45 }}>{f.desc}</p>
+                            <p style={{ margin: 0, fontSize: "clamp(15px, 1.11111vw, 17px)", fontWeight: 700, color: textPrimary, lineHeight: 1.3 }}>{f.title}</p>
+                            <p style={{ margin: "2px 0 0", fontSize: "clamp(13px, 0.97222vw, 15px)", color: textSub, lineHeight: 1.45 }}>{f.desc}</p>
                           </div>
                         </div>
                       ))}
@@ -376,7 +376,7 @@ export default function PricingPage() {
                       >
                         {tier.mainStat.value}
                       </p>
-                      <p style={{ margin: "4px 0 0", fontSize: "clamp(12px, 0.90278vw, 14px)", color: textSub }}>{tier.mainStat.label}</p>
+                      <p style={{ margin: "4px 0 0", fontSize: "clamp(14px, 1.04167vw, 16px)", color: textSub }}>{tier.mainStat.label}</p>
                     </div>
                   </div>
                 )}
@@ -407,7 +407,7 @@ export default function PricingPage() {
                         >
                           {s.value}
                         </p>
-                        <p style={{ margin: "4px 0 0", fontSize: "clamp(12px, 0.90278vw, 14px)", color: textSub }}>{s.label}</p>
+                        <p style={{ margin: "4px 0 0", fontSize: "clamp(14px, 1.04167vw, 16px)", color: textSub }}>{s.label}</p>
                       </div>
                     ))}
                   </div>
@@ -418,11 +418,11 @@ export default function PricingPage() {
                   {tier.rows.map((row) => (
                     <div key={row.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}>
                       {row.linkColor ? (
-                        <a href="#" style={{ fontSize: "clamp(13px, 1vw, 15px)", color: row.linkColor, textDecoration: "none", fontWeight: 500 }}>{row.label}</a>
+                        <a href="#" style={{ fontSize: "clamp(15px, 1.11111vw, 17px)", color: row.linkColor, textDecoration: "none", fontWeight: 500 }}>{row.label}</a>
                       ) : (
-                        <span style={{ fontSize: "clamp(13px, 1vw, 15px)", color: textSub }}>{row.label}</span>
+                        <span style={{ fontSize: "clamp(15px, 1.11111vw, 17px)", color: textSub }}>{row.label}</span>
                       )}
-                      <span style={{ fontSize: "clamp(13px, 1vw, 15px)", color: textPrimary, fontWeight: 600, whiteSpace: "nowrap" }}>{row.value}</span>
+                      <span style={{ fontSize: "clamp(15px, 1.11111vw, 17px)", color: textPrimary, fontWeight: 600, whiteSpace: "nowrap" }}>{row.value}</span>
                     </div>
                   ))}
                 </div>
@@ -434,7 +434,7 @@ export default function PricingPage() {
                       <CheckIcon checked={tier.checkedFeatures.includes(i)} />
                       <span
                         style={{
-                          fontSize: "clamp(12px, 0.90278vw, 14px)",
+                          fontSize: "clamp(14px, 1.04167vw, 16px)",
                           color: tier.checkedFeatures.includes(i) ? textPrimary : textSub,
                           lineHeight: 1.45,
                         }}
