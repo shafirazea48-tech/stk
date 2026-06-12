@@ -38,13 +38,12 @@ const navItems = [
     label: "For users",
     children: [
       { label: "Statuses", href: "/pricing" },
-      { label: "Tournaments", href: "#" },
+      { label: "Tournaments", href: "/tournaments" },
     ],
   },
   {
     label: "Information",
     children: [
-      { label: "Tournaments", href: "/tournaments" },
       { label: "Client Agreement", href: "#" },
       { label: "AML Policy", href: "#" },
       { label: "Copy Trading Agreement", href: "#" },
