@@ -13,6 +13,7 @@ const keywords =
   "plataforma trading online, inversi\u00f3n online, trading acciones, forex, criptomonedas, cripto, copy trading, app de inversi\u00f3n, trading principiantes, stockity";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: title,
     template: "%s | Stockity",
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
       en: siteUrl,
       id: `${siteUrl}/id`,
       es: `${siteUrl}/es`,
-      "pt-BR": `${siteUrl}/pt`,
+      "pt-BR": `${siteUrl}/pt-br`,
       "x-default": siteUrl,
     },
   },

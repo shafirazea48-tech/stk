@@ -38,7 +38,7 @@ const socialLinks = [
   { name: "TikTok", href: "#", icon: <TikTokIcon /> },
 ];
 
-const LOGO_PNG = "/images/stockity-trimmed.png";
+const LOGO_PNG = "/images/stockity-logo-trimmed.png";
 
 const SocialIcon = ({ name, href, icon }: { name: string; href: string; icon: React.ReactNode }) => (
   <a

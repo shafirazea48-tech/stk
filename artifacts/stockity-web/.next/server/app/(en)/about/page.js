@@ -1,0 +1,13 @@
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/(en)/about/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1l9g96r._.js")
+R.c("server/chunks/ssr/1mkl_next_dist_esm_build_templates_app-page_04oq3sf.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1i2e3wy._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0e54fq8._.js")
+R.c("server/chunks/ssr/1mkl_next_dist_client_components_1038la4._.js")
+R.c("server/chunks/ssr/1mkl_next_dist_client_components_builtin_forbidden_1h3m01c.js")
+R.c("server/chunks/ssr/1mkl_next_dist_client_components_builtin_unauthorized_1b812k9.js")
+R.c("server/chunks/ssr/1mkl_next_dist_client_components_builtin_global-error_0b546v0.js")
+R.c("server/chunks/ssr/[root-of-the-server]__06scz6c._.js")
+R.c("server/chunks/ssr/artifacts_stockity-web__next-internal_server_app_(en)_about_page_actions_1mbac7a.js")
+R.m(96728)
+module.exports=R.m(96728).exports

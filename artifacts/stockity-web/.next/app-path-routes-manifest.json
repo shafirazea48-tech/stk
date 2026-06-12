@@ -1,0 +1,23 @@
+{
+  "/(en)/about/page": "/about",
+  "/(en)/agreement/page": "/agreement",
+  "/(en)/aml-policy/page": "/aml-policy",
+  "/(en)/copy-trading-agreement/page": "/copy-trading-agreement",
+  "/(en)/go/route": "/go",
+  "/(en)/page": "/",
+  "/(en)/pricing/page": "/pricing",
+  "/(en)/status/page": "/status",
+  "/(en)/tournaments/page": "/tournaments",
+  "/(es)/es/about/page": "/es/about",
+  "/(es)/es/page": "/es",
+  "/(id)/id/about/page": "/id/about",
+  "/(id)/id/page": "/id",
+  "/(id)/id/pricing/page": "/id/pricing",
+  "/(id)/id/tournaments/page": "/id/tournaments",
+  "/(pt)/pt-br/about/page": "/pt-br/about",
+  "/(pt)/pt-br/page": "/pt-br",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/cta/route": "/api/cta",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

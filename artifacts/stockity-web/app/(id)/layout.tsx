@@ -36,6 +36,8 @@ export default function IdRootLayout({
       <head>
         <link rel="alternate" hrefLang="en" href={siteUrl} />
         <link rel="alternate" hrefLang="id" href={`${siteUrl}/id`} />
+        <link rel="alternate" hrefLang="es" href={`${siteUrl}/es`} />
+        <link rel="alternate" hrefLang="pt-BR" href={`${siteUrl}/pt-br`} />
         <link rel="alternate" hrefLang="x-default" href={siteUrl} />
       </head>
       <body

@@ -43,7 +43,7 @@ const languages = [
   { name: "English",          code: "en", flag: "gb", href: "/" },
   { name: "Bahasa Indonesia", code: "id", flag: "id", href: "/id" },
   { name: "Español",          code: "es", flag: "es", href: "/es" },
-  { name: "Português (BR)",   code: "pt", flag: "br", href: "/pt" },
+  { name: "Português (BR)",   code: "pt", flag: "br", href: "/pt-br" },
 ];
 
 function LanguagePanel({ locale, onClose }: { locale?: Locale; onClose: () => void }) {
@@ -176,9 +176,9 @@ export default function Header({ locale }: { locale?: Locale }) {
   const [langPanelOpen, setLangPanelOpen] = useState(false);
   const t = getT(locale ?? "en");
   const n = t.header.nav;
-  const homeHref = locale === "id" ? "/id" : locale === "es" ? "/es" : locale === "pt" ? "/pt" : "/";
+  const homeHref = locale === "id" ? "/id" : locale === "es" ? "/es" : locale === "pt" ? "/pt-br" : "/";
 
-  const prefix = locale === "id" ? "/id" : locale === "es" ? "/es" : locale === "pt" ? "/pt" : "";
+  const prefix = locale === "id" ? "/id" : locale === "es" ? "/es" : locale === "pt" ? "/pt-br" : "";
   const navItems = [
     {
       label: n.forUsers,

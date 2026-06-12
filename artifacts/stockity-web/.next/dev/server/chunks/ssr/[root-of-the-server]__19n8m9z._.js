@@ -513,7 +513,7 @@ const pt = {
         register: "Cadastrar"
     },
     hero: {
-        heading: "Stockity. Invista de forma mais inteligente",
+        heading: "Stockity. Invista do jeito mais inteligente",
         register: "Come\u00e7ar gr\u00e1tis",
         watch: "Ver v\u00eddeo",
         features: [
@@ -637,7 +637,7 @@ const pt = {
         links: [
             {
                 label: "Sobre n\u00f3s",
-                href: "/pt/about"
+                href: "/pt-br/about"
             },
             {
                 label: "Programa de afiliados",

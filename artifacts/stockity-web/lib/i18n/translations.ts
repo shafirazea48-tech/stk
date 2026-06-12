@@ -460,7 +460,7 @@ const pt: typeof en = {
     register: "Cadastrar",
   },
   hero: {
-    heading: "Stockity. Invista de forma mais inteligente",
+    heading: "Stockity. Invista do jeito mais inteligente",
     register: "Come\u00e7ar gr\u00e1tis",
     watch: "Ver v\u00eddeo",
     features: [
@@ -583,7 +583,7 @@ const pt: typeof en = {
       "A Stockity presta servi\u00e7os exclusivamente a usu\u00e1rios adultos. O trading online pode envolver riscos financeiros significativos, incluindo a perda total dos fundos da sua conta. Avalie todos os riscos e consulte um assessor financeiro independente antes de usar os servi\u00e7os da Stockity. N\u00e3o invista dinheiro que voc\u00ea n\u00e3o pode se dar ao luxo de perder. A Stockity n\u00e3o \u00e9 respons\u00e1vel por quaisquer perdas, diretas ou indiretas, decorrentes das a\u00e7\u00f5es do cliente na plataforma.",
     copyright: "\u00a9 2022\u20132026 Stockity. Todos os direitos reservados.",
     links: [
-      { label: "Sobre n\u00f3s", href: "/pt/about" },
+      { label: "Sobre n\u00f3s", href: "/pt-br/about" },
       { label: "Programa de afiliados", href: "#" },
       { label: "Pol\u00edtica de privacidade", href: "#" },
       { label: "Contrato do Cliente", href: "/agreement" },

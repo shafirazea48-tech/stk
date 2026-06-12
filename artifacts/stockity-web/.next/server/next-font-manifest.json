@@ -1,0 +1,55 @@
+{
+  "app": {
+    "[project]/artifacts/stockity-web/app/(en)/about/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(en)/agreement/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(en)/aml-policy/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(en)/copy-trading-agreement/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(en)/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(en)/pricing/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(en)/status/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(en)/tournaments/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(es)/es/about/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(es)/es/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(id)/id/about/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(id)/id/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(id)/id/pricing/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(id)/id/tournaments/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(pt)/pt-br/about/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ],
+    "[project]/artifacts/stockity-web/app/(pt)/pt-br/page": [
+      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

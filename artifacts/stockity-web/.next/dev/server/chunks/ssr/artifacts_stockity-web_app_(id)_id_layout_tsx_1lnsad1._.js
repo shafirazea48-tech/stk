@@ -15,6 +15,7 @@ const title = "Stockity | Platform Trading Online Terpercaya – 140+ Aset";
 const description = "Bergabung bersama 3,5 juta trader di Stockity. Trading saham, forex, kripto & komoditas dengan modal mulai $10. Platform legal, aman, penarikan cepat. Daftar gratis!";
 const keywords = "platform trading online, investasi online, trading saham, forex, cryptocurrency, kripto, copy trading, aplikasi investasi, trading pemula, stockity";
 const metadata = {
+    metadataBase: new URL(siteUrl),
     title: {
         default: title,
         template: "%s | Stockity"
@@ -70,7 +71,7 @@ const metadata = {
             en: siteUrl,
             id: `${siteUrl}/id`,
             es: `${siteUrl}/es`,
-            "pt-BR": `${siteUrl}/pt`,
+            "pt-BR": `${siteUrl}/pt-br`,
             "x-default": siteUrl
         }
     }
@@ -126,7 +127,7 @@ function IdLayout({ children }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/(id)/id/layout.tsx",
-                lineNumber: 111,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             children

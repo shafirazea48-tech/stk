@@ -15,6 +15,7 @@ const title = "Stockity | Plataforma de Trading Online – 140+ Activos desde $1
 const description = "\u00danete a m\u00e1s de 3,5 millones de traders en Stockity. Opera acciones, forex, cripto y materias primas desde $10. Plataforma legal, segura y con retiros r\u00e1pidos. \u00a1Reg\u00edstrate gratis!";
 const keywords = "plataforma trading online, inversi\u00f3n online, trading acciones, forex, criptomonedas, cripto, copy trading, app de inversi\u00f3n, trading principiantes, stockity";
 const metadata = {
+    metadataBase: new URL(siteUrl),
     title: {
         default: title,
         template: "%s | Stockity"
@@ -70,7 +71,7 @@ const metadata = {
             en: siteUrl,
             id: `${siteUrl}/id`,
             es: `${siteUrl}/es`,
-            "pt-BR": `${siteUrl}/pt`,
+            "pt-BR": `${siteUrl}/pt-br`,
             "x-default": siteUrl
         }
     }

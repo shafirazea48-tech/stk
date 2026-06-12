@@ -25,7 +25,7 @@ export default function PtRootLayout({
         <link rel="alternate" hrefLang="en" href={siteUrl} />
         <link rel="alternate" hrefLang="id" href={`${siteUrl}/id`} />
         <link rel="alternate" hrefLang="es" href={`${siteUrl}/es`} />
-        <link rel="alternate" hrefLang="pt-BR" href={`${siteUrl}/pt`} />
+        <link rel="alternate" hrefLang="pt-BR" href={`${siteUrl}/pt-br`} />
         <link rel="alternate" hrefLang="x-default" href={siteUrl} />
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

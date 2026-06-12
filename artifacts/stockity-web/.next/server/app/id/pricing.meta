@@ -1,0 +1,19 @@
+{
+  "status": 307,
+  "headers": {
+    "location": "/pricing",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(id)/layout,_N_T_/(id)/id/layout,_N_T_/(id)/id/pricing/layout,_N_T_/(id)/id/pricing/page,_N_T_/id/pricing"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KGlkKQ/id/pricing/__PAGE__",
+    "/!KGlkKQ/id/pricing",
+    "/!KGlkKQ/id",
+    "/!KGlkKQ",
+    "/_index",
+    "/_head"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "/(en)/about/page": "app/(en)/about/page.js",
+  "/(en)/agreement/page": "app/(en)/agreement/page.js",
+  "/(en)/aml-policy/page": "app/(en)/aml-policy/page.js",
+  "/(en)/copy-trading-agreement/page": "app/(en)/copy-trading-agreement/page.js",
+  "/(en)/go/route": "app/(en)/go/route.js",
+  "/(en)/page": "app/(en)/page.js",
+  "/(en)/pricing/page": "app/(en)/pricing/page.js",
+  "/(en)/status/page": "app/(en)/status/page.js",
+  "/(en)/tournaments/page": "app/(en)/tournaments/page.js",
+  "/(es)/es/about/page": "app/(es)/es/about/page.js",
+  "/(es)/es/page": "app/(es)/es/page.js",
+  "/(id)/id/about/page": "app/(id)/id/about/page.js",
+  "/(id)/id/page": "app/(id)/id/page.js",
+  "/(id)/id/pricing/page": "app/(id)/id/pricing/page.js",
+  "/(id)/id/tournaments/page": "app/(id)/id/tournaments/page.js",
+  "/(pt)/pt-br/about/page": "app/(pt)/pt-br/about/page.js",
+  "/(pt)/pt-br/page": "app/(pt)/pt-br/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/cta/route": "app/api/cta/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+}

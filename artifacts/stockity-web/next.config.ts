@@ -9,6 +9,20 @@ const nextConfig: NextConfig = {
   ...(replitDomain
     ? { allowedDevOrigins: [replitDomain, `*.${replitDomain}`] }
     : {}),
+  async redirects() {
+    return [
+      {
+        source: "/pt",
+        destination: "/pt-br",
+        permanent: true,
+      },
+      {
+        source: "/pt/:path*",
+        destination: "/pt-br/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
