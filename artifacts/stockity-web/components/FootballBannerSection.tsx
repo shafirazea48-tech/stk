@@ -51,7 +51,7 @@ export default function FootballBannerSection() {
           <a href="#" className="btn-primary" style={{ fontFamily: "'Nunito Sans',sans-serif", display: "inline-block", minWidth: "clamp(100px,12vw,180px)" }}>
             Try it!
           </a>
-          <p style={{ marginTop: "clamp(8px,1vw,16px)", fontSize: "16px", color: "rgba(255,255,255,0.5)" }}>
+          <p style={{ marginTop: "clamp(8px,1vw,16px)", fontSize: "14px", color: "#ffffff" }}>
             Risk warning: your capital might be at risk
           </p>
         </div>
