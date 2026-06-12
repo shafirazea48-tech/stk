@@ -93,7 +93,7 @@ export default function FootballBannerSection() {
           <p style={{ fontSize: "3.8vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3vw" }}>
             10.06 – 24.06
           </p>
-          <h2 style={{ fontSize: "9vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
+          <h2 style={{ fontSize: "7vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)", whiteSpace: "nowrap" }}>
             Football Power Battle
           </h2>
           <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.55, marginBottom: "6vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
