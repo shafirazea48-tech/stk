@@ -69,11 +69,15 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" },
       { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.png", type: "image/png", sizes: "512x512" },
     ],
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    shortcut: "/favicon.ico",
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
+    other: [
+      { rel: "mask-icon", url: "/favicon.svg", color: "#0C8DF8" },
+    ],
   },
 };
 
@@ -134,6 +138,7 @@ export default function EnLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="theme-color" content="#151723" />
         <meta name="msvalidate.01" content="4F37DBE036B13EABA7F7C7625B77C3A7" />
         <meta name="yandex-verification" content="96a6b8f547a16be2" />
         <link rel="alternate" hrefLang="en" href={siteUrl} />
