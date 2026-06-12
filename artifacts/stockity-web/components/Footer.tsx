@@ -31,11 +31,11 @@ const TikTokIcon = () => (
 );
 
 const socialLinks = [
-  { name: "Instagram", href: "#", icon: <InstagramIcon /> },
-  { name: "Facebook", href: "#", icon: <FacebookIcon /> },
-  { name: "Telegram", href: "#", icon: <TelegramIcon /> },
-  { name: "YouTube", href: "#", icon: <YouTubeIcon /> },
-  { name: "TikTok", href: "#", icon: <TikTokIcon /> },
+  { name: "Instagram", href: "https://www.instagram.com/stockity.worldwide/", icon: <InstagramIcon /> },
+  { name: "Facebook", href: "https://www.facebook.com/profile.php?id=100094575001586", icon: <FacebookIcon /> },
+  { name: "Telegram", href: "https://t.me/+XYOj_300_WU4ZGZi", icon: <TelegramIcon /> },
+  { name: "YouTube", href: "https://www.youtube.com/@StockityInternational", icon: <YouTubeIcon /> },
+  { name: "TikTok", href: "https://www.tiktok.com/@stockity.worldwide", icon: <TikTokIcon /> },
 ];
 
 const LOGO_PNG = "/images/stockity-logo-trimmed.png";

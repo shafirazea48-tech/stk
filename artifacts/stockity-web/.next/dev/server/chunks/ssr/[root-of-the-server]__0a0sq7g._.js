@@ -2865,47 +2865,47 @@ const TikTokIcon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proj
 const socialLinks = [
     {
         name: "Instagram",
-        href: "#",
+        href: "https://www.instagram.com/stockity.worldwide/",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(InstagramIcon, {}, void 0, false, {
             fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
             lineNumber: 34,
-            columnNumber: 41
+            columnNumber: 85
         }, ("TURBOPACK compile-time value", void 0))
     },
     {
         name: "Facebook",
-        href: "#",
+        href: "https://www.facebook.com/profile.php?id=100094575001586",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FacebookIcon, {}, void 0, false, {
             fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
             lineNumber: 35,
-            columnNumber: 40
+            columnNumber: 94
         }, ("TURBOPACK compile-time value", void 0))
     },
     {
         name: "Telegram",
-        href: "#",
+        href: "https://t.me/+XYOj_300_WU4ZGZi",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(TelegramIcon, {}, void 0, false, {
             fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
             lineNumber: 36,
-            columnNumber: 40
+            columnNumber: 69
         }, ("TURBOPACK compile-time value", void 0))
     },
     {
         name: "YouTube",
-        href: "#",
+        href: "https://www.youtube.com/@StockityInternational",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(YouTubeIcon, {}, void 0, false, {
             fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
             lineNumber: 37,
-            columnNumber: 39
+            columnNumber: 84
         }, ("TURBOPACK compile-time value", void 0))
     },
     {
         name: "TikTok",
-        href: "#",
+        href: "https://www.tiktok.com/@stockity.worldwide",
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(TikTokIcon, {}, void 0, false, {
             fileName: "[project]/artifacts/stockity-web/components/Footer.tsx",
             lineNumber: 38,
-            columnNumber: 38
+            columnNumber: 79
         }, ("TURBOPACK compile-time value", void 0))
     }
 ];
