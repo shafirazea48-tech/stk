@@ -1,5 +1,5 @@
-const StockityIcon = () => (
-  <svg width="18" height="32" fill="none" xmlns="http://www.w3.org/2000/svg">
+const StockityIconSvg = () => (
+  <svg width="18" height="32" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ height: "100%", width: "auto" }}>
     <path d="M17.296 2.01a.526.526 0 0 0-.588-.59L6.314 2.776a.527.527 0 0 0-.304.895l1.6 1.03a.659.659 0 0 1 .11 1.019l-6.075 6.087a3.757 3.757 0 0 0 0 5.305 3.737 3.737 0 0 0 5.293 0l6.074-6.087a.656.656 0 0 1 1.017.11l1.023 1.598a.525.525 0 0 0 .892-.305l1.352-10.416Z" fill="url(#fa)"/>
     <path d="M3.244 29.31a3.757 3.757 0 0 1 0-5.306l7.141-7.156a3.737 3.737 0 0 1 5.293 0 3.757 3.757 0 0 1 0 5.305l-7.14 7.156a3.737 3.737 0 0 1-5.294 0Z" fill="url(#fb)"/>
     <path d="M1.05 12.573a3.756 3.756 0 0 0 1.37 5.124l7.006 4.054.012.007a3.755 3.755 0 0 1 1.816 3.82c-.141.908-.733 1.677-1.358 2.35l5.536-5.55a3.756 3.756 0 0 0-.534-6.124L7.892 12.2l-.012-.007a3.755 3.755 0 0 1-1.816-3.82c.141-.908.733-1.677 1.358-2.35l-5.536 5.55a3.742 3.742 0 0 0-.836 1Z" fill="#0C8DF8"/>
@@ -60,6 +60,8 @@ const footerLinks = [
   { label: "AML policy", href: "#" },
 ];
 
+const BRAND_LOGO = "/images/stockity/src/core/images/brand-logo-2868f55bc3eed2f4.svg";
+
 const SocialIcon = ({ name, href, icon }: { name: string; href: string; icon: React.ReactNode }) => (
   <a
     href={href}
@@ -112,8 +114,14 @@ export default function Footer() {
       >
         {/* Logo */}
         <a href="#" style={{ display: "flex", alignItems: "center", gap: "1.11111vw", textDecoration: "none", marginBottom: "11.1111vw" }}>
-          <StockityIcon />
-          <span style={{ fontSize: "5.55556vw", fontWeight: 900, color: "#F4F4F6" }}>Stockity</span>
+          <span style={{ display: "flex", height: "7.77778vw" }}>
+            <StockityIconSvg />
+          </span>
+          <img
+            src={BRAND_LOGO}
+            alt="Stockity"
+            style={{ height: "7.77778vw", width: "auto" }}
+          />
         </a>
 
         {/* Links */}
@@ -189,8 +197,14 @@ export default function Footer() {
       >
         {/* Logo */}
         <a href="#" style={{ display: "flex", alignItems: "center", gap: "0.925926vw", textDecoration: "none" }}>
-          <StockityIcon />
-          <span style={{ fontSize: "1.04167vw", fontWeight: 900, color: "#F4F4F6" }}>Stockity</span>
+          <span style={{ display: "flex", height: "2.77778vw" }}>
+            <StockityIconSvg />
+          </span>
+          <img
+            src={BRAND_LOGO}
+            alt="Stockity"
+            style={{ height: "2.77778vw", width: "auto" }}
+          />
         </a>
 
         {/* Content row */}
