@@ -45,7 +45,7 @@ export default function AboutPage() {
             >
               <p
                 style={{
-                  fontSize: "clamp(15px, 1.11111vw, 18px)",
+                  fontSize: "14px",
                   color: "#c0c8d8",
                   lineHeight: 1.75,
                   margin: 0,
@@ -62,7 +62,7 @@ export default function AboutPage() {
 
               <p
                 style={{
-                  fontSize: "clamp(15px, 1.11111vw, 18px)",
+                  fontSize: "14px",
                   color: "#c0c8d8",
                   lineHeight: 1.75,
                   margin: 0,
@@ -77,7 +77,7 @@ export default function AboutPage() {
 
               <p
                 style={{
-                  fontSize: "clamp(15px, 1.11111vw, 18px)",
+                  fontSize: "14px",
                   color: "#c0c8d8",
                   lineHeight: 1.75,
                   margin: 0,
@@ -117,7 +117,7 @@ export default function AboutPage() {
 
             <p
               style={{
-                fontSize: "clamp(15px, 1.11111vw, 18px)",
+                fontSize: "14px",
                 color: "#c0c8d8",
                 lineHeight: 1.75,
                 margin: "0 0 2.77778vw",
@@ -180,7 +180,7 @@ export default function AboutPage() {
 
             <p
               style={{
-                fontSize: "clamp(15px, 1.11111vw, 18px)",
+                fontSize: "14px",
                 color: "#c0c8d8",
                 lineHeight: 1.75,
                 margin: 0,
