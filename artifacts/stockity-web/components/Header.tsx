@@ -99,7 +99,7 @@ export default function Header() {
                     display: "flex",
                     alignItems: "center",
                     padding: "0.555556vw 0.925926vw",
-                    fontSize: "0.972222vw",
+                    fontSize: "20px",
                     fontWeight: 700,
                     color: "rgba(255,255,255,0.85)",
                     background: "none",
@@ -108,7 +108,7 @@ export default function Header() {
                     borderRadius: "0.555556vw",
                     transition: "color 0.15s",
                     whiteSpace: "nowrap",
-                    fontFamily: "inherit",
+                    fontFamily: "'Nunito Sans', sans-serif",
                   }}
                   onMouseEnter={(e) => (e.currentTarget.style.color = "#fff")}
                   onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(255,255,255,0.85)")}
@@ -162,8 +162,9 @@ export default function Header() {
                 href={item.href}
                 style={{
                   padding: "0.555556vw 0.925926vw",
-                  fontSize: "0.972222vw",
+                  fontSize: "20px",
                   fontWeight: 700,
+                  fontFamily: "'Nunito Sans', sans-serif",
                   color: "rgba(255,255,255,0.85)",
                   textDecoration: "none",
                   borderRadius: "0.555556vw",
@@ -187,9 +188,9 @@ export default function Header() {
               display: "flex",
               alignItems: "center",
               padding: "0.462963vw 1.38889vw",
-              fontSize: "0.972222vw",
+              fontSize: "20px",
               fontWeight: 700,
-              fontFamily: "inherit",
+              fontFamily: "'Nunito Sans', sans-serif",
               color: "#fff",
               background: "none",
               border: "2px solid #0c8df8",
@@ -211,9 +212,9 @@ export default function Header() {
               alignItems: "center",
               gap: "0.462963vw",
               padding: "0.462963vw 1.38889vw",
-              fontSize: "0.972222vw",
+              fontSize: "20px",
               fontWeight: 700,
-              fontFamily: "inherit",
+              fontFamily: "'Nunito Sans', sans-serif",
               color: "#fff",
               background: "#0c8df8",
               border: "none",
@@ -299,14 +300,14 @@ export default function Header() {
           <button
             style={{
               padding: "1.94444vw 3.88889vw",
-              fontSize: "3.61111vw",
+              fontSize: "16px",
               fontWeight: 700,
               color: "#fff",
               background: "none",
               border: "1.5px solid rgba(255,255,255,0.5)",
               borderRadius: "1.94444vw",
               cursor: "pointer",
-              fontFamily: "inherit",
+              fontFamily: "'Nunito Sans', sans-serif",
               whiteSpace: "nowrap",
             }}
           >
@@ -315,14 +316,14 @@ export default function Header() {
           <button
             style={{
               padding: "1.94444vw 3.88889vw",
-              fontSize: "3.61111vw",
+              fontSize: "16px",
               fontWeight: 700,
               color: "#fff",
               background: "#0c8df8",
               border: "none",
               borderRadius: "1.94444vw",
               cursor: "pointer",
-              fontFamily: "inherit",
+              fontFamily: "'Nunito Sans', sans-serif",
               whiteSpace: "nowrap",
             }}
           >
@@ -379,14 +380,14 @@ export default function Header() {
                         alignItems: "center",
                         justifyContent: "space-between",
                         padding: "5.55556vw 4.44444vw",
-                        fontSize: "5.55556vw",
+                        fontSize: "16px",
                         fontWeight: 700,
                         color: "#fff",
                         background: "none",
                         border: "none",
                         cursor: "pointer",
                         textAlign: "left",
-                        fontFamily: "inherit",
+                        fontFamily: "'Nunito Sans', sans-serif",
                       }}
                       onClick={() => setMobileOpenDropdown(mobileOpenDropdown === item.label ? null : item.label)}
                     >
@@ -407,11 +408,11 @@ export default function Header() {
                             style={{
                               display: "block",
                               padding: "4.44444vw 8.88889vw",
-                              fontSize: "4.44444vw",
+                              fontSize: "16px",
                               color: "rgba(255,255,255,0.65)",
                               textDecoration: "none",
                               borderBottom: "1px solid rgba(255,255,255,0.06)",
-                              fontFamily: "inherit",
+                              fontFamily: "'Nunito Sans', sans-serif",
                             }}
                           >
                             {child.label}
@@ -428,12 +429,12 @@ export default function Header() {
                       display: "flex",
                       alignItems: "center",
                       padding: "5.55556vw 4.44444vw",
-                      fontSize: "5.55556vw",
+                      fontSize: "16px",
                       fontWeight: 700,
                       color: "#fff",
                       textDecoration: "none",
                       borderBottom: "1px solid rgba(255,255,255,0.1)",
-                      fontFamily: "inherit",
+                      fontFamily: "'Nunito Sans', sans-serif",
                     }}
                   >
                     {item.label}
