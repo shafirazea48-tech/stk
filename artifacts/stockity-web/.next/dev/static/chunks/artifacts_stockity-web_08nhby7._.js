@@ -958,65 +958,82 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 "use client";
 ;
 ;
+const IDR = (n)=>n === 0 ? "Rp 0" : "Rp " + n.toLocaleString("id-ID");
+_c = IDR;
 const tournaments = [
     {
         name: "Eagle",
         image: "https://images.unsplash.com/photo-1611689342806-0863700ce1e4?w=800&q=80",
-        endDate: new Date(Date.now() + 18 * 24 * 60 * 60 * 1000 + 8 * 60 * 60 * 1000 + 34 * 60 * 1000),
-        participationFee: 40,
-        prizeFund: 40223
+        durationMs: 18 * 24 * 60 * 60 * 1000,
+        participationFee: 650000,
+        prizeFund: 655000000
     },
     {
         name: "Fortnight",
         image: "https://images.unsplash.com/photo-1502014822147-1aedfb0676e0?w=800&q=80",
-        endDate: new Date(Date.now() + 12 * 24 * 60 * 60 * 1000 + 4 * 60 * 60 * 1000 + 34 * 60 * 1000),
-        participationFee: 34,
-        prizeFund: 21470
+        durationMs: 12 * 24 * 60 * 60 * 1000,
+        participationFee: 550000,
+        prizeFund: 349000000
+    },
+    {
+        name: "Phoenix",
+        image: "https://images.unsplash.com/photo-1534294668821-28a3054f4256?w=800&q=80",
+        durationMs: 7 * 24 * 60 * 60 * 1000,
+        participationFee: 350000,
+        prizeFund: 120000000
+    },
+    {
+        name: "Champion",
+        image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&q=80",
+        durationMs: 3 * 24 * 60 * 60 * 1000,
+        participationFee: 150000,
+        prizeFund: 45000000
     },
     {
         name: "Daily Free",
         image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80",
-        endDate: new Date(Date.now() + 4 * 60 * 60 * 1000 + 34 * 60 * 1000 + 45 * 1000),
+        durationMs: 24 * 60 * 60 * 1000,
         participationFee: 0,
-        prizeFund: 270
+        prizeFund: 4400000
     }
 ];
-function useCountdown(endDate) {
+function formatRemaining(ms, durationMs) {
+    if (ms <= 0) return "Ended";
+    const totalSec = Math.floor(ms / 1000);
+    const d = Math.floor(totalSec / 86400);
+    const h = Math.floor(totalSec % 86400 / 3600);
+    const m = Math.floor(totalSec % 3600 / 60);
+    const s = totalSec % 60;
+    if (durationMs >= 24 * 60 * 60 * 1000) {
+        return `End ${d}d ${String(h).padStart(2, "0")}h ${String(m).padStart(2, "0")}m`;
+    }
+    return `End ${String(h).padStart(2, "0")}h ${String(m).padStart(2, "0")}m ${String(s).padStart(2, "0")}s`;
+}
+function useLoopingCountdown(durationMs) {
     _s();
-    const [timeLeft, setTimeLeft] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
+    const [label, setLabel] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "useCountdown.useEffect": ()=>{
+        "useLoopingCountdown.useEffect": ()=>{
             function calc() {
-                const diff = endDate.getTime() - Date.now();
-                if (diff <= 0) {
-                    setTimeLeft("Ended");
-                    return;
-                }
-                const d = Math.floor(diff / 86400000);
-                const h = Math.floor(diff % 86400000 / 3600000);
-                const m = Math.floor(diff % 3600000 / 60000);
-                const s = Math.floor(diff % 60000 / 1000);
-                if (d > 0) setTimeLeft(`End ${d}d ${String(h).padStart(2, "0")}h ${String(m).padStart(2, "0")}m`);
-                else setTimeLeft(`End ${String(h).padStart(2, "0")}h ${String(m).padStart(2, "0")}m ${String(s).padStart(2, "0")}s`);
+                const elapsed = Date.now() % durationMs;
+                const remaining = durationMs - elapsed;
+                setLabel(formatRemaining(remaining, durationMs));
             }
             calc();
             const id = setInterval(calc, 1000);
             return ({
-                "useCountdown.useEffect": ()=>clearInterval(id)
-            })["useCountdown.useEffect"];
+                "useLoopingCountdown.useEffect": ()=>clearInterval(id)
+            })["useLoopingCountdown.useEffect"];
         }
-    }["useCountdown.useEffect"], [
-        endDate
+    }["useLoopingCountdown.useEffect"], [
+        durationMs
     ]);
-    return timeLeft;
+    return label;
 }
-_s(useCountdown, "bnCuimid+NFiZd8ao4cxPW6Gz4k=");
+_s(useLoopingCountdown, "R2GXC0CNTyyDkQhaRhX6vR6X2lg=");
 function TournamentCard({ t }) {
     _s1();
-    const countdown = useCountdown(t.endDate);
-    const fmt = (n)=>n === 0 ? "€0.00" : "€" + n.toLocaleString("en-US", {
-            minimumFractionDigits: 2
-        });
+    const countdown = useLoopingCountdown(t.durationMs);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         style: {
             borderRadius: 12,
@@ -1045,18 +1062,18 @@ function TournamentCard({ t }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                        lineNumber: 83,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             position: "absolute",
                             inset: 0,
-                            background: "linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.15) 60%, rgba(0,0,0,0.5) 100%)"
+                            background: "linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 60%, rgba(0,0,0,0.55) 100%)"
                         }
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                        lineNumber: 89,
+                        lineNumber: 111,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1067,12 +1084,12 @@ function TournamentCard({ t }) {
                             fontSize: 22,
                             fontWeight: 800,
                             color: "#fff",
-                            textShadow: "0 1px 4px rgba(0,0,0,0.6)"
+                            textShadow: "0 1px 6px rgba(0,0,0,0.7)"
                         },
                         children: t.name
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                        lineNumber: 97,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1080,7 +1097,7 @@ function TournamentCard({ t }) {
                             position: "absolute",
                             bottom: 16,
                             left: 16,
-                            background: "rgba(255,255,255,0.92)",
+                            background: "rgba(255,255,255,0.93)",
                             color: "#151723",
                             fontSize: 13,
                             fontWeight: 600,
@@ -1090,13 +1107,13 @@ function TournamentCard({ t }) {
                         children: countdown
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                        lineNumber: 111,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                lineNumber: 81,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1118,25 +1135,25 @@ function TournamentCard({ t }) {
                                 children: "Participation fee"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                                lineNumber: 138,
+                                lineNumber: 159,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
-                                    fontSize: 18,
+                                    fontSize: 17,
                                     fontWeight: 700,
                                     color: "#f4f4f6"
                                 },
-                                children: fmt(t.participationFee)
+                                children: IDR(t.participationFee)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                                lineNumber: 141,
+                                lineNumber: 162,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                        lineNumber: 137,
+                        lineNumber: 158,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1150,52 +1167,52 @@ function TournamentCard({ t }) {
                                 children: "Prize fund"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                                lineNumber: 146,
+                                lineNumber: 167,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: {
-                                    fontSize: 18,
+                                    fontSize: 17,
                                     fontWeight: 700,
                                     color: "#0c8df8"
                                 },
-                                children: fmt(t.prizeFund)
+                                children: IDR(t.prizeFund)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                                lineNumber: 149,
+                                lineNumber: 170,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                        lineNumber: 145,
+                        lineNumber: 166,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                lineNumber: 129,
+                lineNumber: 150,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-        lineNumber: 69,
+        lineNumber: 92,
         columnNumber: 5
     }, this);
 }
-_s1(TournamentCard, "u8Q9UI2BbjjlXAW3yY+wFIi4lfA=", false, function() {
+_s1(TournamentCard, "zCBVWdbk1FX1X9Nwdue5ARx51WI=", false, function() {
     return [
-        useCountdown
+        useLoopingCountdown
     ];
 });
-_c = TournamentCard;
+_c1 = TournamentCard;
 function TournamentsPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$stockity$2d$web$2f$components$2f$Header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                lineNumber: 161,
+                lineNumber: 182,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1226,12 +1243,12 @@ function TournamentsPage() {
                             children: "Tournaments"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                            lineNumber: 180,
+                            lineNumber: 200,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             style: {
-                                fontSize: "clamp(18px, 1.38889vw, 24px)",
+                                fontSize: "clamp(16px, 1.25vw, 22px)",
                                 fontWeight: 700,
                                 color: "#c0c8d8",
                                 textAlign: "center",
@@ -1240,7 +1257,7 @@ function TournamentsPage() {
                             children: "Currently underway"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                            lineNumber: 193,
+                            lineNumber: 213,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1253,32 +1270,33 @@ function TournamentsPage() {
                                     t: t
                                 }, t.name, false, {
                                     fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                                    lineNumber: 214,
+                                    lineNumber: 233,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                            lineNumber: 206,
+                            lineNumber: 225,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                    lineNumber: 171,
+                    lineNumber: 192,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/tournaments/page.tsx",
-                lineNumber: 162,
+                lineNumber: 183,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true);
 }
-_c1 = TournamentsPage;
-var _c, _c1;
-__turbopack_context__.k.register(_c, "TournamentCard");
-__turbopack_context__.k.register(_c1, "TournamentsPage");
+_c2 = TournamentsPage;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "IDR");
+__turbopack_context__.k.register(_c1, "TournamentCard");
+__turbopack_context__.k.register(_c2, "TournamentsPage");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
