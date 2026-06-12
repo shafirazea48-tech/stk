@@ -195,7 +195,7 @@ const navItems = [
             },
             {
                 label: "Copy Trading Agreement",
-                href: "#"
+                href: "/copy-trading-agreement"
             }
         ]
     },
