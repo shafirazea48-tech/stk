@@ -61,6 +61,7 @@ export const metadata: Metadata = {
     languages: {
       en: siteUrl,
       id: `${siteUrl}/id`,
+      es: `${siteUrl}/es`,
       "x-default": siteUrl,
     },
   },

@@ -118,7 +118,7 @@ const jsonLd = {
       availableChannel: {
         "@type": "ServiceChannel",
         serviceUrl: siteUrl,
-        availableLanguage: ["English", "Indonesian"],
+        availableLanguage: ["English", "Indonesian", "Spanish"],
       },
     },
   ],
@@ -134,6 +134,7 @@ export default function EnLayout({
       <head>
         <link rel="alternate" hrefLang="en" href={siteUrl} />
         <link rel="alternate" hrefLang="id" href={`${siteUrl}/id`} />
+        <link rel="alternate" hrefLang="es" href={`${siteUrl}/es`} />
         <link rel="alternate" hrefLang="x-default" href={siteUrl} />
         <script
           type="application/ld+json"

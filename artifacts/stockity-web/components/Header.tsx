@@ -42,6 +42,7 @@ const ChevronDown = () => (
 const languages = [
   { name: "English",          code: "en", flag: "gb", href: "/" },
   { name: "Bahasa Indonesia", code: "id", flag: "id", href: "/id" },
+  { name: "Español",          code: "es", flag: "es", href: "/es" },
 ];
 
 function LanguagePanel({ locale, onClose }: { locale?: Locale; onClose: () => void }) {
@@ -174,14 +175,15 @@ export default function Header({ locale }: { locale?: Locale }) {
   const [langPanelOpen, setLangPanelOpen] = useState(false);
   const t = getT(locale ?? "en");
   const n = t.header.nav;
-  const homeHref = locale === "id" ? "/id" : "/";
+  const homeHref = locale === "id" ? "/id" : locale === "es" ? "/es" : "/";
 
+  const prefix = locale === "id" ? "/id" : locale === "es" ? "/es" : "";
   const navItems = [
     {
       label: n.forUsers,
       children: [
-        { label: n.statuses, href: locale === "id" ? "/id/pricing" : "/pricing" },
-        { label: n.tournaments, href: locale === "id" ? "/id/tournaments" : "/tournaments" },
+        { label: n.statuses, href: `${prefix}/pricing` },
+        { label: n.tournaments, href: `${prefix}/tournaments` },
       ],
     },
     {
@@ -192,7 +194,7 @@ export default function Header({ locale }: { locale?: Locale }) {
         { label: n.copyTradingAgreement, href: "/copy-trading-agreement" },
       ],
     },
-    { label: n.aboutUs, href: locale === "id" ? "/id/about" : "/about" },
+    { label: n.aboutUs, href: `${prefix}/about` },
   ];
 
   const activeLang = languages.find((l) => l.code === (locale ?? "en"))!;

@@ -1,5 +1,7 @@
 {
+  "/(en)/agreement/page": "app/(en)/agreement/page.js",
   "/(en)/page": "app/(en)/page.js",
+  "/(es)/es/page": "app/(es)/es/page.js",
   "/(id)/id/page": "app/(id)/id/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/about/page": "app/about/page.js",

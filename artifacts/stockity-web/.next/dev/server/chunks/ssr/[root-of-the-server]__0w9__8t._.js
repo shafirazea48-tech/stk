@@ -345,7 +345,7 @@ const id = {
                 question: "Berapa lama proses penarikan dana?",
                 type: "highlight",
                 before: "Semua permintaan diproses dalam ",
-                highlight: "1–2 jam",
+                highlight: "1\u20132 jam",
                 after: ". Tim keuangan kami siaga 24 jam untuk memastikan transaksimu berjalan cepat dan aman."
             },
             {
@@ -408,9 +408,171 @@ const id = {
         ]
     }
 };
+const es = {
+    header: {
+        nav: {
+            forUsers: "Funciones",
+            statuses: "Estados",
+            tournaments: "Torneos",
+            information: "Información",
+            clientAgreement: "Acuerdo de Cliente",
+            amlPolicy: "Política AML",
+            copyTradingAgreement: "Acuerdo de Copy Trading",
+            aboutUs: "Sobre nosotros"
+        },
+        login: "Iniciar sesión",
+        register: "Registrarse"
+    },
+    hero: {
+        heading: "Stockity. Invierte de forma más inteligente",
+        register: "Comenzar gratis",
+        watch: "Ver video",
+        features: [
+            "Interfaz sencilla",
+            "140+ activos",
+            "Transacciones seguras",
+            "Legal y regulado"
+        ]
+    },
+    tradersNeeds: {
+        headingStart: "Una plataforma hecha para ",
+        headingHighlight: "ti",
+        subheading: "Explora el mercado a tu ritmo, cuando y donde quieras",
+        cta: "Comenzar ahora",
+        rating: "Calificación 4.8",
+        ratingShort: "Calificación"
+    },
+    usable: {
+        heading: "Fácil, fiable y seguro. Exactamente como lo esperabas",
+        cta: "Empezar a operar"
+    },
+    assets: {
+        heading: "Más de 140 activos para explorar",
+        cta: "Comenzar ahora"
+    },
+    protect: {
+        heading: "Todo lo que necesitas en una sola plataforma",
+        card1Before: "Protecci\u00f3n ",
+        card1Highlight: "de fondos de alto nivel",
+        card1After: " y operaciones seguras",
+        card2Before: "Inversi\u00f3n transparente,",
+        card2Highlight: "sin tarifas ocultas"
+    },
+    copytrading: {
+        heading: "Aprende de los",
+        text: "Sigue las estrategias de los traders m\u00e1s exitosos y apl\u00edcalas a tu portafolio",
+        cta: "Comenzar ahora"
+    },
+    withdraw: {
+        heading: "Deposita y retira con m\u00e9todos de pago locales",
+        cta: "Ver m\u00e1s"
+    },
+    device: {
+        heading: "Opera donde quieras, con cualquier dispositivo",
+        mobileApps: "Apps M\u00f3viles",
+        webVersion: "Versi\u00f3n Web",
+        webPlatform: "Plataforma Web",
+        open: "Abrir",
+        openWebPlatform: "Abrir en el navegador"
+    },
+    charity: {
+        heading: "Vamos m\u00e1s all\u00e1 del trading. Stockity se compromete con la comunidad",
+        text: "Apoyamos la protecci\u00f3n del medioambiente, el bienestar animal, el deporte y muchas otras iniciativas. Conoce c\u00f3mo contribuimos a la sociedad",
+        textMobile: "Apoyamos el medioambiente, el bienestar animal, el deporte y muchas otras iniciativas sociales.",
+        cta: "Saber m\u00e1s"
+    },
+    partner: {
+        heading: "Stockity es una plataforma online legal y regulada",
+        cta: "Saber m\u00e1s"
+    },
+    reviews: {
+        heading: "Millones de traders ya conf\u00edan en Stockity"
+    },
+    faq: {
+        heading: "Preguntas frecuentes",
+        items: [
+            {
+                question: "\u00bfC\u00f3mo empiezo?",
+                type: "steps",
+                steps: [
+                    "Reg\u00edstrate en segundos",
+                    "Deposita f\u00e1cilmente",
+                    "Aprende gratis",
+                    "Predice el movimiento de activos",
+                    "Retira cuando quieras"
+                ]
+            },
+            {
+                question: "\u00bfCu\u00e1nto tarda un retiro?",
+                type: "highlight",
+                before: "Todos los pedidos se procesan en ",
+                highlight: "1-2 horas",
+                after: ". Nuestro equipo financiero trabaja las 24 horas para garantizar operaciones r\u00e1pidas y seguras."
+            },
+            {
+                question: "\u00bfPuedo practicar antes de operar con dinero real?",
+                type: "highlight",
+                before: "\u00a1Claro! Obtienes una ",
+                highlight: "cuenta demo de $10,000",
+                after: " completamente gratis. Practica estrategias, explora activos y aprende sin arriesgar tu dinero."
+            },
+            {
+                question: "\u00bfHay eventos o promociones especiales?",
+                type: "plain",
+                text: "\u00a1Por supuesto! Suscr\u00edbete a nuestros correos para enterarte de nuevas actividades. Organizamos torneos, concursos y promociones exclusivas de forma regular."
+            }
+        ]
+    },
+    join: {
+        headingStart: "\u00danete a los ",
+        headingHighlight: "3,5+ millones",
+        headingEnd: " de inversores que usan Stockity",
+        headingMobile1: "\u00danete a los ",
+        headingMobile2: "3,5+\u00a0millones",
+        headingMobile3: " de inversores que usan",
+        cta: "Comenzar ahora"
+    },
+    football: {
+        heading: "Batalla de F\u00fatbol",
+        text: "Opera 5 \u00edndices regionales con mayor rentabilidad y compite por los primeros puestos del ranking",
+        cta: "\u00a1Participar ahora!",
+        risk: "Aviso de riesgo: tu capital puede estar en riesgo"
+    },
+    earth: {
+        label: "usuarios de m\u00e1s de 130 pa\u00edses conf\u00edan en nosotros"
+    },
+    footer: {
+        contacts: "Contacto",
+        disclaimer: "Stockity solo presta servicios a usuarios adultos. El trading online puede implicar riesgos financieros significativos, incluida la p\u00e9rdida total de los fondos de tu cuenta. Eval\u00faa todos los riesgos y consulta a un asesor financiero independiente antes de usar Stockity. No inviertas dinero que no puedas permitirte perder. Stockity no se responsabiliza de ninguna p\u00e9rdida, directa o indirecta, derivada de las acciones del cliente en la plataforma.",
+        copyright: "\u00a9 2022\u20132026 Stockity. Todos los derechos reservados.",
+        links: [
+            {
+                label: "Sobre nosotros",
+                href: "/es/about"
+            },
+            {
+                label: "Programa de afiliados",
+                href: "#"
+            },
+            {
+                label: "Pol\u00edtica de privacidad",
+                href: "#"
+            },
+            {
+                label: "Acuerdo de Cliente",
+                href: "/agreement"
+            },
+            {
+                label: "Pol\u00edtica AML",
+                href: "/aml-policy"
+            }
+        ]
+    }
+};
 const translations = {
     en,
-    id
+    id,
+    es
 };
 function getT(locale) {
     return translations[locale];

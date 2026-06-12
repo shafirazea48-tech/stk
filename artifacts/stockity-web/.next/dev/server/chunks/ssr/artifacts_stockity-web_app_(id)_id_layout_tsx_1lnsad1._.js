@@ -69,6 +69,7 @@ const metadata = {
         languages: {
             en: siteUrl,
             id: `${siteUrl}/id`,
+            es: `${siteUrl}/es`,
             "x-default": siteUrl
         }
     }
@@ -124,7 +125,7 @@ function IdLayout({ children }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/(id)/id/layout.tsx",
-                lineNumber: 109,
+                lineNumber: 110,
                 columnNumber: 7
             }, this),
             children
