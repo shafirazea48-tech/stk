@@ -6,18 +6,22 @@ const features = [
   {
     text: "Intuitive interface",
     icon: "/images/stockity/src/core/images/trade-smart/icon_1.svg",
+    href: "#usable",
   },
   {
     text: "140+ assets",
     icon: "/images/stockity/src/core/images/trade-smart/icon_2.svg",
+    href: "#assets",
   },
   {
     text: "Secure transactions",
     icon: "/images/stockity/src/core/images/trade-smart/icon_3.svg",
+    href: "#protect",
   },
   {
     text: "Licensed and regulated",
     icon: null,
+    href: "#partner",
   },
 ];
 
@@ -153,8 +157,9 @@ export default function HeroSection() {
           }}
         >
           {features.map((f) => (
-            <div
+            <a
               key={f.text}
+              href={f.href}
               className="hero-chip"
               style={{
                 boxSizing: "border-box",
@@ -168,6 +173,8 @@ export default function HeroSection() {
                 borderRadius: "0.694444vw",
                 height: "2.77778vw",
                 padding: "0 0.925926vw",
+                textDecoration: "none",
+                cursor: "pointer",
               }}
             >
               <span
@@ -193,7 +200,7 @@ export default function HeroSection() {
               >
                 {f.text}
               </span>
-            </div>
+            </a>
           ))}
         </div>
       </div>

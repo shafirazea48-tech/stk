@@ -860,6 +860,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ne
 ;
 function UsableSection() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "usable",
         style: {
             background: "#000",
             boxSizing: "border-box"
@@ -888,7 +889,7 @@ function UsableSection() {
                         children: "Usable, reliable, secure."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                        lineNumber: 22,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -903,7 +904,7 @@ function UsableSection() {
                         children: "Works just as you expect"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                        lineNumber: 36,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -916,18 +917,18 @@ function UsableSection() {
                             children: "Start trading"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                            lineNumber: 51,
+                            lineNumber: 52,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                        lineNumber: 50,
+                        lineNumber: 51,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                lineNumber: 10,
+                lineNumber: 11,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -953,7 +954,7 @@ function UsableSection() {
                         children: "Usable, reliable, secure."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                        lineNumber: 69,
+                        lineNumber: 70,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -969,7 +970,7 @@ function UsableSection() {
                         children: "Works just as you expect"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                        lineNumber: 81,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -986,18 +987,18 @@ function UsableSection() {
                             children: "Start trading"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                            lineNumber: 95,
+                            lineNumber: 96,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                        lineNumber: 94,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/UsableSection.tsx",
-                lineNumber: 58,
+                lineNumber: 59,
                 columnNumber: 7
             }, this)
         ]

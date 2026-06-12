@@ -1,6 +1,7 @@
 export default function UsableSection() {
   return (
     <section
+      id="usable"
       style={{
         background: "#000",
         boxSizing: "border-box",
