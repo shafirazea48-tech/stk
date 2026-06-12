@@ -40,7 +40,7 @@ const footerLinks = [
   { label: "About us", href: "#" },
   { label: "Affiliate program", href: "#" },
   { label: "Privacy Policy", href: "#" },
-  { label: "Client Agreement", href: "#" },
+  { label: "Client Agreement", href: "/agreement" },
   { label: "AML policy", href: "#" },
 ];
 

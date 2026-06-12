@@ -2656,7 +2656,7 @@ const footerLinks = [
     },
     {
         label: "Client Agreement",
-        href: "#"
+        href: "/agreement"
     },
     {
         label: "AML policy",

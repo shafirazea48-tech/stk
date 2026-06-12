@@ -187,7 +187,7 @@ const navItems = [
         children: [
             {
                 label: "Client Agreement",
-                href: "#"
+                href: "/agreement"
             },
             {
                 label: "AML Policy",
