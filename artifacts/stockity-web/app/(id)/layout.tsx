@@ -36,6 +36,8 @@ export default function IdRootLayout({
   return (
     <html lang="id">
       <head>
+        <meta name="msvalidate.01" content="4F37DBE036B13EABA7F7C7625B77C3A7" />
+        <meta name="yandex-verification" content="96a6b8f547a16be2" />
         <link rel="alternate" hrefLang="en" href={siteUrl} />
         <link rel="alternate" hrefLang="id" href={`${siteUrl}/id`} />
         <link rel="alternate" hrefLang="es" href={`${siteUrl}/es`} />
