@@ -91,23 +91,18 @@ export default function FootballBannerSection() {
         position: "relative",
         width: "100%",
         overflow: "hidden",
-        background: "linear-gradient(180deg, #0a1628 0%, #0d2044 30%, #0f2a5a 60%, #0a1e4a 100%)",
+        backgroundImage: "url('/images/football-bg.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
         boxSizing: "border-box",
       }}
     >
-      {/* Stadium lights glow effect */}
+      {/* Dark overlay to keep text readable */}
       <div style={{
         position: "absolute",
-        top: 0, left: 0, right: 0, bottom: 0,
-        background: "radial-gradient(ellipse 80% 40% at 50% 10%, rgba(0,100,255,0.18) 0%, transparent 70%)",
-        pointerEvents: "none",
-      }}/>
-      {/* Green grass strip at bottom */}
-      <div style={{
-        position: "absolute",
-        bottom: 0, left: 0, right: 0,
-        height: "35%",
-        background: "linear-gradient(180deg, transparent 0%, rgba(10,60,20,0.4) 60%, rgba(5,40,10,0.7) 100%)",
+        inset: 0,
+        background: "rgba(5,15,40,0.45)",
         pointerEvents: "none",
       }}/>
 

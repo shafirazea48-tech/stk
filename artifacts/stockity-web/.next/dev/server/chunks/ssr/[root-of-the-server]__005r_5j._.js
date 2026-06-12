@@ -246,38 +246,23 @@ function FootballBannerSection() {
             position: "relative",
             width: "100%",
             overflow: "hidden",
-            background: "linear-gradient(180deg, #0a1628 0%, #0d2044 30%, #0f2a5a 60%, #0a1e4a 100%)",
+            backgroundImage: "url('/images/football-bg.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
             boxSizing: "border-box"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     position: "absolute",
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    background: "radial-gradient(ellipse 80% 40% at 50% 10%, rgba(0,100,255,0.18) 0%, transparent 70%)",
+                    inset: 0,
+                    background: "rgba(5,15,40,0.45)",
                     pointerEvents: "none"
                 }
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                lineNumber: 99,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    position: "absolute",
-                    bottom: 0,
-                    left: 0,
-                    right: 0,
-                    height: "35%",
-                    background: "linear-gradient(180deg, transparent 0%, rgba(10,60,20,0.4) 60%, rgba(5,40,10,0.7) 100%)",
-                    pointerEvents: "none"
-                }
-            }, void 0, false, {
-                fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                lineNumber: 106,
+                lineNumber: 102,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -311,7 +296,7 @@ function FootballBannerSection() {
                                     children: "10.06 – 24.06"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                    lineNumber: 122,
+                                    lineNumber: 117,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -326,7 +311,7 @@ function FootballBannerSection() {
                                     children: "Football Power Battle"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 126,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -340,7 +325,7 @@ function FootballBannerSection() {
                                     children: "Trade 5 regional indices with boosted profitability and compete for the top rankings"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                    lineNumber: 141,
+                                    lineNumber: 136,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -353,7 +338,7 @@ function FootballBannerSection() {
                                     children: "Try it!"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 145,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -365,13 +350,13 @@ function FootballBannerSection() {
                                     children: "Risk warning: your capital might be at risk"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 152,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                            lineNumber: 121,
+                            lineNumber: 116,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -424,7 +409,7 @@ function FootballBannerSection() {
                                                             fill: "white"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                            lineNumber: 195,
+                                                            lineNumber: 190,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -433,13 +418,13 @@ function FootballBannerSection() {
                                                             opacity: "0.7"
                                                         }, void 0, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                            lineNumber: 196,
+                                                            lineNumber: 191,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                    lineNumber: 194,
+                                                    lineNumber: 189,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -451,13 +436,13 @@ function FootballBannerSection() {
                                                     children: "Stockity"
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                    lineNumber: 198,
+                                                    lineNumber: 193,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 188,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -467,12 +452,12 @@ function FootballBannerSection() {
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FootballIcon, {}, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                lineNumber: 203,
+                                                lineNumber: 198,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                            lineNumber: 202,
+                                            lineNumber: 197,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -493,7 +478,7 @@ function FootballBannerSection() {
                                                     children: card.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                    lineNumber: 208,
+                                                    lineNumber: 203,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -506,7 +491,7 @@ function FootballBannerSection() {
                                                     children: card.sub
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                    lineNumber: 218,
+                                                    lineNumber: 213,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -526,40 +511,40 @@ function FootballBannerSection() {
                                                             children: s
                                                         }, i, false, {
                                                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                            lineNumber: 229,
+                                                            lineNumber: 224,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                    lineNumber: 227,
+                                                    lineNumber: 222,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                            lineNumber: 207,
+                                            lineNumber: 202,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, card.id, true, {
                                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 164,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                            lineNumber: 167,
+                            lineNumber: 162,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                    lineNumber: 119,
+                    lineNumber: 114,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                lineNumber: 115,
+                lineNumber: 110,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -582,7 +567,7 @@ function FootballBannerSection() {
                         children: "10.06 – 24.06"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                        lineNumber: 247,
+                        lineNumber: 242,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -598,7 +583,7 @@ function FootballBannerSection() {
                         children: "Football Power Battle"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                        lineNumber: 257,
+                        lineNumber: 252,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -612,7 +597,7 @@ function FootballBannerSection() {
                         children: "Trade 5 regional indices with boosted profitability and compete for the top rankings"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                        lineNumber: 268,
+                        lineNumber: 263,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -626,7 +611,7 @@ function FootballBannerSection() {
                         children: "Try it!"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                        lineNumber: 277,
+                        lineNumber: 272,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -640,7 +625,7 @@ function FootballBannerSection() {
                         children: "Risk warning: your capital might be at risk"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                        lineNumber: 284,
+                        lineNumber: 279,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -692,7 +677,7 @@ function FootballBannerSection() {
                                                         fill: "white"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                        lineNumber: 323,
+                                                        lineNumber: 318,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -701,13 +686,13 @@ function FootballBannerSection() {
                                                         opacity: "0.7"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                        lineNumber: 324,
+                                                        lineNumber: 319,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                lineNumber: 322,
+                                                lineNumber: 317,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -719,13 +704,13 @@ function FootballBannerSection() {
                                                 children: "Stockity"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                lineNumber: 326,
+                                                lineNumber: 321,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                        lineNumber: 321,
+                                        lineNumber: 316,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -735,12 +720,12 @@ function FootballBannerSection() {
                                         },
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(FootballIcon, {}, void 0, false, {
                                             fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                            lineNumber: 331,
+                                            lineNumber: 326,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                        lineNumber: 330,
+                                        lineNumber: 325,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -761,7 +746,7 @@ function FootballBannerSection() {
                                                 children: card.label
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                lineNumber: 336,
+                                                lineNumber: 331,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -774,7 +759,7 @@ function FootballBannerSection() {
                                                 children: card.sub
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                lineNumber: 346,
+                                                lineNumber: 341,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -794,35 +779,35 @@ function FootballBannerSection() {
                                                         children: s
                                                     }, i, false, {
                                                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                        lineNumber: 356,
+                                                        lineNumber: 351,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                                lineNumber: 354,
+                                                lineNumber: 349,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                        lineNumber: 335,
+                                        lineNumber: 330,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, card.id, true, {
                                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                                lineNumber: 297,
+                                lineNumber: 292,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                        lineNumber: 295,
+                        lineNumber: 290,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                lineNumber: 242,
+                lineNumber: 237,
                 columnNumber: 7
             }, this)
         ]
