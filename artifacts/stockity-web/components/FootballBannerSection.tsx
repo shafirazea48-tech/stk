@@ -67,10 +67,10 @@ export default function FootballBannerSection() {
           borderRadius: "5vw",
           boxSizing: "border-box",
           flexDirection: "column",
-          minHeight: "145vw",
+          minHeight: "155vw",
         }}
       >
-        {/* Background image — shifted down to reveal cards */}
+        {/* Background image — 60% vertical offset shows dark top (text area) + all cards */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/images/football-mobile-bg.png"
@@ -82,21 +82,21 @@ export default function FootballBannerSection() {
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            objectPosition: "center 30%",
+            objectPosition: "center 60%",
             pointerEvents: "none",
             userSelect: "none",
           }}
         />
 
         {/* Text block — overlaid on top */}
-        <div style={{ padding: "8vw 6vw 6vw", position: "relative", zIndex: 1 }}>
-          <p style={{ fontSize: "3.5vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3.5vw" }}>
+        <div style={{ padding: "7vw 6vw 0", position: "relative", zIndex: 1 }}>
+          <p style={{ fontSize: "3.5vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3vw" }}>
             10.06 – 24.06
           </p>
-          <h2 style={{ fontSize: "8vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
+          <h2 style={{ fontSize: "8vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "3.5vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
             Football Power Battle
           </h2>
-          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.6, marginBottom: "6vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
+          <p style={{ fontSize: "3.8vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.55, marginBottom: "5vw", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
           <a
@@ -108,8 +108,11 @@ export default function FootballBannerSection() {
           </a>
         </div>
 
+        {/* Dark gradient at bottom so risk warning is readable over cards */}
+        <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "18vw", background: "linear-gradient(to bottom, transparent 0%, rgba(5,10,30,0.75) 100%)", zIndex: 1, pointerEvents: "none" }} />
+
         {/* Risk warning — pinned to bottom */}
-        <p style={{ position: "absolute", bottom: "5vw", left: 0, right: 0, fontSize: "14px", color: "rgba(255,255,255,0.5)", textAlign: "center", zIndex: 1 }}>
+        <p style={{ position: "absolute", bottom: "4vw", left: 0, right: 0, fontSize: "14px", color: "rgba(255,255,255,0.65)", textAlign: "center", zIndex: 2 }}>
           Risk warning: your capital might be at risk
         </p>
       </section>

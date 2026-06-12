@@ -224,7 +224,7 @@ function FootballBannerSection() {
                     borderRadius: "5vw",
                     boxSizing: "border-box",
                     flexDirection: "column",
-                    minHeight: "145vw"
+                    minHeight: "155vw"
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -237,7 +237,7 @@ function FootballBannerSection() {
                             width: "100%",
                             height: "100%",
                             objectFit: "cover",
-                            objectPosition: "center 30%",
+                            objectPosition: "center 60%",
                             pointerEvents: "none",
                             userSelect: "none"
                         }
@@ -248,7 +248,7 @@ function FootballBannerSection() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
-                            padding: "8vw 6vw 6vw",
+                            padding: "7vw 6vw 0",
                             position: "relative",
                             zIndex: 1
                         },
@@ -259,7 +259,7 @@ function FootballBannerSection() {
                                     fontWeight: 700,
                                     color: "#4db8ff",
                                     letterSpacing: "0.06em",
-                                    marginBottom: "3.5vw"
+                                    marginBottom: "3vw"
                                 },
                                 children: "10.06 – 24.06"
                             }, void 0, false, {
@@ -273,7 +273,7 @@ function FootballBannerSection() {
                                     fontWeight: 900,
                                     color: "#fff",
                                     lineHeight: 1.15,
-                                    marginBottom: "4vw",
+                                    marginBottom: "3.5vw",
                                     fontFamily: "'Nunito Sans',sans-serif",
                                     textShadow: "0 2px 8px rgba(0,0,0,0.5)"
                                 },
@@ -285,10 +285,10 @@ function FootballBannerSection() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 style: {
-                                    fontSize: "4vw",
+                                    fontSize: "3.8vw",
                                     color: "rgba(255,255,255,0.9)",
-                                    lineHeight: 1.6,
-                                    marginBottom: "6vw",
+                                    lineHeight: 1.55,
+                                    marginBottom: "5vw",
                                     textShadow: "0 1px 4px rgba(0,0,0,0.5)"
                                 },
                                 children: "Trade 5 regional indices with boosted profitability and compete for the top rankings"
@@ -319,21 +319,37 @@ function FootballBannerSection() {
                         lineNumber: 92,
                         columnNumber: 9
                     }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        style: {
+                            position: "absolute",
+                            bottom: 0,
+                            left: 0,
+                            right: 0,
+                            height: "18vw",
+                            background: "linear-gradient(to bottom, transparent 0%, rgba(5,10,30,0.75) 100%)",
+                            zIndex: 1,
+                            pointerEvents: "none"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
+                        lineNumber: 112,
+                        columnNumber: 9
+                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         style: {
                             position: "absolute",
-                            bottom: "5vw",
+                            bottom: "4vw",
                             left: 0,
                             right: 0,
                             fontSize: "14px",
-                            color: "rgba(255,255,255,0.5)",
+                            color: "rgba(255,255,255,0.65)",
                             textAlign: "center",
-                            zIndex: 1
+                            zIndex: 2
                         },
                         children: "Risk warning: your capital might be at risk"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/components/FootballBannerSection.tsx",
-                        lineNumber: 112,
+                        lineNumber: 115,
                         columnNumber: 9
                     }, this)
                 ]
