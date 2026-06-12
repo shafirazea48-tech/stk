@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
+import defaultConfig from "../../../data/cta-config.json";
 
 const CONFIG_PATH = path.join(process.cwd(), "data", "cta-config.json");
 
@@ -9,7 +10,7 @@ function readConfig(): { ctaUrl: string } {
     const raw = fs.readFileSync(CONFIG_PATH, "utf-8");
     return JSON.parse(raw);
   } catch {
-    return { ctaUrl: "https://stockity.id/auth?a=5b9215a90cb8&t=0" };
+    return { ctaUrl: defaultConfig.ctaUrl };
   }
 }
 
@@ -19,6 +20,12 @@ export async function GET() {
 }
 
 export async function PUT(req: NextRequest) {
+  if (process.env.VERCEL) {
+    return NextResponse.json(
+      { error: "Use the CTA_URL environment variable on Vercel to update the CTA URL." },
+      { status: 405 }
+    );
+  }
   try {
     const body = await req.json();
     if (typeof body.ctaUrl !== "string" || !body.ctaUrl.startsWith("http")) {

@@ -3,13 +3,7 @@
     "[project]/artifacts/stockity-web/app/(en)/page": [
       "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
     ],
-    "[project]/artifacts/stockity-web/app/(es)/es/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/(id)/id/page": [
-      "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
-    ],
-    "[project]/artifacts/stockity-web/app/(pt)/pt-br/page": [
+    "[project]/artifacts/stockity-web/app/(en)/pricing/page": [
       "static/media/f141b5b7abe57afc-s.p.380f-mwhk0aej.woff2"
     ]
   },

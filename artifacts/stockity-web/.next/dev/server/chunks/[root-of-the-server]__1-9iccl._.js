@@ -67,6 +67,7 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$path__$5b$external$5d$__$2
 ;
 ;
 function getCtaUrl() {
+    if (process.env.CTA_URL) return process.env.CTA_URL;
     try {
         const configPath = __TURBOPACK__imported__module__$5b$externals$5d2f$path__$5b$external$5d$__$28$path$2c$__cjs$29$__["default"].join(process.cwd(), "data", "cta-config.json");
         const raw = __TURBOPACK__imported__module__$5b$externals$5d2f$fs__$5b$external$5d$__$28$fs$2c$__cjs$29$__["default"].readFileSync(configPath, "utf-8");
@@ -77,7 +78,7 @@ function getCtaUrl() {
     } catch  {
     // fall through to default
     }
-    return "https://stockity.id/auth?a=5b9215a90cb8&t=0";
+    return "https://linkayi.com/stockity-page";
 }
 async function GET() {
     const url = getCtaUrl();

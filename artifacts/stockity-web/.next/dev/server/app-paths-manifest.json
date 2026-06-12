@@ -1,8 +1,5 @@
 {
-  "/(en)/go/route": "app/(en)/go/route.js",
   "/(en)/page": "app/(en)/page.js",
-  "/(es)/es/page": "app/(es)/es/page.js",
-  "/(id)/id/page": "app/(id)/id/page.js",
-  "/(pt)/pt-br/page": "app/(pt)/pt-br/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+  "/(en)/pricing/page": "app/(en)/pricing/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }

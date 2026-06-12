@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/data/cta-config.json.%5Bjson%5D.cjs/turbopack%3A/artifacts/stockity-web/data/cta-config.json"],"sourcesContent":["{\"ctaUrl\":\"https://linkayi.com/stockity-page\"}"],"names":[],"mappings":""}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/%28en%29/go/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\nimport defaultConfig from \"../../../data/cta-config.json\";\n\nfunction getCtaUrl(): string {\n  if (process.env.CTA_URL) return process.env.CTA_URL;\n  if (\n    typeof defaultConfig.ctaUrl === \"string\" &&\n    defaultConfig.ctaUrl.startsWith(\"http\")\n  ) {\n    return defaultConfig.ctaUrl;\n  }\n  return \"https://linkayi.com/stockity-page\";\n}\n\nexport async function GET() {\n  const url = getCtaUrl();\n  return NextResponse.redirect(url, { status: 307 });\n}\n"],"names":["getCtaUrl","process","env","CTA_URL","ctaUrl","startsWith","GET","url","redirect","status"],"mappings":";;;;AAAA;AACA;;;AAEA,SAASA;IACP,IAAIC,QAAQC,GAAG,CAACC,OAAO,EAAE,OAAOF,QAAQC,GAAG,CAACC,OAAO;IACnD,IACE,OAAO,uLAAa,CAACC,MAAM,KAAK,YAChC,uLAAa,CAACA,MAAM,CAACC,UAAU,CAAC,SAChC;QACA,OAAO,uLAAa,CAACD,MAAM;IAC7B;IACA,OAAO;AACT;AAEO,eAAeE;IACpB,MAAMC,MAAMP;IACZ,OAAO,+QAAY,CAACQ,QAAQ,CAACD,KAAK;QAAEE,QAAQ;IAAI;AAClD"}}]
+}
