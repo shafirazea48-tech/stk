@@ -44,6 +44,7 @@ const navItems = [
   {
     label: "Information",
     children: [
+      { label: "Tournaments", href: "/tournaments" },
       { label: "Client Agreement", href: "#" },
       { label: "AML Policy", href: "#" },
       { label: "Copy Trading Agreement", href: "#" },
