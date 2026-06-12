@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/stockity-web/app/%28en%29/pricing/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\n\nexport const metadata: Metadata = {\n  title: \"Pricing & Account Types\",\n  description:\n    \"Compare Stockity account types and pricing. Start with a $10 minimum deposit and access 140+ trading assets with competitive spreads and no hidden fees.\",\n  alternates: { canonical: \"/pricing\" },\n  openGraph: {\n    title: \"Pricing & Account Types | Stockity\",\n    description:\n      \"Compare Stockity account types and pricing. $10 minimum deposit, 140+ assets, no hidden fees.\",\n    url: \"/pricing\",\n  },\n};\n\nexport default function PricingLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return <>{children}</>;\n}\n"],"names":["metadata","title","description","alternates","canonical","openGraph","url","PricingLayout","children"],"mappings":";;;;;;;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aACE;IACFC,YAAY;QAAEC,WAAW;IAAW;IACpCC,WAAW;QACTJ,OAAO;QACPC,aACE;QACFI,KAAK;IACP;AACF;AAEe,SAASC,cAAc,EACpCC,QAAQ,EAGT;IACC,qBAAO;kBAAGA;;AACZ"}}]
+}

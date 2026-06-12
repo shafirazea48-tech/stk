@@ -42,8 +42,8 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$n
 ;
 ;
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || (process.env.REPLIT_DOMAINS ? `https://${process.env.REPLIT_DOMAINS.split(",")[0]}` : "https://stockity.id");
-const title = "Stockity - Login & Register | Official Trading App";
-const description = "Login or register your Stockity account and access the official trading app. Explore digital options, multiple assets, and a simple trading experience.";
+const title = "Stockity | Online Trading Platform – 140+ Assets from $10";
+const description = "Join 3.5M+ traders on Stockity. Trade stocks, forex, crypto & commodities starting from $10. Licensed & regulated, fast withdrawals. Sign up free!";
 const metadata = {
     metadataBase: new URL(siteUrl),
     title: {
@@ -51,6 +51,7 @@ const metadata = {
         template: "%s | Stockity"
     },
     description,
+    keywords: "online trading platform, stock trading, forex trading, cryptocurrency, crypto trading, copy trading, investment app, stockity",
     authors: [
         {
             name: "Stockity"
@@ -175,7 +176,7 @@ function RootLayout({ children }) {
                         href: siteUrl
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/layout.tsx",
-                        lineNumber: 133,
+                        lineNumber: 135,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -184,7 +185,7 @@ function RootLayout({ children }) {
                         href: `${siteUrl}/id`
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/layout.tsx",
-                        lineNumber: 134,
+                        lineNumber: 136,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -193,7 +194,7 @@ function RootLayout({ children }) {
                         href: siteUrl
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/layout.tsx",
-                        lineNumber: 135,
+                        lineNumber: 137,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -203,13 +204,13 @@ function RootLayout({ children }) {
                         }
                     }, void 0, false, {
                         fileName: "[project]/artifacts/stockity-web/app/layout.tsx",
-                        lineNumber: 136,
+                        lineNumber: 138,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/stockity-web/app/layout.tsx",
-                lineNumber: 132,
+                lineNumber: 134,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
@@ -217,13 +218,13 @@ function RootLayout({ children }) {
                 children: children
             }, void 0, false, {
                 fileName: "[project]/artifacts/stockity-web/app/layout.tsx",
-                lineNumber: 141,
+                lineNumber: 143,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/stockity-web/app/layout.tsx",
-        lineNumber: 131,
+        lineNumber: 133,
         columnNumber: 5
     }, this);
 }
