@@ -257,9 +257,9 @@ export default function Footer() {
           >
             <p
               style={{
-                fontSize: "11px",
-                lineHeight: "20px",
-                color: "#82889b",
+                fontSize: "16px",
+                lineHeight: "24px",
+                color: "#f4f4f6",
                 textTransform: "uppercase",
                 letterSpacing: "0.1em",
                 fontWeight: 700,
@@ -270,7 +270,7 @@ export default function Footer() {
 
             {/* Email */}
             <div style={{ display: "flex", flexDirection: "column", gap: "0.277778vw" }}>
-              <p style={{ fontSize: "11px", lineHeight: "20px", color: "#82889b" }}>Email</p>
+              <p style={{ fontSize: "14px", lineHeight: "22px", color: "#f4f4f6" }}>Email</p>
               <a
                 href="mailto:support@stockity.com"
                 style={{ fontSize: "14px", lineHeight: "24px", color: "#f4f4f6", textDecoration: "none" }}
