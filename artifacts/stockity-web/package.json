@@ -9,6 +9,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "next": "16.2.9",
     "react": "catalog:",
     "react-dom": "catalog:"

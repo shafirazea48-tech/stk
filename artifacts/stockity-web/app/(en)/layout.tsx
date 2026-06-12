@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Nunito_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "../globals.css";
 
 const nunitoSans = Nunito_Sans({
@@ -147,6 +148,7 @@ export default function EnLayout({
         className={`${nunitoSans.variable} font-[family-name:var(--font-nunito-sans)]`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
