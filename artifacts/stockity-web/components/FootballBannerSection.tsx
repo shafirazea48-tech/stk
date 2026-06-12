@@ -67,18 +67,36 @@ export default function FootballBannerSection() {
           borderRadius: "5vw",
           boxSizing: "border-box",
           flexDirection: "column",
-          background: "transparent",
+          minHeight: "130vw",
         }}
       >
-        {/* Text block */}
+        {/* Background image — full cover from top */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/images/football-mobile-bg.png"
+          alt=""
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            inset: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center top",
+            pointerEvents: "none",
+            userSelect: "none",
+          }}
+        />
+
+        {/* Text block — overlaid on top */}
         <div style={{ padding: "8vw 6vw 6vw", position: "relative", zIndex: 1 }}>
           <p style={{ fontSize: "3.5vw", fontWeight: 700, color: "#4db8ff", letterSpacing: "0.06em", marginBottom: "3.5vw" }}>
             10.06 – 24.06
           </p>
-          <h2 style={{ fontSize: "8vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif" }}>
+          <h2 style={{ fontSize: "8vw", fontWeight: 900, color: "#fff", lineHeight: 1.15, marginBottom: "4vw", fontFamily: "'Nunito Sans',sans-serif", textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
             Football Power Battle
           </h2>
-          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.85)", lineHeight: 1.6, marginBottom: "6vw", textAlign: "center" }}>
+          <p style={{ fontSize: "4vw", color: "rgba(255,255,255,0.9)", lineHeight: 1.6, marginBottom: "6vw", textAlign: "center", textShadow: "0 1px 4px rgba(0,0,0,0.5)" }}>
             Trade 5 regional indices with boosted profitability and compete for the top rankings
           </p>
           <a
@@ -88,26 +106,9 @@ export default function FootballBannerSection() {
           >
             Try it!
           </a>
-          <p style={{ marginTop: "3vw", fontSize: "3vw", color: "rgba(255,255,255,0.4)", textAlign: "center" }}>
+          <p style={{ marginTop: "3vw", fontSize: "3vw", color: "rgba(255,255,255,0.5)", textAlign: "center" }}>
             Risk warning: your capital might be at risk
           </p>
-        </div>
-
-        {/* Cards image at bottom */}
-        <div style={{ width: "100%", overflow: "hidden", lineHeight: 0 }}>
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/images/football-mobile-bg.png"
-            alt=""
-            aria-hidden="true"
-            style={{
-              width: "100%",
-              display: "block",
-              objectFit: "cover",
-              objectPosition: "center bottom",
-              height: "90vw",
-            }}
-          />
         </div>
       </section>
 
